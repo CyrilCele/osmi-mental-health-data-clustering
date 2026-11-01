@@ -1,187 +1,243 @@
+"""Project-specific feature engineering and integer encoding."""
+
 from __future__ import annotations
 
 import pandas as pd
 
-
-MULTISELECT_COLUMNS = {
-    "current_diagnosed_conditions",
-    "suspected_conditions",
-    "professionally_diagnosed_conditions",
-    "work_position",
-}
-
-COMPANY_SIZE_ORDER = [
-    "1-5",
-    "6-25",
-    "26-100",
-    "100-500",
-    "500-1000",
-    "More than 1000",
-]
-
-REMOTE_WORK_ORDER = [
-    "Never",
-    "Sometimes",
-    "Always",
-]
+from .config import (
+    DOMAIN_FEATURES,
+    MEDICAL_LEAVE_ORDER,
+    MEDICAL_LEAVE_UNKNOWN,
+    MODEL_FEATURES,
+    ORDINAL_RESPONSE_MAPS,
+)
 
 
-def split_multiselect_value(value) -> tuple[str, ...] | None:
-    """Split a pipe-separated response; preserve missing responses as None."""
-    if pd.isna(value):
-        return None
+def validate_feature_encoding_specification() -> None:
+    """Validate that encoding rules refer only to approved model features."""
 
-    selections = [
-        part.strip()
-        for part in str(value).split("|")
-        if part.strip()
-    ]
+    ordinal_features = set(ORDINAL_RESPONSE_MAPS)
+    model_features = set(MODEL_FEATURES)
 
-    return tuple(dict.fromkeys(selections))
+    invalid_mappings = ordinal_features - model_features
+
+    if invalid_mappings:
+        raise ValueError(
+            "Ordinal mappings reference variables outside the approved "
+            f"model feature set: {sorted(invalid_mappings)}"
+        )
+
+    if "medical_leave_ease" not in model_features:
+        raise ValueError(
+            "Medical leave ease must be included in the approved "
+            "model feature set."
+        )
+
+    if len(MODEL_FEATURES) != 15:
+        raise ValueError(
+            "The approved model specification must contain exactly "
+            "15 features."
+        )
 
 
-def parse_multiselect_columns(
+def encode_ordinal_features(
     df: pd.DataFrame,
-    columns: set[str] | None = None,
 ) -> tuple[pd.DataFrame, pd.DataFrame]:
-    result = df.copy()
-    audit = []
+    """
+    Encode approved ordinal model features as nullable Int8 columns.
 
-    selected_columns = (
-        MULTISELECT_COLUMNS if columns is None else columns
+    Nominal model features are deliberately not integer-encoded.
+    Missing responses remain missing.
+    """
+    validate_feature_encoding_specification()
+
+    result = df.copy()
+    audit_records = []
+
+    for feature in MODEL_FEATURES:
+        if feature not in result.columns:
+            raise KeyError(
+                f"Approved model feature is missing: {feature}"
+            )
+
+        if feature == "medical_leave_ease":
+            continue
+
+        if feature not in ORDINAL_RESPONSE_MAPS:
+            continue
+
+        mapping = ORDINAL_RESPONSE_MAPS[feature]
+
+        observed = set(result[feature].dropna().unique())
+        unexpected = observed - set(mapping)
+
+        if unexpected:
+            raise ValueError(
+                f"Unmapped categories in {feature}: "
+                f"{sorted(unexpected)}"
+            )
+
+        encoded_name = f"{feature}_ordinal"
+
+        result[encoded_name] = (
+            result[feature]
+            .map(mapping)
+            .astype("Int8")
+        )
+
+        audit_records.append({
+            "feature": feature,
+            "encoded_feature": encoded_name,
+            "feature_role": "ordinal_model_feature",
+            "mapping": mapping,
+            "dtype": str(result[encoded_name].dtype),
+        })
+
+    return result, pd.DataFrame(audit_records)
+
+
+def encode_medical_leave(
+    df: pd.DataFrame,
+) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """
+    Encode medical leave ease while preserving 'I don't know' separately.
+
+    The five substantive categories are ordered. 'I don't know' is not
+    assigned an ordinal rank and receives its own indicator.
+    """
+    validate_feature_encoding_specification()
+
+    result = df.copy()
+    feature = "medical_leave_ease"
+
+    if feature not in MODEL_FEATURES:
+        raise ValueError(
+            "Medical leave ease is not an approved model feature."
+        )
+
+    if feature not in result.columns:
+        raise KeyError(f"Missing feature: {feature}")
+
+    mapping = {
+        response: code
+        for code, response in enumerate(MEDICAL_LEAVE_ORDER)
+    }
+
+    allowed = set(mapping) | {MEDICAL_LEAVE_UNKNOWN}
+
+    observed = set(result[feature].dropna().unique())
+    unexpected = observed - allowed
+
+    if unexpected:
+        raise ValueError(
+            "Unexpected medical-leave responses: "
+            f"{sorted(unexpected)}"
+        )
+
+    result["medical_leave_ease_ordinal"] = (
+        result[feature]
+        .map(mapping)
+        .astype("Int8")
     )
 
-    for column in sorted(selected_columns.intersection(result.columns)):
-        parsed_column = f"{column}_items"
+    result["medical_leave_ease_unknown"] = (
+        result[feature]
+        .eq(MEDICAL_LEAVE_UNKNOWN)
+        .astype("boolean")
+    )
 
-        result[parsed_column] = result[column].map(
-            split_multiselect_value
-        )
-
-        observed = result[parsed_column].dropna()
-        all_items = [
-            item
-            for selections in observed
-            for item in selections
-        ]
-
-        audit.append(
-            {
-                "column": column,
-                "parsed_column": parsed_column,
-                "rows_with_selections": int(observed.map(bool).sum()),
-                "rows_missing": int(result[parsed_column].isna().sum()),
-                "unique_selection_labels": len(set(all_items)),
-                "total_individual_selections": len(all_items),
-            }
-        )
-
-    return result, pd.DataFrame(audit)
-
-
-def encode_multiselect(
-    series: pd.Series,
-    prefix: str,
-) -> tuple[pd.DataFrame, pd.Series]:
-    """
-    Create multi-hot columns and return a missingness mask.
-
-    Missing source responses remain missing in the indicators. They are not
-    silently converted into evidence that the respondent selected nothing.
-    """
-    parsed = series.map(split_multiselect_value)
-    observed = parsed.dropna()
-
-    labels = sorted({
-        label
-        for selections in observed
-        for label in selections
+    audit = pd.DataFrame({
+        "response": list(mapping) + [MEDICAL_LEAVE_UNKNOWN],
+        "ordinal_code": list(mapping.values()) + [pd.NA],
+        "unknown_indicator": [False] * len(mapping) + [True],
     })
 
-    encoded = pd.DataFrame(
-        index=series.index,
-        columns=[f"{prefix}__{label}" for label in labels],
-        dtype="Int8",
-    )
-
-    encoded.loc[:, :] = 0
-
-    for index, selections in parsed.items():
-        if selections is None:
-            encoded.loc[index, :] = pd.NA
-        else:
-            for label in selections:
-                encoded.at[index, f"{prefix}__{label}"] = 1
-
-    return encoded, parsed.isna().rename(f"{prefix}_source_missing")
+    return result, audit
 
 
-def encode_work_position(
-    df: pd.DataFrame,
-    column: str = "work_position",
-) -> tuple[pd.DataFrame, pd.DataFrame]:
-    if column not in df.columns:
-        return (
-            pd.DataFrame(index=df.index),
-            pd.DataFrame(columns=["encoded_column",
-                         "source_column", "encoding"]),
+def build_domain_metadata() -> pd.DataFrame:
+    """Return the approved feature-to-domain weighting register."""
+    records = []
+
+    for domain, features in DOMAIN_FEATURES.items():
+        for feature in features:
+            records.append({
+                "feature": feature,
+                "domain": domain,
+                "domain_feature_count": len(features),
+                "domain_weight": 1.0 / len(DOMAIN_FEATURES),
+                "within_domain_feature_weight": 1.0 / len(features),
+                "overall_feature_weight": (
+                    1.0 / len(DOMAIN_FEATURES) / len(features)
+                ),
+            })
+
+    metadata = pd.DataFrame(records)
+
+    if metadata["feature"].nunique() != len(MODEL_FEATURES):
+        raise ValueError(
+            "Domain metadata does not cover the exact approved "
+            "15-feature specification."
         )
 
-    encoded, missing_mask = encode_multiselect(
-        df[column],
-        prefix="position",
-    )
+    if set(metadata["feature"]) != set(MODEL_FEATURES):
+        raise ValueError(
+            "Domain metadata and MODEL_FEATURES do not agree."
+        )
 
-    audit = pd.DataFrame(
-        {
-            "encoded_column": encoded.columns,
-            "source_column": column,
-            "encoding": "multi-hot",
-        }
-    )
-
-    audit["source_missing_count"] = int(missing_mask.sum())
-
-    return encoded, audit
+    return metadata
 
 
-def add_ordinal_company_size(
-    df: pd.DataFrame,
-    column: str = "company_size",
-) -> pd.DataFrame:
-    result = df.copy()
+def validate_encoded_integer_types(df: pd.DataFrame) -> None:
+    """Ensure generated ordinal encodings use integer dtypes."""
+    encoded_columns = [
+        f"{feature}_ordinal"
+        for feature in MODEL_FEATURES
+        if feature != "medical_leave_ease"
+        and feature in ORDINAL_RESPONSE_MAPS
+    ]
 
-    if column not in result.columns:
-        return result
+    encoded_columns.append("medical_leave_ease_ordinal")
 
-    mapping = {
-        label: rank
-        for rank, label in enumerate(COMPANY_SIZE_ORDER, start=1)
+    invalid = {
+        column: str(df[column].dtype)
+        for column in encoded_columns
+        if column not in df.columns
+        or not pd.api.types.is_integer_dtype(df[column].dtype)
     }
 
-    result["company_size_ordinal"] = (
-        result[column].map(mapping).astype("Int8")
-    )
+    if invalid:
+        raise TypeError(
+            "Ordinal encodings must exist and use integer dtypes: "
+            f"{invalid}"
+        )
 
-    return result
 
-
-def add_remote_work_ordinal(
+def engineer_preparation_features(
     df: pd.DataFrame,
-    column: str = "remote_work",
-) -> pd.DataFrame:
-    result = df.copy()
+) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Apply only the encoding rules defined for approved model features."""
+    validate_feature_encoding_specification()
 
-    if column not in result.columns:
-        return result
+    result, ordinal_audit = encode_ordinal_features(df)
+    result, leave_audit = encode_medical_leave(result)
 
-    mapping = {
-        label: rank
-        for rank, label in enumerate(REMOTE_WORK_ORDER, start=1)
-    }
+    validate_encoded_integer_types(result)
 
-    result["remote_work_ordinal"] = (
-        result[column].map(mapping).astype("Int8")
+    leave_record = pd.DataFrame([{
+        "feature": "medical_leave_ease",
+        "encoded_feature": "medical_leave_ease_ordinal",
+        "feature_role": "ordinal_model_feature",
+        "mapping": {
+            response: code
+            for code, response in enumerate(MEDICAL_LEAVE_ORDER)
+        },
+        "dtype": str(result["medical_leave_ease_ordinal"].dtype),
+    }])
+
+    audit = pd.concat(
+        [ordinal_audit, leave_record],
+        ignore_index=True,
     )
 
-    return result
+    return result, audit

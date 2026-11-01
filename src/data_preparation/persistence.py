@@ -1,4 +1,4 @@
-"""Persist cleaned data, model inputs, audits, and validation results."""
+"""Persistence of reproducible preparation outputs."""
 
 from __future__ import annotations
 
@@ -9,44 +9,59 @@ import numpy as np
 import pandas as pd
 
 
-def ensure_output_directory(directory: Path) -> Path:
-    directory.mkdir(parents=True, exist_ok=True)
-    return directory
+def ensure_output_directory(path: str | Path) -> Path:
+    output_path = Path(path)
+    output_path.mkdir(parents=True, exist_ok=True)
+    return output_path
 
 
 def save_dataframe(
     df: pd.DataFrame,
-    directory: Path,
+    output_dir: str | Path,
     filename: str,
     *,
     index: bool = False,
 ) -> Path:
-    ensure_output_directory(directory)
-    path = directory / filename
-    df.to_csv(path, index=index, encoding="utf-8")
-    return path
+    output_path = ensure_output_directory(output_dir) / filename
+
+    if output_path.suffix.lower() != ".csv":
+        raise ValueError("DataFrame output filename must end in .csv.")
+
+    df.to_csv(
+        output_path,
+        index=index,
+        encoding="utf-8",
+    )
+
+    return output_path
 
 
 def save_numpy(
     array: np.ndarray,
-    directory: Path,
+    output_dir: str | Path,
     filename: str,
 ) -> Path:
-    ensure_output_directory(directory)
-    path = directory / filename
-    np.save(path, np.asarray(array))
-    return path
+    output_path = ensure_output_directory(output_dir) / filename
+
+    if output_path.suffix.lower() != ".npy":
+        raise ValueError("NumPy output filename must end in .npy.")
+
+    np.save(output_path, array)
+
+    return output_path
 
 
 def save_json(
     payload: dict,
-    directory: Path,
+    output_dir: str | Path,
     filename: str,
 ) -> Path:
-    ensure_output_directory(directory)
-    path = directory / filename
+    output_path = ensure_output_directory(output_dir) / filename
 
-    with path.open("w", encoding="utf-8") as file:
+    if output_path.suffix.lower() != ".json":
+        raise ValueError("JSON output filename must end in .json.")
+
+    with output_path.open("w", encoding="utf-8") as file:
         json.dump(
             payload,
             file,
@@ -55,184 +70,115 @@ def save_json(
             default=str,
         )
 
-    return path
-
-
-def save_preparation_outputs(
-    directory: Path,
-    *,
-    cleaned_data: pd.DataFrame,
-    kmodes_matrix: pd.DataFrame,
-    mca_input: pd.DataFrame,
-    mca_coordinates: pd.DataFrame,
-    gower_input: pd.DataFrame,
-    gower_distances: np.ndarray,
-    umap_embedding: pd.DataFrame,
-    missingness_audit: pd.DataFrame,
-    applicability_register: pd.DataFrame,
-    exclusion_register: pd.DataFrame,
-    feature_decisions: pd.DataFrame,
-    type_audit: pd.DataFrame,
-    multiselect_audit: pd.DataFrame,
-    validation_report: dict,
-    row_mapping: pd.DataFrame,
-    feature_metadata: pd.DataFrame,
-) -> dict[str, str]:
-    ensure_output_directory(directory)
-
-    if len(gower_distances) != len(gower_input):
-        raise ValueError(
-            "Gower distance matrix row count does not match Gower input."
-        )
-
-    if gower_distances.shape != (
-        len(gower_input),
-        len(gower_input),
-    ):
-        raise ValueError(
-            "Gower distance matrix must have one row and column "
-            "per Gower input respondent."
-        )
-
-    outputs = {
-        "cleaned_data": (
-            cleaned_data,
-            "cleaned_survey.csv",
-        ),
-        "kmodes_matrix": (
-            kmodes_matrix,
-            "kmodes_matrix.csv",
-        ),
-        "mca_input": (
-            mca_input,
-            "mca_input.csv",
-        ),
-        "mca_coordinates": (
-            mca_coordinates,
-            "kmeans_mca_coordinates.csv",
-        ),
-        "gower_input": (
-            gower_input,
-            "gower_input.csv",
-        ),
-        "missingness_audit": (
-            missingness_audit,
-            "missingness_audit.csv",
-        ),
-        "applicability_register": (
-            applicability_register,
-            "applicability_register.csv",
-        ),
-        "exclusion_register": (
-            exclusion_register,
-            "exclusion_register.csv",
-        ),
-        "feature_decisions": (
-            feature_decisions,
-            "feature_decision_log.csv",
-        ),
-        "type_audit": (
-            type_audit,
-            "type_harmonisation_audit.csv",
-        ),
-        "multiselect_audit": (
-            multiselect_audit,
-            "multiselect_audit.csv",
-        ),
-        "row_mapping": (
-            row_mapping,
-            "respondent_row_mapping.csv",
-        ),
-        "feature_metadata": (
-            feature_metadata,
-            "feature_metadata.csv",
-        ),
-    }
-
-    saved = {}
-
-    for key, (dataframe, filename) in outputs.items():
-        saved[key] = str(
-            save_dataframe(dataframe, directory, filename)
-        )
-
-    saved["gower_distances"] = str(
-        save_numpy(
-            gower_distances,
-            directory,
-            "gower_distance_matrix.npy",
-        )
-    )
-
-    saved["umap_embedding"] = str(
-        save_dataframe(
-            umap_embedding,
-            directory,
-            "umap_embedding.csv",
-        )
-    )
-
-    saved["validation_report"] = str(
-        save_json(
-            validation_report,
-            directory,
-            "preparation_validation.json",
-        )
-    )
-
-    return saved
+    return output_path
 
 
 def build_respondent_row_mapping(
-    source_row_ids: pd.Series,
-    index: pd.Index,
+    cohort: pd.DataFrame,
 ) -> pd.DataFrame:
-    if len(source_row_ids) != len(index):
-        raise ValueError(
-            "Source row IDs and prepared index have different lengths."
-        )
+    """Map distance-matrix row positions to source respondents."""
+    if "source_row_id" not in cohort:
+        raise KeyError("source_row_id is required.")
 
-    if not index.is_unique:
-        raise ValueError(
-            "Prepared respondent index must be unique."
-        )
-
-    return pd.DataFrame(
-        {
-            "prepared_row": range(len(index)),
-            "source_row_id": source_row_ids.to_numpy(),
-        }
-    )
+    return pd.DataFrame({
+        "distance_matrix_row": np.arange(
+            len(cohort),
+            dtype=np.int64,
+        ),
+        "source_row_id": cohort["source_row_id"].to_numpy(
+            dtype=np.int64
+        ),
+    })
 
 
 def build_feature_metadata(
-    feature_decisions: pd.DataFrame,
-    cleaned_data: pd.DataFrame,
+    domain_features: dict[str, list[str]],
 ) -> pd.DataFrame:
-    metadata = feature_decisions.copy()
+    """Build feature/domain and weighting metadata."""
+    records = []
+    number_of_domains = len(domain_features)
 
-    unknown_columns = (
-        set(metadata["column"]) - set(cleaned_data.columns)
-    )
+    for domain, features in domain_features.items():
+        for feature in features:
+            records.append({
+                "feature": feature,
+                "domain": domain,
+                "domain_feature_count": len(features),
+                "domain_weight": 1.0 / number_of_domains,
+                "within_domain_weight": 1.0 / len(features),
+                "overall_weight": (
+                    1.0 / number_of_domains / len(features)
+                ),
+            })
 
-    if unknown_columns:
-        raise ValueError(
-            "Feature decision register references columns that are "
-            f"not in cleaned_data: {sorted(unknown_columns)}"
-        )
+    return pd.DataFrame(records)
 
-    metadata["pandas_dtype"] = metadata["column"].map(
-        lambda column: str(cleaned_data[column].dtype)
-    )
 
-    metadata["missing_count"] = metadata["column"].map(
-        lambda column: int(cleaned_data[column].isna().sum())
-    )
+def save_preparation_outputs(
+    *,
+    output_dir: str | Path,
+    cohort: pd.DataFrame,
+    feature_matrix: pd.DataFrame,
+    profile_descriptors: pd.DataFrame,
+    missingness_audit: pd.DataFrame,
+    feature_metadata: pd.DataFrame,
+    row_mapping: pd.DataFrame,
+    distance_matrix: np.ndarray,
+    validation_report: dict,
+    source_metadata: dict,
+) -> dict[str, str]:
+    """Persist all primary preparation artefacts."""
+    output_dir = ensure_output_directory(output_dir)
 
-    metadata["distinct_non_missing"] = metadata["column"].map(
-        lambda column: int(
-            cleaned_data[column].nunique(dropna=True)
-        )
-    )
+    outputs = {
+        "eligible_cohort": save_dataframe(
+            cohort,
+            output_dir,
+            "eligible_cohort.csv",
+        ),
+        "model_features": save_dataframe(
+            feature_matrix,
+            output_dir,
+            "model_feature_matrix.csv",
+        ),
+        "profile_descriptors": save_dataframe(
+            profile_descriptors,
+            output_dir,
+            "profile_descriptors.csv",
+        ),
+        "missingness_audit": save_dataframe(
+            missingness_audit,
+            output_dir,
+            "missingness_audit.csv",
+        ),
+        "feature_metadata": save_dataframe(
+            feature_metadata,
+            output_dir,
+            "feature_metadata.csv",
+        ),
+        "respondent_row_mapping": save_dataframe(
+            row_mapping,
+            output_dir,
+            "respondent_row_mapping.csv",
+        ),
+        "distance_matrix": save_numpy(
+            distance_matrix,
+            output_dir,
+            "domain_balanced_dissimilarity.npy",
+        ),
+        "validation_report": save_json(
+            validation_report,
+            output_dir,
+            "validation_report.json",
+        ),
+        "source_metadata": save_json(
+            source_metadata,
+            output_dir,
+            "source_metadata.json",
+        ),
+    }
 
-    return metadata
+    return {
+        name: str(path.resolve())
+        for name, path in outputs.items()
+    }

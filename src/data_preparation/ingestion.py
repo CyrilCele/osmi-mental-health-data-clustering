@@ -1,58 +1,69 @@
+"""Source ingestion and provenance utilities."""
+
+from __future__ import annotations
+
 import hashlib
 from pathlib import Path
 
 import pandas as pd
 
-from .config import EXPECTED_RAW_SHAPE, SOURCE_PATH
 
+def sha256_file(path: str | Path) -> str:
+    """Return the SHA-256 checksum of a file."""
+    file_path = Path(path)
 
-def sha256_file(path: Path) -> str:
     digest = hashlib.sha256()
 
-    with path.open("rb") as file:
+    with file_path.open("rb") as file:
         for chunk in iter(lambda: file.read(1024 * 1024), b""):
             digest.update(chunk)
 
     return digest.hexdigest()
 
 
-def load_source(path: Path = SOURCE_PATH) -> tuple[pd.DataFrame, dict]:
-    if not path.exists():
+def load_source(
+    path: str | Path,
+    *,
+    expected_shape: tuple[int, int] | None = None,
+) -> tuple[pd.DataFrame, dict]:
+    """Load the original CSV and return its provenance metadata."""
+    source_path = Path(path)
+
+    if not source_path.exists():
         raise FileNotFoundError(
-            f"OSMI source CSV not found: {path}. "
-            "Place the original, unmodified CSV in data/raw/."
+            f"Source dataset does not exist: {source_path}"
         )
 
-    raw = pd.read_csv(
-        path,
+    if source_path.suffix.lower() != ".csv":
+        raise ValueError("The source dataset must be a CSV file.")
+
+    df = pd.read_csv(
+        source_path,
         low_memory=False,
-        encoding="utf-8",
-        quotechar='"',
-        doublequote=True,
-        skipinitialspace=False,
+        encoding="utf-8-sig",
     )
 
-    if raw.shape != EXPECTED_RAW_SHAPE:
+    if df.columns.duplicated().any():
+        duplicates = df.columns[df.columns.duplicated()].tolist()
         raise ValueError(
-            f"Unexpected source shape {raw.shape}; "
-            f"expected {EXPECTED_RAW_SHAPE}. "
-            "Verify that the correct OSMI 2016 source file is loaded."
+            "Duplicate source headers were detected after CSV parsing: "
+            f"{duplicates}"
+        )
+
+    if expected_shape is not None and df.shape != expected_shape:
+        raise ValueError(
+            f"Unexpected source shape {df.shape}; "
+            f"expected {expected_shape}."
         )
 
     metadata = {
-        "source_path": str(path),
-        "source_filename": path.name,
-        "source_sha256": sha256_file(path),
-        "rows": int(raw.shape[0]),
-        "columns": int(raw.shape[1]),
-        "duplicate_rows": int(raw.duplicated().sum()),
-        "duplicate_columns": int(raw.columns.duplicated().sum()),
+        "source_path": str(source_path.resolve()),
+        "source_filename": source_path.name,
+        "source_sha256": sha256_file(source_path),
+        "source_size_bytes": source_path.stat().st_size,
+        "source_rows": int(df.shape[0]),
+        "source_columns": int(df.shape[1]),
+        "source_shape": tuple(df.shape),
     }
 
-    if raw.columns.duplicated().any():
-        raise ValueError(
-            "The CSV contains duplicate column labels. "
-            "Inspect the source before renaming."
-        )
-
-    return raw, metadata
+    return df, metadata

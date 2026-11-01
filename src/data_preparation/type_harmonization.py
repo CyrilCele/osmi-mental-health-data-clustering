@@ -1,101 +1,98 @@
+"""Response harmonisation without loss of survey meaning."""
+
 from __future__ import annotations
 
 import re
+import unicodedata
 
 import pandas as pd
 
 
-YES_VALUES = {
-    "yes",
-    "true",
-    "1",
-    "1.0",
-}
-
-NO_VALUES = {
-    "no",
-    "false",
-    "0",
-    "0.0",
-}
-
-
 def canonicalise_response(value):
-    """Standardise whitespace while preserving meaningful response text."""
+    """
+    Normalise formatting while preserving the semantic response.
+
+    This function deliberately does not collapse Maybe, I don't know,
+    Not applicable, or other distinct survey answers.
+    """
     if pd.isna(value):
         return pd.NA
 
-    text = str(value).replace("\u00a0", " ")
-    text = re.sub(r"\s+", " ", text).strip()
+    value = unicodedata.normalize("NFKC", str(value))
+    value = value.replace("\u00a0", " ")
+    value = re.sub(r"\s+", " ", value).strip()
 
-    return text if text else pd.NA
+    return value if value else pd.NA
 
 
 def canonicalise_yes_no(value):
     """
-    Standardise only unambiguous yes/no values.
+    Standardise binary response spelling.
 
-    Maybe, unsure, unknown, and not-applicable responses remain distinct.
+    Non-binary responses are retained unchanged.
     """
-    response = canonicalise_response(value)
+    value = canonicalise_response(value)
 
-    if pd.isna(response):
+    if pd.isna(value):
         return pd.NA
 
-    key = str(response).casefold()
+    key = str(value).casefold()
 
-    if key in YES_VALUES:
-        return "Yes"
+    mapping = {
+        "yes": "Yes",
+        "y": "Yes",
+        "no": "No",
+        "n": "No",
+    }
 
-    if key in NO_VALUES:
-        return "No"
-
-    return response
+    return mapping.get(key, value)
 
 
 def harmonise_categorical_columns(
     df: pd.DataFrame,
+    columns: list[str],
+    *,
+    binary_columns: list[str] | None = None,
 ) -> pd.DataFrame:
-    """
-    Standardise exact yes/no variants in text columns.
-
-    This does not impute missing values or collapse other response categories.
-    """
+    """Harmonise selected response columns."""
     result = df.copy()
+    binary_columns = set(binary_columns or [])
 
-    for column in result.select_dtypes(
-        include=["object", "string"]
-    ).columns:
-        result[column] = (
-            result[column]
-            .map(canonicalise_yes_no)
-            .astype("string")
-        )
+    missing = sorted(set(columns) - set(result.columns))
+
+    if missing:
+        raise KeyError(f"Columns not found: {missing}")
+
+    for column in columns:
+        if column in binary_columns:
+            result[column] = (
+                result[column]
+                .map(canonicalise_yes_no)
+                .astype("string")
+            )
+        else:
+            result[column] = (
+                result[column]
+                .map(canonicalise_response)
+                .astype("string")
+            )
 
     return result
 
 
 def build_type_metadata(df: pd.DataFrame) -> pd.DataFrame:
+    """Describe the stored dtype and observed values of each column."""
     records = []
 
     for column in df.columns:
         series = df[column]
 
-        if pd.api.types.is_numeric_dtype(series):
-            inferred_type = "numeric"
-        else:
-            inferred_type = "categorical"
-
-        records.append(
-            {
-                "column": column,
-                "pandas_dtype": str(series.dtype),
-                "inferred_type": inferred_type,
-                "distinct_non_missing": int(
-                    series.nunique(dropna=True)
-                ),
-                "contains_missing": bool(series.isna().any()),
-            }
-        )
+        records.append({
+            "column": column,
+            "dtype": str(series.dtype),
+            "non_missing": int(series.notna().sum()),
+            "missing": int(series.isna().sum()),
+            "distinct_non_missing": int(series.nunique(dropna=True)),
+        })
 
     return pd.DataFrame(records)
