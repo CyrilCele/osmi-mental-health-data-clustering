@@ -10,7 +10,6 @@ import pandas as pd
 
 
 def ensure_output_directory(directory: Path) -> Path:
-    """Create the output directory if it does not already exist."""
     directory.mkdir(parents=True, exist_ok=True)
     return directory
 
@@ -22,7 +21,6 @@ def save_dataframe(
     *,
     index: bool = False,
 ) -> Path:
-    """Write a DataFrame as UTF-8 CSV."""
     ensure_output_directory(directory)
     path = directory / filename
     df.to_csv(path, index=index, encoding="utf-8")
@@ -34,7 +32,6 @@ def save_numpy(
     directory: Path,
     filename: str,
 ) -> Path:
-    """Persist a NumPy array without CSV precision or size loss."""
     ensure_output_directory(directory)
     path = directory / filename
     np.save(path, np.asarray(array))
@@ -46,7 +43,6 @@ def save_json(
     directory: Path,
     filename: str,
 ) -> Path:
-    """Persist a JSON report with readable indentation."""
     ensure_output_directory(directory)
     path = directory / filename
 
@@ -70,7 +66,7 @@ def save_preparation_outputs(
     mca_input: pd.DataFrame,
     mca_coordinates: pd.DataFrame,
     gower_input: pd.DataFrame,
-    gower_distances: pd.DataFrame,
+    gower_distances: np.ndarray,
     umap_embedding: pd.DataFrame,
     missingness_audit: pd.DataFrame,
     applicability_register: pd.DataFrame,
@@ -82,39 +78,106 @@ def save_preparation_outputs(
     row_mapping: pd.DataFrame,
     feature_metadata: pd.DataFrame,
 ) -> dict[str, str]:
-    """Save the complete preparation output bundle."""
     ensure_output_directory(directory)
-    saved = {}
+
+    if len(gower_distances) != len(gower_input):
+        raise ValueError(
+            "Gower distance matrix row count does not match Gower input."
+        )
+
+    if gower_distances.shape != (
+        len(gower_input),
+        len(gower_input),
+    ):
+        raise ValueError(
+            "Gower distance matrix must have one row and column "
+            "per Gower input respondent."
+        )
 
     outputs = {
-        "cleaned_data": (cleaned_data, "cleaned_survey.csv"),
-        "kmodes_matrix": (kmodes_matrix, "kmodes_matrix.csv"),
-        "mca_input": (mca_input, "mca_input.csv"),
-        "mca_coordinates": (mca_coordinates, "kmeans_mca_coordinates.csv"),
-        "gower_input": (gower_input, "gower_input.csv"),
-        "missingness_audit": (missingness_audit, "missingness_audit.csv"),
-        "applicability_register": (applicability_register, "applicability_register.csv"),
-        "exclusion_register": (exclusion_register, "exclusion_register.csv"),
-        "feature_decisions": (feature_decisions, "feature_decision_log.csv"),
-        "type_audit": (type_audit, "type_harmonisation_audit.csv"),
-        "multiselect_audit": (multiselect_audit, "multiselect_audit.csv"),
-        "row_mapping": (row_mapping, "respondent_row_mapping.csv"),
-        "feature_metadata": (feature_metadata, "feature_metadata.csv"),
+        "cleaned_data": (
+            cleaned_data,
+            "cleaned_survey.csv",
+        ),
+        "kmodes_matrix": (
+            kmodes_matrix,
+            "kmodes_matrix.csv",
+        ),
+        "mca_input": (
+            mca_input,
+            "mca_input.csv",
+        ),
+        "mca_coordinates": (
+            mca_coordinates,
+            "kmeans_mca_coordinates.csv",
+        ),
+        "gower_input": (
+            gower_input,
+            "gower_input.csv",
+        ),
+        "missingness_audit": (
+            missingness_audit,
+            "missingness_audit.csv",
+        ),
+        "applicability_register": (
+            applicability_register,
+            "applicability_register.csv",
+        ),
+        "exclusion_register": (
+            exclusion_register,
+            "exclusion_register.csv",
+        ),
+        "feature_decisions": (
+            feature_decisions,
+            "feature_decision_log.csv",
+        ),
+        "type_audit": (
+            type_audit,
+            "type_harmonisation_audit.csv",
+        ),
+        "multiselect_audit": (
+            multiselect_audit,
+            "multiselect_audit.csv",
+        ),
+        "row_mapping": (
+            row_mapping,
+            "respondent_row_mapping.csv",
+        ),
+        "feature_metadata": (
+            feature_metadata,
+            "feature_metadata.csv",
+        ),
     }
 
+    saved = {}
+
     for key, (dataframe, filename) in outputs.items():
-        saved[key] = str(save_dataframe(dataframe, directory, filename))
+        saved[key] = str(
+            save_dataframe(dataframe, directory, filename)
+        )
 
     saved["gower_distances"] = str(
-        save_numpy(gower_distances, directory, "gower_distance_matrix.npy")
+        save_numpy(
+            gower_distances,
+            directory,
+            "gower_distance_matrix.npy",
+        )
     )
 
     saved["umap_embedding"] = str(
-        save_dataframe(umap_embedding, directory, "umap_embedding.csv")
+        save_dataframe(
+            umap_embedding,
+            directory,
+            "umap_embedding.csv",
+        )
     )
 
     saved["validation_report"] = str(
-        save_json(validation_report, directory, "preparation_validation.json")
+        save_json(
+            validation_report,
+            directory,
+            "preparation_validation.json",
+        )
     )
 
     return saved
@@ -124,10 +187,15 @@ def build_respondent_row_mapping(
     source_row_ids: pd.Series,
     index: pd.Index,
 ) -> pd.DataFrame:
-    """Create a stable mapping between prepared rows and original CSV rows."""
     if len(source_row_ids) != len(index):
         raise ValueError(
-            "Source row IDs and prepared index have different lengths.")
+            "Source row IDs and prepared index have different lengths."
+        )
+
+    if not index.is_unique:
+        raise ValueError(
+            "Prepared respondent index must be unique."
+        )
 
     return pd.DataFrame(
         {
@@ -141,17 +209,30 @@ def build_feature_metadata(
     feature_decisions: pd.DataFrame,
     cleaned_data: pd.DataFrame,
 ) -> pd.DataFrame:
-    """Combine feature decisions with stored types and observed cardinality."""
     metadata = feature_decisions.copy()
+
+    unknown_columns = (
+        set(metadata["column"]) - set(cleaned_data.columns)
+    )
+
+    if unknown_columns:
+        raise ValueError(
+            "Feature decision register references columns that are "
+            f"not in cleaned_data: {sorted(unknown_columns)}"
+        )
 
     metadata["pandas_dtype"] = metadata["column"].map(
         lambda column: str(cleaned_data[column].dtype)
     )
+
     metadata["missing_count"] = metadata["column"].map(
         lambda column: int(cleaned_data[column].isna().sum())
     )
+
     metadata["distinct_non_missing"] = metadata["column"].map(
-        lambda column: int(cleaned_data[column].nunique(dropna=True))
+        lambda column: int(
+            cleaned_data[column].nunique(dropna=True)
+        )
     )
 
     return metadata

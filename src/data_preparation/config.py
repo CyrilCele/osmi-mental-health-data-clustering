@@ -12,12 +12,7 @@ SOURCE_PATH = RAW_DIR / SOURCE_FILENAME
 RANDOM_STATE = 42
 EXPECTED_RAW_SHAPE = (1433, 63)
 
-# Numerical validity boundaries are used for data-quality flags,
-# not for deleting respondents
-MIN_PLAUSIBLE_AGE = 18
-MAX_PLAUSIBLE_AGE = 75
+# Data Understanding identified these exact invalid observations.
+INVALID_AGES = {3, 15, 17, 99, 323}
 
-# Countries with fewer than this many respondents are grouped as Other.
-COUNTRY_MIN_FREQUENCY = 3
-
-# The soure data is immutable. All processing operates on copies.
+# The source data is immutable. All processing operates on copies.

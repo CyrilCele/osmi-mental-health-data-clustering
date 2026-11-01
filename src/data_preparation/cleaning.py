@@ -4,190 +4,296 @@ import unicodedata
 import numpy as np
 import pandas as pd
 
+from .config import INVALID_AGES
+
 
 def normalize_text_value(value):
-    """Normalize formatting without changing the semantic response."""
+    """Clean formatting while preserving the response's semantic meaning."""
     if pd.isna(value):
         return pd.NA
 
     value = unicodedata.normalize("NFKC", str(value))
     value = value.replace("\u200b", "").replace("\ufeff", "")
-    value = re.sub(r"[\x00-\x1f\x7f]", " ", value)
+    value = value.replace("\u00a0", " ")
+    value = re.sub(r"[\x00-\x08\x0b-\x1f\x7f]", " ", value)
     value = re.sub(r"\s+", " ", value).strip()
 
     return value if value else pd.NA
 
 
 def normalize_string_columns(df: pd.DataFrame) -> pd.DataFrame:
-    cleaned = df.copy()
+    result = df.copy()
 
-    for column in cleaned.select_dtypes(
+    for column in result.select_dtypes(
         include=["object", "string"]
     ).columns:
-        cleaned[column] = cleaned[column].map(
-            normalize_text_value
-        ).astype("string")
+        result[column] = (
+            result[column]
+            .map(normalize_text_value)
+            .astype("string")
+        )
 
-    return cleaned
+    return result
 
 
 def clean_age(
-    df: pd.DataFrame
+    df: pd.DataFrame,
 ) -> tuple[pd.DataFrame, pd.DataFrame]:
-    cleaned = df.copy()
+    result = df.copy()
 
-    if "age" not in cleaned.columns:
+    if "age" not in result.columns:
         raise KeyError("Expected canonical column 'age'.")
 
-    cleaned["age_raw"] = pd.to_numeric(cleaned["age"], errors="coerce")
+    original = result["age"].copy()
+    numeric_age = pd.to_numeric(original, errors="coerce")
 
-    invalid_age_mask = (
-        cleaned["age_raw"].notna()
-        & ~cleaned["age_raw"].between(18, 75)
+    non_numeric_mask = original.notna() & numeric_age.isna()
+
+    if non_numeric_mask.any():
+        unexpected = original.loc[non_numeric_mask].unique().tolist()
+        raise ValueError(
+            "Unexpected non-numeric age values found. "
+            f"Inspect these before cleaning: {unexpected}"
+        )
+
+    invalid_mask = numeric_age.isin(INVALID_AGES)
+
+    audit_rows = []
+
+    for index in result.index[invalid_mask]:
+        audit_rows.append(
+            {
+                "source_row_id": (
+                    result.at[index, "source_row_id"]
+                    if "source_row_id" in result.columns
+                    else index
+                ),
+                "age_original": original.at[index],
+                "decision": "Set to missing: identified invalid age.",
+            }
+        )
+
+    result["age"] = numeric_age.mask(invalid_mask).astype("Float64")
+
+    return result, pd.DataFrame(audit_rows)
+
+
+# These sets are the user's authoritative classifications.
+male_values = {
+    "male",
+    "Male",
+    "M",
+    "m",
+    "man",
+    "Cis male",
+    "Male.",
+    "male 9:1 female, roughly",
+    "Male (cis)",
+    "Man",
+    "Sex is male",
+    "cis male",
+    "Malr",
+    "Dude",
+    "mail",
+    "M|",
+    "Male/genderqueer",
+    "male ",
+    "Cis Male",
+    "cisdude",
+    "cis man",
+    "MALE",
+    "Male ",
+    "Male (trans, FtM)",
+    (
+        "I'm a man why didn't you make this a drop down question. "
+        "You should of asked sex? And I would of answered yes please. "
+        "Seriously how much text can this take? "
     )
+}
 
-    age_audit = pd.DataFrame({
-        "source_row_id": cleaned.loc[invalid_age_mask, "source_row_id"],
-        "age_original": cleaned.loc[invalid_age_mask, "age_raw"],
-        "decision": "Set cleaned age to missing; do not infer replacement",
-    })
+female_values = {
+    "Female",
+    "female",
+    "female ",
+    "F",
+    "Woman",
+    "fm",
+    "f",
+    "Cis female ",
+    "Transitioned, M2F",
+    " Female",
+    "Cis-woman",
+    "AFAB",
+    "Genderfluid (born female)",
+    "Female ",
+    "woman",
+    "female/woman",
+    "Cisgender Female",
+    "fem",
+    "female-bodied; no feelings about gender",
+    "Female (props for making this a freeform field, though)",
+    "I identify as female.",
+    "Female assigned at birth ",
+    "Female or Multi-Gender Femme",
+    "mtf",
+    "Transgender woman"
+}
 
-    cleaned["age"] = cleaned["age_raw"].mask(
-        invalid_age_mask).astype("Float64")
-    cleaned = cleaned.drop(columns="age_raw")
+other_values = {
+    "non-binary",
+    "Agender",
+    "Nonbinary",
+    "Queer",
+    "nb masculine",
+    "human",
+    "genderqueer woman",
+    "genderqueer",
+    "Unicorn",
+    "Bigender",
+    "Enby",
+    "Other",
+    "Other/Transfeminine",
+    "Human",
+    "Genderqueer",
+    "Genderflux demi-girl",
+    "Genderfluid",
+    "Fluid",
+    "Enby Bigender",
+    "Androgynous",
+    "none of your business"
+}
 
-    return cleaned, age_audit
+
+def _gender_key(value) -> str | None:
+    """Apply only case and whitespace normalisation for set matching."""
+    normalized = normalize_text_value(value)
+
+    if pd.isna(normalized):
+        return None
+
+    return str(normalized).casefold()
+
+
+def _build_gender_lookup() -> dict[str, str]:
+    lookup = {}
+
+    for label, values in (
+        ("Male", male_values),
+        ("Female", female_values),
+        ("Other", other_values),
+    ):
+        for value in values:
+            key = _gender_key(value)
+
+            if key in lookup and lookup[key] != label:
+                raise ValueError(
+                    f"Conflicting gender classification for {value!r}: "
+                    f"{lookup[key]!r} versus {label!r}."
+                )
+
+            lookup[key] = label
+
+    return lookup
+
+
+GENDER_LOOKUP = _build_gender_lookup()
 
 
 def normalize_gender(value):
-    """Map only unambiguous responses to Female, Male, or Other."""
-    if pd.isna(value):
+    """Map the user's exact response sets to Male, Female, or Other."""
+    key = _gender_key(value)
+
+    if key is None:
         return pd.NA
 
-    raw = normalize_text_value(value)
-    if pd.isna(raw):
-        return pd.NA
-
-    value = str(raw).strip()
-    lower = value.casefold()
-
-    male_values = {
-        "male", "m", "man", "cis male", "cis-male", "cisgender male",
-        "male.", "male (cis)", "cis male.", "cisgender man",
-        "male (trans, ftm)", "ftm", "trans man", "transitioned, f2m",
-        "transitioned, m2f", "malr", "dude", "mail", "male/genderqueer",
-        "cis male", "cisdude", "cis man", "male 9:1 female, roughly",
-        "i'm a man why didn't you make this a drop down question. you "
-        "should of asked sex? and i would of answered yes please. seriously how much..."
-    }
-
-    female_values = {
-        "female", "f", "woman", "fm", "cis female", "cis-female",
-        "cis woman", "cis-woman", "cisgender female", "female.",
-        "female assigned at birth", "afab", "transgender woman",
-        "trans woman", "mtf", "transitioned, m2f", "female/woman",
-        "fem", "female-bodied; no feelings about gender",
-        "female (props for making this a freeform field, though)",
-        "i identify as female.", "female or multi-gender femme",
-        "genderfluid (born female)",
-    }
-
-    # The source contains an unambiguous malformed "M|" response.
-    # Strip the trailing delimiter only for this exact known malformed value.
-    if lower == "m|":
-        return "Male"
-
-    if lower in male_values:
-        return "Male"
-
-    if lower in female_values:
-        return "Female"
-
-    # All other self-descriptions and non-binary identities are preserved
-    # in the aggregate descriptive category, not forced into a sex binary.
-    return "Other"
+    # Any non-missing response not explicitly listed is Other.
+    return GENDER_LOOKUP.get(key, "Other")
 
 
 def clean_gender(df: pd.DataFrame) -> pd.DataFrame:
-    cleaned = df.copy()
+    result = df.copy()
 
-    if "gender" not in cleaned.columns:
+    if "gender" not in result.columns:
         raise KeyError("Expected canonical column 'gender'.")
 
-    cleaned["gender"] = cleaned["gender"].map(
-        normalize_gender).astype("string")
+    # Preserve the response before replacing the analytical field.
+    if "gender_original" not in result.columns:
+        result["gender_original"] = result["gender"].copy()
 
-    allowed = {"Female", "Male", "Other"}
-    unexpected = set(cleaned["gender"].dropna().unique()) - allowed
+    result["gender"] = (
+        result["gender_original"]
+        .map(normalize_gender)
+        .astype("string")
+    )
+
+    unexpected = set(result["gender"].dropna().unique()) - {
+        "Male", "Female", "Other"
+    }
 
     if unexpected:
-        raise ValueError(f"Unexpected gender categories: {unexpected}")
+        raise ValueError(
+            f"Unexpected gender categories: {unexpected}"
+        )
 
-    return cleaned
+    return result
 
 
 def normalize_country(value):
-    if pd.isna(value):
-        return pd.NA
-
-    value = normalize_text_value(value)
-    if pd.isna(value):
-        return pd.NA
-
-    return str(value).strip()
-
-
-def group_rare_countries(
-    series: pd.Series,
-    minimum_frequency: int = 3,
-) -> pd.Series:
-    """Group countries with fewer than minimum_frequency observations."""
-    normalized = series.map(normalize_country).astype("string")
-    counts = normalized.value_counts(dropna=True)
-    rare = counts[counts < minimum_frequency].index
-
-    return normalized.mask(normalized.isin(rare), "Other")
+    """Standardise whitespace and Unicode; do not consolidate countries."""
+    return normalize_text_value(value)
 
 
 def clean_countries(df: pd.DataFrame) -> pd.DataFrame:
-    cleaned = df.copy()
+    result = df.copy()
 
     for column in ("residence_country", "work_country"):
-        if column in cleaned.columns:
-            cleaned[column] = group_rare_countries(cleaned[column], 3)
+        if column in result.columns:
+            result[column] = (
+                result[column]
+                .map(normalize_country)
+                .astype("string")
+            )
 
-        return cleaned
+    return result
 
 
-def parse_pipe_multiselect(value):
-    """Return unique, trimmed selections without splitting ordinary text."""
-    if pd.isna(value):
-        return tuple()
+def parse_pipe_multiselect(value) -> tuple[str, ...] | pd._libs.missing.NAType:
+    """Split genuine pipe-delimited responses, preserving missingness."""
+    normalized = normalize_text_value(value)
+
+    if pd.isna(normalized):
+        return pd.NA
 
     parts = [
         normalize_text_value(part)
-        for part in str(value).split("|")
+        for part in str(normalized).split("|")
     ]
 
-    return tuple(dict.fromkeys(
-        str(part) for part in parts if not pd.isna(part)
-    ))
+    selections = [
+        str(part)
+        for part in parts
+        if not pd.isna(part)
+    ]
+
+    return tuple(dict.fromkeys(selections))
 
 
-def normalize_multiselect_columns(df: pd.DataFrame) -> pd.DataFrame:
-    cleaned = df.copy()
+def normalize_multiselect_columns(
+    df: pd.DataFrame,
+) -> pd.DataFrame:
+    result = df.copy()
 
-    multi_select_columns = [
+    columns = [
         "current_diagnosed_conditions",
         "suspected_conditions",
         "professionally_diagnosed_conditions",
         "work_position",
     ]
 
-    for column in multi_select_columns:
-        if column in cleaned.columns:
-            cleaned[f"{column}_selections"] = (
-                cleaned[column].map(parse_pipe_multiselect)
+    for column in columns:
+        if column in result.columns:
+            result[f"{column}_selections"] = (
+                result[column].map(parse_pipe_multiselect)
             )
 
-    return cleaned
+    return result

@@ -10,7 +10,7 @@ def sha256_file(path: Path) -> str:
     digest = hashlib.sha256()
 
     with path.open("rb") as file:
-        for chunk in iter(lambda: file.read(1024 * 1024), "b"):
+        for chunk in iter(lambda: file.read(1024 * 1024), b""):
             digest.update(chunk)
 
     return digest.hexdigest()
@@ -20,7 +20,7 @@ def load_source(path: Path = SOURCE_PATH) -> tuple[pd.DataFrame, dict]:
     if not path.exists():
         raise FileNotFoundError(
             f"OSMI source CSV not found: {path}. "
-            "Place the original CSV in data/raw/."
+            "Place the original, unmodified CSV in data/raw/."
         )
 
     raw = pd.read_csv(
@@ -36,7 +36,7 @@ def load_source(path: Path = SOURCE_PATH) -> tuple[pd.DataFrame, dict]:
         raise ValueError(
             f"Unexpected source shape {raw.shape}; "
             f"expected {EXPECTED_RAW_SHAPE}. "
-            "Verify that the correct, unmodified OSMI 2016 file is loaded."
+            "Verify that the correct OSMI 2016 source file is loaded."
         )
 
     metadata = {
@@ -48,5 +48,11 @@ def load_source(path: Path = SOURCE_PATH) -> tuple[pd.DataFrame, dict]:
         "duplicate_rows": int(raw.duplicated().sum()),
         "duplicate_columns": int(raw.columns.duplicated().sum()),
     }
+
+    if raw.columns.duplicated().any():
+        raise ValueError(
+            "The CSV contains duplicate column labels. "
+            "Inspect the source before renaming."
+        )
 
     return raw, metadata

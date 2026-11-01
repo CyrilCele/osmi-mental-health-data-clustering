@@ -1,134 +1,176 @@
-"""Missingness profiling and applicability classification."""
-
 from __future__ import annotations
 
 import pandas as pd
 
 
-# These fields are only meaningful for respondents who meet the stated
-# applicability condition. Their missing values must not be treated as No.
 STRUCTURALLY_CONDITIONAL_FIELDS = {
-    "current_employer_fields": [
-        "company_size",
-        "tech_employer",
-        "tech_role",
-        "mental_health_benefits",
-        "coverage_options_awareness",
-        "employer_formal_discussion",
-        "employer_mental_health_resources",
-        "employer_anonymity_protection",
-        "mental_health_leave_ease",
-        "employer_discussion_negative_consequences",
-        "physical_health_discussion_negative_consequences",
-        "coworker_discussion_comfort",
-        "supervisor_discussion_comfort",
-        "employer_takes_mental_health_seriously",
-        "coworker_negative_consequences_observed",
-    ],
     "self_employment_fields": [
-        "self_employed_medical_coverage",
-        "self_employed_local_resources",
+        "medical_coverage_includes_mental_health",
+        "mental_health_resources_awareness",
         "client_disclosure",
-        "client_disclosure_negative_impact",
+        "client_disclosure_impact",
         "coworker_disclosure",
-        "coworker_disclosure_negative_impact",
+        "coworker_disclosure_impact",
         "productivity_affected",
         "work_time_affected_pct",
     ],
     "previous_employer_fields": [
-        "previous_employers",
-        "previous_employer_benefits",
-        "previous_employer_options_awareness",
-        "previous_employer_formal_discussion",
-        "previous_employer_resources",
-        "previous_employer_anonymity_protection",
-        "previous_employer_discussion_negative_consequences",
-        "previous_employer_physical_health_discussion_negative_consequences",
-        "previous_coworker_discussion_willingness",
-        "previous_supervisor_discussion_willingness",
-        "previous_employer_takes_mental_health_seriously",
-        "previous_employer_coworker_negative_consequences",
+        "previous_employer_mental_health_benefits",
+        "previous_employer_benefits_awareness",
+        "previous_employer_mental_health_discussion",
+        "previous_employer_mental_health_resources",
+        "previous_employer_confidentiality",
+        "previous_employer_mental_health_disclosure_consequences",
+        "previous_employer_physical_health_disclosure_consequences",
+        "previous_coworker_disclosure_comfort",
+        "previous_supervisor_disclosure_comfort",
+        "previous_employer_mental_health_parity",
+        "previous_workplace_disclosure_consequences",
+    ],
+    "us_geography_fields": [
+        "residence_state",
+        "work_state",
+    ],
+    "technology_role_fields": [
+        "tech_role",
     ],
 }
 
-# High-missingness or conditional fields excluded from the full-population
-# clustering feature space, but retained in the cleaned analytical dataset.
+
 FULL_POPULATION_EXCLUSIONS = {
-    "work_time_affected_pct": (
-        "Conditional follow-up to productivity impact; very high missingness."
+    "gender": (
+        "Sensitive free-text demographic variable; retain for descriptive profiling."
     ),
-    "client_disclosure_negative_impact": (
-        "Only applicable to respondents who disclosed to clients."
+    "age": (
+        "Retain for cluster description; exclude from the primary categorical matrix."
     ),
-    "observed_disclosure_influence": (
-        "Conditional workplace follow-up; not consistently applicable."
+    "residence_country": (
+        "High-cardinality geographic variable; retain for geographic profiling."
     ),
-    "tech_role": (
-        "Conditional on employment context and whether the employer is a tech organisation."
+    "work_country": (
+        "High-cardinality geographic variable; retain for geographic profiling."
     ),
     "residence_state": (
-        "US-specific geographic field; structurally unavailable for most non-US respondents."
+        "US-specific geographic field with structural missingness."
     ),
     "work_state": (
-        "US-specific geographic field; structurally unavailable for most non-US respondents."
+        "US-specific geographic field with structural missingness."
     ),
-    "why_or_why_not_physical_health": (
-        "High-cardinality free text; retained for qualitative analysis."
+    "tech_role": (
+        "Conditional technology-role question; do not infer missing values."
     ),
-    "why_or_why_not_mental_health": (
-        "High-cardinality free text; retained for qualitative analysis."
+    "medical_coverage_includes_mental_health": (
+        "Self-employment-specific question; restricted subgroup coverage."
+    ),
+    "mental_health_resources_awareness": (
+        "Self-employment-specific question; restricted subgroup coverage."
+    ),
+    "client_disclosure": (
+        "Self-employment-specific disclosure question."
+    ),
+    "client_disclosure_impact": (
+        "Conditional follow-up after client disclosure."
+    ),
+    "coworker_disclosure": (
+        "Self-employment-specific disclosure question."
+    ),
+    "coworker_disclosure_impact": (
+        "Conditional follow-up after coworker disclosure."
+    ),
+    "productivity_affected": (
+        "Self-employment-specific question; retain for subgroup analysis, "
+        "exclude from full-population clustering."
+    ),
+    "work_time_affected_pct": (
+        "Conditional follow-up to productivity impact; high missingness."
+    ),
+    "observed_disclosure_influence": (
+        "Limited applicability and substantial missingness."
+    ),
+    "interview_physical_health_reason": (
+        "High-cardinality free text; retain for qualitative analysis."
+    ),
+    "interview_mental_health_reason": (
+        "High-cardinality free text; retain for qualitative analysis."
+    ),
+    "current_diagnosed_conditions": (
+        "Sensitive multi-select condition description; not a raw clustering feature."
+    ),
+    "suspected_conditions": (
+        "Sensitive multi-select suspected condition description."
+    ),
+    "professionally_diagnosed_conditions": (
+        "Sensitive multi-select diagnosis description."
+    ),
+    "work_position": (
+        "Multi-select role description; transform for separate analysis, "
+        "not as the original unsplit field."
     ),
 }
 
 
 def build_missingness_audit(df: pd.DataFrame) -> pd.DataFrame:
-    """Return per-column missingness counts, rates and observed cardinality."""
     n_rows = len(df)
     records = []
 
     for column in df.columns:
         missing_count = int(df[column].isna().sum())
+
         records.append(
             {
                 "column": column,
                 "row_count": n_rows,
                 "missing_count": missing_count,
                 "missing_pct": (
-                    round(missing_count / n_rows * 100, 2) if n_rows else 0.0
+                    round(missing_count / n_rows * 100, 2)
+                    if n_rows else 0.0
                 ),
                 "observed_count": int(df[column].notna().sum()),
-                "distinct_non_missing": int(df[column].nunique(dropna=True)),
+                "distinct_non_missing": int(
+                    df[column].nunique(dropna=True)
+                ),
                 "dtype": str(df[column].dtype),
             }
         )
 
     return (
         pd.DataFrame(records)
-        .sort_values(["missing_pct", "column"], ascending=[False, True])
+        .sort_values(
+            ["missing_pct", "column"],
+            ascending=[False, True],
+        )
         .reset_index(drop=True)
     )
 
 
-def build_applicability_register(df: pd.DataFrame) -> pd.DataFrame:
-    """Document known conditional fields and whether each exists in the data."""
+def build_applicability_register(
+    df: pd.DataFrame,
+) -> pd.DataFrame:
     records = []
 
     for group, columns in STRUCTURALLY_CONDITIONAL_FIELDS.items():
         for column in columns:
-            if column in df.columns:
-                records.append(
-                    {
-                        "column": column,
-                        "applicability_group": group,
-                        "present_in_dataset": True,
-                        "missing_count": int(df[column].isna().sum()),
-                        "missing_pct": round(df[column].isna().mean() * 100, 2),
-                        "handling": (
-                            "Do not impute as No; interpret missingness in light "
-                            "of the survey routing/applicability condition."
-                        ),
-                    }
-                )
+            if column not in df.columns:
+                continue
+
+            missing_count = int(df[column].isna().sum())
+
+            records.append(
+                {
+                    "column": column,
+                    "applicability_group": group,
+                    "present_in_dataset": True,
+                    "missing_count": missing_count,
+                    "observed_count": int(df[column].notna().sum()),
+                    "missing_pct": round(
+                        df[column].isna().mean() * 100, 2
+                    ),
+                    "handling": (
+                        "Preserve missingness; do not impute or interpret "
+                        "structural missingness as a negative response."
+                    ),
+                }
+            )
 
     return pd.DataFrame(records)
 
@@ -137,12 +179,13 @@ def build_exclusion_register(
     df: pd.DataFrame,
     additional_exclusions: dict[str, str] | None = None,
 ) -> pd.DataFrame:
-    """Return explicit reasons for excluding fields from population-wide clustering."""
     exclusions = dict(FULL_POPULATION_EXCLUSIONS)
+
     if additional_exclusions:
         exclusions.update(additional_exclusions)
 
     records = []
+
     for column, reason in exclusions.items():
         if column in df.columns:
             records.append(
