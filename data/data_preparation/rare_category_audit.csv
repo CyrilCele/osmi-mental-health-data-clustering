@@ -1,0 +1,53 @@
+feature,category,count,percentage,below_1_percent
+mental_health_benefits,Yes,524,46.3307,0
+mental_health_benefits,I don't know,316,27.9399,0
+mental_health_benefits,No,210,18.5676,0
+mental_health_benefits,Not eligible for coverage / N/A,81,7.1618,0
+formal_mental_health_communication,No,806,71.2644,0
+formal_mental_health_communication,Yes,223,19.7171,0
+formal_mental_health_communication,I don't know,102,9.0186,0
+mental_health_resources,No,523,46.2423,0
+mental_health_resources,I don't know,318,28.1167,0
+mental_health_resources,Yes,290,25.641,0
+anonymity_protected,I don't know,736,65.0752,0
+anonymity_protected,Yes,312,27.5862,0
+anonymity_protected,No,83,7.3386,0
+medical_leave_ease,Somewhat easy,279,24.6684,0
+medical_leave_ease,Very easy,219,19.3634,0
+medical_leave_ease,Somewhat difficult,192,16.9761,0
+medical_leave_ease,Neither easy nor difficult,176,15.5615,0
+medical_leave_ease,I don't know,149,13.1742,0
+medical_leave_ease,Very difficult,116,10.2564,0
+mh_disclosure_negative_consequences,Maybe,482,42.6172,0
+mh_disclosure_negative_consequences,No,436,38.55,0
+mh_disclosure_negative_consequences,Yes,213,18.8329,0
+physical_disclosure_negative_consequences,No,831,73.4748,0
+physical_disclosure_negative_consequences,Maybe,260,22.9885,0
+physical_disclosure_negative_consequences,Yes,40,3.5367,0
+coworker_discussion_comfort,Maybe,474,41.9098,0
+coworker_discussion_comfort,No,386,34.1291,0
+coworker_discussion_comfort,Yes,271,23.9611,0
+supervisor_discussion_comfort,Yes,424,37.4889,0
+supervisor_discussion_comfort,Maybe,378,33.4218,0
+supervisor_discussion_comfort,No,329,29.0893,0
+mh_as_serious_as_physical,I don't know,487,43.0592,0
+mh_as_serious_as_physical,Yes,346,30.5924,0
+mh_as_serious_as_physical,No,298,26.3484,0
+observed_negative_consequences,No,1038,91.7772,0
+observed_negative_consequences,Yes,93,8.2228,0
+interview_disclosure_physical,Maybe,475,41.9982,0
+interview_disclosure_physical,No,368,32.5376,0
+interview_disclosure_physical,Yes,288,25.4642,0
+interview_disclosure_mental,No,710,62.7763,0
+interview_disclosure_mental,Maybe,331,29.2661,0
+interview_disclosure_mental,Yes,90,7.9576,0
+perceived_career_harm,Maybe,466,41.2025,0
+perceived_career_harm,"Yes, I think it would",441,38.992,0
+perceived_career_harm,"No, I don't think it would",121,10.6985,0
+perceived_career_harm,"Yes, it has",78,6.8966,0
+perceived_career_harm,"No, it has not",25,2.2104,0
+expected_coworker_stigma,Maybe,456,40.3183,0
+expected_coworker_stigma,"No, I don't think they would",302,26.702,0
+expected_coworker_stigma,"Yes, I think they would",301,26.6136,0
+expected_coworker_stigma,"No, they do not",44,3.8904,0
+expected_coworker_stigma,"Yes, they do",28,2.4757,0

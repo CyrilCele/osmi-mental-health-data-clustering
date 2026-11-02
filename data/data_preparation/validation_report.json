@@ -1,0 +1,16 @@
+{
+    "status": "passed",
+    "source_rows": 1433,
+    "cohort_rows": 1131,
+    "model_features": 15,
+    "domain_count": 3,
+    "distance_shape": [
+        1131,
+        1131
+    ],
+    "distance_min": 0.0,
+    "distance_max": 1.0,
+    "distance_mean": 0.4922781416881847,
+    "distance_symmetric": true,
+    "distance_diagonal_zero": true
+}

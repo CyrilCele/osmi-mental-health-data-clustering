@@ -6,8 +6,8 @@ import unicodedata
 import pandas as pd
 
 from .config import (
-    MIN_PLAUSIBLE_AGE,
     MAX_PLAUSIBLE_AGE,
+    MIN_PLAUSIBLE_AGE,
 )
 
 

@@ -1,0 +1,1132 @@
+source_row_id,company_size,tech_employer,tech_role,remote_work,age,gender,residence_country,residence_state,work_country,work_state,work_position,employer_benefits_awareness,observed_unsupportive_workplace_response,age_clean,age_implausible_flag,age_imputed,age_was_imputed,gender_original
+0,26-100,1.0,,Sometimes,39,Male,United Kingdom,,United Kingdom,,Back-end Developer,,No,39,0,39,0,Male
+1,6-25,1.0,,Never,29,Male,United States of America,Illinois,United States of America,Illinois,Back-end Developer|Front-end Developer,Yes,No,29,0,29,0,male
+2,6-25,1.0,,Always,38,Male,United Kingdom,,United Kingdom,,Back-end Developer,,Maybe/Not sure,38,0,38,0,Male 
+4,6-25,0.0,1.0,Sometimes,43,Female,United States of America,Illinois,United States of America,Illinois,Executive Leadership|Supervisor/Team Lead|Dev Evangelist/Advocate|DevOps/SysAdmin|Support|Back-end Developer|Front-end Developer,Yes,"Yes, I experienced",43,0,43,0,Female
+5,More than 1000,1.0,,Sometimes,42,Male,United Kingdom,,United Kingdom,,DevOps/SysAdmin|Support|Back-end Developer|Front-end Developer|Designer,I am not sure,"Yes, I experienced",42,0,42,0,Male
+6,26-100,1.0,,Sometimes,30,Male,United States of America,Tennessee,United States of America,Tennessee,Back-end Developer,No,No,30,0,30,0,M
+7,More than 1000,1.0,,Always,37,Female,United States of America,Virginia,United States of America,Virginia,Dev Evangelist/Advocate|Back-end Developer,Yes,"Yes, I observed",37,0,37,0,female
+8,26-100,0.0,1.0,Sometimes,44,Female,United States of America,California,United States of America,California,Support|Back-end Developer|One-person shop,No,"Yes, I observed",44,0,44,0,Female
+10,26-100,1.0,,Never,28,Male,United States of America,Oregon,United States of America,Oregon,Front-end Developer,I am not sure,"Yes, I observed",28,0,28,0,Male
+11,100-500,0.0,1.0,Sometimes,34,Male,United States of America,Pennsylvania,United States of America,Pennsylvania,Executive Leadership,Yes,No,34,0,34,0,Male
+12,100-500,1.0,,Always,30,Female,United States of America,New Jersey,United States of America,New Jersey,Supervisor/Team Lead|Dev Evangelist/Advocate|Back-end Developer|Front-end Developer,I am not sure,No,30,0,30,0,Female
+13,100-500,0.0,1.0,Sometimes,44,Male,Canada,,Canada,,DevOps/SysAdmin|Back-end Developer|Front-end Developer,Yes,"Yes, I experienced",44,0,44,0,Male
+14,100-500,1.0,,Always,35,Male,United States of America,Georgia,United States of America,Georgia,Designer,Yes,No,35,0,35,0,Male
+15,100-500,1.0,,Sometimes,52,Male,United States of America,Oregon,United States of America,Oregon,Other|Executive Leadership,No,No,52,0,52,0,m
+16,26-100,1.0,,Always,32,Female,Canada,,Canada,,Front-end Developer,No,"Yes, I experienced",32,0,32,0,I identify as female.
+17,500-1000,1.0,,Never,34,Male,United Kingdom,,United Kingdom,,Back-end Developer,No,Maybe/Not sure,34,0,34,0,Male
+19,100-500,0.0,1.0,Sometimes,31,Male,United States of America,New Jersey,United States of America,New York,Back-end Developer|Front-end Developer,No,No,31,0,31,0,M
+20,6-25,1.0,,Sometimes,26,Male,United States of America,New York,United States of America,New York,Back-end Developer,,Maybe/Not sure,26,0,26,0,Male
+21,More than 1000,0.0,1.0,Never,35,Male,United States of America,Indiana,United States of America,Indiana,Other,No,No,35,0,35,0,male
+22,26-100,1.0,,Sometimes,25,Male,Germany,,Germany,,Back-end Developer,Yes,No,25,0,25,0,male
+23,1-5,1.0,,Sometimes,33,Male,Canada,,Canada,,Back-end Developer,Yes,"Yes, I observed",33,0,33,0,Male
+25,100-500,0.0,1.0,Never,42,Male,Germany,,Germany,,Supervisor/Team Lead|Support|Back-end Developer,Yes,Maybe/Not sure,42,0,42,0,male
+26,26-100,0.0,1.0,Sometimes,27,Male,Netherlands,,Netherlands,,Supervisor/Team Lead|DevOps/SysAdmin|Back-end Developer,No,Maybe/Not sure,27,0,27,0,Male
+27,100-500,1.0,,Never,35,Male,Germany,,Germany,,Back-end Developer,No,Maybe/Not sure,35,0,35,0,male
+28,500-1000,0.0,1.0,Never,34,Female,United Kingdom,,United Kingdom,,Other,No,"Yes, I observed",34,0,34,0,female
+29,6-25,1.0,,Never,32,Other,United Kingdom,,United Kingdom,,Other|Supervisor/Team Lead|Support|Back-end Developer|Designer,,"Yes, I observed",32,0,32,0,Bigender
+30,100-500,1.0,,Never,32,Other,Germany,,Germany,,Back-end Developer,Yes,Maybe/Not sure,32,0,32,0,non-binary
+31,100-500,1.0,,Sometimes,30,Male,United States of America,New York,United States of America,New York,Supervisor/Team Lead|Back-end Developer,Yes,No,30,0,30,0,Male
+32,More than 1000,1.0,,Never,31,Male,United States of America,Minnesota,United States of America,Minnesota,One-person shop|Front-end Developer|Back-end Developer|Dev Evangelist/Advocate|Other,I am not sure,No,31,0,31,0,Male
+34,26-100,1.0,,Sometimes,36,Male,United Kingdom,,United Kingdom,,Supervisor/Team Lead|DevOps/SysAdmin|Support|Back-end Developer,I am not sure,Maybe/Not sure,36,0,36,0,Male
+35,100-500,1.0,,Never,33,Male,Germany,,Germany,,Executive Leadership|Front-end Developer|Back-end Developer|Sales|Supervisor/Team Lead,No,No,33,0,33,0,Male
+36,26-100,1.0,,Always,44,Male,United States of America,Washington,United States of America,Washington,Back-end Developer,I am not sure,"Yes, I experienced",44,0,44,0,Male
+37,100-500,1.0,,Never,29,Male,United Kingdom,,United Kingdom,,Front-end Developer,Yes,"Yes, I observed",29,0,29,0,male
+38,100-500,1.0,,Sometimes,29,Male,United Kingdom,,United Kingdom,,Back-end Developer,I am not sure,No,29,0,29,0,male
+39,More than 1000,1.0,,Always,44,Male,Canada,,Canada,,Support|Other,Yes,"Yes, I observed",44,0,44,0,Male
+41,100-500,1.0,,Always,40,Male,United States of America,Minnesota,United States of America,Minnesota,Other,I am not sure,Maybe/Not sure,40,0,40,0,male
+42,More than 1000,1.0,,Never,46,Female,Netherlands,,Netherlands,,Supervisor/Team Lead|Other,I am not sure,Maybe/Not sure,46,0,46,0,Female assigned at birth 
+44,More than 1000,0.0,1.0,Never,41,Male,United States of America,Georgia,United States of America,Georgia,Back-end Developer,I am not sure,No,41,0,41,0,Male
+45,6-25,1.0,,Sometimes,33,Male,United States of America,Kentucky,United States of America,Kentucky,Supervisor/Team Lead|Back-end Developer|Front-end Developer,Yes,"Yes, I experienced",33,0,33,0,male
+47,6-25,1.0,,Sometimes,45,Male,United States of America,Virginia,United States of America,Virginia,DevOps/SysAdmin|Back-end Developer|Front-end Developer,No,No,45,0,45,0,Male
+49,6-25,1.0,,Always,37,Female,United States of America,California,United States of America,California,Supervisor/Team Lead,Yes,No,37,0,37,0,F
+50,26-100,1.0,,Never,37,Male,Australia,,Australia,,Executive Leadership,,Maybe/Not sure,37,0,37,0,M
+51,6-25,1.0,,Sometimes,27,Male,United States of America,California,United States of America,California,Front-end Developer|Back-end Developer|Executive Leadership,Yes,Maybe/Not sure,27,0,27,0,Male
+53,More than 1000,1.0,,Sometimes,36,Male,United States of America,California,United States of America,California,Supervisor/Team Lead|DevOps/SysAdmin,Yes,"Yes, I experienced",36,0,36,0,Male
+54,500-1000,0.0,1.0,Always,34,Male,United States of America,Florida,United States of America,Florida,DevOps/SysAdmin|Back-end Developer,Yes,No,34,0,34,0,Male
+56,26-100,1.0,,Never,30,Male,United States of America,Oregon,United States of America,Oregon,Back-end Developer|Front-end Developer,Yes,No,30,0,30,0,Male
+57,100-500,0.0,1.0,Never,32,Male,Canada,,Canada,,Supervisor/Team Lead,Yes,Maybe/Not sure,32,0,32,0,Male
+58,6-25,0.0,1.0,Sometimes,40,Female,United States of America,North Dakota,United States of America,North Dakota,Back-end Developer|Front-end Developer,I am not sure,No,40,0,40,0,female
+59,100-500,0.0,1.0,Sometimes,40,Male,United States of America,Tennessee,United States of America,Tennessee,Back-end Developer,No,No,40,0,40,0,Male
+60,More than 1000,1.0,,Sometimes,41,Male,France,,France,,Back-end Developer,I am not sure,Maybe/Not sure,41,0,41,0,man
+61,26-100,0.0,1.0,Never,27,Male,United Kingdom,,United Kingdom,,DevOps/SysAdmin,,Maybe/Not sure,27,0,27,0,Male
+62,26-100,1.0,,Sometimes,30,Male,United States of America,New York,United States of America,New York,Supervisor/Team Lead,Yes,"Yes, I observed",30,0,30,0,Male
+67,More than 1000,1.0,,Always,29,Male,United States of America,Texas,United States of America,Texas,Back-end Developer,I am not sure,"Yes, I observed",29,0,29,0,M
+68,100-500,1.0,,Never,28,Male,United States of America,New York,United States of America,New York,Front-end Developer,I am not sure,No,28,0,28,0,Male
+69,26-100,0.0,1.0,Sometimes,27,Male,Netherlands,,Netherlands,,Back-end Developer,Yes,No,27,0,27,0,Male
+71,100-500,1.0,,Sometimes,28,Male,Belgium,,Belgium,,Support,I am not sure,No,28,0,28,0,male
+72,6-25,0.0,1.0,Sometimes,46,Male,United States of America,Texas,United States of America,Texas,Executive Leadership|Supervisor/Team Lead|Back-end Developer,No,No,46,0,46,0,Male
+73,1-5,1.0,,Sometimes,40,Male,Netherlands,,Netherlands,,Front-end Developer|Back-end Developer,No,No,40,0,40,0,male
+74,26-100,1.0,,Always,37,Male,United States of America,Tennessee,United States of America,Tennessee,Supervisor/Team Lead|DevOps/SysAdmin|Back-end Developer,Yes,No,37,0,37,0,Male
+75,26-100,1.0,,Sometimes,41,Male,Netherlands,,Netherlands,,Front-end Developer|Back-end Developer|DevOps/SysAdmin,,No,41,0,41,0,Male
+77,6-25,1.0,,Never,38,Female,Netherlands,,Netherlands,,Front-end Developer,I am not sure,No,38,0,38,0,F
+78,26-100,1.0,,Sometimes,33,Male,United States of America,Maryland,United States of America,District of Columbia,Front-end Developer,I am not sure,No,33,0,33,0,Male 
+79,26-100,1.0,,Always,33,Male,United States of America,Wisconsin,United States of America,Tennessee,Supervisor/Team Lead|Dev Evangelist/Advocate|Back-end Developer,Yes,No,33,0,33,0,Male
+80,1-5,1.0,,Never,21,Male,United Kingdom,,United Kingdom,,Back-end Developer|DevOps/SysAdmin,Yes,No,21,0,21,0,male
+81,1-5,1.0,,Never,36,Male,Brazil,,Brazil,,Back-end Developer,No,"Yes, I experienced",36,0,36,0,Male
+83,26-100,1.0,,Sometimes,35,Male,United States of America,Illinois,United States of America,Illinois,Dev Evangelist/Advocate|Back-end Developer,I am not sure,No,35,0,35,0,Male
+85,6-25,1.0,,Never,45,Male,United States of America,Michigan,United States of America,Michigan,DevOps/SysAdmin|Back-end Developer|Front-end Developer,No,"Yes, I experienced",45,0,45,0,Male
+86,26-100,1.0,,Never,41,Male,Canada,,Canada,,Back-end Developer|Supervisor/Team Lead,No,No,41,0,41,0,Male
+87,26-100,1.0,,Sometimes,35,Male,United Kingdom,,United Kingdom,,Back-end Developer,I am not sure,"Yes, I experienced",35,0,35,0,Male
+89,26-100,1.0,,Sometimes,24,Female,United States of America,Illinois,United States of America,Illinois,Back-end Developer,I am not sure,No,24,0,24,0,Female
+90,100-500,0.0,1.0,Never,33,Male,Brazil,,Brazil,,Other,,,33,0,33,0,Male
+91,More than 1000,1.0,,Sometimes,35,Male,United States of America,Washington,United States of America,Washington,Back-end Developer,Yes,No,35,0,35,0,male
+92,6-25,1.0,,Sometimes,26,Male,United Kingdom,,United Kingdom,,Supervisor/Team Lead,,Maybe/Not sure,26,0,26,0,Male
+93,6-25,1.0,,Always,17,Male,Brazil,,Brazil,,Front-end Developer,,"Yes, I observed",,1,32,1,male
+94,6-25,0.0,1.0,Sometimes,29,Female,United States of America,North Dakota,United States of America,North Dakota,Front-end Developer,I am not sure,,29,0,29,0,Female
+95,100-500,1.0,,Sometimes,26,Male,United States of America,California,United States of America,California,Back-end Developer,I am not sure,No,26,0,26,0,Male
+96,26-100,1.0,,Always,36,Female,United States of America,Vermont,United States of America,Vermont,Front-end Developer,I am not sure,"Yes, I observed",36,0,36,0,female
+97,26-100,1.0,,Sometimes,46,Male,United States of America,Illinois,United States of America,Illinois,Back-end Developer|DevOps/SysAdmin,I am not sure,No,46,0,46,0,M
+99,100-500,1.0,,Sometimes,28,Female,United States of America,California,United States of America,California,Back-end Developer,Yes,No,28,0,28,0,Female
+100,500-1000,1.0,,Sometimes,40,Male,United States of America,Washington,United States of America,Washington,DevOps/SysAdmin,No,,40,0,40,0,Male
+101,100-500,1.0,,Sometimes,23,Male,United States of America,Pennsylvania,United States of America,Pennsylvania,Back-end Developer,No,No,23,0,23,0,Male
+102,6-25,1.0,,Sometimes,30,Male,United States of America,North Carolina,United States of America,North Carolina,Back-end Developer,I am not sure,No,30,0,30,0,Male
+103,26-100,1.0,,Sometimes,28,Female,United States of America,Illinois,United States of America,Illinois,Designer,I am not sure,No,28,0,28,0,fm
+104,26-100,1.0,,Never,27,Male,Netherlands,,Netherlands,,Back-end Developer|DevOps/SysAdmin|Dev Evangelist/Advocate|Supervisor/Team Lead,I am not sure,Maybe/Not sure,27,0,27,0,Male
+106,26-100,1.0,,Never,39,Female,United States of America,North Carolina,United States of America,North Carolina,Back-end Developer,Yes,Maybe/Not sure,39,0,39,0,f
+107,More than 1000,1.0,,Always,34,Female,United States of America,New York,United States of America,New York,Supervisor/Team Lead,Yes,Maybe/Not sure,34,0,34,0,Female
+108,6-25,1.0,,Sometimes,30,Male,United States of America,North Carolina,United States of America,North Carolina,Front-end Developer|Back-end Developer|DevOps/SysAdmin|Supervisor/Team Lead,Yes,No,30,0,30,0,Male
+111,26-100,1.0,,Always,30,Male,United States of America,California,United States of America,California,Back-end Developer,Yes,No,30,0,30,0,M
+112,More than 1000,1.0,,Sometimes,32,Male,United States of America,Kansas,United States of America,Kansas,Front-end Developer,I am not sure,No,32,0,32,0,Male
+115,26-100,0.0,1.0,Sometimes,51,Male,United States of America,Indiana,United States of America,Indiana,Executive Leadership|Supervisor/Team Lead,Yes,No,51,0,51,0,Male
+116,26-100,0.0,1.0,Sometimes,26,Male,United States of America,Tennessee,United States of America,Tennessee,Back-end Developer|Front-end Developer,No,No,26,0,26,0,Male
+117,26-100,1.0,,Sometimes,41,Female,United States of America,Minnesota,United States of America,Minnesota,Front-end Developer,Yes,"Yes, I observed",41,0,41,0,f
+118,100-500,1.0,,Sometimes,39,Female,United States of America,District of Columbia,United States of America,District of Columbia,Back-end Developer,I am not sure,No,39,0,39,0,F
+119,6-25,1.0,,Sometimes,43,Male,United States of America,Tennessee,United States of America,Tennessee,DevOps/SysAdmin|Back-end Developer,No,Maybe/Not sure,43,0,43,0,M
+120,500-1000,1.0,,Sometimes,30,Male,United Kingdom,,United Kingdom,,Supervisor/Team Lead|Back-end Developer|DevOps/SysAdmin|Dev Evangelist/Advocate,I am not sure,No,30,0,30,0,M
+121,26-100,1.0,,Sometimes,24,Female,United States of America,Illinois,United States of America,Illinois,Designer,Yes,No,24,0,24,0,Female
+123,26-100,0.0,1.0,Sometimes,28,Female,Germany,,Germany,,Back-end Developer|Front-end Developer,Yes,"Yes, I experienced",28,0,28,0,Cis female 
+126,1-5,0.0,1.0,Sometimes,36,Female,United States of America,Indiana,United States of America,Indiana,Other,No,"Yes, I observed",36,0,36,0,F
+128,100-500,1.0,,Sometimes,34,Male,France,,France,,Front-end Developer,No,No,34,0,34,0,Male
+129,26-100,1.0,,Sometimes,44,Female,United States of America,Illinois,United States of America,Illinois,Other,No,No,44,0,44,0,Female
+130,More than 1000,0.0,1.0,Sometimes,45,Male,United States of America,Georgia,United States of America,Georgia,Back-end Developer,I am not sure,No,45,0,45,0,Male
+131,6-25,1.0,,Sometimes,45,Male,United States of America,Oregon,United States of America,Oregon,Back-end Developer|Front-end Developer,No,"Yes, I observed",45,0,45,0,M
+132,500-1000,1.0,,Sometimes,30,Male,United States of America,Utah,United States of America,Utah,Back-end Developer,I am not sure,"Yes, I observed",30,0,30,0,male
+133,More than 1000,0.0,1.0,Sometimes,34,Male,United States of America,Tennessee,United States of America,Tennessee,Back-end Developer,No,"Yes, I observed",34,0,34,0,Male
+134,More than 1000,1.0,,Sometimes,37,Male,United States of America,Connecticut,United States of America,Connecticut,Back-end Developer|Front-end Developer,No,Maybe/Not sure,37,0,37,0,Male
+135,More than 1000,0.0,1.0,Sometimes,38,Male,United States of America,Tennessee,United States of America,Tennessee,DevOps/SysAdmin,I am not sure,No,38,0,38,0,Male
+136,26-100,1.0,,Sometimes,31,Male,United States of America,Virginia,United States of America,Virginia,Front-end Developer,No,No,31,0,31,0,Male
+137,26-100,1.0,,Always,33,Male,United States of America,Florida,United States of America,Florida,Other,I am not sure,No,33,0,33,0,Male
+138,100-500,1.0,,Sometimes,29,Female,United States of America,New York,United States of America,New York,Other,Yes,Maybe/Not sure,29,0,29,0,female
+139,100-500,1.0,,Sometimes,35,Male,United States of America,California,United States of America,California,Back-end Developer,Yes,"Yes, I experienced",35,0,35,0,M
+140,1-5,1.0,,Always,42,Female,Canada,,Canada,,Executive Leadership|Supervisor/Team Lead|Dev Evangelist/Advocate|DevOps/SysAdmin|Back-end Developer|Front-end Developer,Yes,"Yes, I experienced",42,0,42,0,"Transitioned, M2F"
+141,26-100,1.0,,Sometimes,26,Female,United States of America,Illinois,United States of America,Illinois,Supervisor/Team Lead|Front-end Developer,No,Maybe/Not sure,26,0,26,0,Female
+142,500-1000,1.0,,Always,36,Female,United States of America,Maryland,United States of America,Maryland,Front-end Developer,No,Maybe/Not sure,36,0,36,0,f
+143,26-100,1.0,,Never,21,Male,United Kingdom,,United Kingdom,,Front-end Developer,I am not sure,No,21,0,21,0,male
+144,26-100,1.0,,Sometimes,34,Female,United States of America,Washington,United States of America,Washington,Supervisor/Team Lead,I am not sure,No,34,0,34,0,F
+146,26-100,1.0,,Sometimes,35,Male,United States of America,Indiana,United States of America,Indiana,Other|Back-end Developer|Front-end Developer|Designer,No,"Yes, I experienced",35,0,35,0,Male
+147,6-25,1.0,,Sometimes,44,Male,United States of America,Oregon,United States of America,Oregon,Executive Leadership|DevOps/SysAdmin|Back-end Developer,Yes,Maybe/Not sure,44,0,44,0,Male
+148,6-25,1.0,,Sometimes,35,Female,Canada,,Canada,,Front-end Developer,No,"Yes, I experienced",35,0,35,0,Genderfluid (born female)
+149,More than 1000,1.0,,Sometimes,45,Male,United States of America,Michigan,United States of America,Michigan,Other,,"Yes, I observed",45,0,45,0,m
+150,More than 1000,0.0,1.0,Sometimes,42,Male,United States of America,Illinois,United States of America,Illinois,Supervisor/Team Lead,Yes,No,42,0,42,0,m
+153,100-500,1.0,,Always,36,Male,United States of America,Illinois,United States of America,New York,Back-end Developer,No,No,36,0,36,0,Male
+155,26-100,1.0,,Always,29,Male,United States of America,Oregon,United States of America,Oregon,Back-end Developer,No,No,29,0,29,0,Male
+156,100-500,1.0,,Never,37,Male,United States of America,California,United States of America,California,Other,No,No,37,0,37,0,Male
+157,26-100,1.0,,Sometimes,31,Male,United States of America,California,United States of America,California,Dev Evangelist/Advocate|Support,I am not sure,Maybe/Not sure,31,0,31,0,m
+158,More than 1000,0.0,1.0,Always,42,Male,Canada,,Canada,,Supervisor/Team Lead|Front-end Developer|Back-end Developer|DevOps/SysAdmin,No,,42,0,42,0,Male
+159,500-1000,1.0,,Sometimes,25,Male,United States of America,Indiana,United States of America,Indiana,Support,Yes,No,25,0,25,0,Male
+160,6-25,1.0,,Sometimes,27,Male,United States of America,California,United States of America,California,Executive Leadership,Yes,"Yes, I experienced",27,0,27,0,Male
+161,More than 1000,0.0,1.0,Never,41,Female,United States of America,Ohio,United States of America,Ohio,Back-end Developer,Yes,Maybe/Not sure,41,0,41,0,Female
+162,100-500,1.0,,Sometimes,41,Female,United States of America,California,United States of America,California,Executive Leadership,Yes,Maybe/Not sure,41,0,41,0,Female
+164,More than 1000,1.0,,Never,21,Male,United States of America,California,United States of America,California,Dev Evangelist/Advocate,Yes,Maybe/Not sure,21,0,21,0,Male
+165,More than 1000,0.0,1.0,Never,37,Male,Netherlands,,Netherlands,,Supervisor/Team Lead,I am not sure,No,37,0,37,0,male
+166,More than 1000,0.0,1.0,Sometimes,34,Female,Netherlands,,Netherlands,,Front-end Developer,No,,34,0,34,0,female
+167,More than 1000,0.0,1.0,Never,40,Male,United Kingdom,,United Kingdom,,Back-end Developer,Yes,No,40,0,40,0,Male
+169,More than 1000,0.0,1.0,Sometimes,36,Male,Germany,,Germany,,Other,I am not sure,Maybe/Not sure,36,0,36,0,male
+170,26-100,1.0,,Never,25,Male,Germany,,Germany,,Front-end Developer,I am not sure,"Yes, I observed",25,0,25,0,Male
+171,100-500,1.0,,Always,35,Male,United States of America,Florida,United States of America,Florida,Front-end Developer|Back-end Developer,I am not sure,No,35,0,35,0,male
+172,6-25,1.0,,Always,37,Male,United States of America,North Carolina,United States of America,North Carolina,Back-end Developer,I am not sure,Maybe/Not sure,37,0,37,0,male
+173,More than 1000,0.0,1.0,Sometimes,45,Male,United States of America,Ohio,United States of America,Ohio,Back-end Developer|Front-end Developer,No,No,45,0,45,0,Male
+174,6-25,1.0,,Never,26,Male,United States of America,Oregon,United States of America,Oregon,Front-end Developer,,Maybe/Not sure,26,0,26,0,Male
+175,26-100,1.0,,Sometimes,23,Male,United States of America,Illinois,United States of America,Illinois,Front-end Developer,I am not sure,No,23,0,23,0,Male
+176,26-100,1.0,,Sometimes,22,Female,United States of America,Oregon,United States of America,Oregon,Front-end Developer,Yes,"Yes, I observed",22,0,22,0,Female
+177,26-100,1.0,,Always,46,Female,United States of America,Illinois,United States of America,Illinois,Back-end Developer,I am not sure,Maybe/Not sure,46,0,46,0,Female
+178,6-25,1.0,,Sometimes,31,Male,United Kingdom,,United Kingdom,,Other,,No,31,0,31,0,Male
+179,100-500,1.0,,Always,27,Male,United States of America,Virginia,United States of America,California,Dev Evangelist/Advocate|Back-end Developer|Support,I am not sure,No,27,0,27,0,Male
+180,6-25,1.0,,Sometimes,37,Male,United Kingdom,,United Kingdom,,Back-end Developer|DevOps/SysAdmin,,No,37,0,37,0,male
+181,100-500,1.0,,Never,37,Male,United Kingdom,,United Kingdom,,DevOps/SysAdmin,I am not sure,No,37,0,37,0,Male
+182,1-5,1.0,,Sometimes,26,Other,Netherlands,,Netherlands,,Executive Leadership|DevOps/SysAdmin|Back-end Developer|Support,,"Yes, I experienced",26,0,26,0,Other/Transfeminine
+183,500-1000,1.0,,Never,23,Male,Netherlands,,Netherlands,,Back-end Developer,No,No,23,0,23,0,M
+184,26-100,1.0,,Never,40,Male,United States of America,Ohio,United States of America,Ohio,DevOps/SysAdmin|Support|Back-end Developer|Front-end Developer,Yes,"Yes, I observed",40,0,40,0,Male
+185,1-5,1.0,,Sometimes,29,Male,Denmark,,Denmark,,Back-end Developer|DevOps/SysAdmin,No,No,29,0,29,0,M
+186,100-500,1.0,,Sometimes,37,Male,United States of America,Oregon,United States of America,California,Dev Evangelist/Advocate|Back-end Developer|Front-end Developer,Yes,No,37,0,37,0,Male
+187,100-500,1.0,,Never,34,Female,United States of America,California,United States of America,California,Other|HR,Yes,Maybe/Not sure,34,0,34,0,female
+188,More than 1000,1.0,,Sometimes,40,Male,United States of America,Iowa,United States of America,Iowa,Support|Back-end Developer,No,No,40,0,40,0,male
+189,500-1000,1.0,,Sometimes,39,Male,United States of America,California,United States of America,California,Supervisor/Team Lead|Back-end Developer,No,Maybe/Not sure,39,0,39,0,Male
+190,500-1000,1.0,,Always,28,Male,United States of America,Washington,United States of America,Washington,Back-end Developer,I am not sure,No,28,0,28,0,Male
+192,26-100,1.0,,Sometimes,27,Male,Germany,,Germany,,Back-end Developer,No,No,27,0,27,0,Male
+194,More than 1000,1.0,,Sometimes,49,Female,United States of America,Connecticut,United States of America,Connecticut,DevOps/SysAdmin|Support,Yes,"Yes, I observed",49,0,49,0,Female
+195,26-100,1.0,,Never,35,Male,United Kingdom,,United Kingdom,,Back-end Developer,I am not sure,No,35,0,35,0,Male
+196,100-500,1.0,,Sometimes,35,Male,Sweden,,Sweden,,Supervisor/Team Lead|Back-end Developer,No,"Yes, I observed",35,0,35,0,Male
+198,500-1000,1.0,,Sometimes,32,Male,United States of America,California,United States of America,California,Executive Leadership|Supervisor/Team Lead,Yes,Maybe/Not sure,32,0,32,0,Male
+199,More than 1000,1.0,,Sometimes,42,Male,United States of America,Ohio,United States of America,Ohio,Supervisor/Team Lead|Back-end Developer,Yes,No,42,0,42,0,Male
+200,100-500,1.0,,Always,33,Female,United States of America,Texas,United States of America,Texas,Support,Yes,Maybe/Not sure,33,0,33,0,female
+201,26-100,1.0,,Always,35,Male,United Kingdom,,United Kingdom,,Back-end Developer|DevOps/SysAdmin|Supervisor/Team Lead,,No,35,0,35,0,Male
+202,500-1000,1.0,,Sometimes,24,Male,Russia,,Russia,,Front-end Developer|Back-end Developer,No,No,24,0,24,0,M
+203,500-1000,1.0,,Sometimes,29,Female,United States of America,California,United States of America,California,Other,Yes,"Yes, I observed",29,0,29,0,Female or Multi-Gender Femme
+204,100-500,1.0,,Always,29,Male,United States of America,Minnesota,United States of America,Minnesota,Supervisor/Team Lead|Back-end Developer|Front-end Developer,I am not sure,Maybe/Not sure,29,0,29,0,Male
+205,6-25,1.0,,Sometimes,24,Male,United Kingdom,,United Kingdom,,Supervisor/Team Lead,,,24,0,24,0,Male
+206,500-1000,1.0,,Always,30,Male,Sweden,,Sweden,,Designer|Front-end Developer|Back-end Developer,No,No,30,0,30,0,Male
+207,26-100,1.0,,Always,30,Male,United States of America,Colorado,United States of America,Colorado,DevOps/SysAdmin|Back-end Developer,No,No,30,0,30,0,male
+208,6-25,1.0,,Always,44,Male,United States of America,Indiana,United States of America,Indiana,Support,No,No,44,0,44,0,male
+209,100-500,1.0,,Always,37,Male,United Kingdom,,United Kingdom,,Dev Evangelist/Advocate,I am not sure,No,37,0,37,0,Male
+210,500-1000,1.0,,Sometimes,28,Male,Germany,,Germany,,Other,No,No,28,0,28,0,Male
+211,100-500,1.0,,Always,42,Male,United States of America,South Dakota,United States of America,South Dakota,Supervisor/Team Lead,Yes,No,42,0,42,0,Male
+212,1-5,1.0,,Sometimes,30,Female,United Kingdom,,United Kingdom,,Supervisor/Team Lead|Back-end Developer|Front-end Developer|Designer,No,"Yes, I experienced",30,0,30,0,female
+213,100-500,1.0,,Sometimes,36,Male,Russia,,Russia,,Support,I am not sure,No,36,0,36,0,m
+214,500-1000,1.0,,Sometimes,30,Male,Russia,,Russia,,Back-end Developer,No,No,30,0,30,0,male
+215,6-25,1.0,,Always,29,Male,United States of America,Nevada,United States of America,Nevada,Back-end Developer,No,,29,0,29,0,Male
+216,500-1000,1.0,,Sometimes,25,Male,United States of America,California,United States of America,California,Other,No,No,25,0,25,0,male
+217,26-100,1.0,,Sometimes,25,Male,Belgium,,Belgium,,Back-end Developer,,No,25,0,25,0,Male
+218,500-1000,1.0,,Never,24,Male,Russia,,Russia,,Other|Back-end Developer|Front-end Developer,I am not sure,No,24,0,24,0,Male
+219,More than 1000,1.0,,Sometimes,25,Male,Russia,,Russia,,Back-end Developer,No,No,25,0,25,0,m
+220,26-100,1.0,,Never,31,Male,Denmark,,Denmark,,Executive Leadership|Supervisor/Team Lead,Yes,No,31,0,31,0,Male 
+221,26-100,1.0,,Sometimes,37,Male,Canada,,Canada,,Back-end Developer,No,Maybe/Not sure,37,0,37,0,M
+222,100-500,1.0,,Never,35,Male,United States of America,California,United States of America,California,Back-end Developer,No,No,35,0,35,0,Male
+223,6-25,1.0,,Sometimes,26,Female,Spain,,Spain,,Front-end Developer|Back-end Developer,,No,26,0,26,0,female
+224,100-500,1.0,,Always,31,Male,United Kingdom,,United Kingdom,,Back-end Developer|DevOps/SysAdmin,Yes,Maybe/Not sure,31,0,31,0,Male
+225,500-1000,1.0,,Always,29,Female,United States of America,California,United States of America,Hawaii,Support|Other,I am not sure,No,29,0,29,0,female
+226,26-100,1.0,,Sometimes,33,Male,France,,France,,Back-end Developer,No,"Yes, I observed",33,0,33,0,M
+227,26-100,1.0,,Always,30,Male,India,,India,,Supervisor/Team Lead,I am not sure,No,30,0,30,0,M
+228,26-100,1.0,,Sometimes,30,Male,United States of America,Florida,United States of America,Florida,Back-end Developer,Yes,No,30,0,30,0,M
+229,100-500,1.0,,Never,29,Female,United States of America,California,United States of America,California,Other,Yes,"Yes, I experienced",29,0,29,0,female
+230,26-100,1.0,,Sometimes,25,Female,United States of America,California,United States of America,California,HR,No,Maybe/Not sure,25,0,25,0,Female
+231,More than 1000,0.0,1.0,Never,27,Male,United States of America,Nebraska,United States of America,Nebraska,Back-end Developer,Yes,"Yes, I observed",27,0,27,0,Male
+232,500-1000,1.0,,Sometimes,26,Male,Germany,,Germany,,Executive Leadership,I am not sure,,26,0,26,0,Male
+233,500-1000,1.0,,Always,38,Female,United States of America,Maine,United States of America,Maine,Other,Yes,No,38,0,38,0,Female
+234,More than 1000,1.0,,Sometimes,49,Male,United States of America,Missouri,United States of America,Missouri,Other,Yes,Maybe/Not sure,49,0,49,0,Male
+235,26-100,1.0,,Sometimes,30,Male,United States of America,Arizona,United States of America,Arizona,Dev Evangelist/Advocate,Yes,No,30,0,30,0,Male
+237,100-500,1.0,,Never,31,Male,Russia,,Russia,,Front-end Developer|Back-end Developer,No,"Yes, I observed",31,0,31,0,male
+239,100-500,1.0,,Sometimes,31,Male,Germany,,Germany,,Back-end Developer,No,No,31,0,31,0,m
+240,100-500,1.0,,Never,34,Male,Germany,,Germany,,Front-end Developer,I am not sure,No,34,0,34,0,male
+241,6-25,1.0,,Sometimes,28,Male,United States of America,Oklahoma,United States of America,Oklahoma,Front-end Developer|Back-end Developer|Support,No,No,28,0,28,0,Male
+243,500-1000,1.0,,Always,27,Male,Germany,,Germany,,Back-end Developer,I am not sure,No,27,0,27,0,Male 
+245,6-25,1.0,,Sometimes,37,Female,United States of America,New York,United States of America,New York,Other,I am not sure,No,37,0,37,0,Female
+246,More than 1000,1.0,,Sometimes,45,Male,United Kingdom,,United Kingdom,,Supervisor/Team Lead|DevOps/SysAdmin,,"Yes, I experienced",45,0,45,0,Male
+247,6-25,1.0,,Always,31,Female,United States of America,Oregon,United States of America,Wisconsin,Front-end Developer|Designer,,"Yes, I observed",31,0,31,0,woman
+248,More than 1000,0.0,1.0,Never,36,Male,United States of America,Arizona,United States of America,Arizona,Back-end Developer|Front-end Developer,I am not sure,,36,0,36,0,M
+249,500-1000,1.0,,Never,30,Male,United States of America,California,United States of America,California,Other|Support,Yes,Maybe/Not sure,30,0,30,0,M
+250,More than 1000,1.0,,Sometimes,33,Female,United States of America,Washington,United Arab Emirates,,Dev Evangelist/Advocate,Yes,No,33,0,33,0,female
+251,500-1000,1.0,,Always,45,Female,Canada,,Canada,,HR,I am not sure,"Yes, I experienced",45,0,45,0,female
+252,26-100,1.0,,Sometimes,30,Female,United States of America,Michigan,United States of America,Michigan,Supervisor/Team Lead,Yes,"Yes, I observed",30,0,30,0,Female
+253,26-100,1.0,,Sometimes,30,Male,United States of America,Michigan,United States of America,Michigan,Supervisor/Team Lead|Front-end Developer,Yes,"Yes, I experienced",30,0,30,0,male
+255,1-5,0.0,1.0,Sometimes,36,Male,Mexico,,Mexico,,DevOps/SysAdmin|Executive Leadership,Yes,No,36,0,36,0,Male
+256,26-100,1.0,,Never,28,Male,United States of America,Michigan,United States of America,Michigan,Front-end Developer,Yes,"Yes, I experienced",28,0,28,0,Male
+257,26-100,1.0,,Sometimes,36,Male,United States of America,Michigan,United States of America,Michigan,Front-end Developer,I am not sure,No,36,0,36,0,Male
+258,500-1000,1.0,,Sometimes,37,Female,United States of America,California,United States of America,California,Executive Leadership,Yes,Maybe/Not sure,37,0,37,0,female
+259,26-100,1.0,,Sometimes,29,Male,United States of America,Michigan,United States of America,Michigan,Front-end Developer,I am not sure,No,29,0,29,0,Male
+260,26-100,1.0,,Sometimes,25,Male,United States of America,Michigan,United States of America,Michigan,DevOps/SysAdmin|Back-end Developer|Front-end Developer,Yes,Maybe/Not sure,25,0,25,0,Male
+261,26-100,1.0,,Sometimes,34,Female,United States of America,Michigan,United States of America,Michigan,Supervisor/Team Lead,No,"Yes, I observed",34,0,34,0,f
+262,More than 1000,0.0,1.0,Sometimes,37,Male,Canada,,Canada,,Support,Yes,"Yes, I observed",37,0,37,0,M
+263,More than 1000,1.0,,Sometimes,40,Female,United States of America,Washington,United States of America,Washington,Executive Leadership|Dev Evangelist/Advocate,Yes,"Yes, I experienced",40,0,40,0,Female
+264,100-500,1.0,,Always,32,Male,United States of America,Texas,United States of America,Texas,DevOps/SysAdmin,Yes,Maybe/Not sure,32,0,32,0,Male
+265,26-100,1.0,,Never,38,Male,United Kingdom,,United Kingdom,,Back-end Developer|Dev Evangelist/Advocate,No,Maybe/Not sure,38,0,38,0,Male
+266,26-100,1.0,,Sometimes,31,Female,United States of America,Michigan,United States of America,Michigan,Front-end Developer,I am not sure,"Yes, I experienced",31,0,31,0,Female
+267,26-100,1.0,,Sometimes,28,Female,United States of America,Michigan,United States of America,Michigan,Other,Yes,Maybe/Not sure,28,0,28,0,female
+268,100-500,1.0,,Sometimes,27,Female,United Kingdom,,United Kingdom,,Other,No,"Yes, I experienced",27,0,27,0,female
+269,26-100,1.0,,Sometimes,28,Female,United States of America,Michigan,United States of America,Michigan,Front-end Developer,Yes,"Yes, I observed",28,0,28,0,female
+270,6-25,1.0,,Always,26,Male,Germany,,Germany,,Front-end Developer|Back-end Developer,Yes,No,26,0,26,0,Male
+271,26-100,1.0,,Sometimes,40,Male,United States of America,Michigan,United States of America,Michigan,Support|HR|Supervisor/Team Lead|Executive Leadership,Yes,No,40,0,40,0,Male
+272,More than 1000,1.0,,Sometimes,42,Male,United States of America,Washington,United States of America,Washington,Dev Evangelist/Advocate,Yes,"Yes, I experienced",42,0,42,0,Male
+273,26-100,1.0,,Never,36,Male,United States of America,Michigan,United States of America,Michigan,Front-end Developer,I am not sure,No,36,0,36,0,Male
+275,500-1000,1.0,,Never,24,Male,United States of America,Michigan,United States of America,Michigan,Back-end Developer,Yes,Maybe/Not sure,24,0,24,0,Male
+276,100-500,0.0,1.0,Never,44,Male,United States of America,Kansas,United States of America,Kansas,Supervisor/Team Lead|DevOps/SysAdmin|Support|Back-end Developer|Front-end Developer|Designer,I am not sure,Maybe/Not sure,44,0,44,0,Male
+277,More than 1000,1.0,,Always,31,Male,United States of America,Washington,United States of America,Washington,Dev Evangelist/Advocate,I am not sure,No,31,0,31,0,Male
+279,26-100,1.0,,Sometimes,27,Female,United States of America,California,United States of America,California,Back-end Developer|Front-end Developer,No,Maybe/Not sure,27,0,27,0,female/woman
+280,More than 1000,1.0,,Always,27,Male,United States of America,Florida,United States of America,Florida,Supervisor/Team Lead|Back-end Developer|DevOps/SysAdmin,I am not sure,"Yes, I observed",27,0,27,0,Cis male
+281,100-500,1.0,,Sometimes,28,Male,United States of America,California,United States of America,California,Supervisor/Team Lead|DevOps/SysAdmin|Back-end Developer,Yes,No,28,0,28,0,Male
+282,6-25,1.0,,Never,20,Female,United States of America,California,United States of America,California,Back-end Developer|Front-end Developer,Yes,No,20,0,20,0,Female
+284,100-500,0.0,1.0,Sometimes,38,Male,Australia,,Australia,,Back-end Developer,,"Yes, I experienced",38,0,38,0,Male
+285,100-500,1.0,,Never,29,Male,United States of America,California,United States of America,California,Other,No,Maybe/Not sure,29,0,29,0,male
+286,100-500,1.0,,Always,44,Female,United States of America,Oregon,United States of America,Oregon,Supervisor/Team Lead,No,"Yes, I experienced",44,0,44,0,f
+287,500-1000,1.0,,Sometimes,31,Male,United States of America,California,United States of America,California,Back-end Developer,I am not sure,No,31,0,31,0,Male.
+288,6-25,1.0,,Sometimes,54,Male,United States of America,Idaho,United States of America,Virginia,Back-end Developer,No,"Yes, I observed",54,0,54,0,m
+289,500-1000,1.0,,Sometimes,33,Male,Germany,,Germany,,Back-end Developer,No,No,33,0,33,0,m
+290,6-25,1.0,,Never,29,Male,Netherlands,,Netherlands,,Back-end Developer,No,"Yes, I observed",29,0,29,0,male
+291,26-100,1.0,,Sometimes,26,Other,United Kingdom,,United Kingdom,,DevOps/SysAdmin|Back-end Developer,I am not sure,Maybe/Not sure,26,0,26,0,Androgynous
+292,26-100,1.0,,Never,26,Male,United Kingdom,,United Kingdom,,Back-end Developer,No,No,26,0,26,0,male
+294,100-500,1.0,,Sometimes,38,Female,United States of America,New York,United States of America,New Jersey,Back-end Developer,No,No,38,0,38,0,Female
+295,100-500,1.0,,Sometimes,30,Male,United Kingdom,,United Kingdom,,Back-end Developer,No,No,30,0,30,0,Male
+297,More than 1000,1.0,,Sometimes,47,Female,Australia,,Australia,,Support,I am not sure,"Yes, I experienced",47,0,47,0,F
+298,100-500,0.0,1.0,Sometimes,33,Female,Switzerland,,Switzerland,,Back-end Developer,I am not sure,"Yes, I experienced",33,0,33,0,Female
+299,More than 1000,0.0,1.0,Sometimes,22,Male,United Kingdom,,United Kingdom,,Front-end Developer,,"Yes, I observed",22,0,22,0,Male
+300,6-25,1.0,,Never,28,Male,United Kingdom,,United Kingdom,,Front-end Developer,,Maybe/Not sure,28,0,28,0,"male 9:1 female, roughly"
+301,500-1000,1.0,,Always,31,Male,United Kingdom,,United Kingdom,,Support,Yes,"Yes, I experienced",31,0,31,0,m
+302,More than 1000,0.0,1.0,Sometimes,24,,United Kingdom,,United Kingdom,,Back-end Developer|Front-end Developer,,"Yes, I observed",24,0,24,0,
+303,1-5,0.0,1.0,Sometimes,56,Male,Australia,,Australia,,DevOps/SysAdmin,I am not sure,"Yes, I observed",56,0,56,0,m
+305,100-500,1.0,,Always,39,Male,Spain,,United States of America,New York,Back-end Developer,I am not sure,Maybe/Not sure,39,0,39,0,M
+306,1-5,1.0,,Never,21,Male,United Kingdom,,United Kingdom,,DevOps/SysAdmin|Front-end Developer|Back-end Developer|Support,No,No,21,0,21,0,Male
+307,500-1000,1.0,,Sometimes,31,Female,Russia,,Russia,,Dev Evangelist/Advocate,No,Maybe/Not sure,31,0,31,0,female
+310,6-25,1.0,,Never,32,Female,United Kingdom,,United Kingdom,,Back-end Developer,No,Maybe/Not sure,32,0,32,0,Female
+312,100-500,1.0,,Sometimes,34,Male,United Kingdom,,United Kingdom,,Supervisor/Team Lead,I am not sure,No,34,0,34,0,Male
+313,6-25,1.0,,Always,35,Male,United States of America,Illinois,United States of America,Illinois,Supervisor/Team Lead|Back-end Developer|Front-end Developer,,No,35,0,35,0,male
+314,26-100,1.0,,Sometimes,31,Male,Norway,,Norway,,Executive Leadership,I am not sure,Maybe/Not sure,31,0,31,0,Male
+316,26-100,0.0,1.0,Sometimes,36,Male,United States of America,Indiana,United States of America,Indiana,Supervisor/Team Lead,No,No,36,0,36,0,Male
+317,26-100,1.0,,Sometimes,50,Male,United States of America,Minnesota,United States of America,Minnesota,Back-end Developer,I am not sure,No,50,0,50,0,Male
+318,6-25,1.0,,Sometimes,31,Male,United States of America,Indiana,United States of America,Indiana,Supervisor/Team Lead,I am not sure,No,31,0,31,0,Male
+319,100-500,1.0,,Never,47,Male,United States of America,Vermont,United States of America,Vermont,Dev Evangelist/Advocate|Back-end Developer,Yes,No,47,0,47,0,male
+320,6-25,1.0,,Never,32,Female,Canada,,Canada,,Front-end Developer|Back-end Developer|Supervisor/Team Lead,I am not sure,Maybe/Not sure,32,0,32,0,Female
+321,26-100,1.0,,Never,23,Female,Canada,,Canada,,Designer,Yes,"Yes, I experienced",23,0,23,0,Female
+322,6-25,1.0,,Sometimes,43,Female,Canada,,Canada,,Sales,I am not sure,No,43,0,43,0,Female
+323,6-25,1.0,,Sometimes,26,Female,Canada,,Canada,,Designer,Yes,"Yes, I observed",26,0,26,0,Female
+324,26-100,1.0,,Never,26,Female,Canada,,Canada,,Other,I am not sure,Maybe/Not sure,26,0,26,0,female
+325,6-25,1.0,,Sometimes,55,Female,Canada,,Canada,,Executive Leadership,Yes,"Yes, I observed",55,0,55,0,Female
+326,6-25,1.0,,Never,27,Male,Canada,,Canada,,Other,No,Maybe/Not sure,27,0,27,0,Male
+327,100-500,1.0,,Always,34,Male,Argentina,,Argentina,,Other,No,Maybe/Not sure,34,0,34,0,Male
+328,26-100,1.0,,Never,25,Male,India,,India,,Back-end Developer,,,25,0,25,0,Male
+329,26-100,0.0,1.0,Sometimes,35,Male,United States of America,Indiana,United States of America,Indiana,Supervisor/Team Lead|DevOps/SysAdmin|Back-end Developer|Front-end Developer,No,No,35,0,35,0,male
+331,26-100,1.0,,Sometimes,38,Female,United States of America,Illinois,United States of America,Illinois,Other,I am not sure,"Yes, I experienced",38,0,38,0,Female
+332,26-100,1.0,,Never,29,Male,Canada,,Canada,,Front-end Developer,No,No,29,0,29,0,male
+333,500-1000,1.0,,Always,28,Male,United Kingdom,,United Kingdom,,Designer,Yes,No,28,0,28,0,Male
+334,6-25,1.0,,Always,29,Male,United Kingdom,,United States of America,Washington,Supervisor/Team Lead|Back-end Developer|Front-end Developer,,Maybe/Not sure,29,0,29,0,Male
+335,More than 1000,1.0,,Always,40,Male,United States of America,New York,United States of America,New York,Dev Evangelist/Advocate,I am not sure,"Yes, I observed",40,0,40,0,male
+336,26-100,1.0,,Sometimes,25,Female,United States of America,Michigan,United States of America,Michigan,Front-end Developer|Supervisor/Team Lead,Yes,,25,0,25,0,Female
+338,26-100,1.0,,Sometimes,29,Female,United States of America,Minnesota,United States of America,Minnesota,Supervisor/Team Lead|DevOps/SysAdmin,Yes,"Yes, I experienced",29,0,29,0,F
+339,1-5,1.0,,Sometimes,35,Male,Netherlands,,Netherlands,,Supervisor/Team Lead|DevOps/SysAdmin|Back-end Developer|Designer|Front-end Developer,Yes,No,35,0,35,0,M
+341,26-100,1.0,,Sometimes,43,Male,United States of America,Virginia,United States of America,Virginia,DevOps/SysAdmin,Yes,"Yes, I observed",43,0,43,0,Male
+342,6-25,1.0,,Never,26,Male,Ireland,,Ireland,,Front-end Developer|Back-end Developer|DevOps/SysAdmin,,"Yes, I experienced",26,0,26,0,Male
+343,100-500,1.0,,Never,31,Male,Germany,,Germany,,Back-end Developer,No,Maybe/Not sure,31,0,31,0,male
+344,100-500,1.0,,Always,31,Female,United States of America,Illinois,United States of America,Illinois,Other,Yes,Maybe/Not sure,31,0,31,0,female
+345,More than 1000,0.0,1.0,Always,45,Female,United States of America,Texas,United States of America,Texas,DevOps/SysAdmin|Back-end Developer,No,"Yes, I experienced",45,0,45,0,F
+346,More than 1000,1.0,,Never,23,Male,Italy,,Italy,,Front-end Developer|Back-end Developer|DevOps/SysAdmin,No,,23,0,23,0,Male
+347,6-25,1.0,,Never,39,Male,United States of America,Rhode Island,United States of America,Rhode Island,Supervisor/Team Lead,No,No,39,0,39,0,Male
+348,26-100,1.0,,Sometimes,27,Female,United States of America,Illinois,United States of America,Illinois,Other,I am not sure,No,27,0,27,0,Female
+349,100-500,1.0,,Sometimes,28,Male,United States of America,Illinois,United States of America,Illinois,Back-end Developer|Front-end Developer,I am not sure,"Yes, I observed",28,0,28,0,Male
+350,500-1000,1.0,,Always,36,Male,United States of America,Pennsylvania,United States of America,Pennsylvania,Dev Evangelist/Advocate|DevOps/SysAdmin,No,No,36,0,36,0,Male
+351,100-500,1.0,,Never,22,Male,Germany,,Germany,,Back-end Developer,No,No,22,0,22,0,male
+352,1-5,1.0,,Never,51,Male,United States of America,California,United States of America,California,Support|Back-end Developer|Front-end Developer,I am not sure,"Yes, I observed",51,0,51,0,Male
+355,More than 1000,0.0,1.0,Sometimes,28,Male,United States of America,Kansas,United States of America,Kansas,DevOps/SysAdmin|Support,I am not sure,No,28,0,28,0,male
+356,100-500,1.0,,Always,40,Male,United States of America,Illinois,United States of America,Illinois,Dev Evangelist/Advocate|Back-end Developer|Designer|Front-end Developer,No,Maybe/Not sure,40,0,40,0,M
+357,26-100,1.0,,Sometimes,35,Female,United States of America,Minnesota,United States of America,Minnesota,Supervisor/Team Lead|Back-end Developer,Yes,Maybe/Not sure,35,0,35,0,Female
+358,100-500,1.0,,Never,38,Male,United States of America,California,United States of America,California,Supervisor/Team Lead,Yes,Maybe/Not sure,38,0,38,0,Male
+359,100-500,1.0,,Always,29,Male,United States of America,Michigan,United States of America,California,Back-end Developer,I am not sure,"Yes, I observed",29,0,29,0,Male
+361,500-1000,1.0,,Always,31,Female,United States of America,Oregon,United States of America,Oregon,Back-end Developer,No,"Yes, I observed",31,0,31,0,f
+362,100-500,1.0,,Sometimes,45,Male,United States of America,Vermont,United States of America,Vermont,Other,No,Maybe/Not sure,45,0,45,0,male
+363,100-500,1.0,,Sometimes,26,Male,United States of America,Texas,United States of America,Texas,Other|Dev Evangelist/Advocate|Sales|Back-end Developer|Front-end Developer,I am not sure,No,26,0,26,0,Male
+364,100-500,1.0,,Always,42,Male,United States of America,Maryland,United States of America,Maryland,DevOps/SysAdmin|Dev Evangelist/Advocate|Supervisor/Team Lead|Executive Leadership,Yes,No,42,0,42,0,Male
+365,100-500,1.0,,Always,28,Female,United States of America,New York,United States of America,New York,Support,I am not sure,Maybe/Not sure,28,0,28,0,f
+366,6-25,1.0,,Sometimes,28,Male,United Kingdom,,United Kingdom,,One-person shop,,No,28,0,28,0,Male
+367,100-500,1.0,,Sometimes,39,Female,United States of America,California,United States of America,California,Back-end Developer,No,"Yes, I observed",39,0,39,0,female
+368,6-25,1.0,,Sometimes,34,Male,United States of America,New York,United States of America,New York,Supervisor/Team Lead|DevOps/SysAdmin|Back-end Developer|Designer,I am not sure,No,34,0,34,0,Male (cis)
+369,26-100,1.0,,Always,28,Female,United States of America,Pennsylvania,United States of America,Pennsylvania,Support|Back-end Developer,No,"Yes, I experienced",28,0,28,0,Female
+370,500-1000,1.0,,Sometimes,35,Female,United States of America,California,United States of America,California,Supervisor/Team Lead,Yes,"Yes, I observed",35,0,35,0,Female
+371,6-25,1.0,,Sometimes,42,Male,Canada,,Canada,,HR|Supervisor/Team Lead|Executive Leadership,I am not sure,No,42,0,42,0,male
+372,6-25,1.0,,Sometimes,99,Other,United States of America,Michigan,United States of America,Michigan,Supervisor/Team Lead,No,"Yes, I experienced",,1,32,1,Other
+375,26-100,1.0,,Always,28,Male,Canada,,Canada,,Front-end Developer|Back-end Developer,I am not sure,No,28,0,28,0,Male
+376,500-1000,1.0,,Sometimes,22,Female,Russia,,Russia,,Other,No,No,22,0,22,0,F
+377,26-100,1.0,,Sometimes,28,Female,United States of America,California,United States of America,California,Back-end Developer,Yes,"Yes, I experienced",28,0,28,0,female
+379,More than 1000,0.0,1.0,Never,21,Female,Australia,,Australia,,Other,I am not sure,"Yes, I experienced",21,0,21,0,Female 
+380,26-100,1.0,,Never,38,Male,Netherlands,,Netherlands,,Back-end Developer,No,"Yes, I experienced",38,0,38,0,male
+381,More than 1000,0.0,1.0,Sometimes,33,Male,United States of America,California,United States of America,California,DevOps/SysAdmin,Yes,Maybe/Not sure,33,0,33,0,M
+382,100-500,1.0,,Sometimes,28,Female,United States of America,California,United States of America,California,Back-end Developer,I am not sure,Maybe/Not sure,28,0,28,0,Female
+383,26-100,1.0,,Sometimes,32,Male,United States of America,California,United States of America,California,Dev Evangelist/Advocate,Yes,"Yes, I observed",32,0,32,0,Male
+384,1-5,1.0,,Sometimes,24,Female,Australia,,Australia,,Front-end Developer,,Maybe/Not sure,24,0,24,0,Female
+385,500-1000,1.0,,Always,35,Male,United States of America,California,United States of America,California,Other,I am not sure,Maybe/Not sure,35,0,35,0,male
+388,More than 1000,1.0,,Sometimes,24,Female,United States of America,New York,United States of America,New York,Back-end Developer,I am not sure,Maybe/Not sure,24,0,24,0,Female
+389,100-500,1.0,,Sometimes,30,Male,United States of America,Illinois,United States of America,Illinois,Back-end Developer,Yes,No,30,0,30,0,Male
+390,100-500,1.0,,Sometimes,47,Female,United States of America,California,United States of America,California,Sales,Yes,"Yes, I experienced",47,0,47,0,female
+391,More than 1000,1.0,,Never,26,Female,United States of America,Washington,United States of America,Washington,Front-end Developer,I am not sure,No,26,0,26,0,female
+392,100-500,1.0,,Always,32,Male,United States of America,Florida,United States of America,Florida,DevOps/SysAdmin|Supervisor/Team Lead,Yes,No,32,0,32,0,Male
+393,100-500,1.0,,Sometimes,32,Male,United States of America,California,United States of America,California,Back-end Developer,No,"Yes, I observed",32,0,32,0,Male
+394,500-1000,1.0,,Always,37,Male,United States of America,New York,United States of America,New York,Supervisor/Team Lead,No,No,37,0,37,0,male
+396,6-25,1.0,,Sometimes,28,Female,United Kingdom,,United Kingdom,,Sales,,"Yes, I observed",28,0,28,0,f
+397,26-100,1.0,,Never,22,Male,Netherlands,,Netherlands,,Back-end Developer,No,No,22,0,22,0,man
+398,500-1000,1.0,,Sometimes,30,Male,United States of America,California,United States of America,California,Dev Evangelist/Advocate,I am not sure,No,30,0,30,0,Male
+400,100-500,1.0,,Never,34,Male,United States of America,California,United States of America,California,Back-end Developer|DevOps/SysAdmin,I am not sure,Maybe/Not sure,34,0,34,0,male
+401,6-25,1.0,,Sometimes,32,Male,United States of America,California,United States of America,California,Back-end Developer,Yes,"Yes, I experienced",32,0,32,0,Male
+402,100-500,1.0,,Always,37,Male,United Kingdom,,United Kingdom,,Support,No,"Yes, I observed",37,0,37,0,male
+404,26-100,1.0,,Always,31,Male,United States of America,Florida,United States of America,California,Dev Evangelist/Advocate|Support|Back-end Developer,No,No,31,0,31,0,Male
+405,26-100,0.0,1.0,Always,26,Male,Colombia,,Colombia,,Front-end Developer,I am not sure,No,26,0,26,0,male
+407,100-500,1.0,,Sometimes,36,Male,United States of America,Minnesota,United States of America,Minnesota,Supervisor/Team Lead|Back-end Developer,Yes,Maybe/Not sure,36,0,36,0,m
+408,100-500,1.0,,Always,38,Male,United States of America,Missouri,United States of America,California,Back-end Developer,No,"Yes, I observed",38,0,38,0,Male
+409,26-100,1.0,,Sometimes,24,Male,United States of America,Alabama,United States of America,Alabama,Back-end Developer|Front-end Developer,Yes,No,24,0,24,0,Male
+410,100-500,1.0,,Sometimes,26,Male,United States of America,California,United States of America,California,Back-end Developer,No,No,26,0,26,0,male
+411,More than 1000,1.0,,Never,37,Male,United States of America,California,United States of America,California,Dev Evangelist/Advocate|DevOps/SysAdmin,I am not sure,"Yes, I observed",37,0,37,0,Male
+412,26-100,1.0,,Never,27,Female,United Kingdom,,United Kingdom,,Designer,I am not sure,Maybe/Not sure,27,0,27,0,Female
+414,26-100,1.0,,Never,32,Male,Netherlands,,Netherlands,,Back-end Developer,I am not sure,No,32,0,32,0,Male
+415,6-25,0.0,1.0,Never,30,Male,Netherlands,,Netherlands,,Front-end Developer|Back-end Developer|Support|DevOps/SysAdmin,I am not sure,No,30,0,30,0,Male
+416,26-100,1.0,,Always,26,Female,Germany,,Germany,,Dev Evangelist/Advocate,No,No,26,0,26,0,Female
+419,26-100,1.0,,Always,29,Male,Colombia,,Colombia,,Back-end Developer,No,No,29,0,29,0,Male
+420,26-100,1.0,,Never,26,Other,Germany,,Germany,,Back-end Developer|DevOps/SysAdmin,Yes,"Yes, I experienced",26,0,26,0,nb masculine
+421,100-500,1.0,,Never,23,Female,United States of America,California,United States of America,California,Back-end Developer,I am not sure,No,23,0,23,0,Female
+422,100-500,1.0,,Sometimes,30,Male,United States of America,California,United States of America,California,Supervisor/Team Lead|Support,Yes,No,30,0,30,0,Male
+423,More than 1000,0.0,1.0,Sometimes,40,Male,United States of America,Indiana,United States of America,Indiana,Supervisor/Team Lead,No,"Yes, I observed",40,0,40,0,M
+424,100-500,1.0,,Sometimes,46,Male,United States of America,California,United States of America,California,Supervisor/Team Lead|Support,I am not sure,"Yes, I observed",46,0,46,0,male
+425,26-100,1.0,,Sometimes,26,Male,United States of America,Colorado,United States of America,Colorado,Back-end Developer,I am not sure,No,26,0,26,0,Male
+426,More than 1000,1.0,,Sometimes,30,Male,United States of America,California,United States of America,California,DevOps/SysAdmin,Yes,Maybe/Not sure,30,0,30,0,m
+427,100-500,1.0,,Always,27,Female,Canada,,United States of America,California,Back-end Developer,No,No,27,0,27,0,f
+429,26-100,1.0,,Sometimes,26,Female,United States of America,California,United States of America,California,HR|Dev Evangelist/Advocate|Sales,Yes,"Yes, I experienced",26,0,26,0,Cisgender Female
+430,100-500,1.0,,Always,35,Male,Australia,,Australia,,Back-end Developer,No,Maybe/Not sure,35,0,35,0,Male
+431,26-100,0.0,1.0,Never,29,Male,Netherlands,,Netherlands,,DevOps/SysAdmin|Back-end Developer,I am not sure,Maybe/Not sure,29,0,29,0,Male
+432,100-500,1.0,,Sometimes,34,Male,United Kingdom,,United Kingdom,,Back-end Developer|Dev Evangelist/Advocate|Supervisor/Team Lead,,No,34,0,34,0,Male
+434,100-500,1.0,,Sometimes,39,Male,United Kingdom,,United Kingdom,,Executive Leadership,,Maybe/Not sure,39,0,39,0,Male
+435,100-500,1.0,,Sometimes,27,Male,United Kingdom,,United Kingdom,,Back-end Developer|DevOps/SysAdmin,,"Yes, I observed",27,0,27,0,Male
+436,500-1000,1.0,,Sometimes,31,Male,Czech Republic,,Czech Republic,,Supervisor/Team Lead,No,No,31,0,31,0,Male
+437,26-100,0.0,1.0,Never,26,Male,United Kingdom,,United Kingdom,,Supervisor/Team Lead|Front-end Developer|Back-end Developer,No,"Yes, I observed",26,0,26,0,Male
+438,26-100,1.0,,Always,44,Male,United States of America,North Carolina,United States of America,North Carolina,Back-end Developer,No,"Yes, I experienced",44,0,44,0,male
+439,100-500,1.0,,Sometimes,27,Male,United States of America,California,United States of America,California,Back-end Developer,No,Maybe/Not sure,27,0,27,0,male
+440,100-500,0.0,1.0,Sometimes,57,Female,United States of America,Iowa,United States of America,Iowa,Back-end Developer|Front-end Developer|Designer,I am not sure,No,57,0,57,0,Female
+445,More than 1000,0.0,1.0,Never,35,Male,United States of America,Michigan,United States of America,Michigan,Supervisor/Team Lead|DevOps/SysAdmin,I am not sure,"Yes, I observed",35,0,35,0,Male
+446,100-500,1.0,,Always,26,Male,United States of America,New York,United States of America,New York,Back-end Developer,No,Maybe/Not sure,26,0,26,0,Male
+447,6-25,1.0,,Never,22,Female,United States of America,New York,United States of America,New York,Front-end Developer|Back-end Developer,I am not sure,No,22,0,22,0,female
+448,100-500,1.0,,Sometimes,31,Male,United States of America,California,United States of America,California,Back-end Developer,I am not sure,No,31,0,31,0,Male
+449,26-100,1.0,,Never,31,Male,United Kingdom,,United Kingdom,,Back-end Developer,No,,31,0,31,0,male
+451,More than 1000,0.0,1.0,Sometimes,26,Male,United States of America,New York,United States of America,New York,DevOps/SysAdmin|Support|Back-end Developer|Front-end Developer,Yes,Maybe/Not sure,26,0,26,0,m
+452,1-5,1.0,,Sometimes,36,Male,United States of America,Georgia,United States of America,Georgia,One-person shop,,"Yes, I experienced",36,0,36,0,M
+453,26-100,1.0,,Sometimes,33,Male,United States of America,Illinois,United States of America,Illinois,Supervisor/Team Lead|DevOps/SysAdmin|Back-end Developer,Yes,No,33,0,33,0,Male
+454,500-1000,1.0,,Sometimes,24,Female,United States of America,New York,United States of America,New York,Back-end Developer|Front-end Developer,I am not sure,No,24,0,24,0,F
+455,6-25,1.0,,Sometimes,22,Male,Vietnam,,Vietnam,,Front-end Developer|Back-end Developer,No,No,22,0,22,0,male
+456,6-25,1.0,,Always,33,Male,United States of America,Indiana,United States of America,Indiana,Supervisor/Team Lead|DevOps/SysAdmin|Support,Yes,Maybe/Not sure,33,0,33,0,male
+457,More than 1000,1.0,,Sometimes,37,Female,United States of America,California,United States of America,California,Support,No,Maybe/Not sure,37,0,37,0,f
+458,6-25,1.0,,Always,29,Male,United States of America,Washington,United States of America,Ohio,Supervisor/Team Lead|DevOps/SysAdmin|Back-end Developer|Front-end Developer,I am not sure,"Yes, I observed",29,0,29,0,Male
+459,1-5,0.0,1.0,Sometimes,38,Male,United States of America,Tennessee,United States of America,Tennessee,Back-end Developer,,No,38,0,38,0,Male
+460,1-5,1.0,,Sometimes,33,Male,United States of America,Minnesota,United States of America,Minnesota,DevOps/SysAdmin|Back-end Developer,,Maybe/Not sure,33,0,33,0,m
+461,1-5,1.0,,Always,44,Female,Canada,,Canada,,Executive Leadership,I am not sure,"Yes, I observed",44,0,44,0,Female
+462,6-25,0.0,1.0,Sometimes,23,Male,United States of America,Minnesota,United States of America,Minnesota,Back-end Developer,I am not sure,No,23,0,23,0,Male
+464,More than 1000,0.0,1.0,Never,30,Male,United States of America,Tennessee,United States of America,Tennessee,Back-end Developer|Front-end Developer,No,"Yes, I observed",30,0,30,0,Man
+465,26-100,1.0,,Sometimes,28,Male,United States of America,Nebraska,United States of America,Nebraska,Back-end Developer,No,No,28,0,28,0,male
+466,26-100,1.0,,Never,39,Male,United States of America,West Virginia,United States of America,West Virginia,Back-end Developer|Front-end Developer,Yes,Maybe/Not sure,39,0,39,0,male
+467,6-25,1.0,,Never,24,Female,United States of America,California,United States of America,California,Front-end Developer,No,Maybe/Not sure,24,0,24,0,Female
+469,More than 1000,0.0,1.0,Sometimes,35,Male,United States of America,Tennessee,United States of America,Tennessee,Supervisor/Team Lead|Back-end Developer|Front-end Developer,Yes,Maybe/Not sure,35,0,35,0,Male
+470,6-25,1.0,,Never,23,Male,United States of America,Nebraska,United States of America,Nebraska,Front-end Developer,No,No,23,0,23,0,Male
+471,More than 1000,0.0,1.0,Sometimes,37,Male,United States of America,Tennessee,United States of America,Tennessee,Other,I am not sure,No,37,0,37,0,M
+472,6-25,1.0,,Sometimes,35,Male,United States of America,Tennessee,United States of America,Tennessee,DevOps/SysAdmin|Front-end Developer|Back-end Developer,I am not sure,,35,0,35,0,Male
+473,26-100,0.0,1.0,Sometimes,27,Male,United States of America,Tennessee,United States of America,Tennessee,Supervisor/Team Lead|DevOps/SysAdmin|Support|Back-end Developer|Front-end Developer,Yes,Maybe/Not sure,27,0,27,0,Male
+474,1-5,1.0,,Always,27,Female,United States of America,Nevada,United States of America,Nevada,DevOps/SysAdmin|Back-end Developer|Front-end Developer|Designer,I am not sure,No,27,0,27,0,Female
+475,More than 1000,1.0,,Never,27,Female,United States of America,Nebraska,United States of America,Nebraska,Front-end Developer,I am not sure,No,27,0,27,0,Female
+476,6-25,1.0,,Sometimes,42,Male,United States of America,Nebraska,United States of America,Nebraska,Front-end Developer|Back-end Developer,I am not sure,No,42,0,42,0,m
+477,6-25,0.0,1.0,Never,32,Male,United States of America,Illinois,United States of America,Illinois,Front-end Developer,I am not sure,Maybe/Not sure,32,0,32,0,Sex is male
+478,6-25,1.0,,Sometimes,26,Male,Finland,,Finland,,DevOps/SysAdmin|Back-end Developer|Front-end Developer,I am not sure,No,26,0,26,0,Male
+479,100-500,1.0,,Never,28,Male,Bulgaria,,Bulgaria,,Back-end Developer,No,No,28,0,28,0,Male
+480,6-25,1.0,,Sometimes,28,Male,United States of America,Nebraska,United States of America,Nebraska,Front-end Developer,No,No,28,0,28,0,M
+481,100-500,1.0,,Sometimes,32,Male,United States of America,Nebraska,United States of America,Nebraska,Front-end Developer|Back-end Developer,No,No,32,0,32,0,Male
+483,26-100,1.0,,Never,34,Male,United States of America,Indiana,United States of America,Indiana,Back-end Developer,I am not sure,Maybe/Not sure,34,0,34,0,Male
+484,6-25,1.0,,Sometimes,61,Female,United States of America,Colorado,United States of America,Colorado,Other,I am not sure,No,61,0,61,0,f
+489,500-1000,1.0,,Always,34,Male,United States of America,Pennsylvania,United States of America,Pennsylvania,Front-end Developer|Designer,I am not sure,No,34,0,34,0,male
+490,6-25,1.0,,Always,43,Male,United States of America,Maryland,United States of America,Maryland,Front-end Developer|Back-end Developer,,No,43,0,43,0,Male
+491,100-500,1.0,,Sometimes,43,Female,United States of America,California,United States of America,California,DevOps/SysAdmin,No,"Yes, I observed",43,0,43,0,Female
+492,6-25,1.0,,Always,44,Male,United States of America,California,United States of America,California,DevOps/SysAdmin,I am not sure,"Yes, I observed",44,0,44,0,Male
+493,100-500,1.0,,Sometimes,35,Male,United States of America,California,United States of America,California,DevOps/SysAdmin,No,Maybe/Not sure,35,0,35,0,m
+494,26-100,1.0,,Always,50,Male,United States of America,Texas,United States of America,Texas,Back-end Developer,Yes,No,50,0,50,0,Male
+495,100-500,1.0,,Sometimes,29,Male,United States of America,Minnesota,United States of America,Minnesota,DevOps/SysAdmin|Back-end Developer,Yes,No,29,0,29,0,Male
+496,100-500,1.0,,Never,29,Male,United States of America,New York,United States of America,New York,Front-end Developer,Yes,No,29,0,29,0,Male
+497,500-1000,0.0,1.0,Sometimes,36,Male,Canada,,Canada,,DevOps/SysAdmin|Front-end Developer|Back-end Developer|Support,No,No,36,0,36,0,Male
+500,More than 1000,1.0,,Always,46,Male,United States of America,Virginia,United States of America,Virginia,DevOps/SysAdmin,I am not sure,Maybe/Not sure,46,0,46,0,Male
+502,More than 1000,1.0,,Sometimes,23,Other,United States of America,Oregon,United States of America,Oregon,DevOps/SysAdmin,I am not sure,"Yes, I observed",23,0,23,0,none of your business
+503,6-25,1.0,,Sometimes,41,Male,United States of America,Washington,United States of America,Washington,Other|Supervisor/Team Lead|Back-end Developer|Front-end Developer,I am not sure,Maybe/Not sure,41,0,41,0,Male
+504,More than 1000,1.0,,Sometimes,31,Male,Canada,,Canada,,Front-end Developer,No,Maybe/Not sure,31,0,31,0,male
+505,1-5,1.0,,Sometimes,55,Male,United States of America,Illinois,United States of America,Illinois,DevOps/SysAdmin,Yes,"Yes, I observed",55,0,55,0,male
+506,26-100,1.0,,Sometimes,34,Male,United States of America,Michigan,United States of America,Michigan,Supervisor/Team Lead|Front-end Developer|Back-end Developer|DevOps/SysAdmin,,Maybe/Not sure,34,0,34,0,M
+507,6-25,1.0,,Always,28,Female,United States of America,Michigan,United States of America,Michigan,Back-end Developer|Front-end Developer,Yes,"Yes, I experienced",28,0,28,0,Female
+508,6-25,1.0,,Sometimes,33,Male,United States of America,Florida,United States of America,Florida,DevOps/SysAdmin|Back-end Developer,No,"Yes, I observed",33,0,33,0,m
+509,100-500,1.0,,Sometimes,29,Male,United States of America,California,United States of America,California,Supervisor/Team Lead|Back-end Developer,No,"Yes, I experienced",29,0,29,0,Male
+510,More than 1000,0.0,1.0,Sometimes,33,Female,United States of America,Tennessee,United States of America,Tennessee,Supervisor/Team Lead|Back-end Developer|Front-end Developer,I am not sure,Maybe/Not sure,33,0,33,0,Female
+512,More than 1000,1.0,,Sometimes,28,Male,United States of America,California,United States of America,California,Dev Evangelist/Advocate,Yes,"Yes, I observed",28,0,28,0,male
+513,26-100,1.0,,Sometimes,32,Male,United States of America,California,United States of America,California,DevOps/SysAdmin,No,No,32,0,32,0,Male
+514,6-25,1.0,,Never,36,Female,United States of America,Oregon,United States of America,Oregon,Front-end Developer,Yes,"Yes, I observed",36,0,36,0,female
+515,More than 1000,0.0,1.0,Sometimes,45,Male,United Kingdom,,United Kingdom,,DevOps/SysAdmin|Support|Back-end Developer|Front-end Developer,I am not sure,No,45,0,45,0,Male
+517,More than 1000,0.0,1.0,Never,23,Male,France,,France,,Support,No,No,23,0,23,0,Male
+520,26-100,1.0,,Sometimes,29,Female,United States of America,Illinois,United States of America,Illinois,DevOps/SysAdmin|Back-end Developer|Front-end Developer,I am not sure,No,29,0,29,0,Female
+521,26-100,1.0,,Sometimes,31,Male,Australia,,Australia,,Back-end Developer,,"Yes, I experienced",31,0,31,0,Male
+523,6-25,1.0,,Never,29,Male,Germany,,Germany,,Back-end Developer,No,"Yes, I experienced",29,0,29,0,Male
+525,26-100,1.0,,Sometimes,30,Male,United Kingdom,,United Kingdom,,DevOps/SysAdmin|Back-end Developer|Front-end Developer,I am not sure,No,30,0,30,0,Male
+526,More than 1000,1.0,,Always,55,Male,United Kingdom,,United Kingdom,,Front-end Developer,I am not sure,No,55,0,55,0,Male
+527,6-25,0.0,1.0,Never,38,Female,United States of America,Massachusetts,United States of America,Massachusetts,Back-end Developer|Front-end Developer,No,No,38,0,38,0,Female
+528,6-25,1.0,,Sometimes,20,Male,Canada,,Canada,,Back-end Developer|Front-end Developer,I am not sure,,20,0,20,0,male
+529,100-500,1.0,,Sometimes,25,Male,United States of America,California,United States of America,California,Support|Back-end Developer|Front-end Developer,Yes,No,25,0,25,0,Male
+532,26-100,0.0,1.0,Never,27,Male,United States of America,Indiana,United States of America,Indiana,Designer|Front-end Developer|Back-end Developer|DevOps/SysAdmin,No,No,27,0,27,0,male
+533,6-25,0.0,1.0,Sometimes,24,Male,United States of America,Tennessee,United States of America,Tennessee,Supervisor/Team Lead|DevOps/SysAdmin|Support|Back-end Developer|Front-end Developer|Designer,,Maybe/Not sure,24,0,24,0,Male
+535,26-100,0.0,1.0,Never,29,Male,Brazil,,Brazil,,Back-end Developer|Front-end Developer,I am not sure,Maybe/Not sure,29,0,29,0,Male
+536,26-100,1.0,,Never,40,Female,United States of America,Texas,United States of America,Texas,Supervisor/Team Lead|Back-end Developer,I am not sure,No,40,0,40,0,Female
+537,1-5,1.0,,Always,30,Male,United States of America,Georgia,United States of America,Georgia,DevOps/SysAdmin|Back-end Developer|Front-end Developer|Designer,No,Maybe/Not sure,30,0,30,0,Male
+538,26-100,1.0,,Sometimes,32,Male,Canada,,Canada,,DevOps/SysAdmin|Supervisor/Team Lead,No,No,32,0,32,0,Male
+540,6-25,1.0,,Sometimes,35,Female,Canada,,Canada,,Other|Back-end Developer,I am not sure,Maybe/Not sure,35,0,35,0,F
+542,6-25,1.0,,Never,36,Male,United Kingdom,,United Kingdom,,Back-end Developer,No,Maybe/Not sure,36,0,36,0,Male
+543,26-100,1.0,,Sometimes,26,Male,Sweden,,Sweden,,Back-end Developer|DevOps/SysAdmin,No,Maybe/Not sure,26,0,26,0,male
+544,500-1000,0.0,1.0,Never,31,Female,Netherlands,,Netherlands,,Other,I am not sure,"Yes, I observed",31,0,31,0,Female
+545,26-100,0.0,1.0,Never,33,Male,South Africa,,South Africa,,Front-end Developer|Back-end Developer|DevOps/SysAdmin,,No,33,0,33,0,Male
+547,26-100,1.0,,Always,46,Male,United Kingdom,,United Kingdom,,Other,I am not sure,"Yes, I experienced",46,0,46,0,m
+548,100-500,1.0,,Sometimes,32,Male,United States of America,Colorado,United States of America,Colorado,Dev Evangelist/Advocate,No,No,32,0,32,0,Male
+549,100-500,1.0,,Sometimes,34,Male,United States of America,Oregon,United States of America,Oregon,Back-end Developer,I am not sure,Maybe/Not sure,34,0,34,0,male
+550,100-500,1.0,,Always,41,Male,United States of America,Tennessee,United States of America,Tennessee,DevOps/SysAdmin,I am not sure,"Yes, I observed",41,0,41,0,male
+551,100-500,1.0,,Always,32,Male,United States of America,Wisconsin,United States of America,Wisconsin,Back-end Developer,I am not sure,"Yes, I observed",32,0,32,0,Male
+552,More than 1000,0.0,1.0,Sometimes,47,Male,United States of America,Pennsylvania,United States of America,New York,Executive Leadership,No,Maybe/Not sure,47,0,47,0,Male
+553,100-500,1.0,,Always,29,Male,United States of America,Missouri,United States of America,Oregon,DevOps/SysAdmin,No,No,29,0,29,0,male
+554,100-500,0.0,1.0,Sometimes,36,Male,United States of America,California,United States of America,California,DevOps/SysAdmin|Back-end Developer|Front-end Developer,I am not sure,No,36,0,36,0,male
+555,100-500,1.0,,Sometimes,32,Male,United States of America,Colorado,United States of America,California,DevOps/SysAdmin,Yes,No,32,0,32,0,Male
+556,100-500,1.0,,Sometimes,29,Male,United States of America,California,United States of America,California,DevOps/SysAdmin,No,No,29,0,29,0,Male
+557,1-5,1.0,,Never,22,Male,United Kingdom,,United Kingdom,,Back-end Developer|DevOps/SysAdmin|Dev Evangelist/Advocate|Supervisor/Team Lead,,No,22,0,22,0,Male
+558,More than 1000,1.0,,Sometimes,32,Female,United States of America,Florida,United States of America,Florida,Back-end Developer,Yes,"Yes, I experienced",32,0,32,0,female
+559,More than 1000,0.0,1.0,Never,19,Female,United States of America,Florida,United States of America,Florida,Front-end Developer,I am not sure,No,19,0,19,0,Female
+560,6-25,1.0,,Sometimes,30,Male,South Africa,,South Africa,,Designer|Front-end Developer|Back-end Developer|Supervisor/Team Lead,,No,30,0,30,0,Male
+561,6-25,1.0,,Always,32,Other,United States of America,Washington,United States of America,Washington,Other|Back-end Developer,I am not sure,No,32,0,32,0,genderqueer
+562,More than 1000,1.0,,Sometimes,22,Male,United States of America,California,United States of America,California,Front-end Developer,I am not sure,No,22,0,22,0,M
+564,100-500,1.0,,Sometimes,323,Male,United States of America,Oregon,United States of America,Oregon,Back-end Developer,No,Maybe/Not sure,,1,32,1,Male
+565,6-25,1.0,,Sometimes,33,Male,Slovakia,,Slovakia,,Back-end Developer,No,No,33,0,33,0,male
+566,6-25,1.0,,Never,48,Female,United Kingdom,,United Kingdom,,Front-end Developer,I am not sure,Maybe/Not sure,48,0,48,0,f
+567,More than 1000,1.0,,Never,45,Male,Germany,,Germany,,Other,No,No,45,0,45,0,male
+568,26-100,1.0,,Sometimes,28,Male,United Kingdom,,United Kingdom,,Back-end Developer,I am not sure,Maybe/Not sure,28,0,28,0,Male
+569,100-500,1.0,,Sometimes,44,Male,United States of America,Oregon,United States of America,Oregon,Back-end Developer,No,Maybe/Not sure,44,0,44,0,male
+570,6-25,1.0,,Sometimes,31,Male,United States of America,Washington,United States of America,Washington,Supervisor/Team Lead|Front-end Developer|Back-end Developer,,No,31,0,31,0,Male
+571,26-100,1.0,,Sometimes,31,Female,United States of America,Pennsylvania,United States of America,Pennsylvania,Back-end Developer,I am not sure,No,31,0,31,0,f
+572,More than 1000,1.0,,Never,29,Male,United States of America,New York,United States of America,New York,DevOps/SysAdmin,No,No,29,0,29,0,Male
+573,More than 1000,0.0,1.0,Never,26,Male,United States of America,Texas,United States of America,Texas,Front-end Developer|Back-end Developer|Support|Dev Evangelist/Advocate,Yes,Maybe/Not sure,26,0,26,0,Male
+574,100-500,0.0,1.0,Sometimes,35,Female,United States of America,Indiana,United States of America,Indiana,Front-end Developer|Designer,Yes,No,35,0,35,0,f
+576,6-25,1.0,,Always,45,Male,United States of America,North Carolina,United States of America,North Carolina,Dev Evangelist/Advocate,No,"Yes, I observed",45,0,45,0,male
+577,6-25,0.0,1.0,Sometimes,22,Female,United States of America,North Carolina,United States of America,North Carolina,Executive Leadership|Supervisor/Team Lead|HR|DevOps/SysAdmin|Support|Sales|Back-end Developer|One-person shop|Designer|Front-end Developer,I am not sure,No,22,0,22,0,Female
+578,100-500,1.0,,Sometimes,34,Male,United States of America,Michigan,United States of America,Michigan,Back-end Developer|Front-end Developer,Yes,"Yes, I experienced",34,0,34,0,Male
+579,26-100,1.0,,Never,35,Male,United Kingdom,,United Kingdom,,Supervisor/Team Lead|Front-end Developer,I am not sure,"Yes, I experienced",35,0,35,0,Male
+581,6-25,1.0,,Never,26,Male,Denmark,,Denmark,,DevOps/SysAdmin|Back-end Developer|Front-end Developer,Yes,No,26,0,26,0,Male
+583,More than 1000,1.0,,Sometimes,24,Male,Australia,,Australia,,Back-end Developer|Front-end Developer|Designer,I am not sure,"Yes, I experienced",24,0,24,0,Male
+584,6-25,1.0,,Never,24,Male,United States of America,Louisiana,United States of America,Louisiana,Supervisor/Team Lead|DevOps/SysAdmin|Back-end Developer|Front-end Developer,No,"Yes, I observed",24,0,24,0,Male
+585,26-100,1.0,,Sometimes,34,Male,United States of America,Florida,United States of America,Florida,Back-end Developer,Yes,No,34,0,34,0,male
+586,26-100,1.0,,Sometimes,36,Male,Australia,,Australia,,Supervisor/Team Lead,,Maybe/Not sure,36,0,36,0,Male
+587,500-1000,0.0,1.0,Sometimes,41,Male,Australia,,Australia,,Supervisor/Team Lead,Yes,"Yes, I observed",41,0,41,0,Male
+588,More than 1000,1.0,,Never,21,Male,United States of America,South Carolina,United States of America,South Carolina,DevOps/SysAdmin,I am not sure,"Yes, I observed",21,0,21,0,Male
+589,100-500,1.0,,Sometimes,33,Male,Bangladesh,,Bangladesh,,Back-end Developer,I am not sure,"Yes, I experienced",33,0,33,0,Male
+590,More than 1000,1.0,,Always,32,Male,India,,India,,Front-end Developer|Back-end Developer|Support|DevOps/SysAdmin|Dev Evangelist/Advocate,I am not sure,,32,0,32,0,Male
+591,More than 1000,0.0,1.0,Never,62,Female,United States of America,North Carolina,United States of America,North Carolina,Back-end Developer|One-person shop,Yes,No,62,0,62,0,Female
+592,26-100,0.0,1.0,Sometimes,37,Male,United States of America,Pennsylvania,United States of America,Pennsylvania,Back-end Developer,Yes,Maybe/Not sure,37,0,37,0,M
+593,26-100,1.0,,Always,32,Male,United States of America,South Dakota,United States of America,South Dakota,Support|Back-end Developer,I am not sure,No,32,0,32,0,male
+594,More than 1000,1.0,,Sometimes,31,Male,United States of America,Illinois,United States of America,Illinois,Supervisor/Team Lead|Executive Leadership,Yes,No,31,0,31,0,Male
+595,6-25,1.0,,Sometimes,28,Male,United States of America,California,United States of America,California,Front-end Developer|Back-end Developer,I am not sure,No,28,0,28,0,Male
+598,26-100,1.0,,Never,29,Male,Norway,,Norway,,Other|Dev Evangelist/Advocate|DevOps/SysAdmin|Support|Back-end Developer|Front-end Developer|One-person shop,Yes,No,29,0,29,0,Male
+599,26-100,0.0,1.0,Never,33,Male,Germany,,Germany,,Back-end Developer,Yes,No,33,0,33,0,M
+600,26-100,0.0,1.0,Sometimes,27,Male,Finland,,Finland,,Support|DevOps/SysAdmin,I am not sure,No,27,0,27,0,Male
+601,26-100,0.0,1.0,Sometimes,24,Male,Australia,,Australia,,One-person shop,,No,24,0,24,0,m
+603,1-5,1.0,,Always,42,Male,United States of America,Maryland,United States of America,Maryland,Dev Evangelist/Advocate,Yes,No,42,0,42,0,Male
+604,26-100,1.0,,Sometimes,28,Male,United Kingdom,,United Kingdom,,Front-end Developer|Back-end Developer|DevOps/SysAdmin|Supervisor/Team Lead,,No,28,0,28,0,m
+605,500-1000,1.0,,Always,40,Male,Canada,,Canada,,Dev Evangelist/Advocate|DevOps/SysAdmin|Back-end Developer,No,"Yes, I observed",40,0,40,0,Male
+606,More than 1000,1.0,,Always,32,Female,United States of America,Washington,United States of America,Washington,Dev Evangelist/Advocate,I am not sure,,32,0,32,0,Female
+609,6-25,1.0,,Never,26,Male,United States of America,Kansas,United States of America,Kansas,DevOps/SysAdmin|Back-end Developer,Yes,No,26,0,26,0,Male
+610,100-500,1.0,,Sometimes,39,Female,United States of America,California,United States of America,California,Dev Evangelist/Advocate|Support|Back-end Developer|Front-end Developer,I am not sure,Maybe/Not sure,39,0,39,0,Female
+611,500-1000,0.0,1.0,Never,38,Male,United Kingdom,,United Kingdom,,DevOps/SysAdmin|Supervisor/Team Lead,,,38,0,38,0,Male
+612,More than 1000,1.0,,Sometimes,34,Male,United States of America,Colorado,United States of America,Colorado,Back-end Developer,No,No,34,0,34,0,Male
+613,26-100,0.0,1.0,Never,44,Male,Netherlands,,Netherlands,,Back-end Developer|DevOps/SysAdmin,,"Yes, I observed",44,0,44,0,Male
+615,100-500,1.0,,Always,24,Male,Pakistan,,Pakistan,,Other,No,No,24,0,24,0,male
+616,6-25,1.0,,Sometimes,31,Male,United States of America,Minnesota,United States of America,Minnesota,Front-end Developer,Yes,"Yes, I experienced",31,0,31,0,Male
+617,More than 1000,1.0,,Sometimes,47,Male,United States of America,Pennsylvania,United States of America,Pennsylvania,Other,Yes,"Yes, I experienced",47,0,47,0,cis male
+618,More than 1000,1.0,,Sometimes,30,Male,Australia,,Australia,,Support,,"Yes, I experienced",30,0,30,0,Male
+620,6-25,1.0,,Sometimes,29,Other,United States of America,New York,United States of America,New York,Back-end Developer,I am not sure,No,29,0,29,0,Human
+621,More than 1000,1.0,,Sometimes,27,Male,United States of America,Missouri,United States of America,Missouri,Front-end Developer|Back-end Developer|Support,I am not sure,No,27,0,27,0,Male
+622,More than 1000,0.0,1.0,Never,29,Male,United States of America,Michigan,United States of America,Michigan,DevOps/SysAdmin|Support,No,No,29,0,29,0,male
+624,100-500,1.0,,Sometimes,31,Other,United States of America,Illinois,United States of America,Illinois,Designer,I am not sure,Maybe/Not sure,31,0,31,0,Genderfluid
+625,6-25,0.0,1.0,Never,27,Male,Norway,,Norway,,Back-end Developer|Front-end Developer,I am not sure,"Yes, I observed",27,0,27,0,Male
+626,6-25,1.0,,Never,29,Male,United Kingdom,,United Kingdom,,DevOps/SysAdmin,,"Yes, I experienced",29,0,29,0,M
+627,6-25,1.0,,Never,29,Male,United Kingdom,,United Kingdom,,Back-end Developer,,No,29,0,29,0,Male
+628,More than 1000,1.0,,Sometimes,42,Male,United States of America,New Hampshire,United States of America,Massachusetts,Supervisor/Team Lead,I am not sure,Maybe/Not sure,42,0,42,0,Male
+629,6-25,1.0,,Always,26,Female,United States of America,Illinois,United States of America,Illinois,Front-end Developer|Back-end Developer,I am not sure,No,26,0,26,0,Female
+630,6-25,1.0,,Sometimes,26,Male,Switzerland,,Switzerland,,Front-end Developer|Back-end Developer|DevOps/SysAdmin,I am not sure,"Yes, I observed",26,0,26,0,male
+634,6-25,1.0,,Sometimes,22,Male,United States of America,Kansas,United States of America,Kansas,Back-end Developer,Yes,No,22,0,22,0,M
+635,100-500,1.0,,Sometimes,33,Male,United States of America,Illinois,United States of America,Illinois,DevOps/SysAdmin|Support|Back-end Developer,I am not sure,No,33,0,33,0,male
+636,26-100,1.0,,Always,53,Male,United States of America,Arizona,United States of America,Arizona,Executive Leadership,No,No,53,0,53,0,m
+637,26-100,1.0,,Never,32,Male,Canada,,Canada,,Back-end Developer,Yes,"Yes, I observed",32,0,32,0,M
+638,6-25,1.0,,Sometimes,32,Male,United States of America,Minnesota,United States of America,Minnesota,Executive Leadership,,"Yes, I observed",32,0,32,0,male
+640,6-25,1.0,,Never,27,Male,France,,France,,Back-end Developer|DevOps/SysAdmin,No,Maybe/Not sure,27,0,27,0,male
+641,6-25,1.0,,Always,34,Male,United Kingdom,,United Kingdom,,Back-end Developer|Supervisor/Team Lead,,Maybe/Not sure,34,0,34,0,Male
+642,6-25,1.0,,Sometimes,26,Male,United States of America,Colorado,United States of America,Colorado,DevOps/SysAdmin,,No,26,0,26,0,Male
+643,26-100,1.0,,Never,25,,United States of America,Oregon,United States of America,Oregon,Other,No,"Yes, I observed",25,0,25,0,
+644,More than 1000,1.0,,Sometimes,39,Male,United Kingdom,,United Kingdom,,Front-end Developer|Back-end Developer|Supervisor/Team Lead,Yes,No,39,0,39,0,Male
+645,26-100,1.0,,Never,32,Male,United States of America,Kansas,United States of America,Kansas,Back-end Developer,I am not sure,No,32,0,32,0,male
+648,500-1000,1.0,,Never,33,Other,United Kingdom,,United Kingdom,,Other|Supervisor/Team Lead|Dev Evangelist/Advocate|DevOps/SysAdmin|Support|Back-end Developer,No,Maybe/Not sure,33,0,33,0,Enby
+649,26-100,1.0,,Sometimes,58,Male,United States of America,Minnesota,United States of America,Minnesota,Back-end Developer,No,Maybe/Not sure,58,0,58,0,Male
+650,6-25,1.0,,Never,30,Male,Canada,,Canada,,Front-end Developer|Designer,No,Maybe/Not sure,30,0,30,0,male
+652,More than 1000,0.0,1.0,Sometimes,45,Male,United States of America,Washington,United States of America,Washington,Front-end Developer,No,Maybe/Not sure,45,0,45,0,male
+653,1-5,1.0,,Sometimes,26,Female,Canada,,Canada,,Front-end Developer,,Maybe/Not sure,26,0,26,0,f
+654,100-500,1.0,,Never,22,Male,United States of America,Pennsylvania,United States of America,Pennsylvania,DevOps/SysAdmin|Support,Yes,Maybe/Not sure,22,0,22,0,Male
+655,6-25,1.0,,Sometimes,21,Male,United States of America,Kansas,United States of America,Kansas,Back-end Developer,I am not sure,No,21,0,21,0,Male
+656,More than 1000,1.0,,Sometimes,3,Male,Canada,,Canada,,Back-end Developer,I am not sure,Maybe/Not sure,,1,32,1,Male
+657,500-1000,0.0,1.0,Sometimes,34,Male,United States of America,Kansas,United States of America,Kansas,Executive Leadership|Supervisor/Team Lead,No,Maybe/Not sure,34,0,34,0,m
+658,26-100,1.0,,Sometimes,25,Female,United States of America,Kansas,United States of America,Kansas,Back-end Developer,No,Maybe/Not sure,25,0,25,0,female
+659,6-25,1.0,,Sometimes,27,Male,United States of America,Illinois,United States of America,Illinois,Executive Leadership|Supervisor/Team Lead|Sales,I am not sure,"Yes, I observed",27,0,27,0,Male
+660,26-100,1.0,,Never,25,Female,United States of America,Washington,United States of America,Washington,Back-end Developer,I am not sure,"Yes, I experienced",25,0,25,0,Female 
+661,500-1000,1.0,,Sometimes,33,Male,United Kingdom,,United Kingdom,,Other|Front-end Developer|Designer,Yes,,33,0,33,0,Male
+663,6-25,1.0,,Always,36,Female,United States of America,Oklahoma,United States of America,Oklahoma,Other,I am not sure,No,36,0,36,0,Female
+664,6-25,1.0,,Never,26,Male,United Kingdom,,United Kingdom,,Back-end Developer,No,Maybe/Not sure,26,0,26,0,Male
+665,6-25,1.0,,Never,34,Male,United States of America,Minnesota,United States of America,Minnesota,Supervisor/Team Lead|Back-end Developer,I am not sure,Maybe/Not sure,34,0,34,0,Male
+666,26-100,1.0,,Sometimes,34,Male,United States of America,Oklahoma,United States of America,Oklahoma,Back-end Developer|Front-end Developer,Yes,"Yes, I experienced",34,0,34,0,Male
+667,More than 1000,0.0,1.0,Sometimes,25,Male,United States of America,Pennsylvania,United States of America,Pennsylvania,Back-end Developer|Front-end Developer,Yes,No,25,0,25,0,Male
+669,26-100,1.0,,Sometimes,27,Female,Canada,,Canada,,Front-end Developer,Yes,No,27,0,27,0,f
+670,26-100,1.0,,Never,24,Female,Canada,,Canada,,Designer|Front-end Developer,I am not sure,Maybe/Not sure,24,0,24,0,Female
+671,More than 1000,0.0,1.0,Sometimes,47,Female,United States of America,Washington,United States of America,Washington,DevOps/SysAdmin|One-person shop,I am not sure,No,47,0,47,0,female
+672,26-100,1.0,,Sometimes,37,Male,United States of America,Indiana,United States of America,Indiana,Supervisor/Team Lead|DevOps/SysAdmin|Back-end Developer,I am not sure,Maybe/Not sure,37,0,37,0,Male
+673,More than 1000,0.0,1.0,Sometimes,35,Other,United States of America,Illinois,United States of America,Illinois,Designer|Front-end Developer|Back-end Developer|DevOps/SysAdmin|Other,No,"Yes, I experienced",35,0,35,0,genderqueer woman
+674,100-500,0.0,1.0,Always,30,Male,United States of America,Pennsylvania,United States of America,Pennsylvania,Support,Yes,Maybe/Not sure,30,0,30,0,Male
+675,More than 1000,0.0,1.0,Never,42,Male,United States of America,Tennessee,United States of America,Tennessee,Other|Dev Evangelist/Advocate|Back-end Developer|Front-end Developer,No,"Yes, I observed",42,0,42,0,male
+677,100-500,1.0,,Always,31,Male,United States of America,Pennsylvania,United States of America,Pennsylvania,Back-end Developer,No,Maybe/Not sure,31,0,31,0,male
+678,100-500,1.0,,Always,28,Female,United States of America,Massachusetts,United States of America,Massachusetts,Back-end Developer|Front-end Developer,I am not sure,"Yes, I observed",28,0,28,0,female
+680,6-25,1.0,,Never,36,Female,United States of America,Tennessee,United States of America,Tennessee,Other,Yes,No,36,0,36,0,Female
+681,26-100,0.0,1.0,Sometimes,32,Male,Canada,,Canada,,Front-end Developer,No,Maybe/Not sure,32,0,32,0,m
+683,100-500,1.0,,Never,41,Female,United States of America,Colorado,United States of America,Colorado,Supervisor/Team Lead|Front-end Developer,No,Maybe/Not sure,41,0,41,0,Female
+684,26-100,0.0,1.0,Sometimes,36,Male,Sweden,,Sweden,,Executive Leadership,Yes,No,36,0,36,0,Male
+685,26-100,1.0,,Sometimes,23,Male,United States of America,Wisconsin,United States of America,Wisconsin,Back-end Developer,Yes,,23,0,23,0,Male
+687,26-100,0.0,1.0,Never,34,Female,United States of America,Illinois,United States of America,Illinois,Other,I am not sure,Maybe/Not sure,34,0,34,0,female
+688,6-25,1.0,,Never,36,Male,Netherlands,,Netherlands,,Back-end Developer|DevOps/SysAdmin,No,No,36,0,36,0,m
+689,1-5,1.0,,Never,27,Male,United States of America,Virginia,United States of America,Virginia,Front-end Developer,Yes,"Yes, I observed",27,0,27,0,male
+690,100-500,1.0,,Always,32,Male,United States of America,Rhode Island,United States of America,Rhode Island,Designer,Yes,"Yes, I experienced",32,0,32,0,male
+691,6-25,1.0,,Never,21,Male,Germany,,Germany,,Front-end Developer|Back-end Developer|DevOps/SysAdmin|Supervisor/Team Lead,Yes,Maybe/Not sure,21,0,21,0,Male
+692,1-5,1.0,,Always,44,Male,United States of America,Michigan,United States of America,Michigan,Other,No,No,44,0,44,0,m
+693,26-100,1.0,,Always,33,Male,United States of America,Minnesota,United States of America,Minnesota,Supervisor/Team Lead|Back-end Developer,I am not sure,No,33,0,33,0,m
+694,More than 1000,1.0,,Sometimes,38,Male,United Kingdom,,United Kingdom,,Supervisor/Team Lead|Support,No,"Yes, I experienced",38,0,38,0,M
+695,More than 1000,1.0,,Sometimes,38,Male,Ireland,,Ireland,,DevOps/SysAdmin|Other,I am not sure,"Yes, I experienced",38,0,38,0,Male
+697,1-5,1.0,,Always,22,Female,Brazil,,Brazil,,Other,No,"Yes, I observed",22,0,22,0,Female
+699,More than 1000,0.0,1.0,Never,27,Female,Canada,,Canada,,Front-end Developer,No,"Yes, I observed",27,0,27,0,f
+701,6-25,0.0,1.0,Sometimes,66,Male,United States of America,Maine,United States of America,Maine,Front-end Developer,No,Maybe/Not sure,66,0,66,0,male
+702,1-5,0.0,1.0,Sometimes,25,Male,United States of America,New Jersey,United States of America,New Jersey,Back-end Developer|Support|DevOps/SysAdmin,I am not sure,,25,0,25,0,Male
+703,26-100,1.0,,Never,22,Male,Netherlands,,Netherlands,,Front-end Developer|Back-end Developer|DevOps/SysAdmin,,"Yes, I observed",22,0,22,0,Male
+704,26-100,1.0,,Sometimes,29,Male,Brazil,,Brazil,,Front-end Developer,No,Maybe/Not sure,29,0,29,0,male
+705,100-500,1.0,,Never,33,Male,New Zealand,,New Zealand,,Executive Leadership,No,"Yes, I experienced",33,0,33,0,Male
+706,6-25,1.0,,Never,27,Male,Sweden,,Sweden,,Front-end Developer|Back-end Developer|DevOps/SysAdmin,No,No,27,0,27,0,Male
+707,6-25,1.0,,Sometimes,44,Male,United States of America,Tennessee,United States of America,Tennessee,Front-end Developer,No,Maybe/Not sure,44,0,44,0,male
+709,6-25,0.0,1.0,Always,32,Male,United States of America,New Hampshire,United States of America,New Hampshire,Supervisor/Team Lead|Designer|Front-end Developer|Support,I am not sure,No,32,0,32,0,M
+710,500-1000,0.0,1.0,Never,59,Female,United States of America,Ohio,United States of America,Ohio,Support,I am not sure,Maybe/Not sure,59,0,59,0,female
+713,More than 1000,1.0,,Always,32,Male,United States of America,California,United States of America,California,Other,Yes,No,32,0,32,0,Male
+714,More than 1000,0.0,1.0,Never,41,Male,United Kingdom,,United Kingdom,,Front-end Developer,,Maybe/Not sure,41,0,41,0,male
+715,1-5,1.0,,Always,38,Female,United States of America,Washington,United States of America,Washington,Front-end Developer|Back-end Developer,I am not sure,No,38,0,38,0,f
+717,More than 1000,0.0,1.0,Never,43,Male,United Kingdom,,United Kingdom,,Supervisor/Team Lead,No,"Yes, I observed",43,0,43,0,Male
+718,100-500,1.0,,Always,29,Female,United States of America,Pennsylvania,United States of America,Pennsylvania,Other,Yes,"Yes, I experienced",29,0,29,0,Female
+720,100-500,1.0,,Never,25,Female,United States of America,Colorado,United States of America,Colorado,Back-end Developer|Front-end Developer,I am not sure,No,25,0,25,0,female 
+721,26-100,1.0,,Never,49,Male,Afghanistan,,Afghanistan,,Executive Leadership|Supervisor/Team Lead|Designer,Yes,Maybe/Not sure,49,0,49,0,Male
+722,26-100,1.0,,Always,36,Male,Pakistan,,United States of America,Florida,Other,No,Maybe/Not sure,36,0,36,0,Male
+724,26-100,1.0,,Sometimes,28,Male,United States of America,Oregon,United States of America,Oregon,Other,I am not sure,,28,0,28,0,Male
+725,More than 1000,0.0,1.0,Sometimes,37,Male,United States of America,Texas,United States of America,Texas,Support|Front-end Developer|Designer,No,Maybe/Not sure,37,0,37,0,m
+729,More than 1000,0.0,1.0,Never,32,Male,United States of America,Minnesota,United States of America,Minnesota,Other,Yes,No,32,0,32,0,male
+730,1-5,1.0,,Always,28,Male,Canada,,Canada,,Front-end Developer,,Maybe/Not sure,28,0,28,0,Male
+731,More than 1000,0.0,1.0,Never,28,Male,United Kingdom,,United Kingdom,,Back-end Developer,I am not sure,No,28,0,28,0,M
+732,More than 1000,1.0,,Never,29,Male,United States of America,California,United States of America,California,Back-end Developer,Yes,Maybe/Not sure,29,0,29,0,Male
+733,100-500,1.0,,Always,35,Male,United States of America,Georgia,United States of America,Georgia,Supervisor/Team Lead,I am not sure,"Yes, I observed",35,0,35,0,Male
+737,500-1000,1.0,,Always,35,Male,Sweden,,Sweden,,Other|Designer|Front-end Developer,I am not sure,No,35,0,35,0,Male
+738,More than 1000,0.0,1.0,Sometimes,31,Male,United Kingdom,,United Kingdom,,Back-end Developer,I am not sure,"Yes, I observed",31,0,31,0,Male
+740,More than 1000,1.0,,Always,37,Male,Canada,,Canada,,Front-end Developer,Yes,"Yes, I observed",37,0,37,0,m
+741,6-25,1.0,,Sometimes,34,Female,United States of America,Oklahoma,United States of America,Oklahoma,Support,I am not sure,No,34,0,34,0,Female
+742,26-100,1.0,,Sometimes,39,Female,United States of America,California,United States of America,California,Other|Front-end Developer,Yes,No,39,0,39,0,Woman
+744,100-500,1.0,,Always,29,Female,United States of America,Pennsylvania,United States of America,Pennsylvania,Back-end Developer,Yes,"Yes, I observed",29,0,29,0,female
+745,More than 1000,1.0,,Sometimes,63,Male,United States of America,Maryland,United States of America,Maryland,Back-end Developer,I am not sure,No,63,0,63,0,Male
+750,More than 1000,0.0,1.0,Never,28,Other,United Kingdom,,United Kingdom,,Support,,"Yes, I experienced",28,0,28,0,Queer
+754,6-25,1.0,,Always,19,Male,India,,India,,Front-end Developer|Back-end Developer|Support|Supervisor/Team Lead,No,No,19,0,19,0,Male
+755,More than 1000,1.0,,Always,40,Male,United States of America,California,United States of America,California,Other,No,"Yes, I experienced",40,0,40,0,Male
+756,More than 1000,0.0,1.0,Sometimes,49,Female,United States of America,Illinois,United States of America,Illinois,Supervisor/Team Lead,Yes,No,49,0,49,0,F
+757,6-25,1.0,,Sometimes,27,Female,Australia,,Australia,,Front-end Developer,,No,27,0,27,0,Female
+758,More than 1000,0.0,1.0,Never,39,Male,United States of America,Missouri,United States of America,Missouri,Designer,Yes,"Yes, I experienced",39,0,39,0,male
+759,More than 1000,0.0,1.0,Never,35,Male,United Kingdom,,United Kingdom,,Support,I am not sure,Maybe/Not sure,35,0,35,0,Male
+760,26-100,1.0,,Sometimes,35,Male,United States of America,Texas,United States of America,Texas,Supervisor/Team Lead|Front-end Developer|Back-end Developer|Dev Evangelist/Advocate,No,,35,0,35,0,M
+761,26-100,1.0,,Sometimes,42,Female,United States of America,Texas,United States of America,Texas,Designer,I am not sure,"Yes, I observed",42,0,42,0,female
+762,6-25,1.0,,Sometimes,35,Male,Canada,,Canada,,One-person shop,Yes,"Yes, I observed",35,0,35,0,Male
+763,100-500,1.0,,Sometimes,31,Female,United States of America,Texas,United States of America,Texas,Support|Back-end Developer,No,"Yes, I experienced",31,0,31,0,female
+765,100-500,1.0,,Sometimes,39,Male,United States of America,Georgia,United States of America,Georgia,Supervisor/Team Lead|DevOps/SysAdmin|Front-end Developer|Back-end Developer,Yes,No,39,0,39,0,Male
+767,More than 1000,1.0,,Sometimes,45,Male,New Zealand,,New Zealand,,Supervisor/Team Lead,I am not sure,Maybe/Not sure,45,0,45,0,m
+770,26-100,1.0,,Sometimes,29,Male,United States of America,Maryland,United States of America,Maryland,Back-end Developer,I am not sure,No,29,0,29,0,M
+771,6-25,1.0,,Always,20,Male,United States of America,New York,United States of America,Oklahoma,Back-end Developer,No,No,20,0,20,0,Male
+772,100-500,1.0,,Never,34,Male,United States of America,Washington,United States of America,Washington,Other,,No,34,0,34,0,m
+773,500-1000,1.0,,Never,33,Other,United Kingdom,,United Kingdom,,Dev Evangelist/Advocate|Back-end Developer|Front-end Developer,,No,33,0,33,0,Agender
+776,100-500,1.0,,Sometimes,31,Male,United States of America,California,United States of America,California,DevOps/SysAdmin,Yes,Maybe/Not sure,31,0,31,0,m
+777,More than 1000,1.0,,Sometimes,36,Male,United States of America,Texas,United States of America,Texas,Executive Leadership,Yes,"Yes, I observed",36,0,36,0,Male
+778,100-500,1.0,,Always,30,Male,United States of America,California,United States of America,California,Support,Yes,"Yes, I observed",30,0,30,0,Male
+779,More than 1000,0.0,1.0,Never,44,Female,United States of America,Texas,United States of America,Texas,Support,I am not sure,Maybe/Not sure,44,0,44,0,F
+780,1-5,1.0,,Sometimes,23,Female,United States of America,Texas,United States of America,Texas,Front-end Developer|Designer,I am not sure,No,23,0,23,0,Female
+781,More than 1000,0.0,1.0,Never,46,Male,United States of America,Missouri,United States of America,Missouri,Support,No,No,46,0,46,0,Male
+782,100-500,1.0,,Always,33,Female,United States of America,Maine,United States of America,Maine,Front-end Developer,Yes,"Yes, I observed",33,0,33,0,female
+785,6-25,1.0,,Sometimes,26,Male,United States of America,Illinois,United States of America,Illinois,Back-end Developer,No,No,26,0,26,0,male
+787,More than 1000,1.0,,Sometimes,28,Male,United States of America,Oregon,United States of America,Oregon,Back-end Developer,I am not sure,No,28,0,28,0,Dude
+790,More than 1000,1.0,,Sometimes,30,Male,United States of America,California,United States of America,California,Back-end Developer,No,No,30,0,30,0,Male
+791,6-25,1.0,,Sometimes,28,Female,United States of America,Washington,United States of America,Washington,Front-end Developer|Designer,No,"Yes, I observed",28,0,28,0,F
+792,100-500,1.0,,Always,31,Male,Canada,,Canada,,Supervisor/Team Lead,Yes,"Yes, I experienced",31,0,31,0,M
+793,100-500,1.0,,Sometimes,29,Male,United States of America,Ohio,United States of America,Ohio,Back-end Developer,No,No,29,0,29,0,male
+794,26-100,1.0,,Sometimes,33,Male,United States of America,Texas,United States of America,Texas,Back-end Developer,No,Maybe/Not sure,33,0,33,0,Male
+795,More than 1000,1.0,,Always,43,Female,United States of America,Maryland,United States of America,Maryland,Executive Leadership,Yes,"Yes, I observed",43,0,43,0,female
+796,100-500,1.0,,Always,28,Male,Australia,,Australia,,Dev Evangelist/Advocate|Front-end Developer|Back-end Developer|DevOps/SysAdmin,I am not sure,No,28,0,28,0,Male
+798,100-500,1.0,,Always,38,Male,United States of America,California,United States of America,Texas,Dev Evangelist/Advocate,I am not sure,Maybe/Not sure,38,0,38,0,Male
+799,6-25,0.0,1.0,Sometimes,30,Male,United States of America,Wisconsin,United States of America,Wisconsin,DevOps/SysAdmin|Support|One-person shop,Yes,"Yes, I observed",30,0,30,0,Male
+801,26-100,1.0,,Never,48,Female,United States of America,Kansas,United States of America,Kansas,Executive Leadership,No,"Yes, I observed",48,0,48,0,F
+803,6-25,1.0,,Sometimes,28,Male,Australia,,Australia,,Designer|Support|Supervisor/Team Lead,No,"Yes, I observed",28,0,28,0,Male
+804,100-500,1.0,,Always,37,Male,United States of America,Colorado,United States of America,Colorado,Front-end Developer|Designer,Yes,Maybe/Not sure,37,0,37,0,Male
+805,More than 1000,1.0,,Sometimes,33,Male,United States of America,Oklahoma,United States of America,Oklahoma,Back-end Developer,No,Maybe/Not sure,33,0,33,0,Male
+806,6-25,1.0,,Never,21,Male,Australia,,Australia,,Front-end Developer,,"Yes, I experienced",21,0,21,0,Male
+807,26-100,0.0,1.0,Sometimes,25,Male,United States of America,California,United States of America,California,Other|Supervisor/Team Lead|Dev Evangelist/Advocate|DevOps/SysAdmin|Support|Back-end Developer|Front-end Developer|Designer|One-person shop,I am not sure,Maybe/Not sure,25,0,25,0,male
+809,100-500,1.0,,Always,40,Male,United States of America,Oklahoma,United States of America,Oklahoma,Back-end Developer,No,"Yes, I experienced",40,0,40,0,Male
+810,100-500,0.0,1.0,Sometimes,30,Female,Canada,,Canada,,Front-end Developer,I am not sure,,30,0,30,0,Female
+812,1-5,1.0,,Never,25,Male,India,,India,,Back-end Developer|Front-end Developer,No,No,25,0,25,0,male
+813,More than 1000,1.0,,Sometimes,38,Male,Germany,,Germany,,Back-end Developer|DevOps/SysAdmin|Supervisor/Team Lead,I am not sure,No,38,0,38,0,Male
+814,100-500,0.0,1.0,Never,24,Male,United Kingdom,,United Kingdom,,Support|Designer,No,No,24,0,24,0,Male
+815,6-25,1.0,,Never,23,Male,United Kingdom,,United Kingdom,,Back-end Developer,,No,23,0,23,0,Male
+817,6-25,1.0,,Sometimes,26,Male,United States of America,Colorado,United States of America,Colorado,Other|Supervisor/Team Lead|Back-end Developer|Front-end Developer,I am not sure,No,26,0,26,0,male
+818,More than 1000,0.0,1.0,Never,43,Male,United Kingdom,,United Kingdom,,Support,I am not sure,No,43,0,43,0,Male
+819,6-25,1.0,,Always,30,Male,New Zealand,,New Zealand,,Executive Leadership|Supervisor/Team Lead|Front-end Developer|Back-end Developer,I am not sure,,30,0,30,0,Male
+821,26-100,0.0,1.0,Sometimes,40,Male,United Kingdom,,United Kingdom,,Designer|Front-end Developer|Back-end Developer|Supervisor/Team Lead|Executive Leadership,No,Maybe/Not sure,40,0,40,0,M
+822,26-100,0.0,1.0,Never,33,Female,United Kingdom,,United Kingdom,,Supervisor/Team Lead|DevOps/SysAdmin|Support|Front-end Developer|Designer|One-person shop,No,Maybe/Not sure,33,0,33,0,Female
+824,6-25,1.0,,Never,22,Male,United Kingdom,,United Kingdom,,Front-end Developer|Back-end Developer|DevOps/SysAdmin|Dev Evangelist/Advocate,No,,22,0,22,0,Male
+825,100-500,1.0,,Always,28,Male,United States of America,Ohio,United States of America,Ohio,Back-end Developer,I am not sure,Maybe/Not sure,28,0,28,0,Male
+826,More than 1000,1.0,,Sometimes,39,Male,United States of America,California,United States of America,California,Support,Yes,No,39,0,39,0,M
+827,100-500,1.0,,Always,33,Male,United States of America,Indiana,United States of America,Indiana,Support,No,Maybe/Not sure,33,0,33,0,M
+829,6-25,1.0,,Sometimes,37,Male,United States of America,Minnesota,United States of America,Minnesota,Executive Leadership|Supervisor/Team Lead|Back-end Developer|DevOps/SysAdmin,I am not sure,No,37,0,37,0,Male
+830,500-1000,1.0,,Never,41,Female,France,,France,,Front-end Developer,No,No,41,0,41,0,f
+831,More than 1000,1.0,,Sometimes,30,Female,United States of America,Kansas,United States of America,Kansas,Back-end Developer,I am not sure,No,30,0,30,0,Female
+832,More than 1000,1.0,,Sometimes,42,Male,United States of America,Texas,United States of America,Texas,Supervisor/Team Lead,Yes,,42,0,42,0,Male
+833,6-25,1.0,,Sometimes,52,Male,United States of America,Minnesota,United States of America,Minnesota,Support|Front-end Developer|Back-end Developer,No,No,52,0,52,0,Male
+834,26-100,1.0,,Always,30,Male,Romania,,United States of America,California,Back-end Developer,No,No,30,0,30,0,male
+835,500-1000,1.0,,Sometimes,35,Male,United States of America,Texas,United States of America,Texas,Front-end Developer|Designer,Yes,No,35,0,35,0,Male
+836,26-100,1.0,,Sometimes,24,Male,United States of America,Texas,United States of America,Texas,Other,No,No,24,0,24,0,Male
+837,6-25,1.0,,Sometimes,39,Male,United States of America,Minnesota,United States of America,Minnesota,Back-end Developer,I am not sure,Maybe/Not sure,39,0,39,0,Male
+838,6-25,1.0,,Sometimes,34,Male,United States of America,Pennsylvania,United States of America,Pennsylvania,Supervisor/Team Lead,I am not sure,"Yes, I observed",34,0,34,0,Male
+841,26-100,0.0,1.0,Never,43,Male,Poland,,Poland,,Back-end Developer,No,"Yes, I observed",43,0,43,0,Male
+842,6-25,1.0,,Sometimes,39,Male,United States of America,Minnesota,United States of America,Minnesota,Dev Evangelist/Advocate|Back-end Developer|Front-end Developer,No,Maybe/Not sure,39,0,39,0,male
+844,26-100,1.0,,Sometimes,34,Male,United States of America,Nebraska,United States of America,Nebraska,Supervisor/Team Lead|Back-end Developer|Front-end Developer,Yes,Maybe/Not sure,34,0,34,0,Male
+845,More than 1000,0.0,1.0,Sometimes,38,Male,United Kingdom,,United Kingdom,,Back-end Developer,I am not sure,,38,0,38,0,Male
+846,100-500,1.0,,Always,26,Female,United States of America,North Carolina,United States of America,North Carolina,Support,Yes,"Yes, I experienced",26,0,26,0,woman
+847,6-25,1.0,,Sometimes,24,Male,Bulgaria,,Bulgaria,,Back-end Developer,I am not sure,Maybe/Not sure,24,0,24,0,male
+848,More than 1000,0.0,1.0,Sometimes,27,Female,United States of America,New York,United States of America,New York,Supervisor/Team Lead|Back-end Developer|Front-end Developer,I am not sure,No,27,0,27,0,Female
+849,6-25,1.0,,Never,25,Male,United States of America,Oklahoma,United States of America,Oklahoma,One-person shop,Yes,"Yes, I observed",25,0,25,0,male
+851,More than 1000,0.0,1.0,Sometimes,33,Male,Canada,,Canada,,Supervisor/Team Lead|Dev Evangelist/Advocate|DevOps/SysAdmin|Support|Back-end Developer|Designer|Front-end Developer,I am not sure,"Yes, I observed",33,0,33,0,Male
+852,26-100,0.0,1.0,Sometimes,34,Male,United States of America,New York,United States of America,New York,Support,I am not sure,"Yes, I experienced",34,0,34,0,Male
+853,26-100,1.0,,Sometimes,27,Male,Canada,,Canada,,Designer,I am not sure,No,27,0,27,0,Male
+854,100-500,1.0,,Sometimes,33,Male,United States of America,New Hampshire,United States of America,New Hampshire,Support,No,Maybe/Not sure,33,0,33,0,Male
+855,6-25,1.0,,Sometimes,50,Male,United States of America,Minnesota,United States of America,Minnesota,DevOps/SysAdmin,I am not sure,No,50,0,50,0,mail
+857,More than 1000,1.0,,Sometimes,32,Female,Canada,,Canada,,Supervisor/Team Lead|Sales,I am not sure,"Yes, I observed",32,0,32,0,female 
+858,6-25,1.0,,Sometimes,39,Male,Canada,,Canada,,Front-end Developer,I am not sure,No,39,0,39,0,m
+859,6-25,1.0,,Sometimes,36,Male,United States of America,Minnesota,United States of America,Minnesota,Back-end Developer|Front-end Developer|Designer,No,Maybe/Not sure,36,0,36,0,Male
+860,100-500,1.0,,Sometimes,34,Male,Canada,,Canada,,Front-end Developer,No,,34,0,34,0,Male
+861,100-500,1.0,,Sometimes,31,Female,United States of America,New York,United States of America,New York,Front-end Developer,I am not sure,No,31,0,31,0,female
+862,More than 1000,0.0,1.0,Never,36,Male,United States of America,Texas,United States of America,Texas,DevOps/SysAdmin|Back-end Developer|Front-end Developer|Designer,,"Yes, I experienced",36,0,36,0,male
+863,More than 1000,0.0,1.0,Sometimes,48,Male,United States of America,Minnesota,United States of America,Minnesota,Other|DevOps/SysAdmin|Support|Back-end Developer,I am not sure,No,48,0,48,0,Male
+864,6-25,1.0,,Never,31,Male,United States of America,Maine,United States of America,Maine,Back-end Developer,No,No,31,0,31,0,male
+865,1-5,1.0,,Always,32,Male,United States of America,Pennsylvania,United States of America,Pennsylvania,Other,,No,32,0,32,0,M
+866,100-500,1.0,,Always,32,Male,United States of America,Oregon,United States of America,Oregon,Supervisor/Team Lead|Back-end Developer|Support|DevOps/SysAdmin,I am not sure,"Yes, I observed",32,0,32,0,M
+868,1-5,1.0,,Sometimes,28,Female,United States of America,Kansas,United States of America,Kansas,Designer,,No,28,0,28,0,Female
+869,More than 1000,0.0,1.0,Never,28,Male,United Kingdom,,United Kingdom,,Supervisor/Team Lead|Back-end Developer|Front-end Developer,No,"Yes, I observed",28,0,28,0,male
+870,26-100,1.0,,Sometimes,33,Female,United States of America,Pennsylvania,United States of America,Pennsylvania,Back-end Developer,Yes,No,33,0,33,0,F
+874,100-500,1.0,,Always,37,Male,United States of America,Florida,United States of America,Florida,DevOps/SysAdmin|Back-end Developer,No,"Yes, I observed",37,0,37,0,Male
+875,6-25,1.0,,Always,27,Female,Germany,,Germany,,Back-end Developer|Front-end Developer,I am not sure,"Yes, I experienced",27,0,27,0,female
+876,More than 1000,1.0,,Always,39,Male,United States of America,Texas,United States of America,Texas,Back-end Developer|Front-end Developer,No,No,39,0,39,0,Male
+878,More than 1000,0.0,1.0,Never,34,Female,United States of America,Texas,United States of America,Texas,Front-end Developer,Yes,No,34,0,34,0,Female
+880,6-25,1.0,,Always,31,Female,Other,,Other,,Support|Other,,"Yes, I observed",31,0,31,0,Female
+881,More than 1000,0.0,1.0,Sometimes,39,Male,United States of America,Maryland,United States of America,Maryland,Supervisor/Team Lead|Back-end Developer,Yes,"Yes, I observed",39,0,39,0,male
+882,26-100,1.0,,Sometimes,46,Male,United States of America,Virginia,United States of America,District of Columbia,Support|Back-end Developer|Front-end Developer,No,"Yes, I observed",46,0,46,0,Male
+883,More than 1000,1.0,,Sometimes,28,Male,United States of America,Tennessee,United States of America,Tennessee,Front-end Developer,No,No,28,0,28,0,M
+884,26-100,1.0,,Sometimes,32,Male,France,,France,,Back-end Developer,I am not sure,No,32,0,32,0,male
+889,26-100,0.0,1.0,Sometimes,51,Male,United States of America,North Carolina,United States of America,North Carolina,Supervisor/Team Lead,I am not sure,"Yes, I experienced",51,0,51,0,male
+890,500-1000,0.0,1.0,Sometimes,29,Male,United States of America,Illinois,United States of America,Illinois,Back-end Developer,No,Maybe/Not sure,29,0,29,0,Male
+893,1-5,1.0,,Sometimes,32,Male,Iran,,Iran,,Other|Dev Evangelist/Advocate|Support,,No,32,0,32,0,Male
+895,More than 1000,0.0,1.0,Never,52,Male,Switzerland,,Switzerland,,Support|Designer|Front-end Developer,,Maybe/Not sure,52,0,52,0,m
+898,More than 1000,0.0,1.0,Never,35,Male,United States of America,Illinois,United States of America,Illinois,Other|Dev Evangelist/Advocate|Support,Yes,Maybe/Not sure,35,0,35,0,Male
+903,26-100,1.0,,Sometimes,38,Male,Ireland,,Ireland,,Designer|Supervisor/Team Lead,,Maybe/Not sure,38,0,38,0,male
+904,6-25,0.0,1.0,Never,27,Male,United States of America,Washington,United States of America,Washington,DevOps/SysAdmin|Support|Back-end Developer|Front-end Developer,No,Maybe/Not sure,27,0,27,0,Male
+905,6-25,1.0,,Always,40,Female,United States of America,Oregon,United States of America,Oregon,Other,No,No,40,0,40,0,Female
+906,500-1000,0.0,1.0,Never,32,Male,South Africa,,South Africa,,Front-end Developer,,Maybe/Not sure,32,0,32,0,Male
+908,100-500,0.0,1.0,Never,28,Female,Germany,,Germany,,Other,Yes,"Yes, I experienced",28,0,28,0,female
+910,More than 1000,0.0,1.0,Sometimes,42,Male,United States of America,California,United States of America,California,Front-end Developer,Yes,No,42,0,42,0,male
+911,1-5,1.0,,Sometimes,31,Male,United States of America,New York,United States of America,New York,Executive Leadership|Supervisor/Team Lead|DevOps/SysAdmin|Back-end Developer|Front-end Developer|One-person shop,Yes,No,31,0,31,0,Male
+913,6-25,1.0,,Never,35,Male,Canada,,Canada,,Designer,,No,35,0,35,0,M
+915,26-100,1.0,,Sometimes,35,Male,Australia,,Australia,,DevOps/SysAdmin|Back-end Developer|Front-end Developer,I am not sure,No,35,0,35,0,Male
+916,26-100,1.0,,Never,24,Male,United States of America,California,United States of America,California,Back-end Developer,Yes,No,24,0,24,0,Male
+917,6-25,1.0,,Sometimes,23,Male,India,,India,,Back-end Developer,No,Maybe/Not sure,23,0,23,0,male
+919,6-25,1.0,,Always,38,Male,France,,France,,Executive Leadership,,Maybe/Not sure,38,0,38,0,Male
+923,26-100,1.0,,Sometimes,33,Male,France,,France,,Back-end Developer,No,No,33,0,33,0,M
+924,26-100,1.0,,Sometimes,35,Male,United Kingdom,,United Kingdom,,Back-end Developer,I am not sure,No,35,0,35,0,Male
+926,100-500,1.0,,Never,30,Female,Germany,,Germany,,Other,,No,30,0,30,0,female
+928,500-1000,1.0,,Sometimes,28,Male,United States of America,North Carolina,United States of America,North Carolina,Front-end Developer,No,No,28,0,28,0,male
+929,6-25,1.0,,Sometimes,39,Male,Germany,,Germany,,Supervisor/Team Lead|DevOps/SysAdmin|Back-end Developer,I am not sure,No,39,0,39,0,m
+930,1-5,1.0,,Always,21,Other,United States of America,New Jersey,United States of America,New Jersey,DevOps/SysAdmin|Back-end Developer|Front-end Developer|Designer,Yes,"Yes, I observed",21,0,21,0,non-binary
+931,6-25,1.0,,Sometimes,31,Male,Germany,,Germany,,Front-end Developer|Back-end Developer|Supervisor/Team Lead,Yes,No,31,0,31,0,male
+932,More than 1000,1.0,,Sometimes,30,Male,United States of America,Washington,United States of America,Washington,Front-end Developer|Back-end Developer|Dev Evangelist/Advocate,No,No,30,0,30,0,male
+933,26-100,1.0,,Sometimes,25,Female,United States of America,Pennsylvania,United States of America,Pennsylvania,Other,I am not sure,,25,0,25,0,Female
+934,6-25,1.0,,Always,26,Male,United Kingdom,,United Kingdom,,Back-end Developer,I am not sure,No,26,0,26,0,Male
+935,26-100,1.0,,Never,30,Male,United States of America,Pennsylvania,United States of America,Pennsylvania,Executive Leadership|Supervisor/Team Lead|DevOps/SysAdmin|Support|Back-end Developer|Front-end Developer,I am not sure,Maybe/Not sure,30,0,30,0,male
+936,500-1000,1.0,,Never,30,Male,Italy,,Italy,,Back-end Developer,,No,30,0,30,0,M
+937,100-500,1.0,,Always,31,Male,Bulgaria,,Bulgaria,,Front-end Developer|Back-end Developer|Supervisor/Team Lead|Executive Leadership,I am not sure,No,31,0,31,0,Male
+938,100-500,1.0,,Never,32,Male,United States of America,North Carolina,United States of America,North Carolina,Back-end Developer|Front-end Developer,I am not sure,No,32,0,32,0,M
+939,26-100,0.0,1.0,Always,45,Female,United Kingdom,,United Kingdom,,Back-end Developer,,No,45,0,45,0,female
+941,26-100,1.0,,Always,27,Male,United States of America,Pennsylvania,United States of America,Pennsylvania,Front-end Developer|Back-end Developer,No,Maybe/Not sure,27,0,27,0,Male
+942,26-100,1.0,,Always,28,Female,United Kingdom,,United Kingdom,,Front-end Developer,,No,28,0,28,0,Female
+943,500-1000,1.0,,Always,38,Male,United States of America,Michigan,United States of America,Michigan,Back-end Developer|DevOps/SysAdmin,No,No,38,0,38,0,m
+944,500-1000,0.0,1.0,Sometimes,38,Male,United States of America,Minnesota,United States of America,Minnesota,Front-end Developer|Designer,Yes,"Yes, I observed",38,0,38,0,male
+945,More than 1000,1.0,,Sometimes,34,Male,Hungary,,Hungary,,Other,I am not sure,No,34,0,34,0,Male
+947,6-25,1.0,,Sometimes,23,Male,France,,France,,Back-end Developer,No,No,23,0,23,0,male
+948,100-500,0.0,1.0,Sometimes,40,Female,United States of America,Texas,United States of America,Texas,Other,I am not sure,Maybe/Not sure,40,0,40,0,Female
+950,26-100,1.0,,Never,28,Male,United States of America,Texas,United States of America,Texas,Front-end Developer,I am not sure,No,28,0,28,0,Male
+951,6-25,1.0,,Sometimes,33,Male,United States of America,Tennessee,United States of America,Tennessee,Front-end Developer|Back-end Developer,No,No,33,0,33,0,male
+953,More than 1000,0.0,1.0,Never,32,Male,United States of America,Minnesota,United States of America,Minnesota,Other,No,"Yes, I observed",32,0,32,0,Male
+954,More than 1000,1.0,,Never,27,Male,United States of America,Colorado,United States of America,Colorado,Other|DevOps/SysAdmin|Back-end Developer,Yes,No,27,0,27,0,M
+955,100-500,1.0,,Never,33,Male,Israel,,Israel,,Front-end Developer|Back-end Developer,No,Maybe/Not sure,33,0,33,0,Male
+956,100-500,0.0,1.0,Never,34,Male,Japan,,Japan,,Supervisor/Team Lead|DevOps/SysAdmin|Front-end Developer|Back-end Developer,I am not sure,Maybe/Not sure,34,0,34,0,Male
+958,More than 1000,0.0,1.0,Never,35,Male,United States of America,Illinois,United States of America,Illinois,Supervisor/Team Lead|Back-end Developer,No,No,35,0,35,0,M
+959,26-100,1.0,,Sometimes,39,Male,United States of America,Maryland,United States of America,Maryland,Other|Back-end Developer|Supervisor/Team Lead,I am not sure,No,39,0,39,0,M
+960,More than 1000,0.0,1.0,Never,35,Male,United States of America,Minnesota,United States of America,Minnesota,Supervisor/Team Lead,I am not sure,"Yes, I observed",35,0,35,0,male
+961,100-500,0.0,1.0,Sometimes,34,Male,United States of America,Utah,United States of America,Utah,Back-end Developer,No,"Yes, I observed",34,0,34,0,Male
+963,500-1000,0.0,1.0,Always,42,Male,United States of America,Massachusetts,United States of America,Massachusetts,Supervisor/Team Lead,I am not sure,No,42,0,42,0,M
+964,6-25,0.0,1.0,Always,30,Male,United States of America,Florida,United States of America,Florida,Front-end Developer|Designer,No,No,30,0,30,0,Male
+965,26-100,0.0,1.0,Never,55,Male,United States of America,Illinois,United States of America,Illinois,Front-end Developer|Back-end Developer|DevOps/SysAdmin|Supervisor/Team Lead,No,No,55,0,55,0,Male
+966,26-100,1.0,,Sometimes,46,Male,United States of America,California,United States of America,California,Back-end Developer,Yes,"Yes, I observed",46,0,46,0,m
+967,100-500,0.0,1.0,Sometimes,33,Male,United States of America,New Hampshire,United States of America,Massachusetts,DevOps/SysAdmin|Back-end Developer,Yes,No,33,0,33,0,male
+968,26-100,0.0,1.0,Sometimes,30,Male,United States of America,Massachusetts,United States of America,Massachusetts,Supervisor/Team Lead|Support|Back-end Developer,I am not sure,"Yes, I experienced",30,0,30,0,Male
+969,26-100,1.0,,Sometimes,30,Male,United Kingdom,,United Kingdom,,Supervisor/Team Lead,,No,30,0,30,0,male
+970,More than 1000,1.0,,Never,31,Female,United States of America,Massachusetts,United States of America,Massachusetts,Back-end Developer|Front-end Developer,Yes,Maybe/Not sure,31,0,31,0,Female
+971,More than 1000,1.0,,Sometimes,38,Male,Ireland,,Ireland,,DevOps/SysAdmin,I am not sure,No,38,0,38,0,Male
+972,100-500,1.0,,Sometimes,30,Female,United Kingdom,,United Kingdom,,Support|Back-end Developer,Yes,"Yes, I observed",30,0,30,0,female
+973,500-1000,1.0,,Sometimes,32,Male,United States of America,Utah,United States of America,Utah,Back-end Developer,Yes,"Yes, I experienced",32,0,32,0,Male
+974,More than 1000,0.0,1.0,Never,32,Male,United Kingdom,,United Kingdom,,Supervisor/Team Lead,,"Yes, I observed",32,0,32,0,Male
+975,26-100,1.0,,Sometimes,47,Male,United States of America,Utah,United States of America,Utah,Supervisor/Team Lead|Back-end Developer,No,Maybe/Not sure,47,0,47,0,Male
+976,6-25,1.0,,Always,39,Male,United Kingdom,,United Kingdom,,DevOps/SysAdmin,,"Yes, I observed",39,0,39,0,Male
+977,100-500,0.0,1.0,Sometimes,35,Male,United States of America,Texas,United States of America,Texas,Supervisor/Team Lead|Back-end Developer,I am not sure,,35,0,35,0,Male
+978,100-500,1.0,,Sometimes,36,Male,United States of America,Maine,United States of America,Massachusetts,Supervisor/Team Lead,Yes,Maybe/Not sure,36,0,36,0,Male
+979,100-500,0.0,1.0,Always,38,Female,United States of America,Michigan,United States of America,Michigan,Front-end Developer,Yes,No,38,0,38,0,female
+980,100-500,1.0,,Sometimes,30,Male,United States of America,Washington,United States of America,Washington,Back-end Developer|Front-end Developer,I am not sure,"Yes, I observed",30,0,30,0,Male
+981,26-100,1.0,,Sometimes,33,Male,United States of America,Michigan,United States of America,Michigan,Back-end Developer,I am not sure,No,33,0,33,0,Male
+982,6-25,1.0,,Never,22,Male,United States of America,Massachusetts,United States of America,Massachusetts,Front-end Developer,I am not sure,,22,0,22,0,male
+984,26-100,0.0,1.0,Never,26,Male,United States of America,Michigan,United States of America,Michigan,Support|DevOps/SysAdmin,No,No,26,0,26,0,m
+985,100-500,1.0,,Always,34,Male,United States of America,Michigan,United States of America,Michigan,Front-end Developer|Back-end Developer|DevOps/SysAdmin,Yes,No,34,0,34,0,Male
+987,100-500,1.0,,Always,37,Male,Bulgaria,,Bulgaria,,Supervisor/Team Lead|Back-end Developer|Front-end Developer,,"Yes, I observed",37,0,37,0,male
+988,1-5,1.0,,Sometimes,43,Male,Switzerland,,Switzerland,,Executive Leadership|Back-end Developer|Front-end Developer,No,No,43,0,43,0,M
+990,500-1000,1.0,,Sometimes,30,Female,United States of America,Minnesota,United States of America,Minnesota,Back-end Developer|Front-end Developer,No,"Yes, I observed",30,0,30,0,Female
+991,More than 1000,1.0,,Sometimes,32,Male,United States of America,Washington,United States of America,Washington,Front-end Developer,I am not sure,"Yes, I observed",32,0,32,0,Male
+992,More than 1000,0.0,1.0,Always,35,Male,United States of America,Minnesota,United States of America,Minnesota,Other,Yes,Maybe/Not sure,35,0,35,0,male
+993,26-100,1.0,,Sometimes,29,Male,United States of America,Pennsylvania,United States of America,Pennsylvania,Back-end Developer,No,No,29,0,29,0,male
+994,500-1000,0.0,1.0,Never,29,Male,United States of America,Ohio,United States of America,Ohio,DevOps/SysAdmin|Support|Front-end Developer|Back-end Developer,I am not sure,No,29,0,29,0,male
+995,More than 1000,1.0,,Always,30,Male,United States of America,Montana,United States of America,Montana,Back-end Developer,No,Maybe/Not sure,30,0,30,0,m
+996,100-500,1.0,,Never,30,Male,United States of America,Washington,United States of America,Washington,Supervisor/Team Lead,No,,30,0,30,0,male
+997,100-500,1.0,,Always,38,Male,United States of America,Tennessee,United States of America,Tennessee,Designer,I am not sure,"Yes, I observed",38,0,38,0,Male
+998,26-100,0.0,1.0,Never,30,Male,Brazil,,Brazil,,Back-end Developer,No,Maybe/Not sure,30,0,30,0,Male
+999,26-100,1.0,,Never,26,Male,Netherlands,,Netherlands,,Back-end Developer,No,No,26,0,26,0,Male
+1001,1-5,1.0,,Always,24,Male,United States of America,Ohio,United States of America,Ohio,Front-end Developer|Back-end Developer,,No,24,0,24,0,Male
+1002,100-500,1.0,,Never,35,Male,United States of America,Washington,United States of America,Washington,Other,No,No,35,0,35,0,male
+1003,More than 1000,1.0,,Sometimes,38,Male,Sweden,,Sweden,,Supervisor/Team Lead|Dev Evangelist/Advocate|Back-end Developer|Designer|Front-end Developer,I am not sure,No,38,0,38,0,Male
+1004,100-500,1.0,,Sometimes,36,Male,United States of America,California,United States of America,California,Supervisor/Team Lead|Front-end Developer,Yes,Maybe/Not sure,36,0,36,0,Male/genderqueer
+1006,26-100,1.0,,Sometimes,35,Male,United States of America,Colorado,United States of America,Colorado,Front-end Developer,Yes,"Yes, I experienced",35,0,35,0,Male
+1007,6-25,1.0,,Sometimes,25,Male,United States of America,Ohio,United States of America,Ohio,Supervisor/Team Lead|Support|Front-end Developer|Back-end Developer,I am not sure,,25,0,25,0,Male
+1008,100-500,1.0,,Never,32,Female,Sweden,,Sweden,,Other,I am not sure,"Yes, I experienced",32,0,32,0,Female
+1009,100-500,1.0,,Never,32,Female,United States of America,New York,United States of America,New York,Front-end Developer,I am not sure,No,32,0,32,0,fem
+1011,100-500,1.0,,Sometimes,28,Male,Germany,,Germany,,Back-end Developer,I am not sure,,28,0,28,0,Male
+1012,500-1000,1.0,,Sometimes,34,Female,United Kingdom,,United Kingdom,,Back-end Developer,Yes,No,34,0,34,0,Female
+1013,More than 1000,1.0,,Never,40,Female,United States of America,Wisconsin,United States of America,Wisconsin,Back-end Developer|Front-end Developer,Yes,"Yes, I observed",40,0,40,0,Female
+1014,More than 1000,1.0,,Never,45,Male,United States of America,Washington,United States of America,Washington,Other|Dev Evangelist/Advocate,I am not sure,"Yes, I observed",45,0,45,0,Male
+1015,100-500,1.0,,Sometimes,31,Male,Sweden,,Sweden,,Back-end Developer|Supervisor/Team Lead|Other,I am not sure,,31,0,31,0,Male
+1016,More than 1000,0.0,1.0,Sometimes,30,Male,United States of America,Washington,United States of America,Washington,Back-end Developer|Front-end Developer|Designer,Yes,No,30,0,30,0,male
+1017,More than 1000,0.0,1.0,Sometimes,47,Female,United Kingdom,,United Kingdom,,Supervisor/Team Lead,Yes,"Yes, I observed",47,0,47,0,female
+1018,100-500,1.0,,Sometimes,48,Male,United Kingdom,,United Kingdom,,Front-end Developer|Back-end Developer|Dev Evangelist/Advocate|Supervisor/Team Lead,No,No,48,0,48,0,m
+1020,More than 1000,1.0,,Never,29,Male,United States of America,Colorado,United States of America,Colorado,Other|Support,No,"Yes, I observed",29,0,29,0,Male
+1021,More than 1000,0.0,1.0,Always,52,Male,United States of America,Missouri,United States of America,Missouri,Supervisor/Team Lead,Yes,No,52,0,52,0,m
+1022,100-500,1.0,,Sometimes,34,Female,Sweden,,Sweden,,Other,Yes,"Yes, I observed",34,0,34,0,Female
+1023,100-500,1.0,,Never,34,Male,Netherlands,,Netherlands,,Other,Yes,No,34,0,34,0,male
+1024,More than 1000,1.0,,Sometimes,27,Male,United States of America,Washington,United States of America,Washington,Back-end Developer,I am not sure,No,27,0,27,0,Male
+1025,More than 1000,1.0,,Sometimes,30,Male,Russia,,Russia,,Front-end Developer,No,Maybe/Not sure,30,0,30,0,Male
+1026,6-25,1.0,,Sometimes,40,Male,United Kingdom,,United Kingdom,,Executive Leadership,Yes,"Yes, I experienced",40,0,40,0,Male
+1029,26-100,0.0,1.0,Always,35,Male,United Kingdom,,United Kingdom,,DevOps/SysAdmin,I am not sure,"Yes, I experienced",35,0,35,0,Male
+1030,More than 1000,0.0,1.0,Never,43,Female,United Kingdom,,United Kingdom,,Supervisor/Team Lead,No,No,43,0,43,0,Female
+1031,26-100,0.0,1.0,Sometimes,36,Female,United Kingdom,,United Kingdom,,Back-end Developer,,"Yes, I observed",36,0,36,0,Female
+1032,100-500,0.0,1.0,Sometimes,32,Female,United States of America,Georgia,United States of America,Georgia,Other|Supervisor/Team Lead|Front-end Developer,Yes,,32,0,32,0,Female
+1034,More than 1000,1.0,,Never,38,Male,New Zealand,,New Zealand,,Other,,"Yes, I observed",38,0,38,0,Male
+1035,More than 1000,0.0,1.0,Always,35,Male,United States of America,California,United States of America,California,Other|Supervisor/Team Lead,I am not sure,"Yes, I observed",35,0,35,0,Male
+1036,100-500,1.0,,Sometimes,35,Female,Australia,,Australia,,DevOps/SysAdmin|Designer,,Maybe/Not sure,35,0,35,0,F
+1037,More than 1000,1.0,,Always,45,Male,United States of America,Massachusetts,United States of America,California,DevOps/SysAdmin,I am not sure,"Yes, I experienced",45,0,45,0,m
+1039,100-500,1.0,,Sometimes,27,Male,United States of America,Colorado,United States of America,Colorado,Supervisor/Team Lead,I am not sure,No,27,0,27,0,male
+1040,26-100,1.0,,Sometimes,26,Male,United States of America,Illinois,United States of America,Illinois,Front-end Developer|Back-end Developer,No,No,26,0,26,0,Male
+1042,26-100,1.0,,Sometimes,25,Male,Ecuador,,Ecuador,,Back-end Developer|Front-end Developer,No,"Yes, I experienced",25,0,25,0,Male
+1043,100-500,1.0,,Sometimes,41,Male,South Africa,,South Africa,,DevOps/SysAdmin,,"Yes, I observed",41,0,41,0,male
+1044,More than 1000,0.0,1.0,Sometimes,34,Male,United States of America,Illinois,United States of America,Illinois,Front-end Developer,Yes,,34,0,34,0,Male
+1045,100-500,1.0,,Never,43,Male,Sweden,,Sweden,,Back-end Developer,,Maybe/Not sure,43,0,43,0,Male
+1046,26-100,1.0,,Never,33,Male,United Kingdom,,United Kingdom,,Supervisor/Team Lead,No,No,33,0,33,0,Male
+1048,26-100,1.0,,Never,27,Female,United Kingdom,,United Kingdom,,Back-end Developer,,Maybe/Not sure,27,0,27,0,Female
+1050,More than 1000,0.0,1.0,Never,38,Male,Italy,,Italy,,DevOps/SysAdmin,I am not sure,"Yes, I observed",38,0,38,0,m
+1051,More than 1000,1.0,,Sometimes,42,Male,Germany,,Germany,,Back-end Developer,No,No,42,0,42,0,male
+1052,26-100,1.0,,Sometimes,30,Male,United Kingdom,,United Kingdom,,Designer|Front-end Developer,I am not sure,No,30,0,30,0,Male
+1053,500-1000,1.0,,Sometimes,43,Male,Australia,,Australia,,Supervisor/Team Lead|DevOps/SysAdmin|HR,I am not sure,Maybe/Not sure,43,0,43,0,M
+1055,1-5,1.0,,Always,37,Female,Australia,,Australia,,DevOps/SysAdmin|Designer|Front-end Developer|Back-end Developer,,"Yes, I observed",37,0,37,0,Female
+1056,100-500,1.0,,Sometimes,25,Male,United States of America,Virginia,United States of America,Virginia,DevOps/SysAdmin,I am not sure,Maybe/Not sure,25,0,25,0,male
+1057,More than 1000,1.0,,Sometimes,27,Male,Australia,,Australia,,Front-end Developer|Back-end Developer|DevOps/SysAdmin,,No,27,0,27,0,Male
+1059,More than 1000,0.0,1.0,Never,27,Male,United States of America,Texas,United States of America,Texas,DevOps/SysAdmin,No,,27,0,27,0,Male
+1061,6-25,1.0,,Never,24,Male,United Kingdom,,United Kingdom,,Front-end Developer,,,24,0,24,0,male
+1062,100-500,1.0,,Never,31,Other,Switzerland,,Switzerland,,Back-end Developer,,"Yes, I experienced",31,0,31,0,Nonbinary
+1063,26-100,1.0,,Sometimes,31,Male,Germany,,Germany,,Front-end Developer|Back-end Developer|Other,I am not sure,No,31,0,31,0,male 
+1064,More than 1000,1.0,,Sometimes,32,Male,United States of America,California,United States of America,California,Other,No,No,32,0,32,0,male
+1065,More than 1000,1.0,,Sometimes,33,Male,Australia,,Australia,,Back-end Developer,No,No,33,0,33,0,Male
+1067,More than 1000,1.0,,Sometimes,43,Male,United States of America,California,United States of America,California,Other|Dev Evangelist/Advocate,I am not sure,"Yes, I experienced",43,0,43,0,Male
+1068,More than 1000,1.0,,Sometimes,49,Male,Australia,,Australia,,Back-end Developer,I am not sure,"Yes, I observed",49,0,49,0,Male
+1069,26-100,1.0,,Sometimes,35,Male,Bulgaria,,Bulgaria,,DevOps/SysAdmin|Supervisor/Team Lead,,"Yes, I observed",35,0,35,0,male
+1070,More than 1000,1.0,,Sometimes,53,Male,Canada,,Canada,,Front-end Developer|Back-end Developer,Yes,No,53,0,53,0,Male
+1071,100-500,1.0,,Never,45,Male,United States of America,Maryland,United States of America,Maryland,Back-end Developer|Front-end Developer,I am not sure,Maybe/Not sure,45,0,45,0,m
+1072,100-500,1.0,,Sometimes,40,Male,United States of America,Massachusetts,United States of America,Massachusetts,Support|Sales|Designer,No,No,40,0,40,0,Male
+1073,More than 1000,0.0,1.0,Sometimes,52,Male,United States of America,New Hampshire,United States of America,New Hampshire,Back-end Developer,I am not sure,"Yes, I observed",52,0,52,0,Male
+1075,More than 1000,1.0,,Always,41,Male,New Zealand,,New Zealand,,Back-end Developer,Yes,No,41,0,41,0,Male
+1077,100-500,1.0,,Sometimes,31,Male,Switzerland,,Switzerland,,Supervisor/Team Lead|DevOps/SysAdmin|Back-end Developer|Front-end Developer,,Maybe/Not sure,31,0,31,0,Male
+1079,100-500,1.0,,Sometimes,44,Male,Australia,,Australia,,Executive Leadership,,"Yes, I observed",44,0,44,0,Male
+1080,More than 1000,1.0,,Sometimes,37,Male,United States of America,Wisconsin,United States of America,Wisconsin,DevOps/SysAdmin|Back-end Developer,No,Maybe/Not sure,37,0,37,0,m
+1081,6-25,0.0,1.0,Always,22,Male,Brazil,,Brazil,,Front-end Developer,,No,22,0,22,0,Male
+1082,26-100,1.0,,Sometimes,31,Female,United States of America,Tennessee,United States of America,Tennessee,Front-end Developer,Yes,"Yes, I experienced",31,0,31,0,Female
+1083,26-100,1.0,,Sometimes,36,Female,Bulgaria,,Bulgaria,,Back-end Developer,,"Yes, I observed",36,0,36,0,female
+1085,500-1000,0.0,1.0,Sometimes,25,Female,United States of America,Iowa,United States of America,Iowa,Back-end Developer|Front-end Developer,No,No,25,0,25,0,female
+1087,1-5,1.0,,Always,22,Female,United States of America,New Jersey,United States of America,New Jersey,Other|Back-end Developer,,No,22,0,22,0,woman
+1090,500-1000,1.0,,Sometimes,36,Female,United States of America,Kentucky,United States of America,Kentucky,Other,Yes,No,36,0,36,0,"Female (props for making this a freeform field, though)"
+1091,26-100,1.0,,Sometimes,26,Female,United States of America,California,United States of America,California,Dev Evangelist/Advocate,I am not sure,Maybe/Not sure,26,0,26,0,female
+1092,More than 1000,0.0,1.0,Sometimes,43,Male,United States of America,Tennessee,United States of America,Tennessee,Other,I am not sure,"Yes, I observed",43,0,43,0,Male
+1094,More than 1000,1.0,,Sometimes,39,Male,Australia,,Australia,,Other|Supervisor/Team Lead|DevOps/SysAdmin|Back-end Developer|Support,,"Yes, I observed",39,0,39,0,Male
+1095,More than 1000,0.0,1.0,Sometimes,46,Male,United Kingdom,,United Kingdom,,Other|Front-end Developer|Designer|One-person shop,I am not sure,Maybe/Not sure,46,0,46,0,Male
+1096,1-5,1.0,,Sometimes,32,Male,United Kingdom,,United Kingdom,,Supervisor/Team Lead|Executive Leadership,No,No,32,0,32,0,M
+1099,100-500,1.0,,Sometimes,44,Male,Sweden,,Sweden,,Front-end Developer,I am not sure,Maybe/Not sure,44,0,44,0,m
+1100,More than 1000,0.0,1.0,Never,36,Male,United States of America,California,United States of America,California,Back-end Developer|Front-end Developer,I am not sure,No,36,0,36,0,male
+1101,More than 1000,0.0,1.0,Never,31,Female,United Kingdom,,United Kingdom,,Support,I am not sure,No,31,0,31,0,female
+1103,100-500,1.0,,Sometimes,36,Male,United States of America,Idaho,United States of America,Idaho,DevOps/SysAdmin,I am not sure,Maybe/Not sure,36,0,36,0,male
+1105,1-5,1.0,,Never,23,Male,Canada,,Canada,,Front-end Developer,,Maybe/Not sure,23,0,23,0,male
+1106,26-100,1.0,,Always,23,Male,Canada,,Canada,,Other,I am not sure,Maybe/Not sure,23,0,23,0,M
+1109,6-25,1.0,,Sometimes,49,Female,United States of America,Georgia,United States of America,Georgia,Supervisor/Team Lead|Front-end Developer|Back-end Developer|Support|DevOps/SysAdmin,,No,49,0,49,0,Female
+1110,6-25,1.0,,Never,25,Male,Bosnia and Herzegovina,,Bosnia and Herzegovina,,Back-end Developer,I am not sure,,25,0,25,0,m
+1111,6-25,0.0,1.0,Sometimes,39,Male,United Kingdom,,United Kingdom,,Other|Supervisor/Team Lead|Dev Evangelist/Advocate|DevOps/SysAdmin|Support|Back-end Developer|Front-end Developer|One-person shop,No,"Yes, I observed",39,0,39,0,Male
+1112,More than 1000,1.0,,Never,37,Male,Germany,,Germany,,Front-end Developer|Back-end Developer,,Maybe/Not sure,37,0,37,0,male
+1113,26-100,1.0,,Sometimes,26,Male,United States of America,California,United States of America,California,Back-end Developer,No,No,26,0,26,0,Male
+1114,100-500,1.0,,Sometimes,41,Male,United States of America,Michigan,United States of America,Michigan,Back-end Developer,Yes,Maybe/Not sure,41,0,41,0,Male
+1115,6-25,1.0,,Never,28,Male,Netherlands,,Netherlands,,Supervisor/Team Lead|Back-end Developer|Front-end Developer,,No,28,0,28,0,Male
+1116,100-500,1.0,,Sometimes,33,Male,Sweden,,Sweden,,Front-end Developer|Back-end Developer,,No,33,0,33,0,Male
+1118,100-500,0.0,1.0,Sometimes,28,Male,Netherlands,,Netherlands,,Back-end Developer,I am not sure,No,28,0,28,0,Male
+1119,6-25,1.0,,Sometimes,47,Male,United States of America,Illinois,United States of America,Illinois,Other,Yes,"Yes, I observed",47,0,47,0,Male
+1120,100-500,0.0,1.0,Never,25,Male,Bosnia and Herzegovina,,Bosnia and Herzegovina,,Supervisor/Team Lead,I am not sure,No,25,0,25,0,male
+1121,100-500,0.0,1.0,Never,51,Male,United States of America,Rhode Island,United States of America,Massachusetts,Supervisor/Team Lead,Yes,No,51,0,51,0,M
+1122,More than 1000,1.0,,Never,26,Male,United States of America,California,United States of America,California,Back-end Developer,Yes,Maybe/Not sure,26,0,26,0,male
+1123,26-100,1.0,,Never,24,Male,United States of America,Ohio,United States of America,Ohio,Front-end Developer|Back-end Developer,Yes,Maybe/Not sure,24,0,24,0,Male
+1125,26-100,1.0,,Sometimes,32,Female,United States of America,North Carolina,United States of America,North Carolina,Designer,Yes,No,32,0,32,0,Female 
+1126,6-25,1.0,,Always,57,Male,United States of America,North Carolina,United States of America,North Carolina,Executive Leadership,No,No,57,0,57,0,male
+1127,More than 1000,0.0,1.0,Never,39,Male,United States of America,North Carolina,United States of America,North Carolina,Supervisor/Team Lead|Back-end Developer|Front-end Developer,Yes,Maybe/Not sure,39,0,39,0,Male
+1128,6-25,1.0,,Sometimes,26,Female,United States of America,Illinois,United States of America,Illinois,Other,I am not sure,"Yes, I observed",26,0,26,0,Female
+1129,100-500,0.0,1.0,Sometimes,38,Male,United States of America,Colorado,United States of America,Colorado,DevOps/SysAdmin,No,Maybe/Not sure,38,0,38,0,Male
+1130,1-5,1.0,,Sometimes,33,Male,Finland,,Finland,,Back-end Developer,No,Maybe/Not sure,33,0,33,0,Male
+1131,6-25,1.0,,Sometimes,30,Male,United States of America,Ohio,United States of America,Ohio,Front-end Developer|Designer,Yes,No,30,0,30,0,Male
+1132,100-500,1.0,,Sometimes,25,Female,United States of America,Illinois,United States of America,Illinois,Back-end Developer,I am not sure,"Yes, I observed",25,0,25,0,Female 
+1133,26-100,1.0,,Sometimes,40,Male,United States of America,Michigan,United States of America,Michigan,Other,Yes,"Yes, I observed",40,0,40,0,Male
+1134,More than 1000,0.0,1.0,Sometimes,26,Female,United States of America,Illinois,United States of America,Illinois,Front-end Developer,Yes,Maybe/Not sure,26,0,26,0,Female
+1135,More than 1000,0.0,1.0,Never,34,Male,United States of America,South Dakota,United States of America,South Dakota,Support,Yes,"Yes, I experienced",34,0,34,0,Male
+1136,More than 1000,0.0,1.0,Sometimes,46,Female,United States of America,Michigan,United States of America,Michigan,Front-end Developer,Yes,Maybe/Not sure,46,0,46,0,F
+1137,More than 1000,0.0,1.0,Sometimes,31,Female,United States of America,Ohio,United States of America,Ohio,Front-end Developer,,"Yes, I experienced",31,0,31,0,female
+1139,More than 1000,1.0,,Sometimes,30,Male,United States of America,Michigan,United States of America,Michigan,Back-end Developer|Dev Evangelist/Advocate,No,Maybe/Not sure,30,0,30,0,Male
+1141,1-5,1.0,,Never,29,Male,Austria,,Austria,,Back-end Developer|Front-end Developer,I am not sure,Maybe/Not sure,29,0,29,0,male
+1142,100-500,1.0,,Never,31,Male,United States of America,California,United States of America,California,Dev Evangelist/Advocate,Yes,No,31,0,31,0,M
+1143,26-100,1.0,,Always,40,Male,United States of America,Pennsylvania,United States of America,Pennsylvania,Back-end Developer,I am not sure,No,40,0,40,0,Male
+1144,26-100,1.0,,Always,39,Male,United States of America,Texas,United States of America,Texas,Supervisor/Team Lead|Support|Back-end Developer|Front-end Developer,I am not sure,Maybe/Not sure,39,0,39,0,Cis Male
+1145,26-100,1.0,,Sometimes,37,Male,United States of America,Michigan,United States of America,Michigan,Supervisor/Team Lead|Back-end Developer|Front-end Developer|Designer,No,"Yes, I observed",37,0,37,0,male
+1146,26-100,1.0,,Always,27,Male,United States of America,Virginia,United States of America,Virginia,Front-end Developer|Back-end Developer,I am not sure,No,27,0,27,0,Male
+1147,26-100,1.0,,Always,45,Male,United States of America,Alabama,United States of America,Alabama,Back-end Developer,No,Maybe/Not sure,45,0,45,0,m
+1148,26-100,1.0,,Sometimes,29,Male,United States of America,Michigan,United States of America,Michigan,Supervisor/Team Lead|DevOps/SysAdmin|Back-end Developer,No,No,29,0,29,0,M
+1149,26-100,1.0,,Sometimes,47,Female,United States of America,Michigan,United States of America,Michigan,Other,No,No,47,0,47,0,female
+1150,100-500,1.0,,Always,33,Male,United States of America,Oklahoma,United States of America,Oklahoma,Dev Evangelist/Advocate|DevOps/SysAdmin|Back-end Developer,No,Maybe/Not sure,33,0,33,0,male
+1151,26-100,1.0,,Always,32,Male,United States of America,Washington,United States of America,Washington,Back-end Developer,No,No,32,0,32,0,Male
+1152,26-100,1.0,,Sometimes,29,Male,United States of America,Michigan,United States of America,Michigan,DevOps/SysAdmin|Support|Back-end Developer,No,Maybe/Not sure,29,0,29,0,Male
+1153,26-100,1.0,,Sometimes,36,Male,United States of America,Michigan,United States of America,Michigan,Back-end Developer,I am not sure,Maybe/Not sure,36,0,36,0,Male
+1154,6-25,1.0,,Never,35,Female,United States of America,Oklahoma,United States of America,Oklahoma,Front-end Developer|Back-end Developer,I am not sure,No,35,0,35,0,F
+1155,26-100,1.0,,Always,40,Male,United States of America,Alaska,United States of America,Alaska,DevOps/SysAdmin|Back-end Developer|Front-end Developer,No,Maybe/Not sure,40,0,40,0,Male
+1156,26-100,1.0,,Always,36,Male,United States of America,Delaware,United States of America,Delaware,Other,I am not sure,No,36,0,36,0,male
+1157,More than 1000,0.0,1.0,Sometimes,39,Female,United States of America,Oklahoma,United States of America,Oklahoma,Back-end Developer|Front-end Developer,No,No,39,0,39,0,Female
+1158,26-100,1.0,,Always,38,Male,United States of America,Alaska,United States of America,Alaska,Back-end Developer,No,"Yes, I observed",38,0,38,0,Male
+1159,1-5,1.0,,Sometimes,23,Male,United States of America,Oklahoma,United States of America,Oklahoma,DevOps/SysAdmin|Support|Back-end Developer,I am not sure,No,23,0,23,0,Male
+1160,500-1000,0.0,1.0,Sometimes,29,Male,United States of America,Oklahoma,United States of America,Oklahoma,Supervisor/Team Lead|DevOps/SysAdmin|Support,No,"Yes, I observed",29,0,29,0,male
+1161,100-500,1.0,,Always,38,Male,United States of America,Pennsylvania,United States of America,Michigan,Other|Supervisor/Team Lead|DevOps/SysAdmin|Support|Front-end Developer|Back-end Developer,No,No,38,0,38,0,Male
+1162,More than 1000,0.0,1.0,Sometimes,34,Female,United States of America,Ohio,United States of America,Ohio,Supervisor/Team Lead,Yes,"Yes, I experienced",34,0,34,0,Female
+1163,More than 1000,1.0,,Never,28,Male,Brazil,,Brazil,,Other,I am not sure,No,28,0,28,0,male
+1164,6-25,1.0,,Sometimes,38,Male,New Zealand,,New Zealand,,Dev Evangelist/Advocate,,"Yes, I experienced",38,0,38,0,Male
+1165,26-100,1.0,,Never,25,Female,United States of America,North Carolina,United States of America,North Carolina,Back-end Developer|Front-end Developer,Yes,Maybe/Not sure,25,0,25,0,female
+1166,More than 1000,0.0,1.0,Sometimes,36,Female,United States of America,Michigan,United States of America,Michigan,Other,Yes,No,36,0,36,0,female
+1167,More than 1000,1.0,,Sometimes,57,Female,United States of America,Colorado,United States of America,Colorado,Other,I am not sure,"Yes, I observed",57,0,57,0,Female
+1168,More than 1000,0.0,1.0,Sometimes,46,Male,Ireland,,Ireland,,Executive Leadership,No,Maybe/Not sure,46,0,46,0,male
+1169,More than 1000,1.0,,Never,49,Male,United States of America,California,United States of America,California,Supervisor/Team Lead|DevOps/SysAdmin|Back-end Developer|Front-end Developer,Yes,"Yes, I experienced",49,0,49,0,Male
+1170,More than 1000,1.0,,Never,34,Male,United States of America,North Carolina,United States of America,North Carolina,Supervisor/Team Lead|Back-end Developer|DevOps/SysAdmin,No,Maybe/Not sure,34,0,34,0,m
+1171,26-100,1.0,,Sometimes,43,Male,United Kingdom,,United Kingdom,,Front-end Developer,No,"Yes, I observed",43,0,43,0,Male
+1174,More than 1000,0.0,1.0,Sometimes,24,Male,Sweden,,Sweden,,Back-end Developer|One-person shop,,No,24,0,24,0,"Male (trans, FtM)"
+1175,More than 1000,0.0,1.0,Sometimes,33,Male,United States of America,California,United States of America,California,Back-end Developer|Front-end Developer,Yes,Maybe/Not sure,33,0,33,0,Male
+1176,1-5,1.0,,Never,28,Male,Finland,,Finland,,Front-end Developer|Back-end Developer|DevOps/SysAdmin,No,No,28,0,28,0,Male
+1177,More than 1000,1.0,,Sometimes,48,Male,Germany,,Germany,,Dev Evangelist/Advocate,I am not sure,No,48,0,48,0,Male
+1178,26-100,1.0,,Always,33,Female,United States of America,Georgia,United States of America,Georgia,Back-end Developer,Yes,"Yes, I experienced",33,0,33,0,female
+1179,100-500,1.0,,Never,40,Male,Italy,,United States of America,New Jersey,Supervisor/Team Lead|Front-end Developer,,No,40,0,40,0,male
+1181,100-500,1.0,,Never,22,Female,United States of America,Texas,United States of America,Texas,Back-end Developer,No,"Yes, I experienced",22,0,22,0,female
+1182,100-500,1.0,,Sometimes,23,Female,United States of America,Washington,United States of America,Washington,Designer|Front-end Developer|Back-end Developer|Supervisor/Team Lead,Yes,"Yes, I observed",23,0,23,0,Female
+1183,More than 1000,0.0,1.0,Never,33,Male,Germany,,Germany,,Back-end Developer|One-person shop,,Maybe/Not sure,33,0,33,0,male
+1184,6-25,1.0,,Never,29,Male,Netherlands,,Netherlands,,Back-end Developer,I am not sure,No,29,0,29,0,Male
+1185,More than 1000,1.0,,Always,32,Male,United States of America,Washington,United States of America,Washington,Dev Evangelist/Advocate,No,No,32,0,32,0,Male
+1186,26-100,1.0,,Sometimes,43,Male,United States of America,Tennessee,United States of America,Tennessee,Back-end Developer|Front-end Developer,Yes,Maybe/Not sure,43,0,43,0,m
+1187,More than 1000,0.0,1.0,Sometimes,49,Male,United States of America,Minnesota,United States of America,Minnesota,DevOps/SysAdmin|Support,No,No,49,0,49,0,Male
+1188,More than 1000,0.0,1.0,Always,44,Male,Italy,,Sweden,,Back-end Developer,No,No,44,0,44,0,Male
+1190,26-100,1.0,,Never,27,Male,Canada,,Canada,,Front-end Developer|Back-end Developer,No,No,27,0,27,0,male
+1191,6-25,0.0,1.0,Never,30,Male,United States of America,North Dakota,United States of America,North Dakota,Support|Back-end Developer|Front-end Developer,I am not sure,Maybe/Not sure,30,0,30,0,Male
+1192,1-5,1.0,,Sometimes,43,Female,United States of America,California,United States of America,California,Other,,Maybe/Not sure,43,0,43,0,F
+1193,26-100,1.0,,Sometimes,30,Female,United States of America,Minnesota,United States of America,Minnesota,DevOps/SysAdmin|Back-end Developer|Front-end Developer,Yes,"Yes, I experienced",30,0,30,0,Female 
+1194,26-100,0.0,1.0,Sometimes,33,Female,United States of America,Ohio,United States of America,Ohio,Other|Back-end Developer|Front-end Developer|Designer,No,Maybe/Not sure,33,0,33,0,Female
+1196,6-25,1.0,,Never,26,Female,United States of America,Minnesota,United States of America,Minnesota,Front-end Developer,No,"Yes, I observed",26,0,26,0,female
+1197,100-500,0.0,1.0,Sometimes,47,Male,Ireland,,Ireland,,One-person shop|Front-end Developer|Back-end Developer,Yes,No,47,0,47,0,m
+1198,6-25,1.0,,Never,30,Male,United States of America,Minnesota,United States of America,Minnesota,Front-end Developer|Designer,I am not sure,,30,0,30,0,Male
+1199,6-25,1.0,,Never,39,Male,United States of America,Oregon,United States of America,Oregon,DevOps/SysAdmin,No,No,39,0,39,0,Male
+1200,100-500,1.0,,Never,36,Male,United States of America,California,United States of America,California,Front-end Developer,I am not sure,Maybe/Not sure,36,0,36,0,male
+1201,6-25,1.0,,Always,34,Male,United Kingdom,,United Kingdom,,Supervisor/Team Lead,No,No,34,0,34,0,male
+1202,26-100,1.0,,Never,25,Female,United States of America,Minnesota,United States of America,Minnesota,Front-end Developer,No,No,25,0,25,0,female
+1203,26-100,0.0,1.0,Sometimes,28,Male,Finland,,Finland,,Back-end Developer|DevOps/SysAdmin,No,No,28,0,28,0,Male
+1204,More than 1000,1.0,,Sometimes,38,Male,United States of America,Indiana,United States of America,Indiana,DevOps/SysAdmin|Back-end Developer|Front-end Developer,Yes,No,38,0,38,0,Male
+1205,100-500,1.0,,Always,39,Male,United States of America,Massachusetts,United States of America,Massachusetts,Supervisor/Team Lead,No,No,39,0,39,0,Male
+1207,26-100,0.0,1.0,Never,27,Female,United States of America,New York,United States of America,New York,Back-end Developer|Front-end Developer,I am not sure,,27,0,27,0,female
+1208,500-1000,1.0,,Sometimes,31,Female,United States of America,Oregon,United States of America,Pennsylvania,Front-end Developer,Yes,"Yes, I experienced",31,0,31,0,female
+1209,26-100,1.0,,Never,30,Female,United Kingdom,,United Kingdom,,Supervisor/Team Lead|Back-end Developer|Front-end Developer,No,"Yes, I observed",30,0,30,0,female
+1211,26-100,1.0,,Always,26,Male,United States of America,Florida,United States of America,Illinois,DevOps/SysAdmin|Back-end Developer|Front-end Developer,No,,26,0,26,0,Male
+1212,100-500,1.0,,Always,27,Female,United Kingdom,,United Kingdom,,Back-end Developer,I am not sure,"Yes, I observed",27,0,27,0,Female
+1213,26-100,1.0,,Never,29,Male,United States of America,Minnesota,United States of America,Minnesota,Back-end Developer,No,Maybe/Not sure,29,0,29,0,Male
+1216,More than 1000,0.0,1.0,Sometimes,39,Male,United States of America,New York,United States of America,New York,Front-end Developer,No,No,39,0,39,0,Male
+1218,500-1000,1.0,,Sometimes,28,Male,United States of America,New York,United States of America,New York,Front-end Developer,Yes,"Yes, I observed",28,0,28,0,Male
+1221,26-100,1.0,,Always,70,Male,United States of America,California,United States of America,California,Dev Evangelist/Advocate|Back-end Developer,Yes,No,70,0,70,0,Male
+1222,6-25,1.0,,Sometimes,25,Male,Germany,,Germany,,Back-end Developer,,No,25,0,25,0,Male
+1223,26-100,1.0,,Sometimes,45,Male,United Kingdom,,United Kingdom,,Back-end Developer,I am not sure,No,45,0,45,0,Male
+1224,More than 1000,0.0,1.0,Never,63,Female,United States of America,North Carolina,United States of America,North Carolina,Back-end Developer,Yes,Maybe/Not sure,63,0,63,0,F
+1225,26-100,1.0,,Always,40,Male,United States of America,Colorado,United States of America,Colorado,Back-end Developer|Front-end Developer,Yes,No,40,0,40,0,male
+1226,26-100,1.0,,Sometimes,39,Male,United States of America,Florida,United States of America,Florida,Back-end Developer,Yes,Maybe/Not sure,39,0,39,0,male
+1227,6-25,1.0,,Always,31,Female,United States of America,Oregon,United States of America,Wisconsin,Front-end Developer|Designer,No,"Yes, I observed",31,0,31,0,Cis-woman
+1228,26-100,1.0,,Never,34,Male,United States of America,California,United States of America,California,Back-end Developer,,"Yes, I observed",34,0,34,0,male
+1230,500-1000,1.0,,Always,45,Male,Ireland,,Ireland,,Back-end Developer,No,No,45,0,45,0,m
+1231,100-500,0.0,1.0,Sometimes,43,Male,United States of America,Alabama,United States of America,Alabama,Executive Leadership,Yes,No,43,0,43,0,Male
+1232,26-100,1.0,,Always,29,Male,United States of America,Tennessee,United States of America,Tennessee,Back-end Developer|Supervisor/Team Lead,Yes,No,29,0,29,0,male
+1233,100-500,1.0,,Always,27,Other,United States of America,Texas,United States of America,Texas,Dev Evangelist/Advocate,Yes,"Yes, I experienced",27,0,27,0,Genderqueer
+1234,100-500,1.0,,Always,37,Male,United States of America,New Mexico,United States of America,New Mexico,Supervisor/Team Lead|Back-end Developer|Front-end Developer,Yes,Maybe/Not sure,37,0,37,0,Male
+1235,100-500,1.0,,Always,41,Other,United States of America,Wisconsin,United States of America,Wisconsin,Front-end Developer|Designer,Yes,"Yes, I observed",41,0,41,0,non-binary
+1236,26-100,1.0,,Sometimes,30,Female,United States of America,California,United States of America,California,Front-end Developer,Yes,No,30,0,30,0,woman
+1237,26-100,1.0,,Sometimes,28,Male,United States of America,Maryland,United States of America,Maryland,Supervisor/Team Lead,I am not sure,Maybe/Not sure,28,0,28,0,male
+1238,More than 1000,1.0,,Sometimes,28,Male,United States of America,Oregon,United States of America,Oregon,Back-end Developer,I am not sure,Maybe/Not sure,28,0,28,0,Male
+1240,6-25,1.0,,Sometimes,22,Male,United Kingdom,,United Kingdom,,Back-end Developer,,"Yes, I observed",22,0,22,0,male
+1241,26-100,1.0,,Sometimes,31,Male,United States of America,Massachusetts,United States of America,Massachusetts,Supervisor/Team Lead,No,Maybe/Not sure,31,0,31,0,M
+1242,26-100,1.0,,Never,29,Male,United Kingdom,,United Kingdom,,Back-end Developer,,,29,0,29,0,Male
+1243,100-500,1.0,,Never,33,Male,Israel,,Israel,,Supervisor/Team Lead|Back-end Developer,No,Maybe/Not sure,33,0,33,0,male
+1244,100-500,1.0,,Sometimes,37,Male,Germany,,Germany,,Back-end Developer|Dev Evangelist/Advocate|Supervisor/Team Lead,No,"Yes, I experienced",37,0,37,0,male
+1245,100-500,1.0,,Always,42,Male,United States of America,Texas,United States of America,Texas,Back-end Developer,I am not sure,No,42,0,42,0,Male
+1246,6-25,1.0,,Never,31,Male,United Kingdom,,United Kingdom,,Other,No,"Yes, I experienced",31,0,31,0,male
+1249,26-100,1.0,,Never,29,Male,Canada,,Canada,,Back-end Developer|Front-end Developer,Yes,Maybe/Not sure,29,0,29,0,male
+1250,More than 1000,1.0,,Sometimes,40,Male,United States of America,Iowa,United States of America,Iowa,Back-end Developer,Yes,No,40,0,40,0,cisdude
+1251,26-100,1.0,,Sometimes,46,Female,Netherlands,,Netherlands,,Executive Leadership,No,No,46,0,46,0,Female
+1253,100-500,0.0,1.0,Sometimes,43,Male,Denmark,,Denmark,,Back-end Developer,No,No,43,0,43,0,Male
+1255,6-25,1.0,,Sometimes,32,Male,United Kingdom,,United Kingdom,,DevOps/SysAdmin|Support|Back-end Developer|One-person shop|Front-end Developer,No,"Yes, I observed",32,0,32,0,M
+1257,More than 1000,1.0,,Sometimes,40,Male,Netherlands,,Netherlands,,Executive Leadership,Yes,No,40,0,40,0,Male
+1258,26-100,0.0,1.0,Never,38,Male,Germany,,Germany,,DevOps/SysAdmin,I am not sure,,38,0,38,0,Male
+1259,100-500,1.0,,Never,32,Male,United Kingdom,,United Kingdom,,Back-end Developer,,"Yes, I experienced",32,0,32,0,Male
+1260,More than 1000,0.0,1.0,Sometimes,37,Male,Mexico,,Mexico,,DevOps/SysAdmin|Support,I am not sure,Maybe/Not sure,37,0,37,0,male
+1263,6-25,1.0,,Sometimes,24,Male,United States of America,Minnesota,United States of America,Minnesota,Dev Evangelist/Advocate|DevOps/SysAdmin|Designer|Front-end Developer|Back-end Developer,No,Maybe/Not sure,24,0,24,0,Male
+1266,100-500,0.0,1.0,Sometimes,32,Male,United States of America,Minnesota,United States of America,Minnesota,DevOps/SysAdmin|Back-end Developer|Front-end Developer|Designer,Yes,No,32,0,32,0,Male 
+1267,1-5,1.0,,Never,29,Male,Romania,,Romania,,Front-end Developer|Back-end Developer,,No,29,0,29,0,male
+1268,More than 1000,1.0,,Sometimes,20,Male,United States of America,Massachusetts,United States of America,Massachusetts,Other|DevOps/SysAdmin|Back-end Developer,No,No,20,0,20,0,Male
+1269,More than 1000,0.0,1.0,Sometimes,41,Male,United States of America,Utah,United States of America,Utah,Supervisor/Team Lead,Yes,No,41,0,41,0,male
+1270,6-25,1.0,,Sometimes,33,Female,United States of America,California,United States of America,California,Dev Evangelist/Advocate,Yes,No,33,0,33,0,female
+1271,26-100,1.0,,Sometimes,25,Male,United States of America,California,United States of America,California,Back-end Developer|DevOps/SysAdmin,No,No,25,0,25,0,male
+1273,More than 1000,1.0,,Sometimes,24,Other,United States of America,California,United States of America,California,DevOps/SysAdmin|Support|Back-end Developer|Front-end Developer,I am not sure,"Yes, I experienced",24,0,24,0,Genderflux demi-girl
+1274,100-500,1.0,,Sometimes,39,Male,United States of America,Colorado,United States of America,Colorado,Back-end Developer,I am not sure,No,39,0,39,0,Male
+1275,500-1000,0.0,1.0,Sometimes,39,Male,United Kingdom,,United Kingdom,,Executive Leadership,Yes,No,39,0,39,0,Male
+1278,6-25,1.0,,Sometimes,31,Male,Denmark,,Denmark,,Back-end Developer,I am not sure,No,31,0,31,0,male
+1279,1-5,1.0,,Always,37,Male,United Kingdom,,United Kingdom,,Supervisor/Team Lead|Back-end Developer|One-person shop,,"Yes, I observed",37,0,37,0,Male
+1280,6-25,1.0,,Sometimes,42,Male,United Kingdom,,United Kingdom,,DevOps/SysAdmin,,"Yes, I experienced",42,0,42,0,Male
+1282,26-100,0.0,1.0,Never,30,Male,United States of America,North Carolina,United States of America,North Carolina,Back-end Developer|Front-end Developer,I am not sure,Maybe/Not sure,30,0,30,0,M
+1283,More than 1000,1.0,,Always,30,Male,Canada,,Canada,,Front-end Developer,No,Maybe/Not sure,30,0,30,0,male
+1284,26-100,1.0,,Sometimes,33,Male,United States of America,Illinois,United States of America,Illinois,Dev Evangelist/Advocate|DevOps/SysAdmin|Back-end Developer,No,"Yes, I observed",33,0,33,0,Male
+1285,More than 1000,0.0,1.0,Never,31,Male,United States of America,Illinois,United States of America,Illinois,Other,I am not sure,"Yes, I observed",31,0,31,0,Male
+1286,More than 1000,0.0,1.0,Sometimes,39,Female,United States of America,Ohio,United States of America,Ohio,Supervisor/Team Lead|Front-end Developer|Designer,Yes,"Yes, I observed",39,0,39,0,Female
+1287,26-100,0.0,1.0,Never,27,Male,Germany,,Germany,,Back-end Developer,No,No,27,0,27,0,m
+1289,6-25,1.0,,Sometimes,31,Male,United States of America,Florida,United States of America,Florida,Support|Front-end Developer|Back-end Developer,,No,31,0,31,0,Male
+1290,More than 1000,1.0,,Always,30,Female,United States of America,Michigan,United States of America,California,Other|Supervisor/Team Lead,Yes,No,30,0,30,0,Female
+1291,26-100,1.0,,Sometimes,34,Male,United States of America,Ohio,United States of America,Illinois,Back-end Developer,No,Maybe/Not sure,34,0,34,0,male
+1292,6-25,1.0,,Never,20,Female,Canada,,Canada,,Back-end Developer,,,20,0,20,0,female-bodied; no feelings about gender
+1294,More than 1000,1.0,,Sometimes,50,Female,United States of America,Utah,United States of America,Utah,Other,No,Maybe/Not sure,50,0,50,0,female
+1296,100-500,1.0,,Sometimes,41,Male,Spain,,Spain,,Executive Leadership,Yes,Maybe/Not sure,41,0,41,0,Male
+1297,26-100,1.0,,Sometimes,37,Male,Germany,,Germany,,DevOps/SysAdmin,No,No,37,0,37,0,male
+1298,100-500,1.0,,Sometimes,32,Male,United States of America,Texas,United States of America,Texas,Back-end Developer,Yes,Maybe/Not sure,32,0,32,0,m
+1300,6-25,1.0,,Never,38,Male,Netherlands,,Netherlands,,Back-end Developer,No,No,38,0,38,0,M
+1302,6-25,1.0,,Sometimes,27,Male,United States of America,Colorado,United States of America,Colorado,Front-end Developer,I am not sure,No,27,0,27,0,Male
+1303,1-5,0.0,1.0,Sometimes,37,Female,United States of America,Louisiana,United States of America,Louisiana,Support,I am not sure,"Yes, I observed",37,0,37,0,f
+1306,6-25,0.0,1.0,Sometimes,30,Female,United States of America,New York,United States of America,New York,Back-end Developer,No,"Yes, I experienced",30,0,30,0,Female
+1307,More than 1000,1.0,,Sometimes,21,Male,United States of America,Tennessee,United States of America,Tennessee,Other,No,No,21,0,21,0,Male
+1308,More than 1000,0.0,1.0,Sometimes,21,Male,United States of America,Massachusetts,United States of America,New York,Other,I am not sure,"Yes, I experienced",21,0,21,0,male
+1310,More than 1000,0.0,1.0,Sometimes,46,Male,United States of America,Missouri,United States of America,Missouri,DevOps/SysAdmin,I am not sure,Maybe/Not sure,46,0,46,0,male
+1311,500-1000,1.0,,Sometimes,28,Male,United States of America,California,United States of America,California,Supervisor/Team Lead|DevOps/SysAdmin|Back-end Developer,Yes,Maybe/Not sure,28,0,28,0,cis man
+1312,100-500,0.0,1.0,Never,26,,United States of America,Pennsylvania,United States of America,Pennsylvania,Support|Back-end Developer|Front-end Developer|Designer,No,"Yes, I observed",26,0,26,0,
+1314,More than 1000,1.0,,Sometimes,44,Male,United States of America,Ohio,United States of America,Ohio,Support,I am not sure,Maybe/Not sure,44,0,44,0,Male
+1316,1-5,1.0,,Always,35,Female,United States of America,Massachusetts,United States of America,Massachusetts,Front-end Developer,I am not sure,,35,0,35,0,female
+1317,26-100,1.0,,Never,39,Male,United States of America,Michigan,United States of America,Michigan,Back-end Developer,Yes,No,39,0,39,0,Male
+1318,More than 1000,0.0,1.0,Sometimes,37,Female,United States of America,Connecticut,United States of America,Connecticut,Back-end Developer,I am not sure,No,37,0,37,0,Female
+1319,100-500,0.0,1.0,Sometimes,35,Male,United States of America,Florida,United States of America,Florida,Dev Evangelist/Advocate|DevOps/SysAdmin|Support|Back-end Developer|Front-end Developer|One-person shop,No,"Yes, I observed",35,0,35,0,Male
+1320,More than 1000,1.0,,Never,29,Female,United States of America,New York,United States of America,New York,Supervisor/Team Lead,Yes,Maybe/Not sure,29,0,29,0,Female
+1322,26-100,1.0,,Sometimes,21,Male,United States of America,Virginia,United States of America,Virginia,Back-end Developer|Front-end Developer,No,No,21,0,21,0,Male (cis)
+1323,26-100,1.0,,Sometimes,26,Female,United States of America,Michigan,United States of America,Michigan,Supervisor/Team Lead|Back-end Developer|Front-end Developer,Yes,"Yes, I experienced",26,0,26,0,Female
+1324,100-500,1.0,,Never,35,Male,Germany,,Germany,,Supervisor/Team Lead,I am not sure,No,35,0,35,0,male
+1325,100-500,0.0,1.0,Sometimes,56,Male,United States of America,Missouri,United States of America,Missouri,Supervisor/Team Lead|DevOps/SysAdmin|Back-end Developer,Yes,"Yes, I experienced",56,0,56,0,M
+1328,26-100,1.0,,Never,24,Male,United Kingdom,,United Kingdom,,Back-end Developer,I am not sure,,24,0,24,0,male
+1329,More than 1000,1.0,,Never,37,Male,Ireland,,Ireland,,Back-end Developer,I am not sure,Maybe/Not sure,37,0,37,0,Male
+1330,26-100,0.0,1.0,Never,27,Female,United States of America,Pennsylvania,United States of America,Pennsylvania,Designer,Yes,"Yes, I observed",27,0,27,0,female
+1331,1-5,1.0,,Sometimes,39,Female,United States of America,Pennsylvania,United States of America,Pennsylvania,Back-end Developer|Front-end Developer,No,No,39,0,39,0,female
+1333,100-500,1.0,,Always,34,Male,United States of America,Indiana,United States of America,Colorado,Back-end Developer|Front-end Developer,Yes,"Yes, I observed",34,0,34,0,Male
+1334,More than 1000,0.0,1.0,Sometimes,33,Male,United Kingdom,,United Kingdom,,Front-end Developer,,"Yes, I experienced",33,0,33,0,Male
+1335,1-5,1.0,,Never,22,Male,United Kingdom,,United Kingdom,,Front-end Developer,No,No,22,0,22,0,Male
+1336,6-25,1.0,,Sometimes,25,Female,United Kingdom,,United Kingdom,,Front-end Developer|Supervisor/Team Lead,,No,25,0,25,0,Female
+1337,More than 1000,0.0,1.0,Never,34,Male,United Kingdom,,United Kingdom,,Front-end Developer|Back-end Developer,No,No,34,0,34,0,Male
+1338,6-25,1.0,,Sometimes,30,Male,United Kingdom,,United Kingdom,,Front-end Developer,,"Yes, I observed",30,0,30,0,male
+1339,26-100,1.0,,Never,37,Male,United Kingdom,,United Kingdom,,Front-end Developer,No,Maybe/Not sure,37,0,37,0,male
+1340,6-25,1.0,,Never,26,Male,Chile,,Chile,,Front-end Developer,No,Maybe/Not sure,26,0,26,0,Male
+1341,More than 1000,0.0,1.0,Never,29,Female,United States of America,Texas,United States of America,Texas,Front-end Developer,Yes,"Yes, I observed",29,0,29,0,female
+1342,6-25,1.0,,Sometimes,29,Male,Chile,,Chile,,Designer|Front-end Developer,No,"Yes, I observed",29,0,29,0,male
+1343,26-100,0.0,1.0,Never,27,Male,United Kingdom,,United Kingdom,,Front-end Developer|Designer,,"Yes, I experienced",27,0,27,0,Male
+1344,6-25,0.0,1.0,Sometimes,27,Female,Chile,,Chile,,Front-end Developer,No,No,27,0,27,0,female
+1345,More than 1000,0.0,1.0,Sometimes,23,Male,United States of America,Massachusetts,United States of America,Massachusetts,Back-end Developer|Front-end Developer,No,,23,0,23,0,Male
+1346,More than 1000,1.0,,Sometimes,24,Female,United States of America,Massachusetts,United States of America,Massachusetts,Front-end Developer,Yes,No,24,0,24,0,female
+1348,1-5,0.0,1.0,Never,28,Male,United Kingdom,,United Kingdom,,DevOps/SysAdmin|Front-end Developer|Back-end Developer|Support,No,No,28,0,28,0,Male
+1349,6-25,0.0,1.0,Never,22,Male,United States of America,Iowa,United States of America,Iowa,Front-end Developer|Designer,I am not sure,No,22,0,22,0,Male
+1350,26-100,1.0,,Sometimes,32,Male,United States of America,Massachusetts,United States of America,Massachusetts,Front-end Developer,Yes,Maybe/Not sure,32,0,32,0,Male
+1351,6-25,1.0,,Always,35,Female,United States of America,Oregon,United States of America,Oregon,DevOps/SysAdmin,No,Maybe/Not sure,35,0,35,0,female
+1352,26-100,1.0,,Sometimes,26,Male,United States of America,California,United States of America,California,Back-end Developer,Yes,No,26,0,26,0,Male
+1353,More than 1000,1.0,,Sometimes,31,Female,United Kingdom,,United Kingdom,,Front-end Developer,Yes,"Yes, I experienced",31,0,31,0,female
+1355,100-500,1.0,,Sometimes,37,Male,Pakistan,,Pakistan,,Supervisor/Team Lead,No,No,37,0,37,0,Male
+1356,6-25,0.0,1.0,Never,24,Male,United Kingdom,,United Kingdom,,Front-end Developer|Back-end Developer,No,No,24,0,24,0,Male
+1357,26-100,1.0,,Always,33,Male,United States of America,Washington,United States of America,California,Back-end Developer,Yes,No,33,0,33,0,Male
+1358,100-500,1.0,,Sometimes,28,Male,United States of America,Massachusetts,United States of America,Massachusetts,DevOps/SysAdmin,Yes,Maybe/Not sure,28,0,28,0,Male
+1359,More than 1000,1.0,,Sometimes,22,Female,United States of America,Virginia,United States of America,Virginia,Back-end Developer|Front-end Developer,No,No,22,0,22,0,Female
+1360,100-500,1.0,,Sometimes,46,Male,Germany,,Germany,,Back-end Developer,,"Yes, I experienced",46,0,46,0,Male
+1361,26-100,1.0,,Always,30,Male,United States of America,Michigan,United States of America,Michigan,Dev Evangelist/Advocate,Yes,No,30,0,30,0,Male
+1362,26-100,1.0,,Never,29,Male,United States of America,North Carolina,United States of America,North Carolina,Back-end Developer,I am not sure,"Yes, I experienced",29,0,29,0,Male
+1363,100-500,1.0,,Sometimes,22,Male,United States of America,Virginia,United States of America,Virginia,Back-end Developer|Front-end Developer,No,No,22,0,22,0,Male
+1366,More than 1000,0.0,1.0,Sometimes,30,Male,United States of America,Virginia,United States of America,District of Columbia,DevOps/SysAdmin,Yes,"Yes, I experienced",30,0,30,0,male
+1368,More than 1000,0.0,1.0,Sometimes,39,Male,United States of America,Oregon,United States of America,Oregon,DevOps/SysAdmin|Back-end Developer|Front-end Developer,I am not sure,No,39,0,39,0,Male
+1371,500-1000,0.0,1.0,Sometimes,39,Male,United States of America,Maryland,United States of America,District of Columbia,Back-end Developer,I am not sure,Maybe/Not sure,39,0,39,0,Male
+1372,More than 1000,1.0,,Always,31,Female,United States of America,Texas,United States of America,Texas,Dev Evangelist/Advocate,Yes,No,31,0,31,0,F
+1373,100-500,1.0,,Sometimes,35,Male,United States of America,California,United States of America,California,DevOps/SysAdmin,No,Maybe/Not sure,35,0,35,0,m
+1375,More than 1000,1.0,,Sometimes,23,Male,United States of America,California,United States of America,California,Front-end Developer|Back-end Developer,I am not sure,"Yes, I observed",23,0,23,0,male
+1376,More than 1000,1.0,,Never,30,Male,United States of America,Pennsylvania,United States of America,Pennsylvania,Executive Leadership,I am not sure,Maybe/Not sure,30,0,30,0,male
+1377,6-25,1.0,,Sometimes,28,Male,France,,France,,Other,No,,28,0,28,0,male
+1378,More than 1000,1.0,,Never,23,Female,Ireland,,Ireland,,DevOps/SysAdmin|Support|Back-end Developer|Front-end Developer,No,"Yes, I experienced",23,0,23,0,Female
+1379,26-100,1.0,,Never,26,Female,United States of America,District of Columbia,United States of America,District of Columbia,Front-end Developer,Yes,Maybe/Not sure,26,0,26,0,Female 
+1380,26-100,1.0,,Never,24,Female,United States of America,California,United States of America,California,Supervisor/Team Lead,Yes,"Yes, I observed",24,0,24,0,Female
+1381,More than 1000,1.0,,Never,32,Male,United States of America,Washington,United States of America,Washington,Supervisor/Team Lead,No,"Yes, I observed",32,0,32,0,Male
+1383,100-500,1.0,,Sometimes,30,Male,Estonia,,Estonia,,Back-end Developer,,No,30,0,30,0,Male
+1384,26-100,1.0,,Sometimes,32,Male,United States of America,Texas,United States of America,Texas,Front-end Developer|Designer,I am not sure,No,32,0,32,0,male
+1385,6-25,0.0,1.0,Never,35,Male,United States of America,Missouri,United States of America,Missouri,Back-end Developer,Yes,No,35,0,35,0,Male
+1386,26-100,1.0,,Always,26,Female,United States of America,Ohio,United States of America,California,Supervisor/Team Lead|Back-end Developer,Yes,No,26,0,26,0,F
+1387,100-500,0.0,1.0,Sometimes,30,Female,United States of America,Nebraska,United States of America,Nebraska,Other,I am not sure,Maybe/Not sure,30,0,30,0,Female
+1388,26-100,1.0,,Never,29,Male,United States of America,California,United States of America,California,Supervisor/Team Lead|DevOps/SysAdmin|Back-end Developer|Front-end Developer,No,"Yes, I experienced",29,0,29,0,male
+1389,More than 1000,1.0,,Always,39,Male,Canada,,Canada,,Back-end Developer|Supervisor/Team Lead,I am not sure,"Yes, I observed",39,0,39,0,male
+1390,More than 1000,0.0,1.0,Never,37,Male,United Kingdom,,United Kingdom,,Back-end Developer|Front-end Developer,I am not sure,"Yes, I experienced",37,0,37,0,Male
+1391,26-100,1.0,,Sometimes,35,Male,United States of America,California,United States of America,California,Back-end Developer,No,"Yes, I observed",35,0,35,0,M
+1392,1-5,1.0,,Sometimes,25,Female,United States of America,Illinois,United States of America,Illinois,Other,Yes,"Yes, I experienced",25,0,25,0,Female
+1393,More than 1000,0.0,1.0,Never,22,Other,United States of America,Virginia,United States of America,Virginia,Other|Back-end Developer,,No,22,0,22,0,Agender
+1394,26-100,1.0,,Never,33,Male,United Kingdom,,United Kingdom,,DevOps/SysAdmin,Yes,"Yes, I observed",33,0,33,0,Male
+1395,1-5,1.0,,Sometimes,23,Male,United States of America,New York,United States of America,New York,Back-end Developer,No,No,23,0,23,0,male 
+1397,26-100,1.0,,Always,28,Male,United States of America,Pennsylvania,United States of America,Pennsylvania,Front-end Developer,Yes,"Yes, I experienced",28,0,28,0,Male
+1398,More than 1000,1.0,,Never,30,Male,United States of America,New York,United States of America,New York,Back-end Developer|Front-end Developer,Yes,No,30,0,30,0,Male
+1399,100-500,1.0,,Sometimes,28,Male,United States of America,California,United States of America,California,Other|Back-end Developer,Yes,Maybe/Not sure,28,0,28,0,Male
+1400,6-25,1.0,,Always,28,Female,United States of America,Pennsylvania,United States of America,Pennsylvania,Dev Evangelist/Advocate,Yes,No,28,0,28,0,female
+1401,More than 1000,0.0,1.0,Never,37,Male,United States of America,Massachusetts,United States of America,Massachusetts,Supervisor/Team Lead|Back-end Developer,No,No,37,0,37,0,male
+1402,26-100,1.0,,Sometimes,30,Male,United States of America,Idaho,United States of America,Idaho,DevOps/SysAdmin,Yes,Maybe/Not sure,30,0,30,0,Male
+1403,6-25,1.0,,Sometimes,27,Male,India,,India,,Front-end Developer|Back-end Developer,I am not sure,No,27,0,27,0,Male
+1405,More than 1000,1.0,,Never,28,Male,Poland,,Poland,,Back-end Developer,I am not sure,Maybe/Not sure,28,0,28,0,Male
+1406,6-25,1.0,,Sometimes,26,Female,Ireland,,Ireland,,Supervisor/Team Lead|DevOps/SysAdmin|Support|Back-end Developer|Front-end Developer|Designer,No,"Yes, I observed",26,0,26,0,Transgender woman
+1407,100-500,1.0,,Sometimes,29,Male,Afghanistan,,United States of America,Arizona,Supervisor/Team Lead|DevOps/SysAdmin|Back-end Developer|Front-end Developer,I am not sure,Maybe/Not sure,29,0,29,0,male
+1409,100-500,1.0,,Always,36,Male,United Kingdom,,United Kingdom,,Executive Leadership,Yes,"Yes, I observed",36,0,36,0,Male
+1410,26-100,1.0,,Never,38,Male,Belgium,,Belgium,,Other|Supervisor/Team Lead|Dev Evangelist/Advocate,No,"Yes, I observed",38,0,38,0,Male
+1411,6-25,1.0,,Sometimes,22,Female,United States of America,New York,United States of America,New York,Other,I am not sure,"Yes, I observed",22,0,22,0,Female
+1412,1-5,1.0,,Sometimes,24,Male,United States of America,Colorado,United States of America,Colorado,Other,I am not sure,Maybe/Not sure,24,0,24,0,male
+1413,100-500,0.0,1.0,Sometimes,24,Female,United States of America,Texas,United States of America,Texas,Front-end Developer,Yes,No,24,0,24,0,female
+1414,500-1000,1.0,,Never,36,Female,United States of America,New York,United States of America,New York,HR,Yes,Maybe/Not sure,36,0,36,0,female
+1415,More than 1000,0.0,1.0,Never,24,Female,United States of America,Wisconsin,United States of America,Wisconsin,Front-end Developer|Back-end Developer,I am not sure,Maybe/Not sure,24,0,24,0,Female
+1416,500-1000,1.0,,Never,24,Male,United States of America,Arizona,United States of America,Arizona,Front-end Developer,No,Maybe/Not sure,24,0,24,0,Male
+1417,26-100,1.0,,Never,31,Male,Netherlands,,Netherlands,,Back-end Developer|DevOps/SysAdmin,,"Yes, I experienced",31,0,31,0,Male
+1418,26-100,1.0,,Never,39,Male,United Kingdom,,United Kingdom,,Back-end Developer,I am not sure,No,39,0,39,0,M
+1419,More than 1000,1.0,,Sometimes,41,Male,United States of America,Alabama,United States of America,Alabama,Supervisor/Team Lead|Back-end Developer|Designer,Yes,No,41,0,41,0,male
+1421,26-100,1.0,,Never,37,Male,Estonia,,Estonia,,Front-end Developer|Back-end Developer|Supervisor/Team Lead,No,No,37,0,37,0,male
+1422,26-100,1.0,,Always,30,Male,Canada,,United States of America,Indiana,Front-end Developer,I am not sure,"Yes, I observed",30,0,30,0,male
+1423,100-500,1.0,,Sometimes,24,Male,Canada,,Canada,,Back-end Developer,I am not sure,No,24,0,24,0,Male
+1424,100-500,1.0,,Sometimes,22,Female,Canada,,Canada,,Back-end Developer|Front-end Developer,,Maybe/Not sure,22,0,22,0,female
+1425,100-500,1.0,,Sometimes,24,Male,Canada,,Canada,,Supervisor/Team Lead|Front-end Developer|Back-end Developer|DevOps/SysAdmin|Dev Evangelist/Advocate,I am not sure,No,24,0,24,0,Male
+1426,100-500,1.0,,Sometimes,26,Female,Canada,,Canada,,Other,I am not sure,"Yes, I experienced",26,0,26,0,Female
+1427,500-1000,1.0,,Always,38,Female,United States of America,Illinois,United States of America,Illinois,Support,No,"Yes, I experienced",38,0,38,0,female
+1430,100-500,1.0,,Sometimes,52,Male,United States of America,Georgia,United States of America,Georgia,Back-end Developer,Yes,"Yes, I observed",52,0,52,0,Male
+1431,100-500,0.0,1.0,Sometimes,30,Female,United States of America,Nebraska,United States of America,Nebraska,DevOps/SysAdmin,I am not sure,"Yes, I experienced",30,0,30,0,Female
+1432,100-500,1.0,,Sometimes,25,Other,Canada,,Canada,,Other,No,Maybe/Not sure,25,0,25,0,non-binary

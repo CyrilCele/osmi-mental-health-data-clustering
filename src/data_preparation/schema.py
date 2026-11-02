@@ -11,64 +11,28 @@ from .config import (
     TECH_ROLE_SOURCE,
 )
 
-
 COLUMN_OVERRIDES = {
     SELF_EMPLOYED_SOURCE: "self_employed",
     "How many employees does your company or organization have?": "company_size",
     TECH_EMPLOYER_SOURCE: "tech_employer",
     TECH_ROLE_SOURCE: "tech_role",
-
-    "Does your employer provide mental health benefits as part of healthcare coverage?":
-        "mental_health_benefits",
-
-    "Do you know the options for mental health care available under your employer-provided coverage?":
-        "employer_benefits_awareness",
-
-    "Has your employer ever formally discussed mental health (for example, as part of a wellness campaign or other official communication)?":
-        "formal_mental_health_communication",
-
-    "Does your employer offer resources to learn more about mental health concerns and options for seeking help?":
-        "mental_health_resources",
-
-    "Is your anonymity protected if you choose to take advantage of mental health or substance abuse treatment resources provided by your employer?":
-        "anonymity_protected",
-
-    "If a mental health issue prompted you to request a medical leave from work, asking for that leave would be:":
-        "medical_leave_ease",
-
-    "Do you think that discussing a mental health disorder with your employer would have negative consequences?":
-        "mh_disclosure_negative_consequences",
-
-    "Do you think that discussing a physical health issue with your employer would have negative consequences?":
-        "physical_disclosure_negative_consequences",
-
-    "Would you feel comfortable discussing a mental health disorder with your coworkers?":
-        "coworker_discussion_comfort",
-
-    "Would you feel comfortable discussing a mental health disorder with your direct supervisor(s)?":
-        "supervisor_discussion_comfort",
-
-    "Do you feel that your employer takes mental health as seriously as physical health?":
-        "mh_as_serious_as_physical",
-
-    "Have you heard of or observed negative consequences for co-workers who have been open about mental health issues in your workplace?":
-        "observed_negative_consequences",
-
-    "Would you be willing to bring up a physical health issue with a potential employer in an interview?":
-        "interview_disclosure_physical",
-
-    "Would you bring up a mental health issue with a potential employer in an interview?":
-        "interview_disclosure_mental",
-
-    "Do you feel that being identified as a person with a mental health issue would hurt your career?":
-        "perceived_career_harm",
-
-    "Do you think that team members/co-workers would view you more negatively if they knew you suffered from a mental health issue?":
-        "expected_coworker_stigma",
-
-    "Have you observed or experienced an unsupportive or badly handled response to a mental health issue in your current or previous workplace?":
-        "observed_unsupportive_workplace_response",
-
+    "Does your employer provide mental health benefits as part of healthcare coverage?": "mental_health_benefits",
+    "Do you know the options for mental health care available under your employer-provided coverage?": "employer_benefits_awareness",
+    "Has your employer ever formally discussed mental health (for example, as part of a wellness campaign or other official communication)?": "formal_mental_health_communication",
+    "Does your employer offer resources to learn more about mental health concerns and options for seeking help?": "mental_health_resources",
+    "Is your anonymity protected if you choose to take advantage of mental health or substance abuse treatment resources provided by your employer?": "anonymity_protected",
+    "If a mental health issue prompted you to request a medical leave from work, asking for that leave would be:": "medical_leave_ease",
+    "Do you think that discussing a mental health disorder with your employer would have negative consequences?": "mh_disclosure_negative_consequences",
+    "Do you think that discussing a physical health issue with your employer would have negative consequences?": "physical_disclosure_negative_consequences",
+    "Would you feel comfortable discussing a mental health disorder with your coworkers?": "coworker_discussion_comfort",
+    "Would you feel comfortable discussing a mental health disorder with your direct supervisor(s)?": "supervisor_discussion_comfort",
+    "Do you feel that your employer takes mental health as seriously as physical health?": "mh_as_serious_as_physical",
+    "Have you heard of or observed negative consequences for co-workers who have been open about mental health issues in your workplace?": "observed_negative_consequences",
+    "Would you be willing to bring up a physical health issue with a potential employer in an interview?": "interview_disclosure_physical",
+    "Would you bring up a mental health issue with a potential employer in an interview?": "interview_disclosure_mental",
+    "Do you feel that being identified as a person with a mental health issue would hurt your career?": "perceived_career_harm",
+    "Do you think that team members/co-workers would view you more negatively if they knew you suffered from a mental health issue?": "expected_coworker_stigma",
+    "Have you observed or experienced an unsupportive or badly handled response to a mental health issue in your current or previous workplace?": "observed_unsupportive_workplace_response",
     "What is your age?": "age",
     "What is your gender?": "gender",
     "What country do you live in?": "residence_country",
@@ -77,30 +41,14 @@ COLUMN_OVERRIDES = {
     "What US state or territory do you work in?": "work_state",
     "Which of the following best describes your work position?": "work_position",
     "Do you work remotely?": "remote_work",
-
-    "Do you have medical coverage (private insurance or state-provided) which includes treatment of mental health issues?":
-        "medical_coverage_includes_mental_health",
-
-    "Do you have a family history of mental illness?":
-        "family_mental_illness_history",
-
-    "Have you had a mental health disorder in the past?":
-        "past_mental_health_disorder",
-
-    "Do you currently have a mental health disorder?":
-        "current_mental_health_disorder",
-
-    "Have you been diagnosed with a mental health condition by a medical professional?":
-        "professional_mental_health_diagnosis",
-
-    "Have you ever sought treatment for a mental health issue from a mental health professional?":
-        "mental_health_treatment_history",
-
-    "If you have a mental health issue, do you feel that it interferes with your work when being treated effectively?":
-        "work_interference_effective_treatment",
-
-    "If you have a mental health issue, do you feel that it interferes with your work when NOT being treated effectively?":
-        "work_interference_ineffective_treatment",
+    "Do you have medical coverage (private insurance or state-provided) which includes treatment of mental health issues?": "medical_coverage_includes_mental_health",
+    "Do you have a family history of mental illness?": "family_mental_illness_history",
+    "Have you had a mental health disorder in the past?": "past_mental_health_disorder",
+    "Do you currently have a mental health disorder?": "current_mental_health_disorder",
+    "Have you been diagnosed with a mental health condition by a medical professional?": "professional_mental_health_diagnosis",
+    "Have you ever sought treatment for a mental health issue from a mental health professional?": "mental_health_treatment_history",
+    "If you have a mental health issue, do you feel that it interferes with your work when being treated effectively?": "work_interference_effective_treatment",
+    "If you have a mental health issue, do you feel that it interferes with your work when NOT being treated effectively?": "work_interference_ineffective_treatment",
 }
 
 

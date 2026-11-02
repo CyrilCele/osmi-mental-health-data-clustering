@@ -10,7 +10,7 @@ else:
 
 RAW_DIR = PROJECT_ROOT / "data" / "raw"
 PROCESSED_DIR = PROJECT_ROOT / "data" / "processed"
-PREPARATION_DIR = PROCESSED_DIR / "data_preparation"
+PREPARATION_DIR = PROJECT_ROOT / "data" / "data_preparation"
 FIGURES_DIR = PROJECT_ROOT / "reports" / "figures"
 
 SOURCE_FILENAME = "mental-heath-in-tech-2016_20161114.csv"
@@ -100,11 +100,6 @@ ORDINAL_RESPONSE_MAPS = {
         "Maybe": 1,
         "Yes": 2,
     },
-    "mh_as_serious_as_physical": {
-        "No": 0,
-        "Maybe": 1,
-        "Yes": 2,
-    },
     "interview_disclosure_physical": {
         "No": 0,
         "Maybe": 1,
@@ -137,6 +132,7 @@ NOMINAL_MODEL_FEATURES = [
     "observed_negative_consequences",
     "perceived_career_harm",
     "expected_coworker_stigma",
+    "mh_as_serious_as_physical"
 ]
 
 # Supplementary fields are deliberately outside the 15-feature matrix.

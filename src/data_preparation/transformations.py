@@ -86,9 +86,6 @@ def _feature_distance(feature, left, right) -> float:
         "supervisor_discussion_comfort": {
             "No": 0, "Maybe": 1, "Yes": 2
         },
-        "mh_as_serious_as_physical": {
-            "No": 0, "Maybe": 1, "Yes": 2
-        },
         "interview_disclosure_physical": {
             "No": 0, "Maybe": 1, "Yes": 2
         },

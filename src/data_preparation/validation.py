@@ -119,10 +119,10 @@ def run_preparation_validation(
 
     return {
         "status": "passed",
-        "source_rows": int(len(source_df)),
-        "cohort_rows": int(len(cohort_df)),
-        "model_features": int(len(MODEL_FEATURES)),
-        "domain_count": int(len(DOMAIN_FEATURES)),
+        "source_rows": len(source_df),
+        "cohort_rows": len(cohort_df),
+        "model_features": len(MODEL_FEATURES),
+        "domain_count": len(DOMAIN_FEATURES),
         "distance_shape": list(distance.shape),
         "distance_min": float(distance.min()),
         "distance_max": float(distance.max()),

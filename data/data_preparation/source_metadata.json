@@ -1,0 +1,16 @@
+{
+    "source_path": "C:\\Users\\User\\Documents\\Projects\\osmi-mental-health-data-clustering\\data\\raw\\mental-heath-in-tech-2016_20161114.csv",
+    "source_filename": "mental-heath-in-tech-2016_20161114.csv",
+    "source_sha256": "0bec458b0724cc375a17eb2db0204a9f7a786260441cf702eec210d92bd4ae4d",
+    "source_size_bytes": 1104203,
+    "source_rows": 1433,
+    "source_columns": 63,
+    "source_shape": [
+        1433,
+        63
+    ],
+    "sha256": "0bec458b0724cc375a17eb2db0204a9f7a786260441cf702eec210d92bd4ae4d",
+    "python_version": "3.13.7",
+    "pandas_version": "3.1.0",
+    "numpy_version": "2.5.4"
+}
