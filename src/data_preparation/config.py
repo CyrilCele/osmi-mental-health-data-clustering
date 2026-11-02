@@ -10,8 +10,8 @@ else:
 
 RAW_DIR = PROJECT_ROOT / "data" / "raw"
 PROCESSED_DIR = PROJECT_ROOT / "data" / "processed"
-PREPARATION_DIR = PROJECT_ROOT / "data" / "data_preparation"
-FIGURES_DIR = PROJECT_ROOT / "reports" / "figures"
+PREPARATION_DIR = PROCESSED_DIR
+FIGURES_DIR = PROJECT_ROOT / "reports" / "figures" / "data_preparation"
 
 SOURCE_FILENAME = "mental-heath-in-tech-2016_20161114.csv"
 SOURCE_PATH = RAW_DIR / SOURCE_FILENAME
