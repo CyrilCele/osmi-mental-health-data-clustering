@@ -1,2 +1,9 @@
 .venv
 .ruff_cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Model outputs are reproducible and can be regenerated from the notebooks.
+# reports/clustering/
+# reports/figures/clustering/

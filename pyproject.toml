@@ -1,19 +1,17 @@
 [project]
 name = "osmi-mental-health-data-clustering"
 version = "0.1.0"
-description = "Add your description here"
+description = "Reproducible CRISP-DM workflow for interpretable clustering of the OSMI 2016 Mental Health in Tech survey"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "hdbscan>=0.8.44",
-    "kaleido>=1.5.0",
     "kmodes>=0.12.2",
     "matplotlib>=3.11.2",
     "numpy>=2.5.4",
     "pandas>=3.1.0",
-    "plotly>=7.1.0",
     "prince>=0.23.1",
-    "ruff>=0.17.3",
+    "scipy>=1.16.3",
     "scikit-learn>=1.9.1",
     "seaborn>=0.13.2",
     "umap-learn>=0.5.12",
@@ -23,4 +21,5 @@ dependencies = [
 dev = [
     "ipykernel>=7.4.0",
     "jupyter>=1.1.1",
+    "ruff>=0.17.3",
 ]
