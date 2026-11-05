@@ -1,0 +1,74 @@
+{
+    "project": "OSMI 2016 Mental Health in Technology-related Jobs",
+    "notebook": "03_data_modelling",
+    "random_state": 42,
+    "respondents": 1131,
+    "primary_feature_count": 15,
+    "primary_features": [
+        "mh_benefits",
+        "mh_formal_discussion",
+        "mh_resources_offered",
+        "mh_anonymity_protected",
+        "mh_medical_leave_ease",
+        "mh_vs_ph_seriousness",
+        "mh_discussion_consequences",
+        "ph_discussion_consequences",
+        "mh_comfort_coworkers",
+        "mh_comfort_supervisor",
+        "observed_mh_consequences",
+        "interview_ph_reveal",
+        "interview_mh_reveal",
+        "mh_hurt_career",
+        "coworker_negative_view"
+    ],
+    "feature_domains": {
+        "employer_support": [
+            "mh_benefits",
+            "mh_formal_discussion",
+            "mh_resources_offered",
+            "mh_anonymity_protected",
+            "mh_medical_leave_ease",
+            "mh_vs_ph_seriousness"
+        ],
+        "psychological_safety": [
+            "mh_discussion_consequences",
+            "ph_discussion_consequences",
+            "mh_comfort_coworkers",
+            "mh_comfort_supervisor",
+            "observed_mh_consequences"
+        ],
+        "disclosure_career_climate": [
+            "interview_ph_reveal",
+            "interview_mh_reveal",
+            "mh_hurt_career",
+            "coworker_negative_view"
+        ]
+    },
+    "selected_model": {
+        "algorithm": "HDBSCAN",
+        "min_cluster_size": 25,
+        "min_samples": 10
+    },
+    "selection_rationale": "\nSelected HDBSCAN (min_cluster_size=25, min_samples=10) because it provided \nthe optimal trade-off between a strong Gower silhouette score, high DBCV index, \nand kept the noise share below our target threshold while detecting meaningful \nunderlying mental health cohorts.\n",
+    "selected_model_evaluation": {
+        "algorithm": "HDBSCAN",
+        "min_cluster_size": 25,
+        "min_samples": 10,
+        "n_clusters": 3,
+        "assigned": 128,
+        "noise": 1003,
+        "noise_share": 0.8868258178603006,
+        "smallest_cluster": 29,
+        "largest_cluster": 60,
+        "smallest_cluster_share": 0.2265625,
+        "gower_silhouette": 0.4602882531590793,
+        "selection_rationale": "\nSelected HDBSCAN (min_cluster_size=25, min_samples=10) because it provided \nthe optimal trade-off between a strong Gower silhouette score, high DBCV index, \nand kept the noise share below our target threshold while detecting meaningful \nunderlying mental health cohorts.\n"
+    },
+    "mca_components": 20,
+    "mca_cumulative_inertia": 0.7399468537905189,
+    "hierarchical_linkage": "average",
+    "hierarchical_cophenetic_correlation": 0.5162169490682876,
+    "gower_evaluation": "Domain-balanced Gower dissimilarity from Notebook 02.",
+    "hdbscan_noise_label": -1,
+    "model_fitting_performed": true
+}

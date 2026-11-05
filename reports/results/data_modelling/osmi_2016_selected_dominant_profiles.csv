@@ -1,0 +1,61 @@
+solution,cluster,cluster_type,cluster_size,feature,domain,response,count,percentage_within_cluster
+selected_model,-1,noise,1003,coworker_negative_view,disclosure_career_climate,Maybe,428,42.671984047856434
+selected_model,-1,noise,1003,interview_mh_reveal,disclosure_career_climate,No,635,63.31006979062812
+selected_model,-1,noise,1003,interview_ph_reveal,disclosure_career_climate,Maybe,416,41.47557328015952
+selected_model,-1,noise,1003,mh_anonymity_protected,employer_support,I don't know,635,63.31006979062812
+selected_model,-1,noise,1003,mh_benefits,employer_support,Yes,476,47.45762711864407
+selected_model,-1,noise,1003,mh_comfort_coworkers,psychological_safety,Maybe,438,43.66899302093719
+selected_model,-1,noise,1003,mh_comfort_supervisor,psychological_safety,Yes,380,37.88634097706879
+selected_model,-1,noise,1003,mh_discussion_consequences,psychological_safety,Maybe,442,44.06779661016949
+selected_model,-1,noise,1003,mh_formal_discussion,employer_support,No,690,68.79361914257228
+selected_model,-1,noise,1003,mh_hurt_career,disclosure_career_climate,Maybe,409,40.777666999002996
+selected_model,-1,noise,1003,mh_medical_leave_ease,employer_support,Somewhat easy,246,24.52642073778664
+selected_model,-1,noise,1003,mh_resources_offered,employer_support,No,437,43.56929212362911
+selected_model,-1,noise,1003,mh_vs_ph_seriousness,employer_support,I don't know,429,42.77168494516451
+selected_model,-1,noise,1003,observed_mh_consequences,psychological_safety,No,917,91.42572283150548
+selected_model,-1,noise,1003,ph_discussion_consequences,psychological_safety,No,741,73.87836490528414
+selected_model,0,cluster,39,coworker_negative_view,disclosure_career_climate,"No, I don't think they would",37,94.87179487179486
+selected_model,0,cluster,39,interview_mh_reveal,disclosure_career_climate,Maybe,28,71.7948717948718
+selected_model,0,cluster,39,interview_ph_reveal,disclosure_career_climate,Maybe,20,51.28205128205128
+selected_model,0,cluster,39,mh_anonymity_protected,employer_support,I don't know,22,56.41025641025641
+selected_model,0,cluster,39,mh_benefits,employer_support,Yes,24,61.53846153846154
+selected_model,0,cluster,39,mh_comfort_coworkers,psychological_safety,Yes,29,74.35897435897436
+selected_model,0,cluster,39,mh_comfort_supervisor,psychological_safety,Yes,38,97.43589743589743
+selected_model,0,cluster,39,mh_discussion_consequences,psychological_safety,No,39,100.0
+selected_model,0,cluster,39,mh_formal_discussion,employer_support,No,27,69.23076923076923
+selected_model,0,cluster,39,mh_hurt_career,disclosure_career_climate,Maybe,32,82.05128205128204
+selected_model,0,cluster,39,mh_medical_leave_ease,employer_support,Very easy,19,48.717948717948715
+selected_model,0,cluster,39,mh_resources_offered,employer_support,Yes,17,43.58974358974359
+selected_model,0,cluster,39,mh_vs_ph_seriousness,employer_support,Yes,31,79.48717948717949
+selected_model,0,cluster,39,observed_mh_consequences,psychological_safety,No,39,100.0
+selected_model,0,cluster,39,ph_discussion_consequences,psychological_safety,No,39,100.0
+selected_model,1,cluster,29,coworker_negative_view,disclosure_career_climate,Maybe,25,86.20689655172413
+selected_model,1,cluster,29,interview_mh_reveal,disclosure_career_climate,Maybe,15,51.724137931034484
+selected_model,1,cluster,29,interview_ph_reveal,disclosure_career_climate,Maybe,20,68.96551724137932
+selected_model,1,cluster,29,mh_anonymity_protected,employer_support,I don't know,28,96.55172413793103
+selected_model,1,cluster,29,mh_benefits,employer_support,I don't know,14,48.275862068965516
+selected_model,1,cluster,29,mh_comfort_coworkers,psychological_safety,Maybe,25,86.20689655172413
+selected_model,1,cluster,29,mh_comfort_supervisor,psychological_safety,Maybe,23,79.3103448275862
+selected_model,1,cluster,29,mh_discussion_consequences,psychological_safety,Maybe,15,51.724137931034484
+selected_model,1,cluster,29,mh_formal_discussion,employer_support,No,29,100.0
+selected_model,1,cluster,29,mh_hurt_career,disclosure_career_climate,Maybe,25,86.20689655172413
+selected_model,1,cluster,29,mh_medical_leave_ease,employer_support,Somewhat easy,11,37.93103448275862
+selected_model,1,cluster,29,mh_resources_offered,employer_support,No,21,72.41379310344827
+selected_model,1,cluster,29,mh_vs_ph_seriousness,employer_support,I don't know,27,93.10344827586206
+selected_model,1,cluster,29,observed_mh_consequences,psychological_safety,No,29,100.0
+selected_model,1,cluster,29,ph_discussion_consequences,psychological_safety,No,27,93.10344827586206
+selected_model,2,cluster,60,coworker_negative_view,disclosure_career_climate,"Yes, I think they would",59,98.33333333333333
+selected_model,2,cluster,60,interview_mh_reveal,disclosure_career_climate,No,60,100.0
+selected_model,2,cluster,60,interview_ph_reveal,disclosure_career_climate,No,39,65.0
+selected_model,2,cluster,60,mh_anonymity_protected,employer_support,I don't know,51,85.0
+selected_model,2,cluster,60,mh_benefits,employer_support,No,25,41.66666666666667
+selected_model,2,cluster,60,mh_comfort_coworkers,psychological_safety,No,59,98.33333333333333
+selected_model,2,cluster,60,mh_comfort_supervisor,psychological_safety,No,53,88.33333333333333
+selected_model,2,cluster,60,mh_discussion_consequences,psychological_safety,Yes,35,58.333333333333336
+selected_model,2,cluster,60,mh_formal_discussion,employer_support,No,60,100.0
+selected_model,2,cluster,60,mh_hurt_career,disclosure_career_climate,"Yes, I think it would",60,100.0
+selected_model,2,cluster,60,mh_medical_leave_ease,employer_support,Very difficult,23,38.333333333333336
+selected_model,2,cluster,60,mh_resources_offered,employer_support,No,50,83.33333333333334
+selected_model,2,cluster,60,mh_vs_ph_seriousness,employer_support,No,36,60.0
+selected_model,2,cluster,60,observed_mh_consequences,psychological_safety,No,53,88.33333333333333
+selected_model,2,cluster,60,ph_discussion_consequences,psychological_safety,Maybe,29,48.333333333333336
