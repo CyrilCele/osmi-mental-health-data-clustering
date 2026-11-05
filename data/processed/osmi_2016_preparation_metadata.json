@@ -1,114 +1,112 @@
 {
-    "project": "OSMI 2016 Mental Health in Technology-related Jobs",
-    "notebook": "02_data_preparation",
-    "random_state": 42,
-    "source_file": "C:\\Users\\User\\Documents\\Projects\\osmi-mental-health-data-clustering\\data\\interim\\osmi_2016_renamed_interim.csv",
-    "source_respondents": 1433,
-    "eligible_cohort_size": 1131,
-    "cohort_definition": "self_employed == 0 AND (tech_company == 1 OR tech_role == 1)",
-    "primary_feature_count": 15,
-    "primary_features": [
-        "mh_benefits",
-        "mh_formal_discussion",
-        "mh_resources_offered",
-        "mh_anonymity_protected",
-        "mh_medical_leave_ease",
-        "mh_vs_ph_seriousness",
-        "mh_discussion_consequences",
-        "ph_discussion_consequences",
-        "mh_comfort_coworkers",
-        "mh_comfort_supervisor",
-        "observed_mh_consequences",
-        "interview_ph_reveal",
-        "interview_mh_reveal",
-        "mh_hurt_career",
-        "coworker_negative_view"
+  "project": "OSMI 2016 Mental Health in Technology-related Jobs",
+  "notebook": "02_data_preparation",
+  "random_state": 42,
+  "source_file": "C:\\Users\\User\\Documents\\Projects\\osmi-mental-health-data-clustering\\data\\interim\\osmi_2016_renamed_interim.csv",
+  "source_respondents": 1433,
+  "eligible_cohort_size": 1131,
+  "cohort_definition": "self_employed == 0 AND (tech_company == 1 OR tech_role == 1)",
+  "primary_feature_count": 15,
+  "primary_features": [
+    "mh_benefits",
+    "mh_formal_discussion",
+    "mh_resources_offered",
+    "mh_anonymity_protected",
+    "mh_medical_leave_ease",
+    "mh_vs_ph_seriousness",
+    "mh_discussion_consequences",
+    "ph_discussion_consequences",
+    "mh_comfort_coworkers",
+    "mh_comfort_supervisor",
+    "observed_mh_consequences",
+    "interview_ph_reveal",
+    "interview_mh_reveal",
+    "mh_hurt_career",
+    "coworker_negative_view"
+  ],
+  "feature_domains": {
+    "employer_support": [
+      "mh_benefits",
+      "mh_formal_discussion",
+      "mh_resources_offered",
+      "mh_anonymity_protected",
+      "mh_medical_leave_ease",
+      "mh_vs_ph_seriousness"
     ],
-    "feature_domains": {
-        "employer_support": [
-            "mh_benefits",
-            "mh_formal_discussion",
-            "mh_resources_offered",
-            "mh_anonymity_protected",
-            "mh_medical_leave_ease",
-            "mh_vs_ph_seriousness"
-        ],
-        "psychological_safety": [
-            "mh_discussion_consequences",
-            "ph_discussion_consequences",
-            "mh_comfort_coworkers",
-            "mh_comfort_supervisor",
-            "observed_mh_consequences"
-        ],
-        "disclosure_career_climate": [
-            "interview_ph_reveal",
-            "interview_mh_reveal",
-            "mh_hurt_career",
-            "coworker_negative_view"
-        ]
+    "psychological_safety": [
+      "mh_discussion_consequences",
+      "ph_discussion_consequences",
+      "mh_comfort_coworkers",
+      "mh_comfort_supervisor",
+      "observed_mh_consequences"
+    ],
+    "disclosure_career_climate": [
+      "interview_ph_reveal",
+      "interview_mh_reveal",
+      "mh_hurt_career",
+      "coworker_negative_view"
+    ]
+  },
+  "feature_domain_weights": {
+    "employer_support": 0.3333333333333333,
+    "psychological_safety": 0.3333333333333333,
+    "disclosure_career_climate": 0.3333333333333333
+  },
+  "feature_measurement_types": {
+    "mh_benefits": "nominal",
+    "mh_formal_discussion": "nominal",
+    "mh_resources_offered": "nominal",
+    "mh_anonymity_protected": "nominal",
+    "mh_medical_leave_ease": "ordinal_with_nominal_unknown",
+    "mh_vs_ph_seriousness": "nominal",
+    "mh_discussion_consequences": "nominal",
+    "ph_discussion_consequences": "nominal",
+    "mh_comfort_coworkers": "nominal",
+    "mh_comfort_supervisor": "nominal",
+    "observed_mh_consequences": "nominal",
+    "interview_ph_reveal": "nominal",
+    "interview_mh_reveal": "nominal",
+    "mh_hurt_career": "nominal",
+    "coworker_negative_view": "nominal"
+  },
+  "ordinal_feature": {
+    "name": "mh_medical_leave_ease",
+    "ranks": {
+      "Very difficult": 1,
+      "Somewhat difficult": 2,
+      "Neither easy nor difficult": 3,
+      "Somewhat easy": 4,
+      "Very easy": 5
     },
-    "feature_domain_weights": {
-        "employer_support": 0.3333333333333333,
-        "psychological_safety": 0.3333333333333333,
-        "disclosure_career_climate": 0.3333333333333333
-    },
-    "feature_measurement_types": {
-        "mh_benefits": "nominal",
-        "mh_formal_discussion": "nominal",
-        "mh_resources_offered": "nominal",
-        "mh_anonymity_protected": "nominal",
-        "mh_medical_leave_ease": "ordinal_with_nominal_unknown",
-        "mh_vs_ph_seriousness": "nominal",
-        "mh_discussion_consequences": "nominal",
-        "ph_discussion_consequences": "nominal",
-        "mh_comfort_coworkers": "nominal",
-        "mh_comfort_supervisor": "nominal",
-        "observed_mh_consequences": "nominal",
-        "interview_ph_reveal": "nominal",
-        "interview_mh_reveal": "nominal",
-        "mh_hurt_career": "nominal",
-        "coworker_negative_view": "nominal"
-    },
-    "ordinal_feature": {
-        "name": "mh_medical_leave_ease",
-        "ranks": {
-            "Very difficult": 1,
-            "Somewhat difficult": 2,
-            "Neither easy nor difficult": 3,
-            "Somewhat easy": 4,
-            "Very easy": 5
-        },
-        "unknown_response": "I don't know",
-        "unknown_treatment": "Nominal: 0 for unknown-unknown; 1 for unknown-substantive comparison."
-    },
-    "missing_value_policy": "No imputation. The selected 15 features are expected to have zero missing values in the eligible cohort. Unexpected missing values cause validation to fail.",
-    "gender_policy": "Gender is harmonised for descriptive profiling only. It is excluded from all clustering representations. Missing gender values remain missing.",
-    "gower_method": {
-        "nominal_distance": "0 for match; 1 for mismatch",
-        "ordinal_distance": "Absolute rank difference divided by the maximum substantive rank difference.",
-        "domain_balancing": "Average feature dissimilarity within each domain, then equal average of the three domain-level dissimilarities.",
-        "matrix_shape": [
-            1131,
-            1131
-        ],
-        "matrix_dtype": "float32",
-        "matrix_minimum": 0.0,
-        "matrix_maximum": 1.0,
-        "matrix_mean": 0.5665361285209656
-    },
-    "association_audit": {
-        "method": "Bias-corrected Cramer's V",
-        "number_of_features": 15,
-        "number_of_unique_pairs": 105,
-        "purpose": "Exploratory categorical association audit. No feature is automatically removed."
-    },
-    "algorithm_inputs": {
-        "K-Modes": "osmi_2016_kmodes_input.csv",
-        "MCA plus K-Means": "osmi_2016_mca_indicator_matrix.csv; fit MCA in the modelling notebook.",
-        "Agglomerative hierarchical clustering": "osmi_2016_gower_dissimilarity.npy",
-        "HDBSCAN": "osmi_2016_gower_dissimilarity.npy"
-    },
-    "model_fitting_performed": false,
-    "mca_fitting_performed": false,
-    "output_directory": "C:\\Users\\User\\Documents\\Projects\\osmi-mental-health-data-clustering\\data\\processed"
+    "unknown_response": "I don't know",
+    "unknown_distance_policy": "unknown-unknown=0; unknown-substantive=1"
+  },
+  "missing_value_policy": "No imputation; unexpected primary-feature missingness stops preparation.",
+  "gender_policy": "Descriptive profile only; excluded from all clustering representations.",
+  "gower_method": {
+    "nominal": "match=0; mismatch=1",
+    "ordinal": "absolute substantive rank difference divided by 4",
+    "domain_balancing": "average features within each domain, then equal average across domains",
+    "shape": [
+      1131,
+      1131
+    ],
+    "dtype": "float32",
+    "minimum": 0.0,
+    "maximum": 1.0
+  },
+  "association_audit": {
+    "method": "Bias-corrected Cramer's V",
+    "pair_count": 105,
+    "purpose": "Descriptive only; no feature removal or independent cluster validation."
+  },
+  "algorithm_inputs": {
+    "K-Modes": "osmi_2016_kmodes_input.csv",
+    "MCA + K-Means": "osmi_2016_mca_indicator_matrix.csv",
+    "Agglomerative": "osmi_2016_gower_dissimilarity.npy",
+    "HDBSCAN": "osmi_2016_gower_dissimilarity.npy"
+  },
+  "row_mapping_file": "osmi_2016_model_row_mapping.csv",
+  "model_fitting_performed": false,
+  "mca_fitting_performed": false
 }

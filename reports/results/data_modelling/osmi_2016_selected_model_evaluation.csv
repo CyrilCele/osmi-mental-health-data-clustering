@@ -1,7 +1,0 @@
-algorithm,min_cluster_size,min_samples,n_clusters,assigned,noise,noise_share,smallest_cluster,largest_cluster,smallest_cluster_share,gower_silhouette,selection_rationale
-HDBSCAN,25,10,3,128,1003,0.8868258178603006,29,60,0.2265625,0.4602882531590793,"
-Selected HDBSCAN (min_cluster_size=25, min_samples=10) because it provided 
-the optimal trade-off between a strong Gower silhouette score, high DBCV index, 
-and kept the noise share below our target threshold while detecting meaningful 
-underlying mental health cohorts.
-"
