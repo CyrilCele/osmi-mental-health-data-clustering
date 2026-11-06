@@ -3,27 +3,52 @@
   "selection_status": "deferred_to_notebook_04",
   "representative_configurations": {
     "K-Modes": {
-      "k": 4,
-      "seed": 4048,
-      "selection_rule": "highest repeated-start mean ARI; then Gower silhouette; then lower cost/respondent"
+      "k": 2,
+      "seed": 2042,
+      "n_init_per_repeat": 5,
+      "cost_elbow_k": 3,
+      "selection_rule": "admissible, stable first; highest Gower silhouette, then resampling ARI",
+      "selection_tier": "admissible and stable"
     },
     "MCA + K-Means": {
       "k": 2,
-      "seed": 4042,
-      "selection_rule": "highest MCA-space silhouette; then lower Davies-Bouldin; then stability and Calinski-Harabasz"
+      "seed": 4045,
+      "n_mca_dimensions": 14,
+      "selection_rule": "admissible, stable first; highest MCA silhouette, then lower Davies-Bouldin, ARI, Calinski-Harabasz",
+      "selection_tier": "admissible and stable"
     },
     "Agglomerative": {
+      "linkage": "weighted",
+      "linkage_role": "sensitivity",
       "k_requested": 2,
       "k_actual": 2,
-      "linkage": "average",
-      "selection_rule": "highest sampled Gower silhouette"
+      "average_linkage_admissible": false,
+      "selection_rule": "admissible (min cluster size); average linkage first; highest Gower silhouette",
+      "selection_tier": "FALLBACK: no admissible average-linkage cut; best sensitivity linkage (weighted)"
     },
-    "HDBSCAN": null
+    "HDBSCAN": {
+      "status": "no qualifying representative",
+      "admissibility_criteria": {
+        "min_cluster_size": 57,
+        "min_coverage": 0.5,
+        "dbcv_floor": 0.0,
+        "stability_floor": 0.5
+      },
+      "closest_attempt_not_exported": {
+        "config_key": "eom_mcs10_ms3",
+        "coverage": 0.38461538461538464,
+        "noise_share": 0.6153846153846154,
+        "dbcv": -0.002828103594426443,
+        "n_clusters": 2
+      }
+    }
   },
   "candidate_model_keys": [
     "K-Modes",
     "MCA + K-Means",
-    "Agglomerative",
+    "Agglomerative"
+  ],
+  "families_without_representative": [
     "HDBSCAN"
   ],
   "note": "Notebook 03 selects a representative configuration within each family only. Final family selection belongs in Notebook 04."

@@ -1,6 +1,15 @@
 {
   "notebook": "03_data_modelling",
   "random_state": 42,
+  "package_versions": {
+    "python": "3.13.7",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "kmodes": "0.12.2",
+    "hdbscan": "0.8.44"
+  },
   "n_repeats": 10,
   "k_values": [
     2,
@@ -11,59 +20,118 @@
     7,
     8
   ],
+  "admissibility": {
+    "min_cluster_share": 0.05,
+    "min_cluster_size": 57,
+    "stability_floor_mean_pairwise_ari": 0.5,
+    "hdbscan_min_coverage": 0.5,
+    "hdbscan_dbcv_floor": 0.0
+  },
   "silhouette": {
     "metric": "precomputed domain-balanced Gower dissimilarity",
-    "sample_size_max": 600,
-    "seed": 42,
+    "sampling": "none (all non-noise respondents)",
     "hdbscan_noise_excluded": true,
     "interpretation": "supplementary cross-family diagnostic"
   },
   "mca": {
     "input": "complete disjunctive indicator matrix",
-    "retention_rule": "minimum dimensions reaching 80% raw inertia, capped at 20",
-    "n_components": 20,
-    "cumulative_raw_inertia": 0.7399468537905188
+    "retention_rule": "eigenvalue > 1/Q (above-average inertia), minimum 2 dimensions",
+    "n_components": 14,
+    "cumulative_raw_inertia": 0.5964212265855882,
+    "cumulative_adjusted_inertia_greenacre": 0.873036140246431
   },
   "kmodes": {
-    "implementation": "transparent simple-matching K-Modes; random row initialization",
+    "implementation": "kmodes package; Huang initialisation; simple-matching dissimilarity",
+    "n_init_per_repeat": 5,
     "n_repeats_per_k": 10,
-    "stability_scope": "repeated-initialization optimisation stability only"
+    "repeated_run_stability": "mean pairwise ARI across repeats (optimisation stability)",
+    "resampling_stability": {
+      "n_resamples": 20,
+      "subsample_fraction": 0.8,
+      "assignment": "nearest mode, simple matching, all respondents"
+    },
+    "cost_elbow_k": 3
+  },
+  "agglomerative": {
+    "primary_linkage": "average",
+    "sensitivity_linkages": [
+      "weighted",
+      "complete"
+    ],
+    "cophenetic_correlation": {
+      "average": 0.5162169572512597,
+      "weighted": 0.4559888826906997,
+      "complete": 0.3567534207693902
+    },
+    "ward_used": false
   },
   "hdbscan": {
-    "implementation": "scikit-learn HDBSCAN",
-    "metric": "precomputed",
+    "implementation": "hdbscan package",
+    "metric": "precomputed (Gower)",
     "grid_min_cluster_size": [
+      10,
       15,
       25,
       40,
       60
     ],
     "grid_min_samples": [
+      1,
+      3,
       5,
-      10,
-      15
+      10
     ],
-    "dbcv_available": false,
-    "cluster_persistence_available": false
+    "grid_cluster_selection_method": [
+      "eom",
+      "leaf"
+    ],
+    "dbcv_available": true,
+    "dbcv_dimension_d": 15,
+    "cluster_persistence_available": true,
+    "configurations_fitted": 40,
+    "configurations_failed": 0
   },
   "representative_configurations": {
     "K-Modes": {
-      "k": 4,
-      "seed": 4048,
-      "selection_rule": "highest repeated-start mean ARI; then Gower silhouette; then lower cost/respondent"
+      "k": 2,
+      "seed": 2042,
+      "n_init_per_repeat": 5,
+      "cost_elbow_k": 3,
+      "selection_rule": "admissible, stable first; highest Gower silhouette, then resampling ARI",
+      "selection_tier": "admissible and stable"
     },
     "MCA + K-Means": {
       "k": 2,
-      "seed": 4042,
-      "selection_rule": "highest MCA-space silhouette; then lower Davies-Bouldin; then stability and Calinski-Harabasz"
+      "seed": 4045,
+      "n_mca_dimensions": 14,
+      "selection_rule": "admissible, stable first; highest MCA silhouette, then lower Davies-Bouldin, ARI, Calinski-Harabasz",
+      "selection_tier": "admissible and stable"
     },
     "Agglomerative": {
+      "linkage": "weighted",
+      "linkage_role": "sensitivity",
       "k_requested": 2,
       "k_actual": 2,
-      "linkage": "average",
-      "selection_rule": "highest sampled Gower silhouette"
+      "average_linkage_admissible": false,
+      "selection_rule": "admissible (min cluster size); average linkage first; highest Gower silhouette",
+      "selection_tier": "FALLBACK: no admissible average-linkage cut; best sensitivity linkage (weighted)"
     },
-    "HDBSCAN": null
+    "HDBSCAN": {
+      "status": "no qualifying representative",
+      "admissibility_criteria": {
+        "min_cluster_size": 57,
+        "min_coverage": 0.5,
+        "dbcv_floor": 0.0,
+        "stability_floor": 0.5
+      },
+      "closest_attempt_not_exported": {
+        "config_key": "eom_mcs10_ms3",
+        "coverage": 0.38461538461538464,
+        "noise_share": 0.6153846153846154,
+        "dbcv": -0.002828103594426443,
+        "n_clusters": 2
+      }
+    }
   },
   "overall_model_selection": "deferred_to_notebook_04"
 }

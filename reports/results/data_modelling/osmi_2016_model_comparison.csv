@@ -1,4 +1,4 @@
-model_key,k_requested,cost,cost_per_respondent,mean_pairwise_ari,gower_silhouette,best_iterations,best_seed,n_clusters,n_noise,noise_share,coverage,smallest_cluster_size,median_cluster_size,max_cluster_size,inertia,mca_silhouette,davies_bouldin,calinski_harabasz,k_actual,cophenetic_correlation
-K-Modes,4,6013.0,5.316534040671971,0.2866487423267328,0.11798212677240372,3.0,4048.0,4,0,0.0,1.0,177,267.0,420,,,,,,
-MCA + K-Means,2,,,0.9533199213068377,0.19493575394153595,11.0,4042.0,2,0,0.0,1.0,496,565.5,635,1817.7529837628508,0.11549470634548835,2.6204703059567382,153.13180505925303,,
-Agglomerative,2,,,,0.17038100957870483,,,2,0,0.0,1.0,2,565.5,1129,,,,,2.0,0.5162169490682876
+model_key,selection_tier,k_requested,cost,cost_per_respondent,cost_range_across_repeats,mean_pairwise_ari,resampling_ari_mean,resampling_ari_sd,gower_silhouette,best_iterations,best_seed,n_clusters,n_noise,noise_share,coverage,smallest_cluster_size,median_cluster_size,max_cluster_size,inertia,mca_silhouette,davies_bouldin,calinski_harabasz,linkage,linkage_role,k_actual,cophenetic_correlation
+K-Modes,admissible and stable,2,6946.0,6.141467727674624,28.0,0.716125052574137,0.7391312381485976,0.1332292766614669,0.1828564524116797,2.0,2042.0,2,0,0.0,1.0,510,565.5,621,,,,,,,,
+MCA + K-Means,admissible and stable,2,,,,0.946463857952859,,,0.1999777452595868,19.0,4045.0,2,0,0.0,1.0,524,565.5,607,1417.6460896123278,0.14126774635786482,2.305738053062032,196.11106099474705,,,,
+Agglomerative,FALLBACK: no admissible average-linkage cut; best sensitivity linkage (weighted),2,,,,,,,0.10684326055920956,,,2,0,0.0,1.0,57,565.5,1074,,,,,weighted,sensitivity,2.0,0.4559888826906997
