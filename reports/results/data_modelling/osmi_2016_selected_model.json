@@ -1,0 +1,30 @@
+{
+  "selected_model_key": null,
+  "selection_status": "deferred_to_notebook_04",
+  "representative_configurations": {
+    "K-Modes": {
+      "k": 4,
+      "seed": 4048,
+      "selection_rule": "highest repeated-start mean ARI; then Gower silhouette; then lower cost/respondent"
+    },
+    "MCA + K-Means": {
+      "k": 2,
+      "seed": 4042,
+      "selection_rule": "highest MCA-space silhouette; then lower Davies-Bouldin; then stability and Calinski-Harabasz"
+    },
+    "Agglomerative": {
+      "k_requested": 2,
+      "k_actual": 2,
+      "linkage": "average",
+      "selection_rule": "highest sampled Gower silhouette"
+    },
+    "HDBSCAN": null
+  },
+  "candidate_model_keys": [
+    "K-Modes",
+    "MCA + K-Means",
+    "Agglomerative",
+    "HDBSCAN"
+  ],
+  "note": "Notebook 03 selects a representative configuration within each family only. Final family selection belongs in Notebook 04."
+}

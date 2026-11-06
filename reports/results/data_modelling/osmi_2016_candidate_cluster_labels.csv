@@ -1,0 +1,3394 @@
+model_key,model_row_index,cluster_label
+K-Modes,0,3
+K-Modes,1,1
+K-Modes,2,0
+K-Modes,3,2
+K-Modes,4,1
+K-Modes,5,3
+K-Modes,6,1
+K-Modes,7,0
+K-Modes,8,1
+K-Modes,9,2
+K-Modes,10,1
+K-Modes,11,1
+K-Modes,12,1
+K-Modes,13,0
+K-Modes,14,0
+K-Modes,15,0
+K-Modes,16,2
+K-Modes,17,0
+K-Modes,18,1
+K-Modes,19,0
+K-Modes,20,0
+K-Modes,21,1
+K-Modes,22,2
+K-Modes,23,0
+K-Modes,24,0
+K-Modes,25,1
+K-Modes,26,0
+K-Modes,27,1
+K-Modes,28,0
+K-Modes,29,3
+K-Modes,30,2
+K-Modes,31,1
+K-Modes,32,3
+K-Modes,33,3
+K-Modes,34,3
+K-Modes,35,1
+K-Modes,36,1
+K-Modes,37,2
+K-Modes,38,2
+K-Modes,39,0
+K-Modes,40,0
+K-Modes,41,0
+K-Modes,42,0
+K-Modes,43,1
+K-Modes,44,0
+K-Modes,45,1
+K-Modes,46,1
+K-Modes,47,0
+K-Modes,48,0
+K-Modes,49,1
+K-Modes,50,2
+K-Modes,51,3
+K-Modes,52,2
+K-Modes,53,0
+K-Modes,54,1
+K-Modes,55,0
+K-Modes,56,2
+K-Modes,57,3
+K-Modes,58,1
+K-Modes,59,0
+K-Modes,60,3
+K-Modes,61,0
+K-Modes,62,1
+K-Modes,63,1
+K-Modes,64,0
+K-Modes,65,3
+K-Modes,66,0
+K-Modes,67,0
+K-Modes,68,0
+K-Modes,69,1
+K-Modes,70,0
+K-Modes,71,0
+K-Modes,72,3
+K-Modes,73,2
+K-Modes,74,0
+K-Modes,75,0
+K-Modes,76,0
+K-Modes,77,3
+K-Modes,78,0
+K-Modes,79,2
+K-Modes,80,0
+K-Modes,81,3
+K-Modes,82,2
+K-Modes,83,0
+K-Modes,84,0
+K-Modes,85,1
+K-Modes,86,1
+K-Modes,87,1
+K-Modes,88,2
+K-Modes,89,0
+K-Modes,90,0
+K-Modes,91,1
+K-Modes,92,0
+K-Modes,93,2
+K-Modes,94,3
+K-Modes,95,1
+K-Modes,96,0
+K-Modes,97,0
+K-Modes,98,3
+K-Modes,99,2
+K-Modes,100,0
+K-Modes,101,2
+K-Modes,102,0
+K-Modes,103,1
+K-Modes,104,3
+K-Modes,105,0
+K-Modes,106,1
+K-Modes,107,3
+K-Modes,108,2
+K-Modes,109,1
+K-Modes,110,2
+K-Modes,111,0
+K-Modes,112,1
+K-Modes,113,0
+K-Modes,114,2
+K-Modes,115,2
+K-Modes,116,1
+K-Modes,117,3
+K-Modes,118,2
+K-Modes,119,1
+K-Modes,120,0
+K-Modes,121,3
+K-Modes,122,3
+K-Modes,123,0
+K-Modes,124,2
+K-Modes,125,2
+K-Modes,126,1
+K-Modes,127,0
+K-Modes,128,0
+K-Modes,129,1
+K-Modes,130,0
+K-Modes,131,0
+K-Modes,132,0
+K-Modes,133,2
+K-Modes,134,0
+K-Modes,135,0
+K-Modes,136,0
+K-Modes,137,2
+K-Modes,138,0
+K-Modes,139,1
+K-Modes,140,2
+K-Modes,141,0
+K-Modes,142,1
+K-Modes,143,3
+K-Modes,144,3
+K-Modes,145,0
+K-Modes,146,3
+K-Modes,147,1
+K-Modes,148,0
+K-Modes,149,3
+K-Modes,150,1
+K-Modes,151,1
+K-Modes,152,3
+K-Modes,153,0
+K-Modes,154,1
+K-Modes,155,0
+K-Modes,156,0
+K-Modes,157,0
+K-Modes,158,0
+K-Modes,159,1
+K-Modes,160,2
+K-Modes,161,1
+K-Modes,162,3
+K-Modes,163,1
+K-Modes,164,1
+K-Modes,165,0
+K-Modes,166,1
+K-Modes,167,0
+K-Modes,168,0
+K-Modes,169,2
+K-Modes,170,1
+K-Modes,171,0
+K-Modes,172,1
+K-Modes,173,0
+K-Modes,174,0
+K-Modes,175,3
+K-Modes,176,0
+K-Modes,177,0
+K-Modes,178,0
+K-Modes,179,0
+K-Modes,180,2
+K-Modes,181,3
+K-Modes,182,0
+K-Modes,183,1
+K-Modes,184,0
+K-Modes,185,1
+K-Modes,186,2
+K-Modes,187,0
+K-Modes,188,0
+K-Modes,189,2
+K-Modes,190,2
+K-Modes,191,2
+K-Modes,192,1
+K-Modes,193,3
+K-Modes,194,3
+K-Modes,195,2
+K-Modes,196,3
+K-Modes,197,2
+K-Modes,198,0
+K-Modes,199,2
+K-Modes,200,3
+K-Modes,201,0
+K-Modes,202,0
+K-Modes,203,1
+K-Modes,204,1
+K-Modes,205,2
+K-Modes,206,0
+K-Modes,207,2
+K-Modes,208,2
+K-Modes,209,1
+K-Modes,210,0
+K-Modes,211,3
+K-Modes,212,1
+K-Modes,213,1
+K-Modes,214,0
+K-Modes,215,1
+K-Modes,216,1
+K-Modes,217,1
+K-Modes,218,1
+K-Modes,219,0
+K-Modes,220,2
+K-Modes,221,0
+K-Modes,222,0
+K-Modes,223,1
+K-Modes,224,2
+K-Modes,225,1
+K-Modes,226,3
+K-Modes,227,3
+K-Modes,228,1
+K-Modes,229,1
+K-Modes,230,0
+K-Modes,231,2
+K-Modes,232,3
+K-Modes,233,0
+K-Modes,234,1
+K-Modes,235,0
+K-Modes,236,2
+K-Modes,237,0
+K-Modes,238,2
+K-Modes,239,0
+K-Modes,240,3
+K-Modes,241,2
+K-Modes,242,0
+K-Modes,243,2
+K-Modes,244,0
+K-Modes,245,1
+K-Modes,246,2
+K-Modes,247,0
+K-Modes,248,1
+K-Modes,249,3
+K-Modes,250,0
+K-Modes,251,0
+K-Modes,252,1
+K-Modes,253,0
+K-Modes,254,2
+K-Modes,255,0
+K-Modes,256,0
+K-Modes,257,0
+K-Modes,258,2
+K-Modes,259,0
+K-Modes,260,0
+K-Modes,261,1
+K-Modes,262,3
+K-Modes,263,0
+K-Modes,264,0
+K-Modes,265,0
+K-Modes,266,0
+K-Modes,267,1
+K-Modes,268,0
+K-Modes,269,3
+K-Modes,270,0
+K-Modes,271,1
+K-Modes,272,0
+K-Modes,273,2
+K-Modes,274,2
+K-Modes,275,0
+K-Modes,276,1
+K-Modes,277,2
+K-Modes,278,1
+K-Modes,279,1
+K-Modes,280,1
+K-Modes,281,3
+K-Modes,282,1
+K-Modes,283,3
+K-Modes,284,0
+K-Modes,285,3
+K-Modes,286,2
+K-Modes,287,1
+K-Modes,288,0
+K-Modes,289,0
+K-Modes,290,0
+K-Modes,291,3
+K-Modes,292,0
+K-Modes,293,0
+K-Modes,294,0
+K-Modes,295,1
+K-Modes,296,0
+K-Modes,297,2
+K-Modes,298,1
+K-Modes,299,2
+K-Modes,300,2
+K-Modes,301,0
+K-Modes,302,2
+K-Modes,303,0
+K-Modes,304,3
+K-Modes,305,1
+K-Modes,306,0
+K-Modes,307,0
+K-Modes,308,1
+K-Modes,309,3
+K-Modes,310,1
+K-Modes,311,3
+K-Modes,312,3
+K-Modes,313,0
+K-Modes,314,0
+K-Modes,315,1
+K-Modes,316,0
+K-Modes,317,0
+K-Modes,318,1
+K-Modes,319,1
+K-Modes,320,1
+K-Modes,321,0
+K-Modes,322,0
+K-Modes,323,2
+K-Modes,324,3
+K-Modes,325,2
+K-Modes,326,2
+K-Modes,327,1
+K-Modes,328,0
+K-Modes,329,3
+K-Modes,330,0
+K-Modes,331,1
+K-Modes,332,1
+K-Modes,333,0
+K-Modes,334,2
+K-Modes,335,0
+K-Modes,336,0
+K-Modes,337,0
+K-Modes,338,2
+K-Modes,339,2
+K-Modes,340,0
+K-Modes,341,0
+K-Modes,342,0
+K-Modes,343,0
+K-Modes,344,3
+K-Modes,345,1
+K-Modes,346,3
+K-Modes,347,0
+K-Modes,348,0
+K-Modes,349,0
+K-Modes,350,1
+K-Modes,351,2
+K-Modes,352,2
+K-Modes,353,3
+K-Modes,354,1
+K-Modes,355,2
+K-Modes,356,0
+K-Modes,357,3
+K-Modes,358,3
+K-Modes,359,1
+K-Modes,360,0
+K-Modes,361,3
+K-Modes,362,0
+K-Modes,363,2
+K-Modes,364,0
+K-Modes,365,0
+K-Modes,366,1
+K-Modes,367,0
+K-Modes,368,2
+K-Modes,369,3
+K-Modes,370,0
+K-Modes,371,0
+K-Modes,372,1
+K-Modes,373,2
+K-Modes,374,1
+K-Modes,375,0
+K-Modes,376,2
+K-Modes,377,1
+K-Modes,378,2
+K-Modes,379,3
+K-Modes,380,1
+K-Modes,381,2
+K-Modes,382,2
+K-Modes,383,1
+K-Modes,384,2
+K-Modes,385,2
+K-Modes,386,1
+K-Modes,387,0
+K-Modes,388,1
+K-Modes,389,3
+K-Modes,390,1
+K-Modes,391,1
+K-Modes,392,1
+K-Modes,393,0
+K-Modes,394,2
+K-Modes,395,2
+K-Modes,396,0
+K-Modes,397,0
+K-Modes,398,0
+K-Modes,399,2
+K-Modes,400,1
+K-Modes,401,0
+K-Modes,402,0
+K-Modes,403,3
+K-Modes,404,0
+K-Modes,405,0
+K-Modes,406,0
+K-Modes,407,0
+K-Modes,408,3
+K-Modes,409,0
+K-Modes,410,3
+K-Modes,411,3
+K-Modes,412,0
+K-Modes,413,2
+K-Modes,414,0
+K-Modes,415,1
+K-Modes,416,2
+K-Modes,417,2
+K-Modes,418,3
+K-Modes,419,0
+K-Modes,420,2
+K-Modes,421,1
+K-Modes,422,0
+K-Modes,423,1
+K-Modes,424,0
+K-Modes,425,2
+K-Modes,426,0
+K-Modes,427,2
+K-Modes,428,0
+K-Modes,429,0
+K-Modes,430,0
+K-Modes,431,1
+K-Modes,432,0
+K-Modes,433,2
+K-Modes,434,3
+K-Modes,435,0
+K-Modes,436,0
+K-Modes,437,0
+K-Modes,438,2
+K-Modes,439,0
+K-Modes,440,2
+K-Modes,441,1
+K-Modes,442,0
+K-Modes,443,3
+K-Modes,444,2
+K-Modes,445,1
+K-Modes,446,0
+K-Modes,447,3
+K-Modes,448,0
+K-Modes,449,0
+K-Modes,450,3
+K-Modes,451,2
+K-Modes,452,3
+K-Modes,453,0
+K-Modes,454,2
+K-Modes,455,0
+K-Modes,456,3
+K-Modes,457,2
+K-Modes,458,2
+K-Modes,459,3
+K-Modes,460,3
+K-Modes,461,1
+K-Modes,462,3
+K-Modes,463,0
+K-Modes,464,2
+K-Modes,465,0
+K-Modes,466,1
+K-Modes,467,0
+K-Modes,468,2
+K-Modes,469,1
+K-Modes,470,3
+K-Modes,471,3
+K-Modes,472,3
+K-Modes,473,2
+K-Modes,474,1
+K-Modes,475,0
+K-Modes,476,0
+K-Modes,477,2
+K-Modes,478,0
+K-Modes,479,3
+K-Modes,480,0
+K-Modes,481,1
+K-Modes,482,2
+K-Modes,483,0
+K-Modes,484,0
+K-Modes,485,3
+K-Modes,486,1
+K-Modes,487,0
+K-Modes,488,3
+K-Modes,489,0
+K-Modes,490,0
+K-Modes,491,1
+K-Modes,492,0
+K-Modes,493,3
+K-Modes,494,3
+K-Modes,495,3
+K-Modes,496,0
+K-Modes,497,0
+K-Modes,498,2
+K-Modes,499,2
+K-Modes,500,0
+K-Modes,501,3
+K-Modes,502,2
+K-Modes,503,0
+K-Modes,504,3
+K-Modes,505,1
+K-Modes,506,1
+K-Modes,507,1
+K-Modes,508,1
+K-Modes,509,0
+K-Modes,510,1
+K-Modes,511,0
+K-Modes,512,2
+K-Modes,513,0
+K-Modes,514,0
+K-Modes,515,0
+K-Modes,516,0
+K-Modes,517,3
+K-Modes,518,3
+K-Modes,519,3
+K-Modes,520,3
+K-Modes,521,2
+K-Modes,522,0
+K-Modes,523,0
+K-Modes,524,0
+K-Modes,525,0
+K-Modes,526,0
+K-Modes,527,3
+K-Modes,528,3
+K-Modes,529,2
+K-Modes,530,0
+K-Modes,531,2
+K-Modes,532,0
+K-Modes,533,2
+K-Modes,534,2
+K-Modes,535,0
+K-Modes,536,1
+K-Modes,537,1
+K-Modes,538,3
+K-Modes,539,0
+K-Modes,540,2
+K-Modes,541,1
+K-Modes,542,0
+K-Modes,543,2
+K-Modes,544,0
+K-Modes,545,2
+K-Modes,546,1
+K-Modes,547,0
+K-Modes,548,0
+K-Modes,549,2
+K-Modes,550,1
+K-Modes,551,0
+K-Modes,552,2
+K-Modes,553,1
+K-Modes,554,1
+K-Modes,555,0
+K-Modes,556,0
+K-Modes,557,0
+K-Modes,558,0
+K-Modes,559,1
+K-Modes,560,1
+K-Modes,561,0
+K-Modes,562,0
+K-Modes,563,0
+K-Modes,564,0
+K-Modes,565,2
+K-Modes,566,3
+K-Modes,567,1
+K-Modes,568,2
+K-Modes,569,0
+K-Modes,570,2
+K-Modes,571,2
+K-Modes,572,0
+K-Modes,573,2
+K-Modes,574,0
+K-Modes,575,1
+K-Modes,576,1
+K-Modes,577,2
+K-Modes,578,0
+K-Modes,579,0
+K-Modes,580,2
+K-Modes,581,3
+K-Modes,582,2
+K-Modes,583,3
+K-Modes,584,3
+K-Modes,585,1
+K-Modes,586,3
+K-Modes,587,1
+K-Modes,588,2
+K-Modes,589,0
+K-Modes,590,2
+K-Modes,591,1
+K-Modes,592,0
+K-Modes,593,0
+K-Modes,594,2
+K-Modes,595,3
+K-Modes,596,1
+K-Modes,597,1
+K-Modes,598,1
+K-Modes,599,3
+K-Modes,600,0
+K-Modes,601,0
+K-Modes,602,1
+K-Modes,603,2
+K-Modes,604,3
+K-Modes,605,2
+K-Modes,606,1
+K-Modes,607,3
+K-Modes,608,2
+K-Modes,609,3
+K-Modes,610,0
+K-Modes,611,2
+K-Modes,612,1
+K-Modes,613,3
+K-Modes,614,0
+K-Modes,615,3
+K-Modes,616,0
+K-Modes,617,3
+K-Modes,618,2
+K-Modes,619,1
+K-Modes,620,2
+K-Modes,621,1
+K-Modes,622,1
+K-Modes,623,2
+K-Modes,624,0
+K-Modes,625,2
+K-Modes,626,1
+K-Modes,627,3
+K-Modes,628,3
+K-Modes,629,1
+K-Modes,630,2
+K-Modes,631,1
+K-Modes,632,0
+K-Modes,633,2
+K-Modes,634,1
+K-Modes,635,1
+K-Modes,636,0
+K-Modes,637,0
+K-Modes,638,2
+K-Modes,639,2
+K-Modes,640,1
+K-Modes,641,0
+K-Modes,642,2
+K-Modes,643,2
+K-Modes,644,0
+K-Modes,645,0
+K-Modes,646,2
+K-Modes,647,0
+K-Modes,648,0
+K-Modes,649,3
+K-Modes,650,0
+K-Modes,651,3
+K-Modes,652,0
+K-Modes,653,2
+K-Modes,654,2
+K-Modes,655,2
+K-Modes,656,0
+K-Modes,657,2
+K-Modes,658,3
+K-Modes,659,0
+K-Modes,660,2
+K-Modes,661,1
+K-Modes,662,1
+K-Modes,663,0
+K-Modes,664,0
+K-Modes,665,1
+K-Modes,666,2
+K-Modes,667,0
+K-Modes,668,2
+K-Modes,669,2
+K-Modes,670,2
+K-Modes,671,1
+K-Modes,672,0
+K-Modes,673,1
+K-Modes,674,0
+K-Modes,675,2
+K-Modes,676,1
+K-Modes,677,1
+K-Modes,678,2
+K-Modes,679,0
+K-Modes,680,0
+K-Modes,681,1
+K-Modes,682,2
+K-Modes,683,1
+K-Modes,684,3
+K-Modes,685,0
+K-Modes,686,0
+K-Modes,687,1
+K-Modes,688,1
+K-Modes,689,3
+K-Modes,690,3
+K-Modes,691,2
+K-Modes,692,1
+K-Modes,693,2
+K-Modes,694,2
+K-Modes,695,0
+K-Modes,696,0
+K-Modes,697,0
+K-Modes,698,1
+K-Modes,699,1
+K-Modes,700,2
+K-Modes,701,0
+K-Modes,702,3
+K-Modes,703,3
+K-Modes,704,3
+K-Modes,705,3
+K-Modes,706,3
+K-Modes,707,2
+K-Modes,708,2
+K-Modes,709,0
+K-Modes,710,0
+K-Modes,711,1
+K-Modes,712,2
+K-Modes,713,2
+K-Modes,714,2
+K-Modes,715,0
+K-Modes,716,0
+K-Modes,717,3
+K-Modes,718,1
+K-Modes,719,0
+K-Modes,720,0
+K-Modes,721,3
+K-Modes,722,3
+K-Modes,723,0
+K-Modes,724,0
+K-Modes,725,0
+K-Modes,726,0
+K-Modes,727,1
+K-Modes,728,0
+K-Modes,729,0
+K-Modes,730,0
+K-Modes,731,1
+K-Modes,732,1
+K-Modes,733,3
+K-Modes,734,0
+K-Modes,735,3
+K-Modes,736,2
+K-Modes,737,2
+K-Modes,738,0
+K-Modes,739,1
+K-Modes,740,3
+K-Modes,741,1
+K-Modes,742,2
+K-Modes,743,0
+K-Modes,744,3
+K-Modes,745,1
+K-Modes,746,1
+K-Modes,747,2
+K-Modes,748,0
+K-Modes,749,2
+K-Modes,750,1
+K-Modes,751,1
+K-Modes,752,1
+K-Modes,753,0
+K-Modes,754,0
+K-Modes,755,0
+K-Modes,756,2
+K-Modes,757,1
+K-Modes,758,1
+K-Modes,759,3
+K-Modes,760,2
+K-Modes,761,1
+K-Modes,762,2
+K-Modes,763,1
+K-Modes,764,2
+K-Modes,765,2
+K-Modes,766,1
+K-Modes,767,2
+K-Modes,768,2
+K-Modes,769,1
+K-Modes,770,0
+K-Modes,771,3
+K-Modes,772,0
+K-Modes,773,3
+K-Modes,774,1
+K-Modes,775,2
+K-Modes,776,0
+K-Modes,777,3
+K-Modes,778,3
+K-Modes,779,1
+K-Modes,780,0
+K-Modes,781,3
+K-Modes,782,0
+K-Modes,783,2
+K-Modes,784,3
+K-Modes,785,0
+K-Modes,786,0
+K-Modes,787,0
+K-Modes,788,2
+K-Modes,789,1
+K-Modes,790,0
+K-Modes,791,0
+K-Modes,792,3
+K-Modes,793,3
+K-Modes,794,0
+K-Modes,795,1
+K-Modes,796,1
+K-Modes,797,1
+K-Modes,798,2
+K-Modes,799,3
+K-Modes,800,0
+K-Modes,801,1
+K-Modes,802,0
+K-Modes,803,2
+K-Modes,804,1
+K-Modes,805,1
+K-Modes,806,3
+K-Modes,807,0
+K-Modes,808,2
+K-Modes,809,1
+K-Modes,810,0
+K-Modes,811,2
+K-Modes,812,0
+K-Modes,813,1
+K-Modes,814,2
+K-Modes,815,0
+K-Modes,816,0
+K-Modes,817,2
+K-Modes,818,0
+K-Modes,819,0
+K-Modes,820,2
+K-Modes,821,2
+K-Modes,822,1
+K-Modes,823,0
+K-Modes,824,2
+K-Modes,825,2
+K-Modes,826,2
+K-Modes,827,0
+K-Modes,828,0
+K-Modes,829,1
+K-Modes,830,1
+K-Modes,831,0
+K-Modes,832,2
+K-Modes,833,2
+K-Modes,834,0
+K-Modes,835,0
+K-Modes,836,1
+K-Modes,837,1
+K-Modes,838,0
+K-Modes,839,2
+K-Modes,840,1
+K-Modes,841,0
+K-Modes,842,2
+K-Modes,843,3
+K-Modes,844,2
+K-Modes,845,2
+K-Modes,846,0
+K-Modes,847,3
+K-Modes,848,0
+K-Modes,849,0
+K-Modes,850,2
+K-Modes,851,2
+K-Modes,852,2
+K-Modes,853,0
+K-Modes,854,3
+K-Modes,855,2
+K-Modes,856,2
+K-Modes,857,1
+K-Modes,858,0
+K-Modes,859,0
+K-Modes,860,0
+K-Modes,861,0
+K-Modes,862,1
+K-Modes,863,3
+K-Modes,864,2
+K-Modes,865,2
+K-Modes,866,0
+K-Modes,867,3
+K-Modes,868,0
+K-Modes,869,0
+K-Modes,870,2
+K-Modes,871,3
+K-Modes,872,0
+K-Modes,873,3
+K-Modes,874,0
+K-Modes,875,3
+K-Modes,876,2
+K-Modes,877,0
+K-Modes,878,1
+K-Modes,879,2
+K-Modes,880,2
+K-Modes,881,2
+K-Modes,882,2
+K-Modes,883,1
+K-Modes,884,0
+K-Modes,885,2
+K-Modes,886,2
+K-Modes,887,0
+K-Modes,888,0
+K-Modes,889,2
+K-Modes,890,1
+K-Modes,891,0
+K-Modes,892,2
+K-Modes,893,2
+K-Modes,894,0
+K-Modes,895,0
+K-Modes,896,3
+K-Modes,897,3
+K-Modes,898,3
+K-Modes,899,2
+K-Modes,900,3
+K-Modes,901,2
+K-Modes,902,0
+K-Modes,903,1
+K-Modes,904,3
+K-Modes,905,0
+K-Modes,906,3
+K-Modes,907,1
+K-Modes,908,2
+K-Modes,909,1
+K-Modes,910,2
+K-Modes,911,2
+K-Modes,912,1
+K-Modes,913,3
+K-Modes,914,2
+K-Modes,915,3
+K-Modes,916,2
+K-Modes,917,2
+K-Modes,918,3
+K-Modes,919,2
+K-Modes,920,1
+K-Modes,921,2
+K-Modes,922,2
+K-Modes,923,2
+K-Modes,924,0
+K-Modes,925,3
+K-Modes,926,2
+K-Modes,927,0
+K-Modes,928,3
+K-Modes,929,1
+K-Modes,930,0
+K-Modes,931,0
+K-Modes,932,2
+K-Modes,933,1
+K-Modes,934,0
+K-Modes,935,2
+K-Modes,936,3
+K-Modes,937,2
+K-Modes,938,3
+K-Modes,939,3
+K-Modes,940,0
+K-Modes,941,2
+K-Modes,942,2
+K-Modes,943,2
+K-Modes,944,0
+K-Modes,945,2
+K-Modes,946,2
+K-Modes,947,0
+K-Modes,948,0
+K-Modes,949,0
+K-Modes,950,3
+K-Modes,951,0
+K-Modes,952,0
+K-Modes,953,1
+K-Modes,954,1
+K-Modes,955,0
+K-Modes,956,0
+K-Modes,957,2
+K-Modes,958,0
+K-Modes,959,1
+K-Modes,960,0
+K-Modes,961,2
+K-Modes,962,2
+K-Modes,963,1
+K-Modes,964,0
+K-Modes,965,3
+K-Modes,966,1
+K-Modes,967,1
+K-Modes,968,0
+K-Modes,969,1
+K-Modes,970,2
+K-Modes,971,0
+K-Modes,972,3
+K-Modes,973,1
+K-Modes,974,1
+K-Modes,975,1
+K-Modes,976,0
+K-Modes,977,0
+K-Modes,978,0
+K-Modes,979,0
+K-Modes,980,0
+K-Modes,981,3
+K-Modes,982,0
+K-Modes,983,2
+K-Modes,984,0
+K-Modes,985,3
+K-Modes,986,2
+K-Modes,987,0
+K-Modes,988,0
+K-Modes,989,1
+K-Modes,990,3
+K-Modes,991,2
+K-Modes,992,2
+K-Modes,993,0
+K-Modes,994,0
+K-Modes,995,2
+K-Modes,996,3
+K-Modes,997,0
+K-Modes,998,0
+K-Modes,999,0
+K-Modes,1000,0
+K-Modes,1001,1
+K-Modes,1002,3
+K-Modes,1003,1
+K-Modes,1004,3
+K-Modes,1005,1
+K-Modes,1006,0
+K-Modes,1007,3
+K-Modes,1008,0
+K-Modes,1009,0
+K-Modes,1010,2
+K-Modes,1011,2
+K-Modes,1012,0
+K-Modes,1013,2
+K-Modes,1014,3
+K-Modes,1015,0
+K-Modes,1016,0
+K-Modes,1017,1
+K-Modes,1018,0
+K-Modes,1019,0
+K-Modes,1020,0
+K-Modes,1021,0
+K-Modes,1022,1
+K-Modes,1023,1
+K-Modes,1024,2
+K-Modes,1025,2
+K-Modes,1026,2
+K-Modes,1027,2
+K-Modes,1028,2
+K-Modes,1029,2
+K-Modes,1030,3
+K-Modes,1031,2
+K-Modes,1032,2
+K-Modes,1033,3
+K-Modes,1034,1
+K-Modes,1035,0
+K-Modes,1036,2
+K-Modes,1037,2
+K-Modes,1038,0
+K-Modes,1039,1
+K-Modes,1040,1
+K-Modes,1041,1
+K-Modes,1042,3
+K-Modes,1043,2
+K-Modes,1044,0
+K-Modes,1045,0
+K-Modes,1046,2
+K-Modes,1047,3
+K-Modes,1048,0
+K-Modes,1049,0
+K-Modes,1050,0
+K-Modes,1051,2
+K-Modes,1052,0
+K-Modes,1053,2
+K-Modes,1054,1
+K-Modes,1055,2
+K-Modes,1056,0
+K-Modes,1057,0
+K-Modes,1058,1
+K-Modes,1059,3
+K-Modes,1060,3
+K-Modes,1061,2
+K-Modes,1062,2
+K-Modes,1063,0
+K-Modes,1064,3
+K-Modes,1065,2
+K-Modes,1066,0
+K-Modes,1067,0
+K-Modes,1068,3
+K-Modes,1069,1
+K-Modes,1070,0
+K-Modes,1071,0
+K-Modes,1072,0
+K-Modes,1073,0
+K-Modes,1074,0
+K-Modes,1075,1
+K-Modes,1076,0
+K-Modes,1077,0
+K-Modes,1078,2
+K-Modes,1079,0
+K-Modes,1080,2
+K-Modes,1081,2
+K-Modes,1082,2
+K-Modes,1083,2
+K-Modes,1084,1
+K-Modes,1085,2
+K-Modes,1086,0
+K-Modes,1087,1
+K-Modes,1088,0
+K-Modes,1089,2
+K-Modes,1090,0
+K-Modes,1091,1
+K-Modes,1092,0
+K-Modes,1093,0
+K-Modes,1094,2
+K-Modes,1095,2
+K-Modes,1096,2
+K-Modes,1097,1
+K-Modes,1098,2
+K-Modes,1099,2
+K-Modes,1100,2
+K-Modes,1101,3
+K-Modes,1102,1
+K-Modes,1103,1
+K-Modes,1104,1
+K-Modes,1105,0
+K-Modes,1106,2
+K-Modes,1107,0
+K-Modes,1108,2
+K-Modes,1109,0
+K-Modes,1110,1
+K-Modes,1111,2
+K-Modes,1112,2
+K-Modes,1113,1
+K-Modes,1114,1
+K-Modes,1115,1
+K-Modes,1116,0
+K-Modes,1117,0
+K-Modes,1118,2
+K-Modes,1119,2
+K-Modes,1120,1
+K-Modes,1121,0
+K-Modes,1122,0
+K-Modes,1123,1
+K-Modes,1124,0
+K-Modes,1125,1
+K-Modes,1126,0
+K-Modes,1127,1
+K-Modes,1128,0
+K-Modes,1129,0
+K-Modes,1130,0
+MCA + K-Means,0,1
+MCA + K-Means,1,1
+MCA + K-Means,2,0
+MCA + K-Means,3,0
+MCA + K-Means,4,0
+MCA + K-Means,5,1
+MCA + K-Means,6,1
+MCA + K-Means,7,0
+MCA + K-Means,8,1
+MCA + K-Means,9,0
+MCA + K-Means,10,1
+MCA + K-Means,11,1
+MCA + K-Means,12,1
+MCA + K-Means,13,0
+MCA + K-Means,14,0
+MCA + K-Means,15,0
+MCA + K-Means,16,0
+MCA + K-Means,17,0
+MCA + K-Means,18,1
+MCA + K-Means,19,0
+MCA + K-Means,20,0
+MCA + K-Means,21,1
+MCA + K-Means,22,0
+MCA + K-Means,23,0
+MCA + K-Means,24,0
+MCA + K-Means,25,1
+MCA + K-Means,26,0
+MCA + K-Means,27,1
+MCA + K-Means,28,0
+MCA + K-Means,29,1
+MCA + K-Means,30,0
+MCA + K-Means,31,1
+MCA + K-Means,32,1
+MCA + K-Means,33,1
+MCA + K-Means,34,1
+MCA + K-Means,35,1
+MCA + K-Means,36,0
+MCA + K-Means,37,0
+MCA + K-Means,38,0
+MCA + K-Means,39,0
+MCA + K-Means,40,1
+MCA + K-Means,41,0
+MCA + K-Means,42,1
+MCA + K-Means,43,1
+MCA + K-Means,44,0
+MCA + K-Means,45,1
+MCA + K-Means,46,0
+MCA + K-Means,47,0
+MCA + K-Means,48,0
+MCA + K-Means,49,1
+MCA + K-Means,50,0
+MCA + K-Means,51,1
+MCA + K-Means,52,0
+MCA + K-Means,53,0
+MCA + K-Means,54,1
+MCA + K-Means,55,1
+MCA + K-Means,56,0
+MCA + K-Means,57,1
+MCA + K-Means,58,1
+MCA + K-Means,59,1
+MCA + K-Means,60,1
+MCA + K-Means,61,0
+MCA + K-Means,62,1
+MCA + K-Means,63,1
+MCA + K-Means,64,0
+MCA + K-Means,65,1
+MCA + K-Means,66,0
+MCA + K-Means,67,0
+MCA + K-Means,68,0
+MCA + K-Means,69,1
+MCA + K-Means,70,0
+MCA + K-Means,71,0
+MCA + K-Means,72,1
+MCA + K-Means,73,0
+MCA + K-Means,74,1
+MCA + K-Means,75,1
+MCA + K-Means,76,0
+MCA + K-Means,77,1
+MCA + K-Means,78,0
+MCA + K-Means,79,0
+MCA + K-Means,80,0
+MCA + K-Means,81,1
+MCA + K-Means,82,0
+MCA + K-Means,83,0
+MCA + K-Means,84,0
+MCA + K-Means,85,0
+MCA + K-Means,86,1
+MCA + K-Means,87,1
+MCA + K-Means,88,0
+MCA + K-Means,89,0
+MCA + K-Means,90,1
+MCA + K-Means,91,1
+MCA + K-Means,92,0
+MCA + K-Means,93,0
+MCA + K-Means,94,1
+MCA + K-Means,95,1
+MCA + K-Means,96,0
+MCA + K-Means,97,0
+MCA + K-Means,98,1
+MCA + K-Means,99,0
+MCA + K-Means,100,0
+MCA + K-Means,101,0
+MCA + K-Means,102,0
+MCA + K-Means,103,0
+MCA + K-Means,104,1
+MCA + K-Means,105,0
+MCA + K-Means,106,0
+MCA + K-Means,107,1
+MCA + K-Means,108,0
+MCA + K-Means,109,1
+MCA + K-Means,110,0
+MCA + K-Means,111,0
+MCA + K-Means,112,0
+MCA + K-Means,113,0
+MCA + K-Means,114,0
+MCA + K-Means,115,0
+MCA + K-Means,116,1
+MCA + K-Means,117,1
+MCA + K-Means,118,0
+MCA + K-Means,119,1
+MCA + K-Means,120,0
+MCA + K-Means,121,1
+MCA + K-Means,122,1
+MCA + K-Means,123,0
+MCA + K-Means,124,0
+MCA + K-Means,125,0
+MCA + K-Means,126,1
+MCA + K-Means,127,0
+MCA + K-Means,128,0
+MCA + K-Means,129,1
+MCA + K-Means,130,0
+MCA + K-Means,131,1
+MCA + K-Means,132,0
+MCA + K-Means,133,0
+MCA + K-Means,134,0
+MCA + K-Means,135,1
+MCA + K-Means,136,0
+MCA + K-Means,137,0
+MCA + K-Means,138,0
+MCA + K-Means,139,0
+MCA + K-Means,140,0
+MCA + K-Means,141,0
+MCA + K-Means,142,1
+MCA + K-Means,143,1
+MCA + K-Means,144,1
+MCA + K-Means,145,0
+MCA + K-Means,146,1
+MCA + K-Means,147,1
+MCA + K-Means,148,0
+MCA + K-Means,149,1
+MCA + K-Means,150,1
+MCA + K-Means,151,1
+MCA + K-Means,152,1
+MCA + K-Means,153,0
+MCA + K-Means,154,1
+MCA + K-Means,155,0
+MCA + K-Means,156,0
+MCA + K-Means,157,0
+MCA + K-Means,158,1
+MCA + K-Means,159,1
+MCA + K-Means,160,0
+MCA + K-Means,161,0
+MCA + K-Means,162,1
+MCA + K-Means,163,1
+MCA + K-Means,164,1
+MCA + K-Means,165,1
+MCA + K-Means,166,1
+MCA + K-Means,167,0
+MCA + K-Means,168,0
+MCA + K-Means,169,0
+MCA + K-Means,170,1
+MCA + K-Means,171,0
+MCA + K-Means,172,1
+MCA + K-Means,173,1
+MCA + K-Means,174,0
+MCA + K-Means,175,0
+MCA + K-Means,176,0
+MCA + K-Means,177,0
+MCA + K-Means,178,1
+MCA + K-Means,179,1
+MCA + K-Means,180,0
+MCA + K-Means,181,1
+MCA + K-Means,182,0
+MCA + K-Means,183,1
+MCA + K-Means,184,1
+MCA + K-Means,185,1
+MCA + K-Means,186,0
+MCA + K-Means,187,0
+MCA + K-Means,188,1
+MCA + K-Means,189,0
+MCA + K-Means,190,0
+MCA + K-Means,191,0
+MCA + K-Means,192,1
+MCA + K-Means,193,1
+MCA + K-Means,194,1
+MCA + K-Means,195,0
+MCA + K-Means,196,1
+MCA + K-Means,197,0
+MCA + K-Means,198,1
+MCA + K-Means,199,0
+MCA + K-Means,200,1
+MCA + K-Means,201,0
+MCA + K-Means,202,0
+MCA + K-Means,203,1
+MCA + K-Means,204,1
+MCA + K-Means,205,0
+MCA + K-Means,206,0
+MCA + K-Means,207,0
+MCA + K-Means,208,0
+MCA + K-Means,209,1
+MCA + K-Means,210,0
+MCA + K-Means,211,1
+MCA + K-Means,212,1
+MCA + K-Means,213,1
+MCA + K-Means,214,0
+MCA + K-Means,215,1
+MCA + K-Means,216,1
+MCA + K-Means,217,1
+MCA + K-Means,218,0
+MCA + K-Means,219,0
+MCA + K-Means,220,0
+MCA + K-Means,221,0
+MCA + K-Means,222,0
+MCA + K-Means,223,1
+MCA + K-Means,224,0
+MCA + K-Means,225,1
+MCA + K-Means,226,1
+MCA + K-Means,227,1
+MCA + K-Means,228,1
+MCA + K-Means,229,1
+MCA + K-Means,230,0
+MCA + K-Means,231,0
+MCA + K-Means,232,1
+MCA + K-Means,233,0
+MCA + K-Means,234,0
+MCA + K-Means,235,1
+MCA + K-Means,236,0
+MCA + K-Means,237,0
+MCA + K-Means,238,0
+MCA + K-Means,239,0
+MCA + K-Means,240,1
+MCA + K-Means,241,0
+MCA + K-Means,242,1
+MCA + K-Means,243,0
+MCA + K-Means,244,1
+MCA + K-Means,245,1
+MCA + K-Means,246,0
+MCA + K-Means,247,1
+MCA + K-Means,248,1
+MCA + K-Means,249,1
+MCA + K-Means,250,0
+MCA + K-Means,251,1
+MCA + K-Means,252,1
+MCA + K-Means,253,1
+MCA + K-Means,254,0
+MCA + K-Means,255,0
+MCA + K-Means,256,0
+MCA + K-Means,257,1
+MCA + K-Means,258,0
+MCA + K-Means,259,1
+MCA + K-Means,260,0
+MCA + K-Means,261,1
+MCA + K-Means,262,1
+MCA + K-Means,263,0
+MCA + K-Means,264,1
+MCA + K-Means,265,0
+MCA + K-Means,266,0
+MCA + K-Means,267,1
+MCA + K-Means,268,1
+MCA + K-Means,269,1
+MCA + K-Means,270,0
+MCA + K-Means,271,1
+MCA + K-Means,272,1
+MCA + K-Means,273,0
+MCA + K-Means,274,0
+MCA + K-Means,275,0
+MCA + K-Means,276,1
+MCA + K-Means,277,0
+MCA + K-Means,278,1
+MCA + K-Means,279,1
+MCA + K-Means,280,1
+MCA + K-Means,281,1
+MCA + K-Means,282,1
+MCA + K-Means,283,1
+MCA + K-Means,284,1
+MCA + K-Means,285,1
+MCA + K-Means,286,1
+MCA + K-Means,287,1
+MCA + K-Means,288,0
+MCA + K-Means,289,0
+MCA + K-Means,290,1
+MCA + K-Means,291,1
+MCA + K-Means,292,1
+MCA + K-Means,293,0
+MCA + K-Means,294,0
+MCA + K-Means,295,0
+MCA + K-Means,296,1
+MCA + K-Means,297,0
+MCA + K-Means,298,1
+MCA + K-Means,299,0
+MCA + K-Means,300,0
+MCA + K-Means,301,0
+MCA + K-Means,302,0
+MCA + K-Means,303,1
+MCA + K-Means,304,1
+MCA + K-Means,305,1
+MCA + K-Means,306,0
+MCA + K-Means,307,1
+MCA + K-Means,308,1
+MCA + K-Means,309,1
+MCA + K-Means,310,0
+MCA + K-Means,311,1
+MCA + K-Means,312,1
+MCA + K-Means,313,0
+MCA + K-Means,314,1
+MCA + K-Means,315,0
+MCA + K-Means,316,0
+MCA + K-Means,317,0
+MCA + K-Means,318,1
+MCA + K-Means,319,1
+MCA + K-Means,320,1
+MCA + K-Means,321,0
+MCA + K-Means,322,0
+MCA + K-Means,323,0
+MCA + K-Means,324,1
+MCA + K-Means,325,0
+MCA + K-Means,326,0
+MCA + K-Means,327,1
+MCA + K-Means,328,0
+MCA + K-Means,329,1
+MCA + K-Means,330,0
+MCA + K-Means,331,0
+MCA + K-Means,332,1
+MCA + K-Means,333,1
+MCA + K-Means,334,1
+MCA + K-Means,335,0
+MCA + K-Means,336,0
+MCA + K-Means,337,0
+MCA + K-Means,338,0
+MCA + K-Means,339,0
+MCA + K-Means,340,1
+MCA + K-Means,341,0
+MCA + K-Means,342,0
+MCA + K-Means,343,0
+MCA + K-Means,344,1
+MCA + K-Means,345,1
+MCA + K-Means,346,1
+MCA + K-Means,347,1
+MCA + K-Means,348,0
+MCA + K-Means,349,0
+MCA + K-Means,350,1
+MCA + K-Means,351,0
+MCA + K-Means,352,0
+MCA + K-Means,353,1
+MCA + K-Means,354,0
+MCA + K-Means,355,0
+MCA + K-Means,356,0
+MCA + K-Means,357,1
+MCA + K-Means,358,1
+MCA + K-Means,359,1
+MCA + K-Means,360,0
+MCA + K-Means,361,1
+MCA + K-Means,362,1
+MCA + K-Means,363,0
+MCA + K-Means,364,0
+MCA + K-Means,365,0
+MCA + K-Means,366,1
+MCA + K-Means,367,0
+MCA + K-Means,368,0
+MCA + K-Means,369,1
+MCA + K-Means,370,0
+MCA + K-Means,371,0
+MCA + K-Means,372,1
+MCA + K-Means,373,0
+MCA + K-Means,374,1
+MCA + K-Means,375,1
+MCA + K-Means,376,0
+MCA + K-Means,377,1
+MCA + K-Means,378,0
+MCA + K-Means,379,1
+MCA + K-Means,380,1
+MCA + K-Means,381,0
+MCA + K-Means,382,0
+MCA + K-Means,383,1
+MCA + K-Means,384,0
+MCA + K-Means,385,0
+MCA + K-Means,386,1
+MCA + K-Means,387,0
+MCA + K-Means,388,1
+MCA + K-Means,389,1
+MCA + K-Means,390,1
+MCA + K-Means,391,1
+MCA + K-Means,392,1
+MCA + K-Means,393,1
+MCA + K-Means,394,0
+MCA + K-Means,395,0
+MCA + K-Means,396,0
+MCA + K-Means,397,1
+MCA + K-Means,398,0
+MCA + K-Means,399,0
+MCA + K-Means,400,0
+MCA + K-Means,401,1
+MCA + K-Means,402,0
+MCA + K-Means,403,1
+MCA + K-Means,404,0
+MCA + K-Means,405,0
+MCA + K-Means,406,0
+MCA + K-Means,407,0
+MCA + K-Means,408,1
+MCA + K-Means,409,1
+MCA + K-Means,410,1
+MCA + K-Means,411,1
+MCA + K-Means,412,0
+MCA + K-Means,413,0
+MCA + K-Means,414,0
+MCA + K-Means,415,1
+MCA + K-Means,416,0
+MCA + K-Means,417,0
+MCA + K-Means,418,1
+MCA + K-Means,419,0
+MCA + K-Means,420,0
+MCA + K-Means,421,1
+MCA + K-Means,422,0
+MCA + K-Means,423,1
+MCA + K-Means,424,0
+MCA + K-Means,425,0
+MCA + K-Means,426,1
+MCA + K-Means,427,0
+MCA + K-Means,428,0
+MCA + K-Means,429,0
+MCA + K-Means,430,1
+MCA + K-Means,431,1
+MCA + K-Means,432,0
+MCA + K-Means,433,0
+MCA + K-Means,434,1
+MCA + K-Means,435,0
+MCA + K-Means,436,0
+MCA + K-Means,437,1
+MCA + K-Means,438,0
+MCA + K-Means,439,0
+MCA + K-Means,440,0
+MCA + K-Means,441,1
+MCA + K-Means,442,0
+MCA + K-Means,443,1
+MCA + K-Means,444,0
+MCA + K-Means,445,1
+MCA + K-Means,446,0
+MCA + K-Means,447,1
+MCA + K-Means,448,0
+MCA + K-Means,449,1
+MCA + K-Means,450,1
+MCA + K-Means,451,0
+MCA + K-Means,452,1
+MCA + K-Means,453,0
+MCA + K-Means,454,0
+MCA + K-Means,455,1
+MCA + K-Means,456,1
+MCA + K-Means,457,0
+MCA + K-Means,458,0
+MCA + K-Means,459,1
+MCA + K-Means,460,1
+MCA + K-Means,461,1
+MCA + K-Means,462,1
+MCA + K-Means,463,0
+MCA + K-Means,464,0
+MCA + K-Means,465,0
+MCA + K-Means,466,1
+MCA + K-Means,467,1
+MCA + K-Means,468,0
+MCA + K-Means,469,1
+MCA + K-Means,470,1
+MCA + K-Means,471,0
+MCA + K-Means,472,1
+MCA + K-Means,473,0
+MCA + K-Means,474,1
+MCA + K-Means,475,1
+MCA + K-Means,476,1
+MCA + K-Means,477,0
+MCA + K-Means,478,0
+MCA + K-Means,479,1
+MCA + K-Means,480,1
+MCA + K-Means,481,1
+MCA + K-Means,482,0
+MCA + K-Means,483,0
+MCA + K-Means,484,0
+MCA + K-Means,485,1
+MCA + K-Means,486,1
+MCA + K-Means,487,0
+MCA + K-Means,488,1
+MCA + K-Means,489,0
+MCA + K-Means,490,0
+MCA + K-Means,491,1
+MCA + K-Means,492,0
+MCA + K-Means,493,1
+MCA + K-Means,494,1
+MCA + K-Means,495,1
+MCA + K-Means,496,0
+MCA + K-Means,497,0
+MCA + K-Means,498,0
+MCA + K-Means,499,0
+MCA + K-Means,500,0
+MCA + K-Means,501,1
+MCA + K-Means,502,0
+MCA + K-Means,503,0
+MCA + K-Means,504,1
+MCA + K-Means,505,1
+MCA + K-Means,506,0
+MCA + K-Means,507,1
+MCA + K-Means,508,1
+MCA + K-Means,509,0
+MCA + K-Means,510,0
+MCA + K-Means,511,0
+MCA + K-Means,512,0
+MCA + K-Means,513,0
+MCA + K-Means,514,1
+MCA + K-Means,515,0
+MCA + K-Means,516,0
+MCA + K-Means,517,1
+MCA + K-Means,518,1
+MCA + K-Means,519,1
+MCA + K-Means,520,1
+MCA + K-Means,521,1
+MCA + K-Means,522,0
+MCA + K-Means,523,0
+MCA + K-Means,524,0
+MCA + K-Means,525,0
+MCA + K-Means,526,0
+MCA + K-Means,527,1
+MCA + K-Means,528,1
+MCA + K-Means,529,0
+MCA + K-Means,530,0
+MCA + K-Means,531,0
+MCA + K-Means,532,0
+MCA + K-Means,533,0
+MCA + K-Means,534,0
+MCA + K-Means,535,0
+MCA + K-Means,536,1
+MCA + K-Means,537,1
+MCA + K-Means,538,1
+MCA + K-Means,539,1
+MCA + K-Means,540,0
+MCA + K-Means,541,1
+MCA + K-Means,542,0
+MCA + K-Means,543,0
+MCA + K-Means,544,1
+MCA + K-Means,545,0
+MCA + K-Means,546,1
+MCA + K-Means,547,0
+MCA + K-Means,548,0
+MCA + K-Means,549,0
+MCA + K-Means,550,1
+MCA + K-Means,551,0
+MCA + K-Means,552,0
+MCA + K-Means,553,0
+MCA + K-Means,554,1
+MCA + K-Means,555,1
+MCA + K-Means,556,0
+MCA + K-Means,557,0
+MCA + K-Means,558,0
+MCA + K-Means,559,1
+MCA + K-Means,560,1
+MCA + K-Means,561,1
+MCA + K-Means,562,0
+MCA + K-Means,563,0
+MCA + K-Means,564,0
+MCA + K-Means,565,0
+MCA + K-Means,566,1
+MCA + K-Means,567,1
+MCA + K-Means,568,0
+MCA + K-Means,569,0
+MCA + K-Means,570,0
+MCA + K-Means,571,0
+MCA + K-Means,572,0
+MCA + K-Means,573,0
+MCA + K-Means,574,0
+MCA + K-Means,575,1
+MCA + K-Means,576,0
+MCA + K-Means,577,0
+MCA + K-Means,578,0
+MCA + K-Means,579,0
+MCA + K-Means,580,0
+MCA + K-Means,581,1
+MCA + K-Means,582,0
+MCA + K-Means,583,1
+MCA + K-Means,584,1
+MCA + K-Means,585,1
+MCA + K-Means,586,1
+MCA + K-Means,587,1
+MCA + K-Means,588,0
+MCA + K-Means,589,0
+MCA + K-Means,590,0
+MCA + K-Means,591,1
+MCA + K-Means,592,0
+MCA + K-Means,593,0
+MCA + K-Means,594,0
+MCA + K-Means,595,1
+MCA + K-Means,596,1
+MCA + K-Means,597,1
+MCA + K-Means,598,1
+MCA + K-Means,599,1
+MCA + K-Means,600,1
+MCA + K-Means,601,0
+MCA + K-Means,602,1
+MCA + K-Means,603,0
+MCA + K-Means,604,1
+MCA + K-Means,605,0
+MCA + K-Means,606,1
+MCA + K-Means,607,1
+MCA + K-Means,608,0
+MCA + K-Means,609,1
+MCA + K-Means,610,0
+MCA + K-Means,611,0
+MCA + K-Means,612,1
+MCA + K-Means,613,0
+MCA + K-Means,614,0
+MCA + K-Means,615,0
+MCA + K-Means,616,0
+MCA + K-Means,617,1
+MCA + K-Means,618,0
+MCA + K-Means,619,1
+MCA + K-Means,620,0
+MCA + K-Means,621,1
+MCA + K-Means,622,0
+MCA + K-Means,623,0
+MCA + K-Means,624,0
+MCA + K-Means,625,0
+MCA + K-Means,626,1
+MCA + K-Means,627,1
+MCA + K-Means,628,1
+MCA + K-Means,629,1
+MCA + K-Means,630,0
+MCA + K-Means,631,1
+MCA + K-Means,632,0
+MCA + K-Means,633,0
+MCA + K-Means,634,0
+MCA + K-Means,635,1
+MCA + K-Means,636,0
+MCA + K-Means,637,0
+MCA + K-Means,638,0
+MCA + K-Means,639,0
+MCA + K-Means,640,1
+MCA + K-Means,641,0
+MCA + K-Means,642,0
+MCA + K-Means,643,0
+MCA + K-Means,644,0
+MCA + K-Means,645,0
+MCA + K-Means,646,0
+MCA + K-Means,647,1
+MCA + K-Means,648,1
+MCA + K-Means,649,1
+MCA + K-Means,650,0
+MCA + K-Means,651,0
+MCA + K-Means,652,1
+MCA + K-Means,653,0
+MCA + K-Means,654,0
+MCA + K-Means,655,0
+MCA + K-Means,656,1
+MCA + K-Means,657,0
+MCA + K-Means,658,1
+MCA + K-Means,659,0
+MCA + K-Means,660,0
+MCA + K-Means,661,0
+MCA + K-Means,662,1
+MCA + K-Means,663,1
+MCA + K-Means,664,1
+MCA + K-Means,665,1
+MCA + K-Means,666,0
+MCA + K-Means,667,1
+MCA + K-Means,668,0
+MCA + K-Means,669,0
+MCA + K-Means,670,0
+MCA + K-Means,671,1
+MCA + K-Means,672,1
+MCA + K-Means,673,0
+MCA + K-Means,674,0
+MCA + K-Means,675,0
+MCA + K-Means,676,1
+MCA + K-Means,677,0
+MCA + K-Means,678,0
+MCA + K-Means,679,0
+MCA + K-Means,680,0
+MCA + K-Means,681,1
+MCA + K-Means,682,0
+MCA + K-Means,683,1
+MCA + K-Means,684,1
+MCA + K-Means,685,1
+MCA + K-Means,686,0
+MCA + K-Means,687,1
+MCA + K-Means,688,1
+MCA + K-Means,689,1
+MCA + K-Means,690,1
+MCA + K-Means,691,0
+MCA + K-Means,692,1
+MCA + K-Means,693,0
+MCA + K-Means,694,0
+MCA + K-Means,695,0
+MCA + K-Means,696,0
+MCA + K-Means,697,0
+MCA + K-Means,698,1
+MCA + K-Means,699,1
+MCA + K-Means,700,0
+MCA + K-Means,701,0
+MCA + K-Means,702,1
+MCA + K-Means,703,0
+MCA + K-Means,704,1
+MCA + K-Means,705,1
+MCA + K-Means,706,1
+MCA + K-Means,707,0
+MCA + K-Means,708,0
+MCA + K-Means,709,0
+MCA + K-Means,710,0
+MCA + K-Means,711,1
+MCA + K-Means,712,0
+MCA + K-Means,713,0
+MCA + K-Means,714,0
+MCA + K-Means,715,0
+MCA + K-Means,716,0
+MCA + K-Means,717,1
+MCA + K-Means,718,1
+MCA + K-Means,719,0
+MCA + K-Means,720,1
+MCA + K-Means,721,1
+MCA + K-Means,722,1
+MCA + K-Means,723,1
+MCA + K-Means,724,1
+MCA + K-Means,725,1
+MCA + K-Means,726,0
+MCA + K-Means,727,1
+MCA + K-Means,728,0
+MCA + K-Means,729,0
+MCA + K-Means,730,0
+MCA + K-Means,731,1
+MCA + K-Means,732,1
+MCA + K-Means,733,1
+MCA + K-Means,734,0
+MCA + K-Means,735,1
+MCA + K-Means,736,0
+MCA + K-Means,737,1
+MCA + K-Means,738,0
+MCA + K-Means,739,1
+MCA + K-Means,740,1
+MCA + K-Means,741,1
+MCA + K-Means,742,0
+MCA + K-Means,743,0
+MCA + K-Means,744,1
+MCA + K-Means,745,1
+MCA + K-Means,746,1
+MCA + K-Means,747,0
+MCA + K-Means,748,0
+MCA + K-Means,749,0
+MCA + K-Means,750,1
+MCA + K-Means,751,1
+MCA + K-Means,752,1
+MCA + K-Means,753,1
+MCA + K-Means,754,0
+MCA + K-Means,755,0
+MCA + K-Means,756,0
+MCA + K-Means,757,1
+MCA + K-Means,758,1
+MCA + K-Means,759,1
+MCA + K-Means,760,0
+MCA + K-Means,761,1
+MCA + K-Means,762,1
+MCA + K-Means,763,1
+MCA + K-Means,764,0
+MCA + K-Means,765,0
+MCA + K-Means,766,1
+MCA + K-Means,767,0
+MCA + K-Means,768,0
+MCA + K-Means,769,1
+MCA + K-Means,770,0
+MCA + K-Means,771,1
+MCA + K-Means,772,0
+MCA + K-Means,773,1
+MCA + K-Means,774,1
+MCA + K-Means,775,0
+MCA + K-Means,776,0
+MCA + K-Means,777,1
+MCA + K-Means,778,1
+MCA + K-Means,779,1
+MCA + K-Means,780,0
+MCA + K-Means,781,1
+MCA + K-Means,782,0
+MCA + K-Means,783,0
+MCA + K-Means,784,1
+MCA + K-Means,785,1
+MCA + K-Means,786,1
+MCA + K-Means,787,1
+MCA + K-Means,788,0
+MCA + K-Means,789,1
+MCA + K-Means,790,0
+MCA + K-Means,791,1
+MCA + K-Means,792,1
+MCA + K-Means,793,1
+MCA + K-Means,794,0
+MCA + K-Means,795,1
+MCA + K-Means,796,1
+MCA + K-Means,797,0
+MCA + K-Means,798,0
+MCA + K-Means,799,1
+MCA + K-Means,800,1
+MCA + K-Means,801,1
+MCA + K-Means,802,0
+MCA + K-Means,803,0
+MCA + K-Means,804,1
+MCA + K-Means,805,1
+MCA + K-Means,806,1
+MCA + K-Means,807,0
+MCA + K-Means,808,0
+MCA + K-Means,809,1
+MCA + K-Means,810,1
+MCA + K-Means,811,0
+MCA + K-Means,812,0
+MCA + K-Means,813,0
+MCA + K-Means,814,0
+MCA + K-Means,815,1
+MCA + K-Means,816,0
+MCA + K-Means,817,0
+MCA + K-Means,818,1
+MCA + K-Means,819,0
+MCA + K-Means,820,0
+MCA + K-Means,821,0
+MCA + K-Means,822,1
+MCA + K-Means,823,0
+MCA + K-Means,824,0
+MCA + K-Means,825,0
+MCA + K-Means,826,0
+MCA + K-Means,827,0
+MCA + K-Means,828,0
+MCA + K-Means,829,1
+MCA + K-Means,830,1
+MCA + K-Means,831,0
+MCA + K-Means,832,0
+MCA + K-Means,833,0
+MCA + K-Means,834,0
+MCA + K-Means,835,0
+MCA + K-Means,836,1
+MCA + K-Means,837,1
+MCA + K-Means,838,0
+MCA + K-Means,839,0
+MCA + K-Means,840,1
+MCA + K-Means,841,1
+MCA + K-Means,842,0
+MCA + K-Means,843,1
+MCA + K-Means,844,0
+MCA + K-Means,845,0
+MCA + K-Means,846,0
+MCA + K-Means,847,1
+MCA + K-Means,848,0
+MCA + K-Means,849,0
+MCA + K-Means,850,0
+MCA + K-Means,851,0
+MCA + K-Means,852,0
+MCA + K-Means,853,0
+MCA + K-Means,854,1
+MCA + K-Means,855,0
+MCA + K-Means,856,0
+MCA + K-Means,857,1
+MCA + K-Means,858,0
+MCA + K-Means,859,1
+MCA + K-Means,860,0
+MCA + K-Means,861,0
+MCA + K-Means,862,0
+MCA + K-Means,863,1
+MCA + K-Means,864,0
+MCA + K-Means,865,0
+MCA + K-Means,866,0
+MCA + K-Means,867,1
+MCA + K-Means,868,0
+MCA + K-Means,869,0
+MCA + K-Means,870,0
+MCA + K-Means,871,1
+MCA + K-Means,872,0
+MCA + K-Means,873,1
+MCA + K-Means,874,0
+MCA + K-Means,875,1
+MCA + K-Means,876,0
+MCA + K-Means,877,0
+MCA + K-Means,878,1
+MCA + K-Means,879,0
+MCA + K-Means,880,0
+MCA + K-Means,881,0
+MCA + K-Means,882,0
+MCA + K-Means,883,1
+MCA + K-Means,884,0
+MCA + K-Means,885,0
+MCA + K-Means,886,0
+MCA + K-Means,887,0
+MCA + K-Means,888,0
+MCA + K-Means,889,0
+MCA + K-Means,890,1
+MCA + K-Means,891,0
+MCA + K-Means,892,0
+MCA + K-Means,893,0
+MCA + K-Means,894,1
+MCA + K-Means,895,0
+MCA + K-Means,896,1
+MCA + K-Means,897,1
+MCA + K-Means,898,1
+MCA + K-Means,899,0
+MCA + K-Means,900,1
+MCA + K-Means,901,0
+MCA + K-Means,902,0
+MCA + K-Means,903,1
+MCA + K-Means,904,1
+MCA + K-Means,905,0
+MCA + K-Means,906,1
+MCA + K-Means,907,1
+MCA + K-Means,908,0
+MCA + K-Means,909,1
+MCA + K-Means,910,0
+MCA + K-Means,911,0
+MCA + K-Means,912,1
+MCA + K-Means,913,1
+MCA + K-Means,914,0
+MCA + K-Means,915,1
+MCA + K-Means,916,0
+MCA + K-Means,917,0
+MCA + K-Means,918,1
+MCA + K-Means,919,0
+MCA + K-Means,920,1
+MCA + K-Means,921,0
+MCA + K-Means,922,0
+MCA + K-Means,923,0
+MCA + K-Means,924,0
+MCA + K-Means,925,1
+MCA + K-Means,926,1
+MCA + K-Means,927,0
+MCA + K-Means,928,1
+MCA + K-Means,929,0
+MCA + K-Means,930,0
+MCA + K-Means,931,1
+MCA + K-Means,932,0
+MCA + K-Means,933,0
+MCA + K-Means,934,1
+MCA + K-Means,935,0
+MCA + K-Means,936,1
+MCA + K-Means,937,0
+MCA + K-Means,938,1
+MCA + K-Means,939,1
+MCA + K-Means,940,0
+MCA + K-Means,941,0
+MCA + K-Means,942,0
+MCA + K-Means,943,0
+MCA + K-Means,944,0
+MCA + K-Means,945,0
+MCA + K-Means,946,0
+MCA + K-Means,947,0
+MCA + K-Means,948,0
+MCA + K-Means,949,0
+MCA + K-Means,950,1
+MCA + K-Means,951,0
+MCA + K-Means,952,1
+MCA + K-Means,953,1
+MCA + K-Means,954,1
+MCA + K-Means,955,0
+MCA + K-Means,956,0
+MCA + K-Means,957,0
+MCA + K-Means,958,0
+MCA + K-Means,959,0
+MCA + K-Means,960,1
+MCA + K-Means,961,0
+MCA + K-Means,962,0
+MCA + K-Means,963,1
+MCA + K-Means,964,0
+MCA + K-Means,965,1
+MCA + K-Means,966,1
+MCA + K-Means,967,1
+MCA + K-Means,968,0
+MCA + K-Means,969,1
+MCA + K-Means,970,0
+MCA + K-Means,971,0
+MCA + K-Means,972,1
+MCA + K-Means,973,1
+MCA + K-Means,974,0
+MCA + K-Means,975,1
+MCA + K-Means,976,0
+MCA + K-Means,977,0
+MCA + K-Means,978,0
+MCA + K-Means,979,0
+MCA + K-Means,980,0
+MCA + K-Means,981,1
+MCA + K-Means,982,0
+MCA + K-Means,983,0
+MCA + K-Means,984,0
+MCA + K-Means,985,1
+MCA + K-Means,986,0
+MCA + K-Means,987,0
+MCA + K-Means,988,1
+MCA + K-Means,989,1
+MCA + K-Means,990,1
+MCA + K-Means,991,0
+MCA + K-Means,992,0
+MCA + K-Means,993,1
+MCA + K-Means,994,0
+MCA + K-Means,995,0
+MCA + K-Means,996,1
+MCA + K-Means,997,1
+MCA + K-Means,998,0
+MCA + K-Means,999,1
+MCA + K-Means,1000,1
+MCA + K-Means,1001,1
+MCA + K-Means,1002,1
+MCA + K-Means,1003,1
+MCA + K-Means,1004,1
+MCA + K-Means,1005,0
+MCA + K-Means,1006,1
+MCA + K-Means,1007,1
+MCA + K-Means,1008,0
+MCA + K-Means,1009,0
+MCA + K-Means,1010,0
+MCA + K-Means,1011,0
+MCA + K-Means,1012,0
+MCA + K-Means,1013,0
+MCA + K-Means,1014,1
+MCA + K-Means,1015,0
+MCA + K-Means,1016,0
+MCA + K-Means,1017,1
+MCA + K-Means,1018,0
+MCA + K-Means,1019,0
+MCA + K-Means,1020,0
+MCA + K-Means,1021,0
+MCA + K-Means,1022,1
+MCA + K-Means,1023,1
+MCA + K-Means,1024,0
+MCA + K-Means,1025,0
+MCA + K-Means,1026,0
+MCA + K-Means,1027,0
+MCA + K-Means,1028,0
+MCA + K-Means,1029,0
+MCA + K-Means,1030,1
+MCA + K-Means,1031,0
+MCA + K-Means,1032,0
+MCA + K-Means,1033,1
+MCA + K-Means,1034,1
+MCA + K-Means,1035,0
+MCA + K-Means,1036,0
+MCA + K-Means,1037,0
+MCA + K-Means,1038,0
+MCA + K-Means,1039,0
+MCA + K-Means,1040,1
+MCA + K-Means,1041,1
+MCA + K-Means,1042,1
+MCA + K-Means,1043,0
+MCA + K-Means,1044,0
+MCA + K-Means,1045,1
+MCA + K-Means,1046,0
+MCA + K-Means,1047,1
+MCA + K-Means,1048,0
+MCA + K-Means,1049,1
+MCA + K-Means,1050,1
+MCA + K-Means,1051,0
+MCA + K-Means,1052,0
+MCA + K-Means,1053,0
+MCA + K-Means,1054,1
+MCA + K-Means,1055,0
+MCA + K-Means,1056,0
+MCA + K-Means,1057,0
+MCA + K-Means,1058,1
+MCA + K-Means,1059,1
+MCA + K-Means,1060,1
+MCA + K-Means,1061,0
+MCA + K-Means,1062,0
+MCA + K-Means,1063,1
+MCA + K-Means,1064,1
+MCA + K-Means,1065,0
+MCA + K-Means,1066,0
+MCA + K-Means,1067,1
+MCA + K-Means,1068,1
+MCA + K-Means,1069,1
+MCA + K-Means,1070,1
+MCA + K-Means,1071,0
+MCA + K-Means,1072,0
+MCA + K-Means,1073,0
+MCA + K-Means,1074,0
+MCA + K-Means,1075,0
+MCA + K-Means,1076,0
+MCA + K-Means,1077,0
+MCA + K-Means,1078,0
+MCA + K-Means,1079,0
+MCA + K-Means,1080,0
+MCA + K-Means,1081,0
+MCA + K-Means,1082,0
+MCA + K-Means,1083,0
+MCA + K-Means,1084,1
+MCA + K-Means,1085,0
+MCA + K-Means,1086,0
+MCA + K-Means,1087,1
+MCA + K-Means,1088,0
+MCA + K-Means,1089,0
+MCA + K-Means,1090,0
+MCA + K-Means,1091,1
+MCA + K-Means,1092,0
+MCA + K-Means,1093,1
+MCA + K-Means,1094,0
+MCA + K-Means,1095,0
+MCA + K-Means,1096,0
+MCA + K-Means,1097,1
+MCA + K-Means,1098,0
+MCA + K-Means,1099,0
+MCA + K-Means,1100,0
+MCA + K-Means,1101,1
+MCA + K-Means,1102,1
+MCA + K-Means,1103,1
+MCA + K-Means,1104,0
+MCA + K-Means,1105,0
+MCA + K-Means,1106,0
+MCA + K-Means,1107,0
+MCA + K-Means,1108,0
+MCA + K-Means,1109,0
+MCA + K-Means,1110,1
+MCA + K-Means,1111,0
+MCA + K-Means,1112,0
+MCA + K-Means,1113,1
+MCA + K-Means,1114,1
+MCA + K-Means,1115,0
+MCA + K-Means,1116,0
+MCA + K-Means,1117,0
+MCA + K-Means,1118,0
+MCA + K-Means,1119,0
+MCA + K-Means,1120,0
+MCA + K-Means,1121,1
+MCA + K-Means,1122,0
+MCA + K-Means,1123,1
+MCA + K-Means,1124,0
+MCA + K-Means,1125,1
+MCA + K-Means,1126,0
+MCA + K-Means,1127,1
+MCA + K-Means,1128,0
+MCA + K-Means,1129,1
+MCA + K-Means,1130,0
+Agglomerative,0,2
+Agglomerative,1,2
+Agglomerative,2,2
+Agglomerative,3,2
+Agglomerative,4,2
+Agglomerative,5,2
+Agglomerative,6,2
+Agglomerative,7,2
+Agglomerative,8,2
+Agglomerative,9,2
+Agglomerative,10,2
+Agglomerative,11,2
+Agglomerative,12,2
+Agglomerative,13,2
+Agglomerative,14,2
+Agglomerative,15,2
+Agglomerative,16,2
+Agglomerative,17,2
+Agglomerative,18,2
+Agglomerative,19,2
+Agglomerative,20,2
+Agglomerative,21,2
+Agglomerative,22,2
+Agglomerative,23,2
+Agglomerative,24,2
+Agglomerative,25,2
+Agglomerative,26,2
+Agglomerative,27,2
+Agglomerative,28,2
+Agglomerative,29,2
+Agglomerative,30,2
+Agglomerative,31,2
+Agglomerative,32,2
+Agglomerative,33,2
+Agglomerative,34,2
+Agglomerative,35,2
+Agglomerative,36,2
+Agglomerative,37,2
+Agglomerative,38,2
+Agglomerative,39,2
+Agglomerative,40,2
+Agglomerative,41,2
+Agglomerative,42,2
+Agglomerative,43,2
+Agglomerative,44,2
+Agglomerative,45,2
+Agglomerative,46,2
+Agglomerative,47,2
+Agglomerative,48,2
+Agglomerative,49,2
+Agglomerative,50,2
+Agglomerative,51,2
+Agglomerative,52,2
+Agglomerative,53,2
+Agglomerative,54,2
+Agglomerative,55,2
+Agglomerative,56,2
+Agglomerative,57,2
+Agglomerative,58,2
+Agglomerative,59,2
+Agglomerative,60,2
+Agglomerative,61,2
+Agglomerative,62,2
+Agglomerative,63,2
+Agglomerative,64,2
+Agglomerative,65,2
+Agglomerative,66,2
+Agglomerative,67,2
+Agglomerative,68,2
+Agglomerative,69,2
+Agglomerative,70,2
+Agglomerative,71,2
+Agglomerative,72,2
+Agglomerative,73,2
+Agglomerative,74,2
+Agglomerative,75,2
+Agglomerative,76,2
+Agglomerative,77,2
+Agglomerative,78,2
+Agglomerative,79,2
+Agglomerative,80,2
+Agglomerative,81,2
+Agglomerative,82,2
+Agglomerative,83,2
+Agglomerative,84,2
+Agglomerative,85,2
+Agglomerative,86,2
+Agglomerative,87,2
+Agglomerative,88,2
+Agglomerative,89,2
+Agglomerative,90,2
+Agglomerative,91,2
+Agglomerative,92,2
+Agglomerative,93,2
+Agglomerative,94,2
+Agglomerative,95,2
+Agglomerative,96,2
+Agglomerative,97,2
+Agglomerative,98,2
+Agglomerative,99,2
+Agglomerative,100,2
+Agglomerative,101,2
+Agglomerative,102,2
+Agglomerative,103,2
+Agglomerative,104,2
+Agglomerative,105,2
+Agglomerative,106,2
+Agglomerative,107,2
+Agglomerative,108,2
+Agglomerative,109,2
+Agglomerative,110,2
+Agglomerative,111,2
+Agglomerative,112,2
+Agglomerative,113,2
+Agglomerative,114,2
+Agglomerative,115,2
+Agglomerative,116,2
+Agglomerative,117,2
+Agglomerative,118,2
+Agglomerative,119,2
+Agglomerative,120,2
+Agglomerative,121,2
+Agglomerative,122,2
+Agglomerative,123,2
+Agglomerative,124,2
+Agglomerative,125,2
+Agglomerative,126,2
+Agglomerative,127,2
+Agglomerative,128,2
+Agglomerative,129,2
+Agglomerative,130,2
+Agglomerative,131,2
+Agglomerative,132,2
+Agglomerative,133,2
+Agglomerative,134,2
+Agglomerative,135,2
+Agglomerative,136,2
+Agglomerative,137,2
+Agglomerative,138,2
+Agglomerative,139,2
+Agglomerative,140,2
+Agglomerative,141,2
+Agglomerative,142,2
+Agglomerative,143,2
+Agglomerative,144,2
+Agglomerative,145,2
+Agglomerative,146,2
+Agglomerative,147,2
+Agglomerative,148,2
+Agglomerative,149,2
+Agglomerative,150,2
+Agglomerative,151,2
+Agglomerative,152,2
+Agglomerative,153,2
+Agglomerative,154,2
+Agglomerative,155,2
+Agglomerative,156,2
+Agglomerative,157,2
+Agglomerative,158,2
+Agglomerative,159,2
+Agglomerative,160,2
+Agglomerative,161,2
+Agglomerative,162,2
+Agglomerative,163,2
+Agglomerative,164,2
+Agglomerative,165,2
+Agglomerative,166,2
+Agglomerative,167,2
+Agglomerative,168,2
+Agglomerative,169,2
+Agglomerative,170,2
+Agglomerative,171,2
+Agglomerative,172,2
+Agglomerative,173,2
+Agglomerative,174,2
+Agglomerative,175,2
+Agglomerative,176,2
+Agglomerative,177,2
+Agglomerative,178,2
+Agglomerative,179,2
+Agglomerative,180,2
+Agglomerative,181,2
+Agglomerative,182,2
+Agglomerative,183,2
+Agglomerative,184,2
+Agglomerative,185,2
+Agglomerative,186,2
+Agglomerative,187,2
+Agglomerative,188,2
+Agglomerative,189,2
+Agglomerative,190,2
+Agglomerative,191,2
+Agglomerative,192,2
+Agglomerative,193,2
+Agglomerative,194,2
+Agglomerative,195,2
+Agglomerative,196,2
+Agglomerative,197,2
+Agglomerative,198,2
+Agglomerative,199,2
+Agglomerative,200,2
+Agglomerative,201,2
+Agglomerative,202,2
+Agglomerative,203,2
+Agglomerative,204,2
+Agglomerative,205,2
+Agglomerative,206,2
+Agglomerative,207,2
+Agglomerative,208,2
+Agglomerative,209,2
+Agglomerative,210,2
+Agglomerative,211,2
+Agglomerative,212,2
+Agglomerative,213,2
+Agglomerative,214,2
+Agglomerative,215,2
+Agglomerative,216,2
+Agglomerative,217,2
+Agglomerative,218,2
+Agglomerative,219,2
+Agglomerative,220,2
+Agglomerative,221,2
+Agglomerative,222,2
+Agglomerative,223,2
+Agglomerative,224,2
+Agglomerative,225,2
+Agglomerative,226,2
+Agglomerative,227,2
+Agglomerative,228,2
+Agglomerative,229,2
+Agglomerative,230,2
+Agglomerative,231,2
+Agglomerative,232,2
+Agglomerative,233,2
+Agglomerative,234,2
+Agglomerative,235,2
+Agglomerative,236,2
+Agglomerative,237,2
+Agglomerative,238,2
+Agglomerative,239,2
+Agglomerative,240,2
+Agglomerative,241,2
+Agglomerative,242,2
+Agglomerative,243,2
+Agglomerative,244,2
+Agglomerative,245,2
+Agglomerative,246,2
+Agglomerative,247,2
+Agglomerative,248,2
+Agglomerative,249,2
+Agglomerative,250,2
+Agglomerative,251,2
+Agglomerative,252,2
+Agglomerative,253,2
+Agglomerative,254,2
+Agglomerative,255,2
+Agglomerative,256,2
+Agglomerative,257,2
+Agglomerative,258,2
+Agglomerative,259,2
+Agglomerative,260,2
+Agglomerative,261,2
+Agglomerative,262,2
+Agglomerative,263,2
+Agglomerative,264,2
+Agglomerative,265,2
+Agglomerative,266,2
+Agglomerative,267,2
+Agglomerative,268,2
+Agglomerative,269,2
+Agglomerative,270,2
+Agglomerative,271,2
+Agglomerative,272,2
+Agglomerative,273,2
+Agglomerative,274,2
+Agglomerative,275,2
+Agglomerative,276,2
+Agglomerative,277,2
+Agglomerative,278,2
+Agglomerative,279,2
+Agglomerative,280,2
+Agglomerative,281,2
+Agglomerative,282,2
+Agglomerative,283,2
+Agglomerative,284,2
+Agglomerative,285,2
+Agglomerative,286,2
+Agglomerative,287,2
+Agglomerative,288,2
+Agglomerative,289,2
+Agglomerative,290,2
+Agglomerative,291,2
+Agglomerative,292,2
+Agglomerative,293,2
+Agglomerative,294,2
+Agglomerative,295,2
+Agglomerative,296,2
+Agglomerative,297,2
+Agglomerative,298,2
+Agglomerative,299,2
+Agglomerative,300,2
+Agglomerative,301,2
+Agglomerative,302,2
+Agglomerative,303,2
+Agglomerative,304,2
+Agglomerative,305,2
+Agglomerative,306,2
+Agglomerative,307,2
+Agglomerative,308,2
+Agglomerative,309,2
+Agglomerative,310,2
+Agglomerative,311,2
+Agglomerative,312,2
+Agglomerative,313,2
+Agglomerative,314,2
+Agglomerative,315,2
+Agglomerative,316,2
+Agglomerative,317,2
+Agglomerative,318,2
+Agglomerative,319,2
+Agglomerative,320,2
+Agglomerative,321,2
+Agglomerative,322,2
+Agglomerative,323,2
+Agglomerative,324,2
+Agglomerative,325,2
+Agglomerative,326,2
+Agglomerative,327,2
+Agglomerative,328,2
+Agglomerative,329,2
+Agglomerative,330,2
+Agglomerative,331,2
+Agglomerative,332,2
+Agglomerative,333,2
+Agglomerative,334,2
+Agglomerative,335,2
+Agglomerative,336,2
+Agglomerative,337,2
+Agglomerative,338,2
+Agglomerative,339,2
+Agglomerative,340,2
+Agglomerative,341,2
+Agglomerative,342,2
+Agglomerative,343,2
+Agglomerative,344,2
+Agglomerative,345,2
+Agglomerative,346,2
+Agglomerative,347,2
+Agglomerative,348,2
+Agglomerative,349,2
+Agglomerative,350,2
+Agglomerative,351,2
+Agglomerative,352,2
+Agglomerative,353,2
+Agglomerative,354,2
+Agglomerative,355,2
+Agglomerative,356,2
+Agglomerative,357,2
+Agglomerative,358,2
+Agglomerative,359,2
+Agglomerative,360,2
+Agglomerative,361,2
+Agglomerative,362,2
+Agglomerative,363,2
+Agglomerative,364,2
+Agglomerative,365,2
+Agglomerative,366,2
+Agglomerative,367,2
+Agglomerative,368,2
+Agglomerative,369,2
+Agglomerative,370,2
+Agglomerative,371,2
+Agglomerative,372,2
+Agglomerative,373,2
+Agglomerative,374,2
+Agglomerative,375,2
+Agglomerative,376,2
+Agglomerative,377,2
+Agglomerative,378,2
+Agglomerative,379,2
+Agglomerative,380,2
+Agglomerative,381,2
+Agglomerative,382,2
+Agglomerative,383,2
+Agglomerative,384,2
+Agglomerative,385,2
+Agglomerative,386,2
+Agglomerative,387,2
+Agglomerative,388,2
+Agglomerative,389,2
+Agglomerative,390,2
+Agglomerative,391,2
+Agglomerative,392,2
+Agglomerative,393,2
+Agglomerative,394,2
+Agglomerative,395,2
+Agglomerative,396,2
+Agglomerative,397,2
+Agglomerative,398,2
+Agglomerative,399,2
+Agglomerative,400,2
+Agglomerative,401,2
+Agglomerative,402,2
+Agglomerative,403,2
+Agglomerative,404,2
+Agglomerative,405,2
+Agglomerative,406,2
+Agglomerative,407,2
+Agglomerative,408,2
+Agglomerative,409,2
+Agglomerative,410,2
+Agglomerative,411,2
+Agglomerative,412,2
+Agglomerative,413,2
+Agglomerative,414,2
+Agglomerative,415,2
+Agglomerative,416,2
+Agglomerative,417,2
+Agglomerative,418,2
+Agglomerative,419,2
+Agglomerative,420,2
+Agglomerative,421,2
+Agglomerative,422,2
+Agglomerative,423,2
+Agglomerative,424,2
+Agglomerative,425,2
+Agglomerative,426,2
+Agglomerative,427,2
+Agglomerative,428,2
+Agglomerative,429,2
+Agglomerative,430,2
+Agglomerative,431,2
+Agglomerative,432,2
+Agglomerative,433,2
+Agglomerative,434,2
+Agglomerative,435,2
+Agglomerative,436,2
+Agglomerative,437,2
+Agglomerative,438,2
+Agglomerative,439,2
+Agglomerative,440,2
+Agglomerative,441,2
+Agglomerative,442,2
+Agglomerative,443,2
+Agglomerative,444,2
+Agglomerative,445,2
+Agglomerative,446,2
+Agglomerative,447,2
+Agglomerative,448,2
+Agglomerative,449,2
+Agglomerative,450,2
+Agglomerative,451,2
+Agglomerative,452,2
+Agglomerative,453,2
+Agglomerative,454,2
+Agglomerative,455,2
+Agglomerative,456,2
+Agglomerative,457,2
+Agglomerative,458,2
+Agglomerative,459,2
+Agglomerative,460,2
+Agglomerative,461,2
+Agglomerative,462,2
+Agglomerative,463,2
+Agglomerative,464,2
+Agglomerative,465,2
+Agglomerative,466,2
+Agglomerative,467,2
+Agglomerative,468,2
+Agglomerative,469,2
+Agglomerative,470,2
+Agglomerative,471,2
+Agglomerative,472,2
+Agglomerative,473,2
+Agglomerative,474,2
+Agglomerative,475,2
+Agglomerative,476,2
+Agglomerative,477,2
+Agglomerative,478,2
+Agglomerative,479,2
+Agglomerative,480,2
+Agglomerative,481,2
+Agglomerative,482,2
+Agglomerative,483,2
+Agglomerative,484,2
+Agglomerative,485,2
+Agglomerative,486,2
+Agglomerative,487,2
+Agglomerative,488,2
+Agglomerative,489,2
+Agglomerative,490,2
+Agglomerative,491,2
+Agglomerative,492,2
+Agglomerative,493,2
+Agglomerative,494,2
+Agglomerative,495,2
+Agglomerative,496,2
+Agglomerative,497,2
+Agglomerative,498,2
+Agglomerative,499,2
+Agglomerative,500,2
+Agglomerative,501,2
+Agglomerative,502,2
+Agglomerative,503,2
+Agglomerative,504,2
+Agglomerative,505,2
+Agglomerative,506,2
+Agglomerative,507,2
+Agglomerative,508,2
+Agglomerative,509,2
+Agglomerative,510,2
+Agglomerative,511,2
+Agglomerative,512,2
+Agglomerative,513,2
+Agglomerative,514,2
+Agglomerative,515,2
+Agglomerative,516,2
+Agglomerative,517,2
+Agglomerative,518,2
+Agglomerative,519,2
+Agglomerative,520,2
+Agglomerative,521,2
+Agglomerative,522,2
+Agglomerative,523,2
+Agglomerative,524,2
+Agglomerative,525,2
+Agglomerative,526,2
+Agglomerative,527,2
+Agglomerative,528,2
+Agglomerative,529,2
+Agglomerative,530,2
+Agglomerative,531,2
+Agglomerative,532,2
+Agglomerative,533,2
+Agglomerative,534,2
+Agglomerative,535,2
+Agglomerative,536,2
+Agglomerative,537,2
+Agglomerative,538,2
+Agglomerative,539,2
+Agglomerative,540,2
+Agglomerative,541,2
+Agglomerative,542,2
+Agglomerative,543,2
+Agglomerative,544,2
+Agglomerative,545,2
+Agglomerative,546,2
+Agglomerative,547,2
+Agglomerative,548,2
+Agglomerative,549,2
+Agglomerative,550,2
+Agglomerative,551,2
+Agglomerative,552,2
+Agglomerative,553,2
+Agglomerative,554,2
+Agglomerative,555,2
+Agglomerative,556,2
+Agglomerative,557,2
+Agglomerative,558,2
+Agglomerative,559,2
+Agglomerative,560,2
+Agglomerative,561,2
+Agglomerative,562,2
+Agglomerative,563,2
+Agglomerative,564,2
+Agglomerative,565,2
+Agglomerative,566,2
+Agglomerative,567,2
+Agglomerative,568,2
+Agglomerative,569,2
+Agglomerative,570,2
+Agglomerative,571,2
+Agglomerative,572,2
+Agglomerative,573,2
+Agglomerative,574,2
+Agglomerative,575,2
+Agglomerative,576,1
+Agglomerative,577,2
+Agglomerative,578,2
+Agglomerative,579,2
+Agglomerative,580,2
+Agglomerative,581,2
+Agglomerative,582,2
+Agglomerative,583,2
+Agglomerative,584,2
+Agglomerative,585,2
+Agglomerative,586,2
+Agglomerative,587,2
+Agglomerative,588,2
+Agglomerative,589,2
+Agglomerative,590,2
+Agglomerative,591,2
+Agglomerative,592,2
+Agglomerative,593,2
+Agglomerative,594,2
+Agglomerative,595,2
+Agglomerative,596,2
+Agglomerative,597,2
+Agglomerative,598,2
+Agglomerative,599,2
+Agglomerative,600,2
+Agglomerative,601,2
+Agglomerative,602,2
+Agglomerative,603,2
+Agglomerative,604,2
+Agglomerative,605,2
+Agglomerative,606,2
+Agglomerative,607,2
+Agglomerative,608,2
+Agglomerative,609,2
+Agglomerative,610,2
+Agglomerative,611,2
+Agglomerative,612,2
+Agglomerative,613,2
+Agglomerative,614,2
+Agglomerative,615,2
+Agglomerative,616,2
+Agglomerative,617,2
+Agglomerative,618,2
+Agglomerative,619,2
+Agglomerative,620,2
+Agglomerative,621,2
+Agglomerative,622,2
+Agglomerative,623,2
+Agglomerative,624,2
+Agglomerative,625,2
+Agglomerative,626,2
+Agglomerative,627,2
+Agglomerative,628,2
+Agglomerative,629,2
+Agglomerative,630,2
+Agglomerative,631,2
+Agglomerative,632,2
+Agglomerative,633,2
+Agglomerative,634,2
+Agglomerative,635,2
+Agglomerative,636,2
+Agglomerative,637,2
+Agglomerative,638,2
+Agglomerative,639,2
+Agglomerative,640,2
+Agglomerative,641,2
+Agglomerative,642,2
+Agglomerative,643,2
+Agglomerative,644,2
+Agglomerative,645,2
+Agglomerative,646,2
+Agglomerative,647,2
+Agglomerative,648,2
+Agglomerative,649,2
+Agglomerative,650,2
+Agglomerative,651,2
+Agglomerative,652,2
+Agglomerative,653,2
+Agglomerative,654,2
+Agglomerative,655,2
+Agglomerative,656,2
+Agglomerative,657,2
+Agglomerative,658,2
+Agglomerative,659,2
+Agglomerative,660,2
+Agglomerative,661,2
+Agglomerative,662,2
+Agglomerative,663,2
+Agglomerative,664,2
+Agglomerative,665,2
+Agglomerative,666,2
+Agglomerative,667,2
+Agglomerative,668,2
+Agglomerative,669,2
+Agglomerative,670,2
+Agglomerative,671,2
+Agglomerative,672,2
+Agglomerative,673,2
+Agglomerative,674,2
+Agglomerative,675,2
+Agglomerative,676,2
+Agglomerative,677,2
+Agglomerative,678,2
+Agglomerative,679,2
+Agglomerative,680,2
+Agglomerative,681,2
+Agglomerative,682,2
+Agglomerative,683,2
+Agglomerative,684,2
+Agglomerative,685,2
+Agglomerative,686,2
+Agglomerative,687,2
+Agglomerative,688,2
+Agglomerative,689,2
+Agglomerative,690,2
+Agglomerative,691,2
+Agglomerative,692,2
+Agglomerative,693,2
+Agglomerative,694,2
+Agglomerative,695,2
+Agglomerative,696,2
+Agglomerative,697,2
+Agglomerative,698,2
+Agglomerative,699,2
+Agglomerative,700,2
+Agglomerative,701,2
+Agglomerative,702,2
+Agglomerative,703,2
+Agglomerative,704,2
+Agglomerative,705,2
+Agglomerative,706,2
+Agglomerative,707,2
+Agglomerative,708,2
+Agglomerative,709,2
+Agglomerative,710,2
+Agglomerative,711,1
+Agglomerative,712,2
+Agglomerative,713,2
+Agglomerative,714,2
+Agglomerative,715,2
+Agglomerative,716,2
+Agglomerative,717,2
+Agglomerative,718,2
+Agglomerative,719,2
+Agglomerative,720,2
+Agglomerative,721,2
+Agglomerative,722,2
+Agglomerative,723,2
+Agglomerative,724,2
+Agglomerative,725,2
+Agglomerative,726,2
+Agglomerative,727,2
+Agglomerative,728,2
+Agglomerative,729,2
+Agglomerative,730,2
+Agglomerative,731,2
+Agglomerative,732,2
+Agglomerative,733,2
+Agglomerative,734,2
+Agglomerative,735,2
+Agglomerative,736,2
+Agglomerative,737,2
+Agglomerative,738,2
+Agglomerative,739,2
+Agglomerative,740,2
+Agglomerative,741,2
+Agglomerative,742,2
+Agglomerative,743,2
+Agglomerative,744,2
+Agglomerative,745,2
+Agglomerative,746,2
+Agglomerative,747,2
+Agglomerative,748,2
+Agglomerative,749,2
+Agglomerative,750,2
+Agglomerative,751,2
+Agglomerative,752,2
+Agglomerative,753,2
+Agglomerative,754,2
+Agglomerative,755,2
+Agglomerative,756,2
+Agglomerative,757,2
+Agglomerative,758,2
+Agglomerative,759,2
+Agglomerative,760,2
+Agglomerative,761,2
+Agglomerative,762,2
+Agglomerative,763,2
+Agglomerative,764,2
+Agglomerative,765,2
+Agglomerative,766,2
+Agglomerative,767,2
+Agglomerative,768,2
+Agglomerative,769,2
+Agglomerative,770,2
+Agglomerative,771,2
+Agglomerative,772,2
+Agglomerative,773,2
+Agglomerative,774,2
+Agglomerative,775,2
+Agglomerative,776,2
+Agglomerative,777,2
+Agglomerative,778,2
+Agglomerative,779,2
+Agglomerative,780,2
+Agglomerative,781,2
+Agglomerative,782,2
+Agglomerative,783,2
+Agglomerative,784,2
+Agglomerative,785,2
+Agglomerative,786,2
+Agglomerative,787,2
+Agglomerative,788,2
+Agglomerative,789,2
+Agglomerative,790,2
+Agglomerative,791,2
+Agglomerative,792,2
+Agglomerative,793,2
+Agglomerative,794,2
+Agglomerative,795,2
+Agglomerative,796,2
+Agglomerative,797,2
+Agglomerative,798,2
+Agglomerative,799,2
+Agglomerative,800,2
+Agglomerative,801,2
+Agglomerative,802,2
+Agglomerative,803,2
+Agglomerative,804,2
+Agglomerative,805,2
+Agglomerative,806,2
+Agglomerative,807,2
+Agglomerative,808,2
+Agglomerative,809,2
+Agglomerative,810,2
+Agglomerative,811,2
+Agglomerative,812,2
+Agglomerative,813,2
+Agglomerative,814,2
+Agglomerative,815,2
+Agglomerative,816,2
+Agglomerative,817,2
+Agglomerative,818,2
+Agglomerative,819,2
+Agglomerative,820,2
+Agglomerative,821,2
+Agglomerative,822,2
+Agglomerative,823,2
+Agglomerative,824,2
+Agglomerative,825,2
+Agglomerative,826,2
+Agglomerative,827,2
+Agglomerative,828,2
+Agglomerative,829,2
+Agglomerative,830,2
+Agglomerative,831,2
+Agglomerative,832,2
+Agglomerative,833,2
+Agglomerative,834,2
+Agglomerative,835,2
+Agglomerative,836,2
+Agglomerative,837,2
+Agglomerative,838,2
+Agglomerative,839,2
+Agglomerative,840,2
+Agglomerative,841,2
+Agglomerative,842,2
+Agglomerative,843,2
+Agglomerative,844,2
+Agglomerative,845,2
+Agglomerative,846,2
+Agglomerative,847,2
+Agglomerative,848,2
+Agglomerative,849,2
+Agglomerative,850,2
+Agglomerative,851,2
+Agglomerative,852,2
+Agglomerative,853,2
+Agglomerative,854,2
+Agglomerative,855,2
+Agglomerative,856,2
+Agglomerative,857,2
+Agglomerative,858,2
+Agglomerative,859,2
+Agglomerative,860,2
+Agglomerative,861,2
+Agglomerative,862,2
+Agglomerative,863,2
+Agglomerative,864,2
+Agglomerative,865,2
+Agglomerative,866,2
+Agglomerative,867,2
+Agglomerative,868,2
+Agglomerative,869,2
+Agglomerative,870,2
+Agglomerative,871,2
+Agglomerative,872,2
+Agglomerative,873,2
+Agglomerative,874,2
+Agglomerative,875,2
+Agglomerative,876,2
+Agglomerative,877,2
+Agglomerative,878,2
+Agglomerative,879,2
+Agglomerative,880,2
+Agglomerative,881,2
+Agglomerative,882,2
+Agglomerative,883,2
+Agglomerative,884,2
+Agglomerative,885,2
+Agglomerative,886,2
+Agglomerative,887,2
+Agglomerative,888,2
+Agglomerative,889,2
+Agglomerative,890,2
+Agglomerative,891,2
+Agglomerative,892,2
+Agglomerative,893,2
+Agglomerative,894,2
+Agglomerative,895,2
+Agglomerative,896,2
+Agglomerative,897,2
+Agglomerative,898,2
+Agglomerative,899,2
+Agglomerative,900,2
+Agglomerative,901,2
+Agglomerative,902,2
+Agglomerative,903,2
+Agglomerative,904,2
+Agglomerative,905,2
+Agglomerative,906,2
+Agglomerative,907,2
+Agglomerative,908,2
+Agglomerative,909,2
+Agglomerative,910,2
+Agglomerative,911,2
+Agglomerative,912,2
+Agglomerative,913,2
+Agglomerative,914,2
+Agglomerative,915,2
+Agglomerative,916,2
+Agglomerative,917,2
+Agglomerative,918,2
+Agglomerative,919,2
+Agglomerative,920,2
+Agglomerative,921,2
+Agglomerative,922,2
+Agglomerative,923,2
+Agglomerative,924,2
+Agglomerative,925,2
+Agglomerative,926,2
+Agglomerative,927,2
+Agglomerative,928,2
+Agglomerative,929,2
+Agglomerative,930,2
+Agglomerative,931,2
+Agglomerative,932,2
+Agglomerative,933,2
+Agglomerative,934,2
+Agglomerative,935,2
+Agglomerative,936,2
+Agglomerative,937,2
+Agglomerative,938,2
+Agglomerative,939,2
+Agglomerative,940,2
+Agglomerative,941,2
+Agglomerative,942,2
+Agglomerative,943,2
+Agglomerative,944,2
+Agglomerative,945,2
+Agglomerative,946,2
+Agglomerative,947,2
+Agglomerative,948,2
+Agglomerative,949,2
+Agglomerative,950,2
+Agglomerative,951,2
+Agglomerative,952,2
+Agglomerative,953,2
+Agglomerative,954,2
+Agglomerative,955,2
+Agglomerative,956,2
+Agglomerative,957,2
+Agglomerative,958,2
+Agglomerative,959,2
+Agglomerative,960,2
+Agglomerative,961,2
+Agglomerative,962,2
+Agglomerative,963,2
+Agglomerative,964,2
+Agglomerative,965,2
+Agglomerative,966,2
+Agglomerative,967,2
+Agglomerative,968,2
+Agglomerative,969,2
+Agglomerative,970,2
+Agglomerative,971,2
+Agglomerative,972,2
+Agglomerative,973,2
+Agglomerative,974,2
+Agglomerative,975,2
+Agglomerative,976,2
+Agglomerative,977,2
+Agglomerative,978,2
+Agglomerative,979,2
+Agglomerative,980,2
+Agglomerative,981,2
+Agglomerative,982,2
+Agglomerative,983,2
+Agglomerative,984,2
+Agglomerative,985,2
+Agglomerative,986,2
+Agglomerative,987,2
+Agglomerative,988,2
+Agglomerative,989,2
+Agglomerative,990,2
+Agglomerative,991,2
+Agglomerative,992,2
+Agglomerative,993,2
+Agglomerative,994,2
+Agglomerative,995,2
+Agglomerative,996,2
+Agglomerative,997,2
+Agglomerative,998,2
+Agglomerative,999,2
+Agglomerative,1000,2
+Agglomerative,1001,2
+Agglomerative,1002,2
+Agglomerative,1003,2
+Agglomerative,1004,2
+Agglomerative,1005,2
+Agglomerative,1006,2
+Agglomerative,1007,2
+Agglomerative,1008,2
+Agglomerative,1009,2
+Agglomerative,1010,2
+Agglomerative,1011,2
+Agglomerative,1012,2
+Agglomerative,1013,2
+Agglomerative,1014,2
+Agglomerative,1015,2
+Agglomerative,1016,2
+Agglomerative,1017,2
+Agglomerative,1018,2
+Agglomerative,1019,2
+Agglomerative,1020,2
+Agglomerative,1021,2
+Agglomerative,1022,2
+Agglomerative,1023,2
+Agglomerative,1024,2
+Agglomerative,1025,2
+Agglomerative,1026,2
+Agglomerative,1027,2
+Agglomerative,1028,2
+Agglomerative,1029,2
+Agglomerative,1030,2
+Agglomerative,1031,2
+Agglomerative,1032,2
+Agglomerative,1033,2
+Agglomerative,1034,2
+Agglomerative,1035,2
+Agglomerative,1036,2
+Agglomerative,1037,2
+Agglomerative,1038,2
+Agglomerative,1039,2
+Agglomerative,1040,2
+Agglomerative,1041,2
+Agglomerative,1042,2
+Agglomerative,1043,2
+Agglomerative,1044,2
+Agglomerative,1045,2
+Agglomerative,1046,2
+Agglomerative,1047,2
+Agglomerative,1048,2
+Agglomerative,1049,2
+Agglomerative,1050,2
+Agglomerative,1051,2
+Agglomerative,1052,2
+Agglomerative,1053,2
+Agglomerative,1054,2
+Agglomerative,1055,2
+Agglomerative,1056,2
+Agglomerative,1057,2
+Agglomerative,1058,2
+Agglomerative,1059,2
+Agglomerative,1060,2
+Agglomerative,1061,2
+Agglomerative,1062,2
+Agglomerative,1063,2
+Agglomerative,1064,2
+Agglomerative,1065,2
+Agglomerative,1066,2
+Agglomerative,1067,2
+Agglomerative,1068,2
+Agglomerative,1069,2
+Agglomerative,1070,2
+Agglomerative,1071,2
+Agglomerative,1072,2
+Agglomerative,1073,2
+Agglomerative,1074,2
+Agglomerative,1075,2
+Agglomerative,1076,2
+Agglomerative,1077,2
+Agglomerative,1078,2
+Agglomerative,1079,2
+Agglomerative,1080,2
+Agglomerative,1081,2
+Agglomerative,1082,2
+Agglomerative,1083,2
+Agglomerative,1084,2
+Agglomerative,1085,2
+Agglomerative,1086,2
+Agglomerative,1087,2
+Agglomerative,1088,2
+Agglomerative,1089,2
+Agglomerative,1090,2
+Agglomerative,1091,2
+Agglomerative,1092,2
+Agglomerative,1093,2
+Agglomerative,1094,2
+Agglomerative,1095,2
+Agglomerative,1096,2
+Agglomerative,1097,2
+Agglomerative,1098,2
+Agglomerative,1099,2
+Agglomerative,1100,2
+Agglomerative,1101,2
+Agglomerative,1102,2
+Agglomerative,1103,2
+Agglomerative,1104,2
+Agglomerative,1105,2
+Agglomerative,1106,2
+Agglomerative,1107,2
+Agglomerative,1108,2
+Agglomerative,1109,2
+Agglomerative,1110,2
+Agglomerative,1111,2
+Agglomerative,1112,2
+Agglomerative,1113,2
+Agglomerative,1114,2
+Agglomerative,1115,2
+Agglomerative,1116,2
+Agglomerative,1117,2
+Agglomerative,1118,2
+Agglomerative,1119,2
+Agglomerative,1120,2
+Agglomerative,1121,2
+Agglomerative,1122,2
+Agglomerative,1123,2
+Agglomerative,1124,2
+Agglomerative,1125,2
+Agglomerative,1126,2
+Agglomerative,1127,2
+Agglomerative,1128,2
+Agglomerative,1129,2
+Agglomerative,1130,2
