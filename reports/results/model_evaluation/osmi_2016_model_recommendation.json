@@ -1,0 +1,154 @@
+{
+  "notebook": "04_model_evaluation_and_recommendation",
+  "status": "recommended",
+  "recommended_model_key": "MCA + K-Means",
+  "configuration": {
+    "k": 2,
+    "seed": 4045,
+    "n_mca_dimensions": 14,
+    "selection_rule": "admissible, stable first; highest MCA silhouette, then lower Davies-Bouldin, ARI, Calinski-Harabasz",
+    "selection_tier": "admissible and stable"
+  },
+  "configuration_description": "MCA (14 dimensions) + K-Means with k = 2",
+  "n_clusters": 2,
+  "cluster_sizes": {
+    "0": 607,
+    "1": 524
+  },
+  "scorecard": [
+    {
+      "model_key": "K-Modes",
+      "representative_declared": true,
+      "n_clusters": 2.0,
+      "smallest_cluster": 510.0,
+      "coverage": 1.0,
+      "balance": 0.993040715,
+      "gower_silhouette": 0.1828564524,
+      "profile_separation": 0.373730741,
+      "resampling_ari_mean": 0.7179919523,
+      "resampling_ari_sd": 0.1144021201,
+      "jaccard_worst_cluster": 0.8460340064,
+      "gates_passed": 5,
+      "eligible": true,
+      "score": 0.1,
+      "weight_sensitivity_win_share": 0.0
+    },
+    {
+      "model_key": "MCA + K-Means",
+      "representative_declared": true,
+      "n_clusters": 2.0,
+      "smallest_cluster": 524.0,
+      "coverage": 1.0,
+      "balance": 0.9961116441,
+      "gower_silhouette": 0.1999777453,
+      "profile_separation": 0.4270096524,
+      "resampling_ari_mean": 0.9394779636,
+      "resampling_ari_sd": 0.0473852834,
+      "jaccard_worst_cluster": 0.9667658063,
+      "gates_passed": 5,
+      "eligible": true,
+      "score": 0.9,
+      "weight_sensitivity_win_share": 1.0
+    },
+    {
+      "model_key": "Agglomerative",
+      "representative_declared": true,
+      "n_clusters": 2.0,
+      "smallest_cluster": 57.0,
+      "coverage": 1.0,
+      "balance": 0.2880847159,
+      "gower_silhouette": 0.1068432606,
+      "profile_separation": 0.1625251168,
+      "resampling_ari_mean": 0.0952089208,
+      "resampling_ari_sd": 0.1078631067,
+      "jaccard_worst_cluster": 0.1002530559,
+      "gates_passed": 3,
+      "eligible": false,
+      "score": null,
+      "weight_sensitivity_win_share": null
+    },
+    {
+      "model_key": "HDBSCAN",
+      "representative_declared": false,
+      "n_clusters": null,
+      "smallest_cluster": null,
+      "coverage": null,
+      "balance": null,
+      "gower_silhouette": null,
+      "profile_separation": null,
+      "resampling_ari_mean": null,
+      "resampling_ari_sd": null,
+      "jaccard_worst_cluster": null,
+      "gates_passed": 0,
+      "eligible": false,
+      "score": null,
+      "weight_sensitivity_win_share": null
+    }
+  ],
+  "gates": {
+    "K-Modes": {
+      "G1 representative declared": true,
+      "G2 smallest cluster \u2265 5%": true,
+      "G3 coverage \u2265 80%": true,
+      "G4 resampling ARI \u2265 0.60": true,
+      "G5 worst-cluster Jaccard \u2265 0.60": true
+    },
+    "MCA + K-Means": {
+      "G1 representative declared": true,
+      "G2 smallest cluster \u2265 5%": true,
+      "G3 coverage \u2265 80%": true,
+      "G4 resampling ARI \u2265 0.60": true,
+      "G5 worst-cluster Jaccard \u2265 0.60": true
+    },
+    "Agglomerative": {
+      "G1 representative declared": true,
+      "G2 smallest cluster \u2265 5%": true,
+      "G3 coverage \u2265 80%": true,
+      "G4 resampling ARI \u2265 0.60": false,
+      "G5 worst-cluster Jaccard \u2265 0.60": false
+    },
+    "HDBSCAN": {
+      "G1 representative declared": false,
+      "G2 smallest cluster \u2265 5%": false,
+      "G3 coverage \u2265 80%": false,
+      "G4 resampling ARI \u2265 0.60": false,
+      "G5 worst-cluster Jaccard \u2265 0.60": false
+    }
+  },
+  "weight_sensitivity": {
+    "draws": 5000,
+    "win_share": {
+      "MCA + K-Means": 1.0,
+      "K-Modes": 0.0
+    },
+    "robustness": "robust"
+  },
+  "gower_silhouette_reading": "no substantial structure",
+  "families_without_representative": [
+    "HDBSCAN"
+  ],
+  "settings": {
+    "n_resamples": 30,
+    "subsample_fraction": 0.8,
+    "min_cluster_share": 0.05,
+    "gate_min_coverage": 0.8,
+    "gate_ari_floor": 0.6,
+    "gate_jaccard_floor": 0.6,
+    "criteria": [
+      "resampling_ari_mean",
+      "jaccard_worst_cluster",
+      "gower_silhouette",
+      "profile_separation",
+      "coverage"
+    ],
+    "random_state": 42
+  },
+  "interpretation_note": "Clusters describe aggregate workplace-response patterns in a self-selected 2016 sample; they are not diagnoses, risk scores or employee classifications.",
+  "recommendation_text": "### Recommended model (recommended)\n\n**MCA (14 dimensions) + K-Means with k = 2**, yielding **2 clusters** (sizes: C0 = 607, C1 = 524).\n\n**Evidence**\n\n- Stability: mean resampling ARI 0.94 (SD 0.05); least stable cluster mean Jaccard 0.97.\n- Separation: Gower silhouette 0.200 (no substantial structure); mean response-profile association (Cram\u00e9r's V) 0.43.\n- Coverage 100%; balance 1.00; gates passed 5/5.\n- Robustness: top-ranked in 100% of 5,000 random weightings (**robust**).\n- Cross-family agreement: mean pairwise ARI 0.16 across the candidate partitions.\n\n**Why not the others**\n\n- K-Modes: eligible but ranked lower (score 0.10 vs 0.90).\n- Agglomerative: failed G4, G5 (resampling ARI \u2265 0.60; worst-cluster Jaccard \u2265 0.60).\n- HDBSCAN: no qualifying representative in Notebook 03 (see its admissibility criteria).\n\n**Reading this recommendation honestly**\n\n- The Gower silhouette indicates no substantial separation: respondents form overlapping gradients of response patterns rather than distinct types. The clusters are useful summaries, not natural categories.\n- Clusters describe aggregate response patterns in a 2016, voluntary, self-selected, largely tech-sector sample; they are not clinical labels, risk scores or employee classifications.",
+  "outputs": {
+    "assignments": "reports/results/model_evaluation/osmi_2016_recommended_cluster_assignments.csv",
+    "scorecard": "reports/results/model_evaluation/osmi_2016_model_scorecard.csv",
+    "profiles": "reports/results/model_evaluation/osmi_2016_cluster_profiles_long.csv",
+    "figures_dir": "reports/figures/model_evaluation"
+  }
+}

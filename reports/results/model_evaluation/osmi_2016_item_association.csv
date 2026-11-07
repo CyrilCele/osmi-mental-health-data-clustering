@@ -1,0 +1,46 @@
+model_key,feature,domain,cramers_v
+K-Modes,mh_benefits,employer_support,0.10396728815883315
+K-Modes,mh_formal_discussion,employer_support,0.18319833013204476
+K-Modes,mh_resources_offered,employer_support,0.09924934429095135
+K-Modes,mh_anonymity_protected,employer_support,0.1512833569423187
+K-Modes,mh_medical_leave_ease,employer_support,0.457465077205079
+K-Modes,mh_vs_ph_seriousness,employer_support,0.4423801846730011
+K-Modes,mh_discussion_consequences,psychological_safety,0.5748659237747555
+K-Modes,ph_discussion_consequences,psychological_safety,0.31155107156772516
+K-Modes,mh_comfort_coworkers,psychological_safety,0.5809442931773691
+K-Modes,mh_comfort_supervisor,psychological_safety,0.5905023049951951
+K-Modes,observed_mh_consequences,psychological_safety,0.11304114917805705
+K-Modes,interview_ph_reveal,disclosure_career_climate,0.3555375330804185
+K-Modes,interview_mh_reveal,disclosure_career_climate,0.4830239332663467
+K-Modes,mh_hurt_career,disclosure_career_climate,0.6055210748596502
+K-Modes,coworker_negative_view,disclosure_career_climate,0.5534302504453115
+MCA + K-Means,mh_benefits,employer_support,0.1525281779712311
+MCA + K-Means,mh_formal_discussion,employer_support,0.2967259247383577
+MCA + K-Means,mh_resources_offered,employer_support,0.22973299321261634
+MCA + K-Means,mh_anonymity_protected,employer_support,0.28725736433106447
+MCA + K-Means,mh_medical_leave_ease,employer_support,0.567866867238533
+MCA + K-Means,mh_vs_ph_seriousness,employer_support,0.521335663481153
+MCA + K-Means,mh_discussion_consequences,psychological_safety,0.7481262176921104
+MCA + K-Means,ph_discussion_consequences,psychological_safety,0.44486292421764295
+MCA + K-Means,mh_comfort_coworkers,psychological_safety,0.5542899904929823
+MCA + K-Means,mh_comfort_supervisor,psychological_safety,0.6691607330728938
+MCA + K-Means,observed_mh_consequences,psychological_safety,0.152667950499678
+MCA + K-Means,interview_ph_reveal,disclosure_career_climate,0.22865792603834165
+MCA + K-Means,interview_mh_reveal,disclosure_career_climate,0.4098995746872549
+MCA + K-Means,mh_hurt_career,disclosure_career_climate,0.5775278234739032
+MCA + K-Means,coworker_negative_view,disclosure_career_climate,0.5645046553156068
+Agglomerative,mh_benefits,employer_support,0.12053846390182214
+Agglomerative,mh_formal_discussion,employer_support,0.05779043907807552
+Agglomerative,mh_resources_offered,employer_support,0.16426534105500187
+Agglomerative,mh_anonymity_protected,employer_support,0.13004748630892016
+Agglomerative,mh_medical_leave_ease,employer_support,0.0
+Agglomerative,mh_vs_ph_seriousness,employer_support,0.19327675308151204
+Agglomerative,mh_discussion_consequences,psychological_safety,0.19449102994986034
+Agglomerative,ph_discussion_consequences,psychological_safety,0.17981464966719857
+Agglomerative,mh_comfort_coworkers,psychological_safety,0.040942864643416226
+Agglomerative,mh_comfort_supervisor,psychological_safety,0.12525060732255347
+Agglomerative,observed_mh_consequences,psychological_safety,0.35662070023156156
+Agglomerative,interview_ph_reveal,disclosure_career_climate,0.1170435983858273
+Agglomerative,interview_mh_reveal,disclosure_career_climate,0.12329456474657702
+Agglomerative,mh_hurt_career,disclosure_career_climate,0.38303674409706295
+Agglomerative,coworker_negative_view,disclosure_career_climate,0.2514635090133489

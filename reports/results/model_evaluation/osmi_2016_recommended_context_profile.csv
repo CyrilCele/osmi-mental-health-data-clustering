@@ -1,0 +1,7 @@
+variable,type,effect_size,metric,p_value,summary,p_adj_BH,magnitude
+age,numeric,0.0007096937865478626,epsilon²,0.17990538055133026,C0 median 32; C1 median 32,0.23952042539194912,negligible
+gender,categorical,0.10288963607367128,Cramér's V,0.004624420566505115,6 response groups,0.013873261699515346,small
+company_size,categorical,0.04634681585750319,Cramér's V,0.19046270323464298,6 response groups,0.23952042539194912,negligible
+work_remote,categorical,0.16043851733139922,Cramér's V,1.7750516183046906e-07,3 response groups,1.0650309709828143e-06,small
+tech_company,categorical,0.02388044982333993,Cramér's V,0.19960035449329094,2 response groups,0.23952042539194912,negligible
+country_work,categorical,0.015208876980758254,Cramér's V,0.3843095812209672,6 response groups,0.3843095812209672,negligible
