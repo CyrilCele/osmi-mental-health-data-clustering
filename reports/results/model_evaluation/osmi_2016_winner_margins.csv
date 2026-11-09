@@ -1,0 +1,6 @@
+,winner,runner_up,difference,material_margin,reading
+Resampling stability (ARI),0.9394779636209468,0.717991952259999,0.2214860113609478,0.05,material advantage
+Worst-cluster stability (Jaccard),0.9667658063164039,0.8460340063807775,0.12073179993562633,0.05,material advantage
+Gower silhouette,0.1999777452595868,0.1828564524116797,0.017121292847907116,0.03,practical tie
+Response-profile separation (mean V),0.42700965243089134,0.3737307410498038,0.053278911381087535,0.05,material advantage
+Coverage,1.0,1.0,0.0,0.02,practical tie

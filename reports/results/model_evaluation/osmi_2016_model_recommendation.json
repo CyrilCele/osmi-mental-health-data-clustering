@@ -1,5 +1,5 @@
 {
-  "notebook": "04_model_evaluation_and_recommendation",
+  "notebook": "04_model_evaluation",
   "status": "recommended",
   "recommended_model_key": "MCA + K-Means",
   "configuration": {
@@ -30,7 +30,7 @@
       "jaccard_worst_cluster": 0.8460340064,
       "gates_passed": 5,
       "eligible": true,
-      "score": 0.1,
+      "score": 0.2,
       "weight_sensitivity_win_share": 0.0
     },
     {
@@ -47,7 +47,7 @@
       "jaccard_worst_cluster": 0.9667658063,
       "gates_passed": 5,
       "eligible": true,
-      "score": 0.9,
+      "score": 0.8,
       "weight_sensitivity_win_share": 1.0
     },
     {
@@ -121,7 +121,32 @@
       "MCA + K-Means": 1.0,
       "K-Modes": 0.0
     },
-    "robustness": "robust"
+    "robustness": "uninformative: the winner is never outranked, so it wins under every weighting"
+  },
+  "dominant_winner": true,
+  "material_advantage_criteria": [
+    "resampling_ari_mean",
+    "jaccard_worst_cluster",
+    "profile_separation"
+  ],
+  "practically_tied_criteria": [
+    "gower_silhouette",
+    "coverage"
+  ],
+  "agreement_among_eligible_families": {
+    "families": [
+      "K-Modes",
+      "MCA + K-Means"
+    ],
+    "band": "moderate",
+    "pairs": [
+      {
+        "a": "K-Modes",
+        "b": "MCA + K-Means",
+        "ari": 0.4714845151013251,
+        "nmi": 0.40143922112239466
+      }
+    ]
   },
   "gower_silhouette_reading": "no substantial structure",
   "families_without_representative": [
@@ -141,10 +166,17 @@
       "profile_separation",
       "coverage"
     ],
+    "material_margin": {
+      "resampling_ari_mean": 0.05,
+      "jaccard_worst_cluster": 0.05,
+      "gower_silhouette": 0.03,
+      "profile_separation": 0.05,
+      "coverage": 0.02
+    },
     "random_state": 42
   },
   "interpretation_note": "Clusters describe aggregate workplace-response patterns in a self-selected 2016 sample; they are not diagnoses, risk scores or employee classifications.",
-  "recommendation_text": "### Recommended model (recommended)\n\n**MCA (14 dimensions) + K-Means with k = 2**, yielding **2 clusters** (sizes: C0 = 607, C1 = 524).\n\n**Evidence**\n\n- Stability: mean resampling ARI 0.94 (SD 0.05); least stable cluster mean Jaccard 0.97.\n- Separation: Gower silhouette 0.200 (no substantial structure); mean response-profile association (Cram\u00e9r's V) 0.43.\n- Coverage 100%; balance 1.00; gates passed 5/5.\n- Robustness: top-ranked in 100% of 5,000 random weightings (**robust**).\n- Cross-family agreement: mean pairwise ARI 0.16 across the candidate partitions.\n\n**Why not the others**\n\n- K-Modes: eligible but ranked lower (score 0.10 vs 0.90).\n- Agglomerative: failed G4, G5 (resampling ARI \u2265 0.60; worst-cluster Jaccard \u2265 0.60).\n- HDBSCAN: no qualifying representative in Notebook 03 (see its admissibility criteria).\n\n**Reading this recommendation honestly**\n\n- The Gower silhouette indicates no substantial separation: respondents form overlapping gradients of response patterns rather than distinct types. The clusters are useful summaries, not natural categories.\n- Clusters describe aggregate response patterns in a 2016, voluntary, self-selected, largely tech-sector sample; they are not clinical labels, risk scores or employee classifications.",
+  "recommendation_text": "### Recommended model (recommended)\n\n**MCA (14 dimensions) + K-Means with k = 2**, yielding **2 clusters** (sizes: C0 = 607, C1 = 524).\n\n**Evidence**\n\n- Stability: mean resampling ARI 0.94 (SD 0.05); least stable cluster mean Jaccard 0.97.\n- Separation: Gower silhouette 0.200 (no substantial structure); mean response-profile association (Cram\u00e9r's V) 0.43.\n- Coverage 100%; balance 1.00; gates passed 5/5.\n- Margin over the runner-up (K-Modes): material advantage on 3/5 criteria (Resampling stability (ARI), Worst-cluster stability (Jaccard), Response-profile separation (mean V)); practically tied on 2 (Gower silhouette, Coverage).\n- Ranking: the winner is not materially outranked on any criterion, so it comes first under every weighting; the weight-sensitivity test is therefore uninformative and the margins above carry the evidence.\n- Agreement among eligible families (moderate): K-Modes vs MCA + K-Means: ARI 0.47, NMI 0.40.\n\n**Why not the others**\n\n- K-Modes: eligible but ranked lower (score 0.20 vs 0.80; resampling ARI 0.72 vs 0.94).\n- Agglomerative: failed G4, G5 (resampling ARI \u2265 0.60; worst-cluster Jaccard \u2265 0.60).\n- HDBSCAN: no qualifying representative in Notebook 03 (see its admissibility criteria).\n\n**Reading this recommendation honestly**\n\n- The Gower silhouette indicates no substantial separation: respondents form overlapping gradients of response patterns rather than distinct types. The clusters are useful summaries, not natural categories.\n- The eligible families show only moderate agreement on who belongs where, so the partition itself is partly method-dependent. Read the clusters as the dominant direction of variation in the responses, not as a method-independent segmentation.\n- The Gower silhouette, the one separation index defined identically for every family, is practically tied between the eligible families. The advantage of the recommended model comes from Resampling stability (ARI), Worst-cluster stability (Jaccard), Response-profile separation (mean V), not from better-separated clusters.\n- Clusters describe aggregate response patterns in a 2016, voluntary, self-selected, largely tech-sector sample; they are not clinical labels, risk scores or employee classifications.",
   "outputs": {
     "assignments": "reports/results/model_evaluation/osmi_2016_recommended_cluster_assignments.csv",
     "scorecard": "reports/results/model_evaluation/osmi_2016_model_scorecard.csv",
