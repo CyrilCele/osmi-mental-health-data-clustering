@@ -1,0 +1,3 @@
+representation,dimensions,ari_vs_reference,gower_silhouette,cluster_sizes
+PCA (centred indicator matrix),14,0.8568423273553495,0.2031065833653731,"[623, 508]"
+MCA (reference),14,0.9929327128543328,0.2002305387043017,"[609, 522]"

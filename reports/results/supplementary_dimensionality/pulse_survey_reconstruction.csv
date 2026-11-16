@@ -1,0 +1,8 @@
+items,accuracy,accuracy_sd,balanced_accuracy,cohen_kappa,items_used
+1,0.8638565440149045,0.031123458784009857,0.8574055480210754,0.7229322036260644,mh_discussion_consequences
+2,0.8888811261191327,0.026787972914975037,0.8881102466286506,0.7764193285226042,"mh_discussion_consequences, mh_comfort_supervisor"
+3,0.9018553019717436,0.024741582016621837,0.8997805285239557,0.8019787168609167,"mh_discussion_consequences, mh_comfort_supervisor, mh_hurt_career"
+5,0.9257439321016406,0.02104154240432781,0.9244874967284493,0.8504043407023263,"mh_discussion_consequences, mh_comfort_supervisor, mh_hurt_career, mh_medical_leave_ease, coworker_negative_view"
+7,0.9404750815090822,0.017492824029868403,0.9400213476937881,0.8802582915009055,"mh_discussion_consequences, mh_comfort_supervisor, mh_hurt_career, mh_medical_leave_ease, coworker_negative_view, mh_comfort_coworkers, mh_vs_ph_seriousness"
+10,0.964938156600942,0.014563795231187825,0.9647072986641498,0.9295009173785349,"mh_discussion_consequences, mh_comfort_supervisor, mh_hurt_career, mh_medical_leave_ease, coworker_negative_view, mh_comfort_coworkers, mh_vs_ph_seriousness, ph_discussion_consequences, interview_mh_reveal, mh_formal_discussion"
+15,0.9831987786575584,0.011469089690636331,0.9825780281340134,0.9661637911530229,"mh_discussion_consequences, mh_comfort_supervisor, mh_hurt_career, mh_medical_leave_ease, coworker_negative_view, mh_comfort_coworkers, mh_vs_ph_seriousness, ph_discussion_consequences, interview_mh_reveal, mh_formal_discussion, mh_anonymity_protected, mh_resources_offered, interview_ph_reveal, observed_mh_consequences, mh_benefits"
